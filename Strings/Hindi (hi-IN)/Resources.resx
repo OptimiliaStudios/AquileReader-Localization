@@ -122,7 +122,6 @@
   </resheader>
   <data name="B_Add.Content" xml:space="preserve">
     <value>जोड़ें</value>
-    <comment>Hello</comment>
     <comment>Add</comment>
   </data>
   <data name="B_AddBook.ToolTipService.ToolTip" xml:space="preserve">
