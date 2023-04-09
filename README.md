@@ -10,7 +10,7 @@ Before starting, following are the definition of fields/columns in the localizat
 Column name  | Description
 ------------- | -------------
 Name  | The identifier/key for the string set. **[Do not edit]**
-Value  | The localized string value. **[This is the field you need to modify/edit.]**
+Value  | The localized string value. **[This is the field you need to modify/edit]**
 Comment  | The original English language string value for reference. **[Do not edit]**
 
 # How to localize #
@@ -19,7 +19,8 @@ Comment  | The original English language string value for reference. **[Do not e
 If you are not familiar with Github, just download the files from Github, perform localization and e-mail the files to us.
 
 1. Download all the localization files as per the image below.
-<1.png>
+
+### <img src="https://user-images.githubusercontent.com/5137736/230777127-67f55a64-575a-4c86-998c-ed4f3f6a8f5d.png" width="800"/> ###
 
 2. Unzip the file "AquileReader-Localization-main.zip" on your PC.
 3. Under this path "\AquileReader-Localization-main\Strings_CSV", you'll find all the .csv files.
