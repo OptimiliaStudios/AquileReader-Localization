@@ -1,0 +1,2182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root"
+    xmlns=""
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="B_Add.Content" xml:space="preserve">
+    <value>जोड़ें</value>
+    <comment>Hello</comment>
+    <comment>Add</comment>
+  </data>
+  <data name="B_AddBook.ToolTipService.ToolTip" xml:space="preserve">
+    <value>नई पुस्तक डालें</value>
+    <comment>Add new book</comment>
+  </data>
+  <data name="B_AddBookmark.ToolTipService.ToolTip" xml:space="preserve">
+    <value>बुकमार्क जोड़ें</value>
+    <comment>Add Bookmark</comment>
+  </data>
+  <data name="B_AddFolder.Content" xml:space="preserve">
+    <value>फ़ोल्डर जोड़ें</value>
+    <comment>Add folder</comment>
+  </data>
+  <data name="B_AddNote.ToolTipService.ToolTip" xml:space="preserve">
+    <value>नोट जोड़े</value>
+    <comment>Add Note</comment>
+  </data>
+  <data name="B_AddSite.ToolTipService.ToolTip" xml:space="preserve">
+    <value>नई साइट जोड़ें</value>
+    <comment>Add new site</comment>
+  </data>
+  <data name="B_AudioSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>ऑडियो सेटिंग्स</value>
+    <comment>Audio settings</comment>
+  </data>
+  <data name="B_Back.Content" xml:space="preserve">
+    <value>पीछे</value>
+    <comment>Back</comment>
+  </data>
+  <data name="B_Back1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>पीछे</value>
+    <comment>Back</comment>
+  </data>
+  <data name="B_Backup_Bkp.Content" xml:space="preserve">
+    <value>बैकअप</value>
+    <comment>Backup</comment>
+  </data>
+  <data name="B_Backup_Restore.Content" xml:space="preserve">
+    <value>पुनर्स्थापित करें</value>
+    <comment>Restore</comment>
+  </data>
+  <data name="B_Blog.ToolTipService.ToolTip" xml:space="preserve">
+    <value>हमारा ब्लॉग पढ़ें</value>
+    <comment>Read our blog</comment>
+  </data>
+  <data name="B_Bookmarks.ToolTipService.ToolTip" xml:space="preserve">
+    <value>बुकमार्क्स</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="B_Cancel.Content" xml:space="preserve">
+    <value>रद्द करें</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="B_ChngLog.ToolTipService.ToolTip" xml:space="preserve">
+    <value>परिवर्तन लॉग</value>
+    <comment>Change log</comment>
+  </data>
+  <data name="B_ClearHighlight.ToolTipService.ToolTip" xml:space="preserve">
+    <value>हाइलाइट हटाएं</value>
+    <comment>Clear highlight</comment>
+  </data>
+  <data name="B_Close.Content" xml:space="preserve">
+    <value>बंद करे</value>
+    <comment>Close</comment>
+  </data>
+  <data name="B_Close1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>बंद करे</value>
+    <comment>Close</comment>
+  </data>
+  <data name="B_Collapse.ToolTipService.ToolTip" xml:space="preserve">
+    <value>संक्षिप्त करें</value>
+    <comment>Collapse</comment>
+  </data>
+  <data name="B_ColorMenu.ToolTipService.ToolTip" xml:space="preserve">
+    <value>रंग मेनू</value>
+    <comment>Color Menu</comment>
+  </data>
+  <data name="B_ContactSupport.ToolTipService.ToolTip" xml:space="preserve">
+    <value>समर्थन से संपर्क करें</value>
+    <comment>Contact support</comment>
+  </data>
+  <data name="B_Copy.ToolTipService.ToolTip" xml:space="preserve">
+    <value>प्रतिलिपि</value>
+    <comment>Copy</comment>
+  </data>
+  <data name="B_Credits.ToolTipService.ToolTip" xml:space="preserve">
+    <value>श्रेय</value>
+    <comment>Credits</comment>
+  </data>
+  <data name="B_Delete.Text" xml:space="preserve">
+    <value>हटाएं</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="B_DeleteNote.ToolTipService.ToolTip" xml:space="preserve">
+    <value>नोट हटाएं</value>
+    <comment>Delete note</comment>
+  </data>
+  <data name="B_Done.ToolTipService.ToolTip" xml:space="preserve">
+    <value>हो गया</value>
+    <comment>Done</comment>
+  </data>
+  <data name="B_Downloads.ToolTipService.ToolTip" xml:space="preserve">
+    <value>डाउनलोड</value>
+    <comment>Downloads</comment>
+  </data>
+  <data name="B_ExitReadingMode.ToolTipService.ToolTip" xml:space="preserve">
+    <value>पढ़ने के मोड से बाहर निकलें (Ctrl + E)</value>
+    <comment>Exit Reading Mode (Ctrl + E)</comment>
+  </data>
+  <data name="B_Expand.ToolTipService.ToolTip" xml:space="preserve">
+    <value>विस्तृत करें</value>
+    <comment>Expand</comment>
+  </data>
+  <data name="B_ExportCollection.ToolTipService.ToolTip" xml:space="preserve">
+    <value>संग्रह निर्यात करें</value>
+    <comment>Export collections</comment>
+  </data>
+  <data name="B_Fb.ToolTipService.ToolTip" xml:space="preserve">
+    <value>हमें फेसबुक पर पसंद करें</value>
+    <comment>Like us on Facebook</comment>
+  </data>
+  <data name="B_Female.Content" xml:space="preserve">
+    <value>स्त्री</value>
+    <comment>Female</comment>
+  </data>
+  <data name="B_FilterFav.ToolTipService.ToolTip" xml:space="preserve">
+    <value>पसंदीदा द्वारा फ़िल्टर करें</value>
+    <comment>Filter by favorites</comment>
+  </data>
+  <data name="B_Forward.ToolTipService.ToolTip" xml:space="preserve">
+    <value>आगे</value>
+    <comment>Forward</comment>
+  </data>
+  <data name="B_General.Content" xml:space="preserve">
+    <value>रीसेट</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="B_GitHub.ToolTipService.ToolTip" xml:space="preserve">
+    <value>गिट हब</value>
+    <comment>GitHub</comment>
+  </data>
+  <data name="B_Group.ToolTipService.ToolTip" xml:space="preserve">
+    <value>समूह</value>
+    <comment>Group</comment>
+  </data>
+  <data name="B_Highlight.ToolTipService.ToolTip" xml:space="preserve">
+    <value>हाइलाइट</value>
+    <comment>Highlight</comment>
+  </data>
+  <data name="B_Home.ToolTipService.ToolTip" xml:space="preserve">
+    <value>गृह</value>
+    <comment>Home</comment>
+  </data>
+  <data name="B_Information.ToolTipService.ToolTip" xml:space="preserve">
+    <value>जानकारी</value>
+    <comment>Information</comment>
+  </data>
+  <data name="B_JSInspect.ToolTipService.ToolTip" xml:space="preserve">
+    <value>जेएस निरीक्षण</value>
+    <comment>JS Inspect</comment>
+  </data>
+  <data name="B_LinkBack.ToolTipService.ToolTip" xml:space="preserve">
+    <value>लिंक स्रोत पर वापस जाएं</value>
+    <comment>Go back to link source</comment>
+  </data>
+  <data name="B_Mail.ToolTipService.ToolTip" xml:space="preserve">
+    <value>ई-मेल</value>
+    <comment>Mail</comment>
+  </data>
+  <data name="B_Male.Content" xml:space="preserve">
+    <value>पुरुष</value>
+    <comment>Male</comment>
+  </data>
+  <data name="B_MatchCase.ToolTipService.ToolTip" xml:space="preserve">
+    <value>केस मिलाएं</value>
+    <comment>Match case</comment>
+  </data>
+  <data name="B_MatchWWord.ToolTipService.ToolTip" xml:space="preserve">
+    <value>पूरे शब्द का मिलान करें</value>
+    <comment>Match whole word</comment>
+  </data>
+  <data name="B_Next.Content" xml:space="preserve">
+    <value>आगे</value>
+    <comment>Next</comment>
+  </data>
+  <data name="B_NextLine.ToolTipService.ToolTip" xml:space="preserve">
+    <value>अगली पंक्ति (Ctrl + →)</value>
+    <comment>Next Line (Ctrl + →)</comment>
+  </data>
+  <data name="B_NH.ToolTipService.ToolTip" xml:space="preserve">
+    <value>नोट्स और हाइलाइट्स</value>
+    <comment>Notes &amp; Highlights</comment>
+  </data>
+  <data name="B_OpenBook.Content" xml:space="preserve">
+    <value>किताब खोलें</value>
+    <comment>Open Book</comment>
+  </data>
+  <data name="B_Pag1Cols.ToolTipService.ToolTip" xml:space="preserve">
+    <value>पृष्ठवार 1 कॉलम</value>
+    <comment>Paginated 1 column</comment>
+  </data>
+  <data name="B_Pag2Cols.ToolTipService.ToolTip" xml:space="preserve">
+    <value>पृष्ठवार 2 कॉलम</value>
+    <comment>Paginated 2 columns</comment>
+  </data>
+  <data name="B_PagVertical.ToolTipService.ToolTip" xml:space="preserve">
+    <value>लंबवत स्क्रॉल</value>
+    <comment>Vertical scroll</comment>
+  </data>
+  <data name="B_PreviousLine.ToolTipService.ToolTip" xml:space="preserve">
+    <value>पिछली पंक्ति (Ctrl + ←)</value>
+    <comment>Previous Line (Ctrl + ←)</comment>
+  </data>
+  <data name="B_PrivacyPolicy.ToolTipService.ToolTip" xml:space="preserve">
+    <value>गोपनीयता नीति</value>
+    <comment>Privacy policy</comment>
+  </data>
+  <data name="B_RateStore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>स्टोर पर रेट करें</value>
+    <comment>Rate on store</comment>
+  </data>
+  <data name="B_ReadAloud.ToolTipService.ToolTip" xml:space="preserve">
+    <value>पढ़ के सुनाएं - रीड अलाउड (Ctrl + R)</value>
+    <comment>Read Aloud (Ctrl + R)</comment>
+  </data>
+  <data name="B_ReadAloud1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>पढ़ के सुनाएं - रीड अलाउड</value>
+    <comment>ReadAloud</comment>
+  </data>
+  <data name="B_ReadAloudSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>रीड अलाउड सेटिंग्स</value>
+    <comment>ReadAloud settings</comment>
+  </data>
+  <data name="B_Refresh.ToolTipService.ToolTip" xml:space="preserve">
+    <value>रीफ़्रेश करें</value>
+    <comment>Refresh</comment>
+  </data>
+  <data name="B_Remove.ToolTipService.ToolTip" xml:space="preserve">
+    <value>हटाएं</value>
+    <comment>Remove</comment>
+  </data>
+  <data name="B_Reset.ToolTipService.ToolTip" xml:space="preserve">
+    <value>रीसेट</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="B_RmSyncFolderBtn1.Content" xml:space="preserve">
+    <value>हां, लेकिन किताबें जरूर रखें</value>
+    <comment>Yes, but keep books</comment>
+  </data>
+  <data name="B_RmSyncFolderBtn2.Content" xml:space="preserve">
+    <value>हां, और किताबें हटा दें</value>
+    <comment>Yes, and remove books</comment>
+  </data>
+  <data name="B_Save.Content" xml:space="preserve">
+    <value>सहेजें</value>
+    <comment>Save</comment>
+  </data>
+  <data name="B_Search.ToolTipService.ToolTip" xml:space="preserve">
+    <value>खोजें</value>
+    <comment>Search</comment>
+  </data>
+  <data name="B_Search1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>खोजें (Ctrl + F)</value>
+    <comment>Search (Ctrl + F)</comment>
+  </data>
+  <data name="B_SearchWeb.ToolTipService.ToolTip" xml:space="preserve">
+    <value>वेब पर खोजें</value>
+    <comment>Search web</comment>
+  </data>
+  <data name="B_SelectFolder.ToolTipService.ToolTip" xml:space="preserve">
+    <value>फ़ोल्डर चुनें</value>
+    <comment>Select folder</comment>
+  </data>
+  <data name="B_SelectIcon.Content" xml:space="preserve">
+    <value>आइकन चुनें</value>
+    <comment>Select icon</comment>
+  </data>
+  <data name="B_ShowCB.ToolTipService.ToolTip" xml:space="preserve">
+    <value>आदेश पट्टी दिखाएं</value>
+    <comment>Show command bar</comment>
+  </data>
+  <data name="B_Sort.ToolTipService.ToolTip" xml:space="preserve">
+    <value>क्रम से लगाएं</value>
+    <comment>Sort</comment>
+  </data>
+  <data name="B_Sync_Edit.ToolTipService.ToolTip" xml:space="preserve">
+    <value>संपादित करें</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="B_TextFormat.ToolTipService.ToolTip" xml:space="preserve">
+    <value>टेक्स्ट प्रारूप</value>
+    <comment>Text Format</comment>
+  </data>
+  <data name="B_TextStyle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>टेक्स्ट शैली</value>
+    <comment>Text Style</comment>
+  </data>
+  <data name="B_Theme1.Content" xml:space="preserve">
+    <value>सफेद</value>
+    <comment>White</comment>
+  </data>
+  <data name="B_Theme1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>सफेद (Ctrl + T + 1)</value>
+    <comment>White (Ctrl + T + 1)</comment>
+  </data>
+  <data name="B_Theme2.Content" xml:space="preserve">
+    <value>चाँदी</value>
+    <comment>Silver</comment>
+  </data>
+  <data name="B_Theme2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>चाँदी (Ctrl + T + 2)</value>
+    <comment>Silver (Ctrl + T + 2)</comment>
+  </data>
+  <data name="B_Theme3.Content" xml:space="preserve">
+    <value>सेपिया</value>
+    <comment>Sepia</comment>
+  </data>
+  <data name="B_Theme3.ToolTipService.ToolTip" xml:space="preserve">
+    <value>सेपिया (Ctrl + T + 3)</value>
+    <comment>Sepia (Ctrl + T + 3)</comment>
+  </data>
+  <data name="B_Theme4.Content" xml:space="preserve">
+    <value>रात्रि</value>
+    <comment>Night</comment>
+  </data>
+  <data name="B_Theme4.ToolTipService.ToolTip" xml:space="preserve">
+    <value>रात्रि (Ctrl + T + 4)</value>
+    <comment>Night (Ctrl + T + 4)</comment>
+  </data>
+  <data name="B_Theme5.Content" xml:space="preserve">
+    <value>सौरकृत</value>
+    <comment>Solarized</comment>
+  </data>
+  <data name="B_Theme5.ToolTipService.ToolTip" xml:space="preserve">
+    <value>सौरकृत (Ctrl + T + 5)</value>
+    <comment>Solarized (Ctrl + T + 5)</comment>
+  </data>
+  <data name="B_Theme6.Content" xml:space="preserve">
+    <value>स्वनिर्धारित</value>
+    <comment>Custom</comment>
+  </data>
+  <data name="B_TOC.ToolTipService.ToolTip" xml:space="preserve">
+    <value>विषय सूची</value>
+    <comment>Table Of Contents</comment>
+  </data>
+  <data name="B_ToggleFav.ToolTipService.ToolTip" xml:space="preserve">
+    <value>पसंदीदा टॉगल करें</value>
+    <comment>Toggle Favorite</comment>
+  </data>
+  <data name="B_ToggleFullscreen.ToolTipService.ToolTip" xml:space="preserve">
+    <value>फ़ुलस्क्रीन टॉगल करें (F11)</value>
+    <comment>Toggle Fullscreen (F11)</comment>
+  </data>
+  <data name="B_Translate.ToolTipService.ToolTip" xml:space="preserve">
+    <value>अनुवाद करें</value>
+    <comment>Translate</comment>
+  </data>
+  <data name="B_Tw.ToolTipService.ToolTip" xml:space="preserve">
+    <value>ट्विटर पर हमें अनुगमन करें</value>
+    <comment>Follow us on Twitter</comment>
+  </data>
+  <data name="B_ZoomIn.ToolTipService.ToolTip" xml:space="preserve">
+    <value>ज़ूम इन करें</value>
+    <comment>Zoom In</comment>
+  </data>
+  <data name="B_ZoomOut.ToolTipService.ToolTip" xml:space="preserve">
+    <value>ज़ूम आउट करें</value>
+    <comment>Zoom Out</comment>
+  </data>
+  <data name="C_AddFolder_AddRecent.Content" xml:space="preserve">
+    <value>पुस्तकों को हाल की सूची में जोड़ें</value>
+    <comment>Add books to recent list</comment>
+  </data>
+  <data name="C_AddFolder_AutoRemove.Content" xml:space="preserve">
+    <value>फ़ोल्डर से फ़ाइलें हटाए जाने पर स्वचालित रूप से लाइब्रेरी से पुस्तकें (नोट्स, हाइलाइट्स आदि सहित) हटा दें</value>
+    <comment>Automatically remove books from the library (including notes, highlights, etc) when files are deleted from the folder</comment>
+  </data>
+  <data name="C_AddFolder_RecSearch.Content" xml:space="preserve">
+    <value>पुनरावर्ती रूप से उप-फ़ोल्डर खोजें</value>
+    <comment>Recursively search sub-folders</comment>
+  </data>
+  <data name="C_AddFolder_SyncFolder.Content" xml:space="preserve">
+    <value>इस फ़ोल्डर को सिंक करें और स्वचालित रूप से नई पुस्तकें जोड़ें</value>
+    <comment>Sync this folder and automatically add new books</comment>
+  </data>
+  <data name="C_Backup_AStats.Content" xml:space="preserve">
+    <value>ऐप के आँकड़े</value>
+    <comment>App statistics</comment>
+  </data>
+  <data name="C_Backup_BFav.Content" xml:space="preserve">
+    <value>पुस्तक पसंदीदा सूची</value>
+    <comment>Book favorite list</comment>
+  </data>
+  <data name="C_Backup_BFiles.Content" xml:space="preserve">
+    <value>पुस्तक फ़ाइलें</value>
+    <comment>Book files</comment>
+  </data>
+  <data name="C_Backup_BMeta.Content" xml:space="preserve">
+    <value>पुस्तक मेटाडेटा</value>
+    <comment>Book metadata</comment>
+  </data>
+  <data name="C_Backup_Bookmarks.Content" xml:space="preserve">
+    <value>बुकमार्क्स</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="C_Backup_Config.Description" xml:space="preserve">
+    <value>बैकअप या पुनर्स्थापना कार्रवाई के लिए कॉन्फ़िगरेशन का चयन करें</value>
+    <comment>Select the configuration for backup or restore operation</comment>
+  </data>
+  <data name="C_Backup_Config.Title" xml:space="preserve">
+    <value>कॉन्फ़िगरेशन चुनें</value>
+    <comment>Choose configuration</comment>
+  </data>
+  <data name="C_Backup_NandH.Content" xml:space="preserve">
+    <value>नोट्स और हाइलाइट्स</value>
+    <comment>Notes &amp; highlights</comment>
+  </data>
+  <data name="C_Backup_Operation.Description" xml:space="preserve">
+    <value>वह ऑपरेशन चुनें जिसे आप करना चाहते हैं</value>
+    <comment>Select the operation you want to perform</comment>
+  </data>
+  <data name="C_Backup_Operation.Title" xml:space="preserve">
+    <value>ऑपरेशन चुनें</value>
+    <comment>Choose operation</comment>
+  </data>
+  <data name="C_Backup_Storage.Description" xml:space="preserve">
+    <value>ऑपरेशन के लिए स्रोत या लक्ष्य स्टोरेज का चयन करें</value>
+    <comment>Select the source or target storage for the operation</comment>
+  </data>
+  <data name="C_Backup_Storage.Title" xml:space="preserve">
+    <value>स्टोरेज चुनें</value>
+    <comment>Choose storage</comment>
+  </data>
+  <data name="C_Books.ToolTipService.ToolTip" xml:space="preserve">
+    <value>पुस्तकें</value>
+    <comment>Books</comment>
+  </data>
+  <data name="C_ChapterList.ToolTipService.ToolTip" xml:space="preserve">
+    <value>अध्याय सूची</value>
+    <comment>Chapter list</comment>
+  </data>
+  <data name="C_CollectionType.ToolTipService.ToolTip" xml:space="preserve">
+    <value>संग्रह प्रकार</value>
+    <comment>Collection Type</comment>
+  </data>
+  <data name="C_General_Advt.Description" xml:space="preserve">
+    <value>विज्ञापन के प्रकार के लिए प्राथमिकता</value>
+    <comment>Preference for type of advertisements</comment>
+  </data>
+  <data name="C_General_Advt.Title" xml:space="preserve">
+    <value>विज्ञापन प्राथमिकता</value>
+    <comment>Advt. preference</comment>
+  </data>
+  <data name="C_General_BookTitle.Description" xml:space="preserve">
+    <value>लाइब्रेरी दृश्य में सभी पुस्तकों के लिए शीर्षक प्रदर्शित करें</value>
+    <comment>Display title for all books in the library view</comment>
+  </data>
+  <data name="C_General_BookTitle.Title" xml:space="preserve">
+    <value>पुस्तक शीर्षक दिखाएं</value>
+    <comment>Show book titles</comment>
+  </data>
+  <data name="C_General_Lang.Description" xml:space="preserve">
+    <value>बटन, मेनू और अन्य नियंत्रण इस भाषा में दिखाई देंगे।
+डिवाइस की चयनित भाषा का उपयोग करने के लिए 'सिस्टम' चुनें।
+यह सेटिंग ऐप के अगले प्रारंभ पर लागू की जाएगी।</value>
+    <comment>Buttons, menus and other controls will show in this language.
+Select 'System' to use device's selected language.
+This setting will be applied on the next start of the app.</comment>
+  </data>
+  <data name="C_General_Lang.Title" xml:space="preserve">
+    <value>प्रदर्शन भाषा</value>
+    <comment>Display language</comment>
+  </data>
+  <data name="C_General_Tutorial.Description" xml:space="preserve">
+    <value>सभी ट्यूटोरियल फिर से दिखाएँ</value>
+    <comment>Show all the tutorials again</comment>
+  </data>
+  <data name="C_General_Tutorial.Title" xml:space="preserve">
+    <value>ट्यूटोरियल रीसेट करें</value>
+    <comment>Reset tutorials</comment>
+  </data>
+  <data name="C_Personal_ColorThemes.Title" xml:space="preserve">
+    <value>कलर थीम</value>
+    <comment>Color themes</comment>
+  </data>
+  <data name="C_Personal_TransBanckground.Title" xml:space="preserve">
+    <value>पारदर्शी पृष्ठभूमि</value>
+    <comment>Transparent background</comment>
+  </data>
+  <data name="C_Personal_TransBanckSlider.Title" xml:space="preserve">
+    <value>पृष्ठभूमि पारदर्शिता</value>
+    <comment>Background transparency</comment>
+  </data>
+  <data name="C_Prem1.BillDetails" xml:space="preserve">
+    <value>त्रैमासिक बिल</value>
+    <comment>Billed quarterly</comment>
+  </data>
+  <data name="C_Prem1.DurationString" xml:space="preserve">
+    <value> महीने</value>
+    <comment> months</comment>
+  </data>
+  <data name="C_Prem2.BillDetails" xml:space="preserve">
+    <value>सालाना बिल</value>
+    <comment>Billed annually</comment>
+  </data>
+  <data name="C_Prem2.DurationString" xml:space="preserve">
+    <value> महीने</value>
+    <comment> months</comment>
+  </data>
+  <data name="C_Prem3.BillDetails" xml:space="preserve">
+    <value>एक बार की खरीद</value>
+    <comment>One time purchase</comment>
+  </data>
+  <data name="C_Prem3.DurationString" xml:space="preserve">
+    <value>लाइफटाइम</value>
+    <comment>Lifetime</comment>
+  </data>
+  <data name="C_Reader_AutoLayout.Description" xml:space="preserve">
+    <value>2-कॉलम लेआउट में जब डिवाइस पोर्ट्रेट मोड में घूमता है, तो रीडर 1-कॉलम लेआउट पर स्वतः स्विच हो जाएगा, और इसके विपरीत</value>
+    <comment>In 2-column layout when device rotates to portrait mode, reader will auto switch to 1-column layout, and vice versa</comment>
+  </data>
+  <data name="C_Reader_AutoLayout.Title" xml:space="preserve">
+    <value>1 कॉलम लेआउट पर ऑटो स्विच</value>
+    <comment>Auto switch to 1 column layout</comment>
+  </data>
+  <data name="C_Reader_AutoScroll.Description" xml:space="preserve">
+    <value>रीड अलाउड मोड में पढ़े जा रहे वाक्य का पालन करने के लिए पेज को ऑटो स्क्रॉल करें</value>
+    <comment>ReadAloud auto-scroll</comment>
+  </data>
+  <data name="C_Reader_AutoScroll.Title" xml:space="preserve">
+    <value>रीड अलाउड ऑटो-स्क्रॉल</value>
+    <comment>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</comment>
+  </data>
+  <data name="C_Reader_BookFont.Description" xml:space="preserve">
+    <value>रीडर पुस्तक के साथ पैक किए गए मूल फोंट का उपयोग करेगा</value>
+    <comment>Reader uses the original fonts packaged with the book</comment>
+  </data>
+  <data name="C_Reader_BookFont.Title" xml:space="preserve">
+    <value>पुस्तक के फ़ॉन्ट का उपयोग करें</value>
+    <comment>Use book's fonts</comment>
+  </data>
+  <data name="C_Reader_DictLang.Description" xml:space="preserve">
+    <value>इन-रीडर डिक्शनरी की भाषा</value>
+    <comment>Language of the in-reader dictionary</comment>
+  </data>
+  <data name="C_Reader_DictLang.Title" xml:space="preserve">
+    <value>शब्दकोश भाषा</value>
+    <comment>Dictionary language</comment>
+  </data>
+  <data name="C_Reader_EnhRender.Description" xml:space="preserve">
+    <value>पुस्तक पढ़ने के लिए प्रस्तुत की जाने वाली प्रारूप/लेआउट में सुधार करेगा</value>
+    <comment>Improves the format/layout in which books are rendered for reading</comment>
+  </data>
+  <data name="C_Reader_EnhRender.Title" xml:space="preserve">
+    <value>उन्नत प्रतिपादन</value>
+    <comment>Enhanced rendering</comment>
+  </data>
+  <data name="C_Reader_SearchEngine.Description" xml:space="preserve">
+    <value>वेब खोज के उपयोग के लिए खोज इंजन</value>
+    <comment>Search engine to use for web search</comment>
+  </data>
+  <data name="C_Reader_SearchEngine.Title" xml:space="preserve">
+    <value>खोज इंजन</value>
+    <comment>Search engine</comment>
+  </data>
+  <data name="C_Reader_StdMrgn.Description" xml:space="preserve">
+    <value>रीडर में सुसंगत लेआउट प्रदान करने के लिए पुस्तक में निर्दिष्ट किसी भी मार्जिन को ओवरराइड करता है</value>
+    <comment>Overrides any margin specified in the book to provide consistent layout in the reader</comment>
+  </data>
+  <data name="C_Reader_StdMrgn.Title" xml:space="preserve">
+    <value>मार्जिन को मानकीकृत करें</value>
+    <comment>Standardize margins</comment>
+  </data>
+  <data name="C_Reader_TextAlign.Description" xml:space="preserve">
+    <value>पाठक में सुसंगत लेआउट प्रदान करने के लिए पुस्तक में सेट किसी भी पाठ संरेखण वरीयता को ओवरराइड करेगा</value>
+    <comment>Overrides any text alignment preference set in the book to provide consistent layout in the reader</comment>
+  </data>
+  <data name="C_Reader_TextAlign.Title" xml:space="preserve">
+    <value>पाठ संरेखण को ओवरराइड करें</value>
+    <comment>Override text alignment</comment>
+  </data>
+  <data name="C_ShowFavs.Content" xml:space="preserve">
+    <value>केवल पसंदीदा दिखाएं</value>
+    <comment>Show only favorites</comment>
+  </data>
+  <data name="CB_Category.ToolTipService.ToolTip" xml:space="preserve">
+    <value>श्रेणियाँ</value>
+    <comment>Categories</comment>
+  </data>
+  <data name="EBI_Author.Text" xml:space="preserve">
+    <value>लेखक (*) : </value>
+    <comment>Author(s) : </comment>
+  </data>
+  <data name="EBI_Cover1.Content" xml:space="preserve">
+    <value>कवर चुनें</value>
+    <comment>Select cover</comment>
+  </data>
+  <data name="EBI_Cover2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>मूल कवर छवि को पुनर्स्थापित करें</value>
+    <comment>Restore original cover</comment>
+  </data>
+  <data name="EBI_Description.Text" xml:space="preserve">
+    <value>विवरण : </value>
+    <comment>Description : </comment>
+  </data>
+  <data name="EBI_ErrMsg1" xml:space="preserve">
+    <value>श्रृंखला संख्या खाली नहीं हो सकती है</value>
+    <comment>Series number cannot be empty</comment>
+  </data>
+  <data name="EBI_ErrMsg2" xml:space="preserve">
+    <value>श्रृंखला संख्या मान्य नहीं है</value>
+    <comment>Series number not valid</comment>
+  </data>
+  <data name="EBI_Genre.Text" xml:space="preserve">
+    <value>शैली (*) : </value>
+    <comment>Genre(s) : </comment>
+  </data>
+  <data name="EBI_Language.Text" xml:space="preserve">
+    <value>भाषा (*) : </value>
+    <comment>Language(s) : </comment>
+  </data>
+  <data name="EBI_Msg1.Text" xml:space="preserve">
+    <value>• (*) - एकाधिक प्रविष्टियों को अलग करने के लिए सेमी-कोलन ( ; ) का उपयोग करें।</value>
+    <comment> • (s) - Use semi-colon ( ; ) to separate multiple entries.</comment>
+  </data>
+  <data name="EBI_Publisher.Text" xml:space="preserve">
+    <value>प्रकाशक (*) : </value>
+    <comment>Publisher(s) : </comment>
+  </data>
+  <data name="EBI_Series.Text" xml:space="preserve">
+    <value>शृंखला : </value>
+    <comment>Series : </comment>
+  </data>
+  <data name="EBI_SeriesNumber.Text" xml:space="preserve">
+    <value>श्रृंखला संख्या : </value>
+    <comment>Series Number : </comment>
+  </data>
+  <data name="EBI_Title.Text" xml:space="preserve">
+    <value>पुस्तक जानकारी संपादित करें</value>
+    <comment>Edit book information</comment>
+  </data>
+  <data name="IAP_Discount.Text" xml:space="preserve">
+    <value>20% की छूट</value>
+    <comment>20% off</comment>
+  </data>
+  <data name="IAP_Popular.Text" xml:space="preserve">
+    <value>सबसे लोकप्रिय</value>
+    <comment>Most Popular</comment>
+  </data>
+  <data name="M_About.Content" xml:space="preserve">
+    <value>हमारे बारे में</value>
+    <comment>About us</comment>
+  </data>
+  <data name="M_AddBook.Text" xml:space="preserve">
+    <value>पुस्तक फ़ाइल डालें</value>
+    <comment>Add book file(s)</comment>
+  </data>
+  <data name="M_AddFavourite.Text" xml:space="preserve">
+    <value>पसंदीदा बनाएं</value>
+    <comment>Add Favourite</comment>
+  </data>
+  <data name="M_AddFolder.Text" xml:space="preserve">
+    <value>फोल्डर डालें</value>
+    <comment>Add folder</comment>
+  </data>
+  <data name="M_Backup.Content" xml:space="preserve">
+    <value>बैकअप और पुनर्स्थापना</value>
+    <comment>Backup &amp; Restore</comment>
+  </data>
+  <data name="M_BookInfo.Text" xml:space="preserve">
+    <value>पुस्तक की जानकारी</value>
+    <comment>Book Info</comment>
+  </data>
+  <data name="M_ChngLog.Content" xml:space="preserve">
+    <value>परिवर्तन लॉग</value>
+    <comment>Change log</comment>
+  </data>
+  <data name="M_CreationTime.Text" xml:space="preserve">
+    <value>रचना समय</value>
+    <comment>Creation time</comment>
+  </data>
+  <data name="M_Edit.Text" xml:space="preserve">
+    <value>संपादित करें</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="M_EditBookInfo.Text" xml:space="preserve">
+    <value>पुस्तक जानकारी संपादित करें</value>
+    <comment>Edit Book Info</comment>
+  </data>
+  <data name="M_General.Content" xml:space="preserve">
+    <value>सामान्य</value>
+    <comment>General</comment>
+  </data>
+  <data name="M_OpenBook.Text" xml:space="preserve">
+    <value>पुस्तक खोलें</value>
+    <comment>Open Book</comment>
+  </data>
+  <data name="M_Personal.Content" xml:space="preserve">
+    <value>वैयक्तिकरण</value>
+    <comment>Personalization</comment>
+  </data>
+  <data name="M_PinUnpin.Text" xml:space="preserve">
+    <value>स्टार्ट पे पिन/अनपिन करें</value>
+    <comment>Pin/Unpin to Start</comment>
+  </data>
+  <data name="M_PosInBook.Text" xml:space="preserve">
+    <value>पुस्तक में स्थिति</value>
+    <comment>Position in book</comment>
+  </data>
+  <data name="M_Reader.Content" xml:space="preserve">
+    <value>रीडर</value>
+    <comment>Reader</comment>
+  </data>
+  <data name="M_Remove.Text" xml:space="preserve">
+    <value>हटाएं</value>
+    <comment>Remove</comment>
+  </data>
+  <data name="M_RemoveFavourite.Text" xml:space="preserve">
+    <value>पसंदीदा हटाएं</value>
+    <comment>Remove Favourite</comment>
+  </data>
+  <data name="M_SaveToFile.Text" xml:space="preserve">
+    <value>फाइल में सेव करें</value>
+    <comment>Save to file</comment>
+  </data>
+  <data name="M_Share.Text" xml:space="preserve">
+    <value>साझा करें</value>
+    <comment>Share</comment>
+  </data>
+  <data name="M_SyncFolder.Content" xml:space="preserve">
+    <value>फोल्डर सिंक करें</value>
+    <comment>Sync folders</comment>
+  </data>
+  <data name="N_Collections.Content" xml:space="preserve">
+    <value>संग्रह</value>
+    <comment>Collections</comment>
+  </data>
+  <data name="N_Feedback.Content" xml:space="preserve">
+    <value>प्रतिक्रिया</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="N_Home.Content" xml:space="preserve">
+    <value>गृह</value>
+    <comment>Home</comment>
+  </data>
+  <data name="N_Library.Content" xml:space="preserve">
+    <value>पुस्तकालय</value>
+    <comment>Library</comment>
+  </data>
+  <data name="N_OnlineBooks.Content" xml:space="preserve">
+    <value>ऑनलाइन पुस्तकें</value>
+    <comment>Online Books</comment>
+  </data>
+  <data name="N_Premium.Content" xml:space="preserve">
+    <value>अधिमूल्य</value>
+    <comment>Premium</comment>
+  </data>
+  <data name="N_ReportBug.Content" xml:space="preserve">
+    <value>समस्या रिपोर्ट करें</value>
+    <comment>Report bug</comment>
+  </data>
+  <data name="N_Settings.Content" xml:space="preserve">
+    <value>सेटिंग्स</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="N_Statistics.Content" xml:space="preserve">
+    <value>आँकड़े</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="RI_No" xml:space="preserve">
+    <value>नहीं</value>
+    <comment>No</comment>
+  </data>
+  <data name="RI_Title.Text" xml:space="preserve">
+    <value>क्या आप Aquile Reader का आनंद ले रहे हैं?</value>
+    <comment>Are you enjoying Aquile Reader?</comment>
+  </data>
+  <data name="RI_Title2" xml:space="preserve">
+    <value>क्या आप हमें स्टोर पर रेट करने के लिए कुछ समय देंगे?</value>
+    <comment>Would you spare a moment to rate us on the store?</comment>
+  </data>
+  <data name="RI_Title3" xml:space="preserve">
+    <value>क्या आप हमारे साथ कुछ प्रतिक्रिया साझा करना चाहेंगे?</value>
+    <comment>Would you like to share some feedback with us?</comment>
+  </data>
+  <data name="RI_Yes.Content" xml:space="preserve">
+    <value>हाँ</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="S_ActSub" xml:space="preserve">
+    <value>एक्टिव सब्सक्रिप्शन</value>
+    <comment>Active subscription</comment>
+  </data>
+  <data name="S_ActSub_Msg1" xml:space="preserve">
+    <value>ऐसा लगता है कि आपके पास पहले से सक्रिय सब्सक्रिप्शन है, अतिरिक्त बिलिंग से बचने के लिए इसे रद्द करना सुनिश्चित करें।</value>
+    <comment>Looks like you already have an active subscription, make sure to cancel it to avoid additional billing.</comment>
+  </data>
+  <data name="S_AddMore" xml:space="preserve">
+    <value>और जोड़ें ...</value>
+    <comment>Add more ...</comment>
+  </data>
+  <data name="S_AddSite_Err1" xml:space="preserve">
+    <value>शीर्षक खाली नहीं हो सकता है</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="S_AddSite_Err2" xml:space="preserve">
+    <value>शीर्षक की लंबाई 100 वर्ण तक हो सकती है</value>
+    <comment>Title length can be up-to 100 chars</comment>
+  </data>
+  <data name="S_AdMsg1" xml:space="preserve">
+    <value>प्रीमियम संस्करण में अपग्रेड करें</value>
+    <comment>Upgrade to PREMIUM version</comment>
+  </data>
+  <data name="S_AdMsg2" xml:space="preserve">
+    <value>विज्ञापनों को हटाने और अतिरिक्त सुविधाएँ प्राप्त करने के लिए, यहाँ क्लिक करें।</value>
+    <comment>To remove Ads and get additional features, click here.</comment>
+  </data>
+  <data name="S_All" xml:space="preserve">
+    <value>सभी</value>
+    <comment>All</comment>
+  </data>
+  <data name="S_AppWidthBookInfo" xml:space="preserve">
+    <value>पुस्तक जानकारी फलक खोलने के लिए ऐप्लिकेशन विंडो की चौड़ाई बहुत कम है.</value>
+    <comment>App window width too small to open Book info pane.</comment>
+  </data>
+  <data name="S_AppWidthLess" xml:space="preserve">
+    <value>ऐप्लिकेशन विंडो की चौड़ाई बहुत कम है.</value>
+    <comment>App window width too less.</comment>
+  </data>
+  <data name="S_AS_AvgPagePerHr" xml:space="preserve">
+    <value>प्रति घंटे फ़्लिप किए गए पृष्ठों की औसत संख्या</value>
+    <comment>Avg. number of pages flipped per hour</comment>
+  </data>
+  <data name="S_AS_AvgReadHours" xml:space="preserve">
+    <value>प्रति दिन औसत पढ़ने के घंटे</value>
+    <comment>Avg. reading hours per day</comment>
+  </data>
+  <data name="S_AS_AvgTimePerPage" xml:space="preserve">
+    <value>प्रति पृष्ठ औसत पढ़ने का समय (सेकंड)</value>
+    <comment>Avg. reading time (sec) per page</comment>
+  </data>
+  <data name="S_AS_Msg1" xml:space="preserve">
+    <value>क्या आप वाकई सभी आंकड़े हटाना चाहते हैं?</value>
+    <comment>Are you sure you want to clear all statistics?</comment>
+  </data>
+  <data name="S_AS_NumBooksLib" xml:space="preserve">
+    <value>पुस्तकालय में पुस्तकों की संख्या</value>
+    <comment>Number of books in library</comment>
+  </data>
+  <data name="S_AS_NumBooksRead" xml:space="preserve">
+    <value>पढ़ी गई पुस्तकों की संख्या</value>
+    <comment>Number of books read</comment>
+  </data>
+  <data name="S_AS_NumPagesTurned" xml:space="preserve">
+    <value>फ़्लिप किए गए पृष्ठों की संख्या</value>
+    <comment>Number of pages flipped</comment>
+  </data>
+  <data name="S_AS_SpeedWPM" xml:space="preserve">
+    <value>पढ़ने की गति (शब्द प्रति मिनट)</value>
+    <comment>Reading speed (words per minute)</comment>
+  </data>
+  <data name="S_AS_TotalReadHours" xml:space="preserve">
+    <value>पढ़ने के कुल घंटे</value>
+    <comment>Total reading hours</comment>
+  </data>
+  <data name="S_B_Close" xml:space="preserve">
+    <value>बंद करे</value>
+    <comment>Close</comment>
+  </data>
+  <data name="S_B_OnlineBookContent1" xml:space="preserve">
+    <value>वह वेबसाइट चुनें जहां से आप ईबुक डाउनलोड करना चाहते हैं।
+[1/4]</value>
+    <comment>Select the website from where you want to download the eBook.
+[1/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookContent2" xml:space="preserve">
+    <value>कैटलॉग ब्राउज़ करें और किसी भी ईबुक डाउनलोड लिंक पर क्लिक करें। ऐप पुस्तक को डाउनलोड करेगा और इसे लाइब्रेरी में जोड़ेगा।
+[2/4]</value>
+    <comment>Browse the catalog and click on any eBook download link. App will download the book and add it to the library.
+[2/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookContent3" xml:space="preserve">
+    <value>आपके डाउनलोड यहां दिखाई देंगे।
+[3/4]</value>
+    <comment>Your downloads would appear here.
+[3/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookContent4" xml:space="preserve">
+    <value>अपनी स्वयं की वेबसाइट जोड़ें जहाँ से आप ई-बुक्स डाउनलोड करना चाहते हैं।
+[4/4]</value>
+    <comment>Add your own website from where you want to download eBooks.
+[4/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle1" xml:space="preserve">
+    <value>ईबुक वेबसाइट का चयन करें</value>
+    <comment>Select eBook website</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle2" xml:space="preserve">
+    <value>ईबुक डाउनलोड करें</value>
+    <comment>Download eBook</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle3" xml:space="preserve">
+    <value>डाउनलोड ट्रैक करें</value>
+    <comment>Track downloads</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle4" xml:space="preserve">
+    <value>ईबुक वेबसाइट जोड़ें</value>
+    <comment>Add eBook website</comment>
+  </data>
+  <data name="S_B_PauseReading" xml:space="preserve">
+    <value>पढ़ना रोकें (स्पेस)</value>
+    <comment>Pause Reading (Space)</comment>
+  </data>
+  <data name="S_B_StartReading" xml:space="preserve">
+    <value>पढ़ना शुरू करें (स्पेस)</value>
+    <comment>Start Reading (Space)</comment>
+  </data>
+  <data name="S_B_TutDone" xml:space="preserve">
+    <value>हो गया</value>
+    <comment>Done</comment>
+  </data>
+  <data name="S_B_TutNext" xml:space="preserve">
+    <value>अगला</value>
+    <comment>Next</comment>
+  </data>
+  <data name="S_B_TutReaderContent1" xml:space="preserve">
+    <value>अगले या पिछले पेज पर जाने के लिए स्क्रीन के किनारों पर टैप करें, पेज स्वाइप करें, ← / → कीबोर्ड कुंजियों का इस्तेमाल करें या माउस स्क्रोल व्हील का इस्तेमाल करें.
+[1/8]</value>
+    <comment>Tap on the edges of the screen, swipe the page, use ← / → keyboard keys or use mouse scroll wheel, to go to next or previous page.
+[1/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent2" xml:space="preserve">
+    <value>रीडर संदर्भ मेन्यू खोलने के लिए टेक्स्ट चुनें या किसी भी शब्द पर राइट क्लिक करें।
+आप यहां से नोट, हाइलाइट या बुकमार्क जोड़ सकते हैं।
+[2/8]</value>
+    <comment>Select text or right click on any word to open the Reader context menu.
+You can add note, highlight or bookmark from here.
+[2/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent3" xml:space="preserve">
+    <value>पुस्तक की विषय सूची को यहां से से देखें.
+[3/8]</value>
+    <comment>Access the table of contents of the book from here.
+[3/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent4" xml:space="preserve">
+    <value>आपके नोट्स और हाइलाइट्स यहां सूचीबद्ध होंगे.
+[4/8]</value>
+    <comment>Your notes and highlights would be listed here.
+[4/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent5" xml:space="preserve">
+    <value>आपके बुकमार्क्स यहां दिखाई देंगे.
+[5/8]</value>
+    <comment>Set bookmarks would appear here.
+[5/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent6" xml:space="preserve">
+    <value>मौजूदा अध्याय या पूरी किताब में खोजें.
+[6/8]</value>
+    <comment>Search in the current chapter or the entire book.
+[6/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent7" xml:space="preserve">
+    <value>आप इसका उपयोग पुस्तक को जोर से पढ़ के सुनने (रीड अलाउड) लिए कर सकते हैं (टेक्स्ट-टू-स्पीच)।
+[7/8]</value>
+    <comment>You can use this to read aloud the book contents (text-to-speech).
+[7/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent8" xml:space="preserve">
+    <value>आप यहां से पृष्ठ विन्यास, शैली, रंग योजना आदि को कॉन्फ़िगर कर सकते हैं।
+[8/8]</value>
+    <comment>You can configure the page layout, style, color scheme, etc. from here.
+[8/8]</comment>
+  </data>
+  <data name="S_B_TutReaderTitle1" xml:space="preserve">
+    <value>पेज चेंज</value>
+    <comment>Page change</comment>
+  </data>
+  <data name="S_B_TutReaderTitle2" xml:space="preserve">
+    <value>रीडर संदर्भ मेन्यू</value>
+    <comment>Reader context menu</comment>
+  </data>
+  <data name="S_B_TutReaderTitle3" xml:space="preserve">
+    <value>विषय सूची</value>
+    <comment>Table of contents</comment>
+  </data>
+  <data name="S_B_TutReaderTitle4" xml:space="preserve">
+    <value>नोट्स और हाइलाइट्स</value>
+    <comment>Notes and highlights</comment>
+  </data>
+  <data name="S_B_TutReaderTitle5" xml:space="preserve">
+    <value>बुकमार्क्स</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="S_B_TutReaderTitle6" xml:space="preserve">
+    <value>खोजें</value>
+    <comment>Search</comment>
+  </data>
+  <data name="S_B_TutReaderTitle7" xml:space="preserve">
+    <value>रीड अलाउड</value>
+    <comment>ReadAloud</comment>
+  </data>
+  <data name="S_B_TutReaderTitle8" xml:space="preserve">
+    <value>टेक्स्ट शैली</value>
+    <comment>Text style</comment>
+  </data>
+  <data name="S_Backup" xml:space="preserve">
+    <value>बैकअप</value>
+    <comment>Backup</comment>
+  </data>
+  <data name="S_Backup_ErrMsg1" xml:space="preserve">
+    <value>कम से कम 1 कॉन्फिगरेशन चुनें</value>
+    <comment>Select at-least 1 configuration</comment>
+  </data>
+  <data name="S_Backup_ErrMsg2" xml:space="preserve">
+    <value>प्रचालन विफल रहा। कृपया समर्थन से संपर्क करें।</value>
+    <comment>Operation failed. Plz contact support.</comment>
+  </data>
+  <data name="S_BannerAds" xml:space="preserve">
+    <value>बैनर विज्ञापन</value>
+    <comment>Banner Ads</comment>
+  </data>
+  <data name="S_BookAddedMsg" xml:space="preserve">
+    <value>{0}: पुस्तक सफलतापूर्वक जोड़ी गई।</value>
+    <comment>{0}: Book added successfully.</comment>
+  </data>
+  <data name="S_BookAddStartScreen" xml:space="preserve">
+    <value>पुस्तक स्टार्ट स्क्रीन में जोड़ी गई।</value>
+    <comment>Book added to start screen.</comment>
+  </data>
+  <data name="S_BookExistsMsg" xml:space="preserve">
+    <value>{0}: पुस्तक पहले से मौजूद है।</value>
+    <comment>{0}: Book already exists.</comment>
+  </data>
+  <data name="S_BookFont" xml:space="preserve">
+    <value>पुस्तक का फ़ॉन्ट</value>
+    <comment>Book's font</comment>
+  </data>
+  <data name="S_BookmarkAdded" xml:space="preserve">
+    <value>बुकमार्क जोड़ा गया।</value>
+    <comment>Bookmark added.</comment>
+  </data>
+  <data name="S_BookmarkExists" xml:space="preserve">
+    <value>बुकमार्क पहले से मौजूद है.</value>
+    <comment>Bookmark already exists.</comment>
+  </data>
+  <data name="S_BookRmStartScreen" xml:space="preserve">
+    <value>पुस्तक को स्टार्ट स्क्रीन से निकाला गया।</value>
+    <comment>Book removed from start screen.</comment>
+  </data>
+  <data name="S_BooksAdded" xml:space="preserve">
+    <value>{0} पुस्तकें जोड़ी गईं।</value>
+    <comment>{0} book(s) added.</comment>
+  </data>
+  <data name="S_BooksAlreadyExists" xml:space="preserve">
+    <value>पुस्तक पहले से मौजूद है।</value>
+    <comment>Book already exists.</comment>
+  </data>
+  <data name="S_BookSystemLimitError_Msg" xml:space="preserve">
+    <value>और किताबें नहीं जोड़ी जा सकती क्योंकि सिस्टम की सीमा पूरी हो चुकी है। व्यक्तिगत रूप से जोड़ी गई पुस्तक फ़ाइलों को हटाने पर विचार करें और थोक में पुस्तकें जोड़ने के लिए 'फ़ोल्डर जोड़ें' विकल्प का उपयोग करें।</value>
+    <comment>Cannot add more books as the system limit has been reached. Consider removing individually added book files and use 'Add Folder' option to add books in bulk.</comment>
+  </data>
+  <data name="S_BookSystemLimitError_Title" xml:space="preserve">
+    <value>पुस्‍तकें जोड़ने में असमर्थ</value>
+    <comment>Unable to add book(s)</comment>
+  </data>
+  <data name="S_Cancelled" xml:space="preserve">
+    <value>रद्द किया गया</value>
+    <comment>Cancelled</comment>
+  </data>
+  <data name="S_Collapse" xml:space="preserve">
+    <value>संक्षिप्त करें</value>
+    <comment>Collapse</comment>
+  </data>
+  <data name="S_CollectionConstAll" xml:space="preserve">
+    <value>सभी</value>
+    <comment>All</comment>
+  </data>
+  <data name="S_CollectionConstBookmarks" xml:space="preserve">
+    <value>बुकमार्क्स</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="S_CollectionConstHighlights" xml:space="preserve">
+    <value>हाइलाइट्स</value>
+    <comment>Highlights</comment>
+  </data>
+  <data name="S_CollectionConstNotes" xml:space="preserve">
+    <value>नोट्स</value>
+    <comment>Notes</comment>
+  </data>
+  <data name="S_Completed" xml:space="preserve">
+    <value>पूरा हुआ</value>
+    <comment>Completed</comment>
+  </data>
+  <data name="S_Confirmation" xml:space="preserve">
+    <value>पुष्टीकरण</value>
+    <comment>Confirmation</comment>
+  </data>
+  <data name="S_CTheme1" xml:space="preserve">
+    <value>वाइन यार्ड</value>
+    <comment>Vine Yard</comment>
+  </data>
+  <data name="S_CTheme2" xml:space="preserve">
+    <value>डार्क साइड</value>
+    <comment>Dark Side</comment>
+  </data>
+  <data name="S_CTheme3" xml:space="preserve">
+    <value>ताजा बेरी</value>
+    <comment>Fresh Berry</comment>
+  </data>
+  <data name="S_CTheme4" xml:space="preserve">
+    <value>पल्पी ऑरेंज</value>
+    <comment>Pulpy Orange</comment>
+  </data>
+  <data name="S_CTheme5" xml:space="preserve">
+    <value>स्वच्छ आकाश</value>
+    <comment>Clear sky</comment>
+  </data>
+  <data name="S_CTheme6" xml:space="preserve">
+    <value>फ़्लैश</value>
+    <comment>Flash</comment>
+  </data>
+  <data name="S_CTheme7" xml:space="preserve">
+    <value>फ़िरोज़ा</value>
+    <comment>Turquoise</comment>
+  </data>
+  <data name="S_CTheme8" xml:space="preserve">
+    <value>हरा सेब</value>
+    <comment>Green Apple</comment>
+  </data>
+  <data name="S_CThemeMsg1" xml:space="preserve">
+    <value>थीम क्लिपबोर्ड पर कॉपी की गई।</value>
+    <comment>Theme copied to clipboard.</comment>
+  </data>
+  <data name="S_CThemeMsg2" xml:space="preserve">
+    <value>थीम चयनित नहीं है।</value>
+    <comment>Theme not selected.</comment>
+  </data>
+  <data name="S_CurrentChapter" xml:space="preserve">
+    <value>वर्तमान अध्याय</value>
+    <comment>Current chapter</comment>
+  </data>
+  <data name="S_DateAdded.Text" xml:space="preserve">
+    <value>जोड़ने की तिथि : </value>
+    <comment>Date added : </comment>
+  </data>
+  <data name="S_Description.Text" xml:space="preserve">
+    <value>विवरण : </value>
+    <comment>Description : </comment>
+  </data>
+  <data name="S_DockLeft" xml:space="preserve">
+    <value>बाईं ओर डॉक करें</value>
+    <comment>Dock left</comment>
+  </data>
+  <data name="S_DockRight" xml:space="preserve">
+    <value>दाईं ओर डॉक करें</value>
+    <comment>Dock right</comment>
+  </data>
+  <data name="S_DownloadBook" xml:space="preserve">
+    <value>पुस्तक डाउनलोड करें</value>
+    <comment>Download book</comment>
+  </data>
+  <data name="S_DownloadBook_Msg" xml:space="preserve">
+    <value>क्या आप इस पुस्तक को डाउनलोड करना और पुस्तकालय में जोड़ना चाहते हैं?</value>
+    <comment>Do you want to download this book and add to library?</comment>
+  </data>
+  <data name="S_Downloading" xml:space="preserve">
+    <value>डाउनलोड हो रहा है</value>
+    <comment>Downloading</comment>
+  </data>
+  <data name="S_EntireBook" xml:space="preserve">
+    <value>पूरी पुस्तक</value>
+    <comment>Entire book</comment>
+  </data>
+  <data name="S_ErrMsg1" xml:space="preserve">
+    <value>एक्वील रीडर को पुस्तक फ़ाइल - {0} पढ़ने की अनुमति नहीं है।
+'अनुमति दें' पर क्लिक करें और फ़ाइल पिकर विंडो में उसी पुस्तक फ़ाइल का चयन करें।</value>
+    <comment>Aquile Reader does not have permission to access the book file - {0}.
+Click 'Grant Permission' and select the same book file in the file picker window.</comment>
+  </data>
+  <data name="S_ErrMsg1_btn" xml:space="preserve">
+    <value>अनुमति दें</value>
+    <comment>Grant Permission</comment>
+  </data>
+  <data name="S_ErrMsg2" xml:space="preserve">
+    <value>आप जिस फ़ाइल को खोलने का प्रयास कर रहे हैं, वह अब मौजूद नहीं है.
+कृपया जांचें और फिर से प्रयास करें.</value>
+    <comment>The file you are trying to open, no longer exists.
+Please check and try again.</comment>
+  </data>
+  <data name="S_ErrMsg3" xml:space="preserve">
+    <value>फ़ाइल उपयोग में हो सकती है, लॉक हो सकती है, या आपके पास पर्याप्त अनुमतियाँ नहीं हैं।</value>
+    <comment>The file may be in use, locked, or you don't have sufficient permissions.</comment>
+  </data>
+  <data name="S_ErrMsg4" xml:space="preserve">
+    <value>चयनित फ़ाइल मूल पुस्तक फ़ाइल - {0} से भिन्न है।</value>
+    <comment>Selected File is different from the original book file - {0}.</comment>
+  </data>
+  <data name="S_ErrMsg6" xml:space="preserve">
+    <value>यदि समस्या बनी रहती है तो कृपया समर्थन से संपर्क करें।</value>
+    <comment>If the problem persists please contact support.</comment>
+  </data>
+  <data name="S_ErrTitle1" xml:space="preserve">
+    <value>किताब पढ़ने में असमर्थ!</value>
+    <comment>Unable to access the book!</comment>
+  </data>
+  <data name="S_ErrTitle2" xml:space="preserve">
+    <value>फ़ाइल मौजूद नहीं है!</value>
+    <comment>File does not exist!</comment>
+  </data>
+  <data name="S_ErrTitle3" xml:space="preserve">
+    <value>फ़ाइल खोली नहीं जा सकती है!</value>
+    <comment>Can't open file!</comment>
+  </data>
+  <data name="S_ErrTitle4" xml:space="preserve">
+    <value>यह वही फाइल नहीं है!</value>
+    <comment>Not the same file!</comment>
+  </data>
+  <data name="S_ErrTitle5" xml:space="preserve">
+    <value>अनपेक्षित गड़बड़ी हुई!</value>
+    <comment>Unexpected error occurred!</comment>
+  </data>
+  <data name="S_ErrTitle6" xml:space="preserve">
+    <value>फ़ाइल खोली नहीं जा सकी</value>
+    <comment>Couldn't open file</comment>
+  </data>
+  <data name="S_Expand" xml:space="preserve">
+    <value>विस्तृत करें</value>
+    <comment>Expand</comment>
+  </data>
+  <data name="S_Failed" xml:space="preserve">
+    <value>असफल रहा</value>
+    <comment>Failed</comment>
+  </data>
+  <data name="S_FileCountLimitBtn1" xml:space="preserve">
+    <value>निरस्त करें और 'फ़ोल्डर जोड़ें' का उपयोग करें</value>
+    <comment>Abort and use 'Add Folder'</comment>
+  </data>
+  <data name="S_FileCountLimitBtn2" xml:space="preserve">
+    <value>पुस्तकें जोड़ना जारी रखें</value>
+    <comment>Continue to add books</comment>
+  </data>
+  <data name="S_FileCountLimitMsg" xml:space="preserve">
+    <value>बड़ी संख्या में व्यक्तिगत पुस्तक फ़ाइलों को जोड़ने से सिस्टम सीमा हिट हो सकती है, इस प्रकार हम नई पुस्तकें नहीं जोड़ सकेंगे।
+थोक में पुस्तक फ़ाइलें जोड़ने के लिए 'फ़ोल्डर जोड़ें' विकल्प का उपयोग करें।</value>
+    <comment>Adding large number of individual book files can hit system limit, thus preventing new book from being added.
+Use 'Add Folder' option to add book files in bulk.</comment>
+  </data>
+  <data name="S_FileCountLimitTitle" xml:space="preserve">
+    <value>चेतावनी!</value>
+    <comment>Warning!</comment>
+  </data>
+  <data name="S_FileNotSaved" xml:space="preserve">
+    <value>{0} सहेजा नहीं जा सका।</value>
+    <comment>{0} could not be saved.</comment>
+  </data>
+  <data name="S_FilePath.Text" xml:space="preserve">
+    <value>फ़ाइल पथ : </value>
+    <comment>File path : </comment>
+  </data>
+  <data name="S_FileSaved" xml:space="preserve">
+    <value>{0} सहेजा गया था।</value>
+    <comment>{0} was saved.</comment>
+  </data>
+  <data name="S_Genre.Text" xml:space="preserve">
+    <value>शैली : </value>
+    <comment>Genre : </comment>
+  </data>
+  <data name="S_GoPrem" xml:space="preserve">
+    <value>प्रीमियम यूजर बनें</value>
+    <comment>Go Premium</comment>
+  </data>
+  <data name="S_HighNotes_Msg1" xml:space="preserve">
+    <value>चयनित सामग्री में शीर्षलेख या पादलेख से रिक्त स्थान शामिल नहीं होना चाहिए। कृपया पुनः चयन करें।</value>
+    <comment>Selected content should not include the white spaces from header or footer. Please re-select.</comment>
+  </data>
+  <data name="S_HighNotesMsg1" xml:space="preserve">
+    <value>खोज फलक खुला होने पर हाइलाइट जोड़ा नहीं जा सकता।</value>
+    <comment>Highlight cannot be added while search pane is open.</comment>
+  </data>
+  <data name="S_HighNotesMsg2" xml:space="preserve">
+    <value>हाइलाइट और नोट के लिए चयनित टेक्स्ट ओवरलैप नहीं हो सकता है।</value>
+    <comment>Selected text for Highlight and Note cannot overlap.</comment>
+  </data>
+  <data name="S_HighNotesMsg3" xml:space="preserve">
+    <value>हाइलाइट करने के लिए न्यूनतम 1 वर्ण का चयन किया जाना चाहिए।</value>
+    <comment>Minimum 1 character must be selected for highlight.</comment>
+  </data>
+  <data name="S_HighNotesMsg4" xml:space="preserve">
+    <value>हाइलाइट के लिए अधिकतम 4000 वर्णों का चयन किया जा सकता है।</value>
+    <comment>Maximum 4000 characters can be selected for highlight.</comment>
+  </data>
+  <data name="S_HighNotesMsg5" xml:space="preserve">
+    <value>खोज फलक खुला होने पर नोट जोड़ा नहीं जा सकता है।</value>
+    <comment>Note cannot be added while search pane is open.</comment>
+  </data>
+  <data name="S_HighNotesMsg6" xml:space="preserve">
+    <value>नोट और हाइलाइट के लिए चयनित टेक्स्ट ओवरलैप नहीं हो सकता है।</value>
+    <comment>Selected text for Note and Highlight cannot overlap.</comment>
+  </data>
+  <data name="S_HighNotesMsg7" xml:space="preserve">
+    <value>नोट जोड़ने के लिए न्यूनतम 1 वर्ण का चयन किया जाना चाहिए।</value>
+    <comment>Minimum 1 character must be selected for adding note.</comment>
+  </data>
+  <data name="S_HighNotesMsg8" xml:space="preserve">
+    <value>नोट जोड़ने के लिए अधिकतम 4000 वर्णों का चयन किया जा सकता है।</value>
+    <comment>Maximum 4000 characters can be selected for adding note.</comment>
+  </data>
+  <data name="S_HighNotesMsg9" xml:space="preserve">
+    <value>नोट टेक्स्ट खाली नहीं हो सकता है।</value>
+    <comment>Note text cannot be empty.</comment>
+  </data>
+  <data name="S_InterstitialAds" xml:space="preserve">
+    <value>अंतरालीय विज्ञापन</value>
+    <comment>Interstitial Ads</comment>
+  </data>
+  <data name="S_InvalidUrl" xml:space="preserve">
+    <value>अमान्य URL</value>
+    <comment>Invalid URL</comment>
+  </data>
+  <data name="S_Language.Text" xml:space="preserve">
+    <value>भाषा : </value>
+    <comment>Language : </comment>
+  </data>
+  <data name="S_LastRead.Text" xml:space="preserve">
+    <value>अंतिम पढ़ा : </value>
+    <comment>Last read : </comment>
+  </data>
+  <data name="S_LibConstAllBooks" xml:space="preserve">
+    <value>सभी पुस्तकें</value>
+    <comment>All Books</comment>
+  </data>
+  <data name="S_LibConstCompleted" xml:space="preserve">
+    <value>पूरा पढ़ा हुआ</value>
+    <comment>Completed</comment>
+  </data>
+  <data name="S_LibConstDownloads" xml:space="preserve">
+    <value>डाउनलोड</value>
+    <comment>Downloads</comment>
+  </data>
+  <data name="S_LibConstFav" xml:space="preserve">
+    <value>पसंदीदा</value>
+    <comment>Favourites</comment>
+  </data>
+  <data name="S_LibConstNotStarted" xml:space="preserve">
+    <value>प्रारंभ नहीं किया गया</value>
+    <comment>Not Started</comment>
+  </data>
+  <data name="S_LibConstReading" xml:space="preserve">
+    <value>पढ़ रहे हैं</value>
+    <comment>Reading</comment>
+  </data>
+  <data name="S_LineCount.Text" xml:space="preserve">
+    <value>पंक्ति संख्या : </value>
+    <comment>Line count : </comment>
+  </data>
+  <data name="S_matchesFound" xml:space="preserve">
+    <value>{0} मेल मिले हैं</value>
+    <comment>{0} matches found</comment>
+  </data>
+  <data name="S_MoreFonts" xml:space="preserve">
+    <value>अधिक फ़ॉन्ट प्राप्त करें!!</value>
+    <comment>Get more fonts!!</comment>
+  </data>
+  <data name="S_No" xml:space="preserve">
+    <value>नहीं</value>
+    <comment>No</comment>
+  </data>
+  <data name="S_None" xml:space="preserve">
+    <value>(कोई नहीं)</value>
+    <comment>(None)</comment>
+  </data>
+  <data name="S_NotSupported" xml:space="preserve">
+    <value>समर्थित नहीं है</value>
+    <comment>Not supported</comment>
+  </data>
+  <data name="S_NotSupported_Msg" xml:space="preserve">
+    <value>.epub के अलावा अन्य फ़ाइलों का डाउनलोड समर्थित नहीं है</value>
+    <comment>Download of files other than .epub is not supported</comment>
+  </data>
+  <data name="S_OnlineBook_CompleteAdded" xml:space="preserve">
+    <value>पूर्ण | पुस्तकालय में जोड़ा गया</value>
+    <comment>Completed | Added to library</comment>
+  </data>
+  <data name="S_OnlineBook_CompleteExists" xml:space="preserve">
+    <value>पूर्ण | पहले से मौजूद है</value>
+    <comment>Completed | Already exists</comment>
+  </data>
+  <data name="S_OnlineBook_CompleteFailAdd" xml:space="preserve">
+    <value>पूर्ण | पुस्तकालय में जोड़ने में विफल</value>
+    <comment>Completed | Failed to add to library</comment>
+  </data>
+  <data name="S_PercentageRead.Text" xml:space="preserve">
+    <value>प्रतिशत पढ़ा : </value>
+    <comment>Percentage read : </comment>
+  </data>
+  <data name="S_Pin" xml:space="preserve">
+    <value>पिन करें</value>
+    <comment>Pin</comment>
+  </data>
+  <data name="S_Prem_Msg1" xml:space="preserve">
+    <value>क्षमा करें! ऐसा लगता है कि आप पहले से ही इसके स्वामी हैं, हमने इसे सही ढंग से दर्शाने के लिए अपने रिकॉर्ड अपडेट कर दिए हैं।</value>
+    <comment>Apologies! Looks like you already own this, we have updated our records to reflect this correctly.</comment>
+  </data>
+  <data name="S_Prem_Msg2" xml:space="preserve">
+    <value>बधाई! खरीदारी सफल रही।</value>
+    <comment>Congrats! The purchase was successful.</comment>
+  </data>
+  <data name="S_Prem_Msg3" xml:space="preserve">
+    <value>क्षमा करें! ऐसा लगता है कि लेन-देन रद्द कर दिया गया था, कृपया पुनः प्रयास करें।</value>
+    <comment>Sorry! Looks like the transaction was canceled, plz try again.</comment>
+  </data>
+  <data name="S_Prem_Msg4" xml:space="preserve">
+    <value>क्षमा करें! ऐसा लगता है कि नेटवर्क समस्याओं के कारण खरीदारी विफल हो गई, कृपया पुनः प्रयास करें।</value>
+    <comment>Sorry! Looks like the purchase failed due to network issues, plz try again.</comment>
+  </data>
+  <data name="S_Prem_Msg5" xml:space="preserve">
+    <value>क्षमा करें! ऐसा लगता है कि सर्वर की किसी त्रुटि के कारण खरीदारी विफल हो गई, कृपया पुन: प्रयास करें।</value>
+    <comment>Sorry! Looks like the purchase failed due to some server error, plz try again.</comment>
+  </data>
+  <data name="S_Prem_Msg6" xml:space="preserve">
+    <value>क्षमा करें! खरीदारी के दौरान कुछ गलत हो गया था, कृपया पुन: प्रयास करें।</value>
+    <comment>Sorry! Something went wrong during the purchase, plz try again.</comment>
+  </data>
+  <data name="S_PremAnnual" xml:space="preserve">
+    <value>प्रीमियम [सालाना]</value>
+    <comment>Premium [Annual]</comment>
+  </data>
+  <data name="S_PremFree" xml:space="preserve">
+    <value>नि:शुल्क</value>
+    <comment>Free</comment>
+  </data>
+  <data name="S_PremiumBooksCount" xml:space="preserve">
+    <value>ऐप का निःशुल्क संस्करण एक समय में लाइब्रेरी में केवल {0} पुस्तकों का समर्थन करता है।
+अधिक जोड़ने के लिए, कृपया Aquile Reader Premium में अपग्रेड करें।</value>
+    <comment>Free version of the app supports only {0} books in the library at a time.
+To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumCollection" xml:space="preserve">
+    <value>ऐप का निःशुल्क संस्करण कुल {0} संग्रह आइटम का समर्थन करता है।
+अधिक बनाने के लिए, कृपया Aquile Reader Premium में अपग्रेड करें।</value>
+    <comment>Free version of the app supports total of {0} collections items.
+To create more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumColorThemes" xml:space="preserve">
+    <value>ऐप का निःशुल्क संस्करण केवल {0} कस्टम थीम का समर्थन करता है।
+अधिक बनाने के लिए, कृपया Aquile Reader Premium में अपग्रेड करें।</value>
+    <comment>Free version of the app supports only {0} custom themes.
+To create more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumFonts" xml:space="preserve">
+    <value>प्रीमियम में अपग्रेड करें और सिस्टम पर स्थापित सभी फ़ॉन्ट्स तक पहुंच प्राप्त करें।</value>
+    <comment>Upgrade to Premium and get access to all fonts installed on the system.</comment>
+  </data>
+  <data name="S_PremiumPin" xml:space="preserve">
+    <value>ऐप का निःशुल्क संस्करण एक समय में केवल {0} स्टार्ट स्क्रीन पर पिन की गई पुस्तकों का समर्थन करता है।
+अधिक जोड़ने के लिए, कृपया Aquile Reader Premium में अपग्रेड करें।</value>
+    <comment>Free version of the app supports only {0} books pinned to start screen at a time.
+To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumRAHighlight" xml:space="preserve">
+    <value>कस्टम रीड अलाउड हाइलाइट रंग केवल एक्वील रीडर प्रीमियम में उपलब्ध हैं।
+प्रीमियम में अपग्रेड करें और सभी सुविधाओं का आनंद लें।</value>
+    <comment>Custom ReadAloud highlight colors are only available in Aquile Reader Premium.
+Upgrade to Premium and enjoy all the features.</comment>
+  </data>
+  <data name="S_PremiumSyncFolders" xml:space="preserve">
+    <value>ऐप का निःशुल्क संस्करण केवल {0} सिंक फ़ोल्डर का समर्थन करता है।
+अधिक बनाने के लिए, कृपया Aquile Reader Premium में अपग्रेड करें।</value>
+    <comment>Free version of the app supports only {0} sync folder(s).
+To create more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumThemes" xml:space="preserve">
+    <value>कस्टम पेज थीम केवल एक्वील रीडर प्रीमियम में उपलब्ध हैं।
+प्रीमियम में अपग्रेड करें और सभी सुविधाओं का आनंद लें।</value>
+    <comment>Custom Page Themes are only available in Aquile Reader Premium.
+Upgrade to Premium and enjoy all the features.</comment>
+  </data>
+  <data name="S_PremLife" xml:space="preserve">
+    <value>प्रीमियम [लाइफटाइम]</value>
+    <comment>Premium [Lifetime]</comment>
+  </data>
+  <data name="S_PremOff1" xml:space="preserve">
+    <value>25% छूट</value>
+    <comment>25% off</comment>
+  </data>
+  <data name="S_PremOff2" xml:space="preserve">
+    <value>30% छूट</value>
+    <comment>30% off</comment>
+  </data>
+  <data name="S_PremQuarterly" xml:space="preserve">
+    <value>प्रीमियम [त्रैमासिक]</value>
+    <comment>Premium [Quarterly]</comment>
+  </data>
+  <data name="S_PremTrial" xml:space="preserve">
+    <value>प्रीमियम [ट्रायल]</value>
+    <comment>Premium [Trial]</comment>
+  </data>
+  <data name="S_PremUpg" xml:space="preserve">
+    <value>प्रीमियम अपग्रेड</value>
+    <comment>Premium upgrade</comment>
+  </data>
+  <data name="S_Publisher.Text" xml:space="preserve">
+    <value>प्रकाशक : </value>
+    <comment>Publisher : </comment>
+  </data>
+  <data name="S_ReadAloud_Err1" xml:space="preserve">
+    <value>टेक्स्ट-टू-स्पीच कॉन्फ़िगरेशन त्रुटि</value>
+    <comment>Text-to-Speech configuration error</comment>
+  </data>
+  <data name="S_ReadAloud_ErrMsg1" xml:space="preserve">
+    <value>इस डिवाइस पर टेक्स्ट-टू-स्पीच सही तरीके से कॉन्फ़िगर नहीं किया गया है, कृपया इसे सही तरीके से कॉन्फ़िगर करने के लिए 'कैसे ठीक करें' लिंक का पालन करें। यदि समस्या बनी रहती है, तो समर्थन से संपर्क करें।</value>
+    <comment>Text-to-Speech is not configured correctly on this device, please follow the 'How to fix' link to configure it correctly. If the issue persists, contact support.</comment>
+  </data>
+  <data name="S_ReadAloud_ErrMsg1_btn" xml:space="preserve">
+    <value>कैसे ठीक करें</value>
+    <comment>How to fix</comment>
+  </data>
+  <data name="S_ReadAloudMsg1" xml:space="preserve">
+    <value>रीड अलाउड मोड में चैप्टर बदलने की अनुमति नहीं है।</value>
+    <comment>Chapter change is not allowed in ReadAloud mode.</comment>
+  </data>
+  <data name="S_ReadAloudMsg2" xml:space="preserve">
+    <value>अपठनीय वर्ण पाए गए। स्किपिंग।</value>
+    <comment>Unreadable characters detected. Skipping.</comment>
+  </data>
+  <data name="S_ReadAloudMsg3" xml:space="preserve">
+    <value>अगला अध्याय।</value>
+    <comment>Next chapter.</comment>
+  </data>
+  <data name="S_ReadAloudMsg4" xml:space="preserve">
+    <value>पढ़ते समय अनपेक्षित त्रुटि आई है</value>
+    <comment>Unexpected error occurred while reading.</comment>
+  </data>
+  <data name="S_Restore" xml:space="preserve">
+    <value>पुनर्स्थापित करें</value>
+    <comment>Restore</comment>
+  </data>
+  <data name="S_RmSyncFolderMsg1" xml:space="preserve">
+    <value>{0} पुस्तक निकाली गईं।</value>
+    <comment>{0} book(s) removed.</comment>
+  </data>
+  <data name="S_Save" xml:space="preserve">
+    <value>सहेजें</value>
+    <comment>Save</comment>
+  </data>
+  <data name="S_SelectBackupFile" xml:space="preserve">
+    <value>बैकअप फ़ाइल का चयन करें</value>
+    <comment>Select backup file</comment>
+  </data>
+  <data name="S_SelectFolder" xml:space="preserve">
+    <value>फोल्डर का चयन करें</value>
+    <comment>Select folder</comment>
+  </data>
+  <data name="S_Series.Text" xml:space="preserve">
+    <value>शृंखला : </value>
+    <comment>Series : </comment>
+  </data>
+  <data name="S_ShareCollection" xml:space="preserve">
+    <value>संग्रह साझा करें</value>
+    <comment>Share collections</comment>
+  </data>
+  <data name="S_SomethingWentWrong" xml:space="preserve">
+    <value>कुछ गलत हो गया है।</value>
+    <comment>Something went wrong!</comment>
+  </data>
+  <data name="S_Sync_Now" xml:space="preserve">
+    <value>अभी सिंक करें</value>
+    <comment>Sync now</comment>
+  </data>
+  <data name="S_Sync_syncing" xml:space="preserve">
+    <value>सिंक हो रहा है...</value>
+    <comment>Syncing ...</comment>
+  </data>
+  <data name="S_SyncFolder" xml:space="preserve">
+    <value>फ़ोल्डर सिंक करें</value>
+    <comment>Sync Folder</comment>
+  </data>
+  <data name="S_TextCopied" xml:space="preserve">
+    <value>चयनित टेक्स्ट को क्लिपबोर्ड पर कॉपी कर दिया गया है।</value>
+    <comment>Selected text copied to clipboard.</comment>
+  </data>
+  <data name="S_TOCMsg1" xml:space="preserve">
+    <value>विषय सूची अभी भी लोड हो रही है...</value>
+    <comment>Table of Contents is still loading...</comment>
+  </data>
+  <data name="S_Understand" xml:space="preserve">
+    <value>मैं समझता हूँ</value>
+    <comment>I understand</comment>
+  </data>
+  <data name="S_UnPin" xml:space="preserve">
+    <value>अन-पिन करें</value>
+    <comment>Un-Pin</comment>
+  </data>
+  <data name="S_Update" xml:space="preserve">
+    <value>अपडेट करें</value>
+    <comment>Update</comment>
+  </data>
+  <data name="S_UpdateFolder" xml:space="preserve">
+    <value>फोल्डर को अपडेट करें</value>
+    <comment>Update folder</comment>
+  </data>
+  <data name="S_UrlNotExist" xml:space="preserve">
+    <value>Url मौजूद नहीं है!</value>
+    <comment>Url does not exist!</comment>
+  </data>
+  <data name="S_WordCount.Text" xml:space="preserve">
+    <value>शब्द गणना : </value>
+    <comment>Word count : </comment>
+  </data>
+  <data name="S_WrongMsg1" xml:space="preserve">
+    <value>क्षमा करें, लेकिन ऐसा लगता है कि कुछ गलत हो गया है।
+फ़ाइल को फिर से खोलने का प्रयास करें। यदि समस्या बनी रहती है तो कृपया समर्थन से संपर्क करें।</value>
+    <comment>Sorry, but looks like something just went wrong.
+Try opening the file again. If the problem persists please contact support.</comment>
+  </data>
+  <data name="S_Yes" xml:space="preserve">
+    <value>हाँ</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="T_About_copyright.Text" xml:space="preserve">
+    <value>© Optimilia Studios. सर्वाधिकार सुरक्षित।</value>
+    <comment>© Optimilia Studios. All Rights Reserved.</comment>
+  </data>
+  <data name="T_AddBook.Text" xml:space="preserve">
+    <value>प्रारंभ करने के लिए एक पुस्तक डालें</value>
+    <comment>Add a book to get started</comment>
+  </data>
+  <data name="T_AddFolderMsg1.Text" xml:space="preserve">
+    <value>स्कैन कर के पुस्तकें जोड़ रहे हैं</value>
+    <comment>Scanning and adding books</comment>
+  </data>
+  <data name="T_AddFolderRes1.Text" xml:space="preserve">
+    <value>नई पुस्तकें जोड़ी गई : </value>
+    <comment>New books added : </comment>
+  </data>
+  <data name="T_AddFolderRes2.Text" xml:space="preserve">
+    <value>पहले से मौजूद पुस्तकें : </value>
+    <comment>Already existing books : </comment>
+  </data>
+  <data name="T_AddFolderRes3.Text" xml:space="preserve">
+    <value>पुस्तकें जोड़ने में विफल : </value>
+    <comment>Failed to add books : </comment>
+  </data>
+  <data name="T_AddSite.Text" xml:space="preserve">
+    <value>साइट जोड़ें</value>
+    <comment>Add site</comment>
+  </data>
+  <data name="T_AddTheme.Text" xml:space="preserve">
+    <value>थीम जोड़ें</value>
+    <comment>Add theme</comment>
+  </data>
+  <data name="T_AquilePremium.Text" xml:space="preserve">
+    <value>Aquile Reader प्रीमियम</value>
+    <comment>Aquile Reader Premium</comment>
+  </data>
+  <data name="T_Backup_Beta.Text" xml:space="preserve">
+    <value>बीटा</value>
+    <comment>Beta</comment>
+  </data>
+  <data name="T_Backup_Bkp.Text" xml:space="preserve">
+    <value>चयनित कॉन्फ़िगरेशन के साथ एक बैकअप प्रतिलिपि बनाएँ।</value>
+    <comment>Create a backup copy with the selected configurations.</comment>
+  </data>
+  <data name="T_Backup_Heading.Text" xml:space="preserve">
+    <value>बैकअप और पुनर्स्थापना</value>
+    <comment>Backup &amp; Restore</comment>
+  </data>
+  <data name="T_Backup_Restore.Text" xml:space="preserve">
+    <value>बैकअप फ़ाइल से चयनित कॉन्फ़िगरेशन पुनर्स्थापित करें।
+नोट: यह वर्तमान कॉन्फ़िगरेशन को ओवरराइड करेगा, उदाहरण के लिए नए नोट्स, हाइलाइट आदि खो सकते हैं यदि वे बैकअप प्रति में शामिल नहीं हैं।</value>
+    <comment>Restore the selected configurations from the backup file.
+Note: This will override current configurations, e.g. new notes, highlights etc can be lost if they are not contained in the backup copy.</comment>
+  </data>
+  <data name="T_BookmarksEmpty.Text" xml:space="preserve">
+    <value>आपके बुकमार्क यहां दिखाई देंगे।</value>
+    <comment>Find your bookmarks here.</comment>
+  </data>
+  <data name="T_ChangeLog.Text" xml:space="preserve">
+    <value>परिवर्तन लॉग</value>
+    <comment>Change log</comment>
+  </data>
+  <data name="T_Credits1.Text" xml:space="preserve">
+    <value>श्रेय</value>
+    <comment>Credits</comment>
+  </data>
+  <data name="T_CurrentPlan.Text" xml:space="preserve">
+    <value>वर्तमान योजना :</value>
+    <comment>Current Plan :</comment>
+  </data>
+  <data name="T_Custom1" xml:space="preserve">
+    <value>1. पृष्ठभूमि रंग का चयन करें</value>
+    <comment>1. Select background color</comment>
+  </data>
+  <data name="T_Custom2" xml:space="preserve">
+    <value>2. टेक्स्ट अग्रभूमि रंग चुनें</value>
+    <comment>2. Select text foreground color</comment>
+  </data>
+  <data name="T_Custom3" xml:space="preserve">
+    <value>3. रंग मोड का चयन करें</value>
+    <comment>3. Select color mode</comment>
+  </data>
+  <data name="T_DictWebSrch1.Text" xml:space="preserve">
+    <value>इसे देखो</value>
+    <comment>Look this up</comment>
+  </data>
+  <data name="T_DictWebSrch2.Text" xml:space="preserve">
+    <value>वेब पर</value>
+    <comment>on the web</comment>
+  </data>
+  <data name="T_Downloads1.Text" xml:space="preserve">
+    <value>अपने डाउनलोड यहाँ पाएं।</value>
+    <comment>Find your downloads here.</comment>
+  </data>
+  <data name="T_Exp.Text" xml:space="preserve">
+    <value>प्रायोगिक</value>
+    <comment>Experimental</comment>
+  </data>
+  <data name="T_ExpDetails.Text" xml:space="preserve">
+    <value>ये सुविधाएँ अभी भी विकास में हैं और थोड़ी अस्थिर हो सकती हैं। आप उन्हें आज़मा सकते हैं और हमारे साथ प्रतिक्रिया साझा कर सकते हैं।</value>
+    <comment>These features are still in development and might be little unstable or buggy. You can try them out and share feedback with us.</comment>
+  </data>
+  <data name="T_ExpDetailsLink.Text" xml:space="preserve">
+    <value>अधिक विवरण और ज्ञात समस्याएँ</value>
+    <comment>More details and known issues</comment>
+  </data>
+  <data name="T_FavBooks.Text" xml:space="preserve">
+    <value>पसंदीदा पुस्तकें</value>
+    <comment>Favourite Books</comment>
+  </data>
+  <data name="T_FavEmptyMsg.Text" xml:space="preserve">
+    <value>आपकी पसंदीदा पुस्तकें यहां दिखाई देंगी</value>
+    <comment>Your favourite books would appear here</comment>
+  </data>
+  <data name="T_FontStyle.Text" xml:space="preserve">
+    <value>फ़ॉन्ट शैली</value>
+    <comment>Font style</comment>
+  </data>
+  <data name="t_For.Text" xml:space="preserve">
+    <value>के लिए</value>
+    <comment>for</comment>
+  </data>
+  <data name="T_GeneralSettings.Text" xml:space="preserve">
+    <value>सामान्य सेटिंग्स</value>
+    <comment>General Settings</comment>
+  </data>
+  <data name="T_HighEdit1.Text" xml:space="preserve">
+    <value>टेक्स्ट हाइलाइट रंग चुनें</value>
+    <comment>Select text highlight color</comment>
+  </data>
+  <data name="T_HighlightColor.Text" xml:space="preserve">
+    <value>हाइलाइट रंग</value>
+    <comment>Highlight color</comment>
+  </data>
+  <data name="T_HighNotesEmpty.Text" xml:space="preserve">
+    <value>आपके नोट्स और हाइलाइट्स यहां दिखाई देंगे।</value>
+    <comment>Find your notes and highlights here.</comment>
+  </data>
+  <data name="T_Initializing.Text" xml:space="preserve">
+    <value>शुरू हो रहा है</value>
+    <comment>Initializing</comment>
+  </data>
+  <data name="T_Language.Text" xml:space="preserve">
+    <value>भाषा</value>
+    <comment>Language</comment>
+  </data>
+  <data name="T_LineSpace.Text" xml:space="preserve">
+    <value>पंक्ति के बीच ख़ाली जगह</value>
+    <comment>Line space</comment>
+  </data>
+  <data name="T_NoCollections.Text" xml:space="preserve">
+    <value>कोई संग्रह उपलब्ध नहीं है</value>
+    <comment>No Collections available</comment>
+  </data>
+  <data name="T_NoDefFound.Text" xml:space="preserve">
+    <value>कोई परिभाषा नहीं मिली</value>
+    <comment>No definition found</comment>
+  </data>
+  <data name="T_NoMatchesFound.Text" xml:space="preserve">
+    <value>कोई मेल नहीं मिले</value>
+    <comment>No matches found</comment>
+  </data>
+  <data name="T_NoteText.PlaceholderText" xml:space="preserve">
+    <value>नोट टेक्स्ट लिखें</value>
+    <comment>Enter note text</comment>
+  </data>
+  <data name="T_OBPlaceHolder.Text" xml:space="preserve">
+    <value>ईपुस्तकें डाउनलोड करना प्रारंभ करने के लिए साइट का चयन करें</value>
+    <comment>Select the site to start downloading eBooks</comment>
+  </data>
+  <data name="T_OnlineBooksWarn1.Text" xml:space="preserve">
+    <value>महत्वपूर्ण जानकारी</value>
+    <comment>Important Information</comment>
+  </data>
+  <data name="T_OnlineBooksWarn2.Text" xml:space="preserve">
+    <value>हम आपके लॉगिन की निरंतरता बनाए रखने और बेहतर अनुभव प्रदान करने के लिए वेबसाइटों द्वारा उपयोग की जाने वाली कुकीज़ को सहेजते हैं।</value>
+    <comment>We save the cookies used by websites to maintain continuity of your logins and provide better experience.</comment>
+  </data>
+  <data name="T_OnlineBooksWarn3.Text" xml:space="preserve">
+    <value>हम यहां से खरीदारी/भुगतान करने की अनुशंसा नहीं करते हैं, कृपया इसके लिए अपने नियमित ब्राउज़र का उपयोग करें।</value>
+    <comment>We don't recommend making purchases/payments from here, please use your regular browser for the same.</comment>
+  </data>
+  <data name="T_OpeningBook.Text" xml:space="preserve">
+    <value>पुस्तक खुल रही है</value>
+    <comment>Opening Book</comment>
+  </data>
+  <data name="T_OpenLibrary.Text" xml:space="preserve">
+    <value>पुस्तकालय खोलें</value>
+    <comment>Open Library</comment>
+  </data>
+  <data name="T_PageLayout.Text" xml:space="preserve">
+    <value>पृष्ठ विन्यास</value>
+    <comment>Page layout</comment>
+  </data>
+  <data name="T_PageTheme.Text" xml:space="preserve">
+    <value>पृष्ठ थीम</value>
+    <comment>Page themes</comment>
+  </data>
+  <data name="T_ParagraphSpace.Text" xml:space="preserve">
+    <value>अनुच्छेद के बीच ख़ाली जगह</value>
+    <comment>Paragraph space</comment>
+  </data>
+  <data name="T_Personalization.Text" xml:space="preserve">
+    <value>वैयक्तिकरण</value>
+    <comment>Personalization</comment>
+  </data>
+  <data name="T_Processing.Text" xml:space="preserve">
+    <value>प्रसंस्करण</value>
+    <comment>Processing</comment>
+  </data>
+  <data name="T_RaPremMsg.Text" xml:space="preserve">
+    <value>टीटीएस (टेक्स्ट-टू-स्पीच) ऑडियो नियंत्रण जिसमें पढ़ने की गति, आवाज का स्तर और वॉल्यूम शामिल हैं, केवल ऐप के प्रीमियम संस्करण में उपलब्ध हैं।</value>
+    <comment>TTS (Text-to-Speech) audio controls which include reading speed, audio pitch and volume are only available in premium version of the app.</comment>
+  </data>
+  <data name="T_ReaderSettings.Text" xml:space="preserve">
+    <value>रीडर सेटिंग्स</value>
+    <comment>Reader Settings</comment>
+  </data>
+  <data name="T_RecentReads.Text" xml:space="preserve">
+    <value>हाल के पठन</value>
+    <comment>Recent Reads</comment>
+  </data>
+  <data name="T_RmSyncFolder.Text" xml:space="preserve">
+    <value>सिंक फ़ोल्डर निकालें</value>
+    <comment>Remove Sync Folder</comment>
+  </data>
+  <data name="T_RmSyncFolderConf.Text" xml:space="preserve">
+    <value>क्या आप वाकई इस सिंक किए गए फ़ोल्डर को हटाना चाहते हैं?</value>
+    <comment>Are you sure you want to remove this synced folder?</comment>
+  </data>
+  <data name="T_RmSyncFolderMsg1.Text" xml:space="preserve">
+    <value>किताबें निकाल रहे हैं</value>
+    <comment>Removing books</comment>
+  </data>
+  <data name="T_SBInput.PlaceholderText" xml:space="preserve">
+    <value>खोजें ...</value>
+    <comment>Find ...</comment>
+  </data>
+  <data name="T_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>शीर्षक या लेखक के नाम से खोजें ...</value>
+    <comment>Search by title or author name ...</comment>
+  </data>
+  <data name="T_Searching.Text" xml:space="preserve">
+    <value>खोज रहे हैं</value>
+    <comment>Searching</comment>
+  </data>
+  <data name="T_SeeMore.Text" xml:space="preserve">
+    <value>अधिक देखें</value>
+    <comment>See more</comment>
+  </data>
+  <data name="T_SelectFolder.Text" xml:space="preserve">
+    <value>फ़ोल्डर का चयन करें</value>
+    <comment>Select folder</comment>
+  </data>
+  <data name="T_Settings.Text" xml:space="preserve">
+    <value>सेटिंग्स</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="T_SiteUrl.Text" xml:space="preserve">
+    <value>साइट का url : </value>
+    <comment>Site url : </comment>
+  </data>
+  <data name="T_SomeWentWrong.Text" xml:space="preserve">
+    <value>कुछ गलत हो गया, कृपया पुनः प्रयास करें।</value>
+    <comment>Something went wrong, please try again.</comment>
+  </data>
+  <data name="T_SpeechSpeed.Text" xml:space="preserve">
+    <value>बोलने की गति</value>
+    <comment>Speech speed</comment>
+  </data>
+  <data name="T_Statistics.Text" xml:space="preserve">
+    <value>आंकड़े</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="T_Sync_AddFolder.Text" xml:space="preserve">
+    <value>सिंक फ़ोल्डर जोड़ें</value>
+    <comment>Add sync folder</comment>
+  </data>
+  <data name="T_Sync_BookCount.Text" xml:space="preserve">
+    <value>पुस्तक संख्या : </value>
+    <comment>Book count : </comment>
+  </data>
+  <data name="T_Sync_msg1.Text" xml:space="preserve">
+    <value>यह Aquile Reader लाइब्रेरी और आपके स्थानीय पुस्तक संग्रह को सिंक में रखने का एक आसान तरीका प्रदान करता है।</value>
+    <comment>This provides an easy way to keep the Aquile Reader library and your local book collection in sync.</comment>
+  </data>
+  <data name="T_Sync_msg2.Text" xml:space="preserve">
+    <value>ऐप स्टार्ट-अप पर Aquile Reader 'सिंक फोल्डर्स' से किताबों को सिंक करता है और ऐप लाइब्रेरी से स्वचालित रूप से किताबें जोड़ता/हटाता है।</value>
+    <comment>Aquile Reader on app start-up syncs books from 'Sync Folders' and automatically add/remove books from the app library.</comment>
+  </data>
+  <data name="T_Sync_SyncFolders.Text" xml:space="preserve">
+    <value>फोल्डर सिंक करें</value>
+    <comment>Sync Folders</comment>
+  </data>
+  <data name="T_TextAlignment.Text" xml:space="preserve">
+    <value>पाठ संरेखण</value>
+    <comment>Text alignment</comment>
+  </data>
+  <data name="T_TextSize.Text" xml:space="preserve">
+    <value>पाठ का आकार</value>
+    <comment>Text size</comment>
+  </data>
+  <data name="T_TextSizeDecrease.Text" xml:space="preserve">
+    <value>अ-</value>
+    <comment>A-</comment>
+  </data>
+  <data name="T_TextSizeDecrease.ToolTipService.ToolTip" xml:space="preserve">
+    <value>घटाएं (Ctrl + -)</value>
+    <comment>Decrease (Ctrl + -)</comment>
+  </data>
+  <data name="T_TextSizeIncrease.Text" xml:space="preserve">
+    <value>अ+</value>
+    <comment>A+</comment>
+  </data>
+  <data name="T_TextSizeIncrease.ToolTipService.ToolTip" xml:space="preserve">
+    <value>बढ़ाएँ (Ctrl + +)</value>
+    <comment>Increase (Ctrl + +)</comment>
+  </data>
+  <data name="T_Title.Text" xml:space="preserve">
+    <value>शीर्षक : </value>
+    <comment>Title : </comment>
+  </data>
+  <data name="T_TocEmpty.Text" xml:space="preserve">
+    <value>इस पुस्तक के लिए विषय सूची उपलब्ध नहीं है।</value>
+    <comment>Table of contents is not available for this book.</comment>
+  </data>
+  <data name="T_Voice.Text" xml:space="preserve">
+    <value>वाणी</value>
+    <comment>Voice</comment>
+  </data>
+  <data name="T_VoiceGender.Text" xml:space="preserve">
+    <value>वाणी लिंग</value>
+    <comment>Voice gender</comment>
+  </data>
+  <data name="T_VoicePitch.Text" xml:space="preserve">
+    <value>आवाज का स्तर</value>
+    <comment>Voice pitch</comment>
+  </data>
+  <data name="T_Volume.Text" xml:space="preserve">
+    <value>वॉल्यूम</value>
+    <comment>Volume</comment>
+  </data>
+  <data name="T_WordSpace.Text" xml:space="preserve">
+    <value>शब्द के बीच ख़ाली जगह</value>
+    <comment>Word space</comment>
+  </data>
+  <data name="TC_B_DarkMode.Content" xml:space="preserve">
+    <value>डार्क मोड</value>
+    <comment>Dark mode</comment>
+  </data>
+  <data name="TC_B_LightMode.Content" xml:space="preserve">
+    <value>लाइट मोड</value>
+    <comment>Light mode</comment>
+  </data>
+  <data name="TC_S_ErrMsg1" xml:space="preserve">
+    <value>थीम का नाम 1-15 वर्णों के बीच होना चाहिए।</value>
+    <comment>Theme name should be between 1-15 chars.</comment>
+  </data>
+  <data name="TC_S_SelectAccentColor" xml:space="preserve">
+    <value>2. एक्सेंट रंग चुनें</value>
+    <comment>2. Select accent color</comment>
+  </data>
+  <data name="TC_S_SelectBackColor" xml:space="preserve">
+    <value>1. पृष्ठभूमि का रंग चुनें</value>
+    <comment>1. Select background color</comment>
+  </data>
+  <data name="TC_S_SelectColorMode" xml:space="preserve">
+    <value>3. रंग मोड का चयन करें</value>
+    <comment>3. Select color mode</comment>
+  </data>
+  <data name="TC_T_ThemeName.Text" xml:space="preserve">
+    <value>4. थीम का नाम</value>
+    <comment>4. Name of theme</comment>
+  </data>
+  <data name="TM_Author.Text" xml:space="preserve">
+    <value>लेखक</value>
+    <comment>Author</comment>
+  </data>
+  <data name="TM_FilePath.Text" xml:space="preserve">
+    <value>फ़ाइल पथ</value>
+    <comment>File Path</comment>
+  </data>
+  <data name="TM_Genre.Text" xml:space="preserve">
+    <value>शैली</value>
+    <comment>Genre</comment>
+  </data>
+  <data name="TM_ImportTime.Text" xml:space="preserve">
+    <value>आयात समय</value>
+    <comment>Import time</comment>
+  </data>
+  <data name="TM_Language.Text" xml:space="preserve">
+    <value>भाषा</value>
+    <comment>Language</comment>
+  </data>
+  <data name="TM_LastReadTime.Text" xml:space="preserve">
+    <value>अंतिम पढ़ने का समय</value>
+    <comment>Last read time</comment>
+  </data>
+  <data name="TM_None.Text" xml:space="preserve">
+    <value>(कोई नहीं)</value>
+    <comment>(None)</comment>
+  </data>
+  <data name="TM_Publisher.Text" xml:space="preserve">
+    <value>प्रकाशक</value>
+    <comment>Publisher</comment>
+  </data>
+  <data name="TM_ReadingProg.Text" xml:space="preserve">
+    <value>पढ़ने की प्रगति</value>
+    <comment>Reading progress</comment>
+  </data>
+  <data name="TM_Series.Text" xml:space="preserve">
+    <value>शृंखला</value>
+    <comment>Series</comment>
+  </data>
+  <data name="TM_SeriesNum.Text" xml:space="preserve">
+    <value>श्रृंखला संख्या</value>
+    <comment>Series Number</comment>
+  </data>
+  <data name="TM_Title.Text" xml:space="preserve">
+    <value>शीर्षक</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ToggleSwitch.OffContent" xml:space="preserve">
+    <value>निष्क्रिय</value>
+    <comment>Disabled</comment>
+  </data>
+  <data name="ToggleSwitch.OnContent" xml:space="preserve">
+    <value>सक्रिय</value>
+    <comment>Enabled</comment>
+  </data>
+  <data name="S_Previous" xml:space="preserve">
+    <value>पिछला</value>
+    <comment>Previous</comment>
+  </data>
+</root>
