@@ -59,10 +59,7 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root"
-    xmlns=""
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -2150,5 +2147,109 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
   <data name="S_Previous" xml:space="preserve">
     <value></value>
     <comment>Previous</comment>
+  </data>
+  <data name="S_B_AppRestart" xml:space="preserve">
+    <value></value>
+    <comment>App restart needed</comment>
+  </data>
+  <data name="S_B_AppRestartFailed" xml:space="preserve">
+    <value></value>
+    <comment>Unable to restart the app, please restart manually for changes to take effect.</comment>
+  </data>
+  <data name="S_B_LangRestartMsg" xml:space="preserve">
+    <value></value>
+    <comment>App restart is required for display language change to take effect. Do you want to proceed?</comment>
+  </data>
+  <data name="S_B_Upgrade" xml:space="preserve">
+    <value></value>
+    <comment>Upgrade</comment>
+  </data>
+  <data name="S_B_UpgradePremMsg" xml:space="preserve">
+    <value></value>
+    <comment>Upgrade to Aquile Reader Premium!</comment>
+  </data>
+  <data name="T_HelpTranslateLink" xml:space="preserve">
+    <value></value>
+    <comment>Help translate to more languages</comment>
+  </data>
+  <data name="S_Free.Text" xml:space="preserve">
+    <value></value>
+    <comment>Free Version</comment>
+  </data>
+  <data name="S_Free_Msg1.Text" xml:space="preserve">
+    <value></value>
+    <comment>Advertisements in the app</comment>
+  </data>
+  <data name="S_Free_Msg2.Text" xml:space="preserve">
+    <value></value>
+    <comment>Max 40 collection items supported</comment>
+  </data>
+  <data name="S_Free_Msg3.Text" xml:space="preserve">
+    <value></value>
+    <comment>Max 20 books in the library</comment>
+  </data>
+  <data name="S_Free_Msg4.Text" xml:space="preserve">
+    <value></value>
+    <comment>Custom color schemes not supported in the Reader</comment>
+  </data>
+  <data name="S_Free_Msg5.Text" xml:space="preserve">
+    <value></value>
+    <comment>Only 1 custom app color theme allowed</comment>
+  </data>
+  <data name="S_Free_Msg6.Text" xml:space="preserve">
+    <value></value>
+    <comment>Limited number of fonts supported in the reader</comment>
+  </data>
+  <data name="S_Free_Msg7.Text" xml:space="preserve">
+    <value></value>
+    <comment>Limited TTS (Text-to-Speech) support</comment>
+  </data>
+  <data name="S_Free_Msg8.Text" xml:space="preserve">
+    <value></value>
+    <comment>Only 1 sync folder allowed</comment>
+  </data>
+  <data name="S_Free_Msg9.Text" xml:space="preserve">
+    <value></value>
+    <comment>Max 5 books can be pinned to Start screen at a time</comment>
+  </data>
+  <data name="S_PremPage.Text" xml:space="preserve">
+    <value></value>
+    <comment>Premium Version</comment>
+  </data>
+  <data name="S_PremPage_Msg1.Text" xml:space="preserve">
+    <value></value>
+    <comment>Ad free reading experience</comment>
+  </data>
+  <data name="S_PremPage_Msg2.Text" xml:space="preserve">
+    <value></value>
+    <comment>No limit on collections (highlights, notes &amp;amp; bookmarks)</comment>
+  </data>
+  <data name="S_PremPage_Msg3.Text" xml:space="preserve">
+    <value></value>
+    <comment>No limit on number of books in the library</comment>
+  </data>
+  <data name="S_PremPage_Msg4.Text" xml:space="preserve">
+    <value></value>
+    <comment>Custom color schemes available in the Reader</comment>
+  </data>
+  <data name="S_PremPage_Msg5.Text" xml:space="preserve">
+    <value></value>
+    <comment>Support for any number of custom app color themes</comment>
+  </data>
+  <data name="S_PremPage_Msg6.Text" xml:space="preserve">
+    <value></value>
+    <comment>Access to all fonts installed in the system</comment>
+  </data>
+  <data name="S_PremPage_Msg7.Text" xml:space="preserve">
+    <value></value>
+    <comment>Full TTS (Text-to-Speech) experience</comment>
+  </data>
+  <data name="S_PremPage_Msg8.Text" xml:space="preserve">
+    <value></value>
+    <comment>No limit on number of sync folders</comment>
+  </data>
+  <data name="S_PremPage_Msg9.Text" xml:space="preserve">
+    <value></value>
+    <comment>No limit on number books pinned to Start screen</comment>
   </data>
 </root>
