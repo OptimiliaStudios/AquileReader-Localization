@@ -583,10 +583,8 @@
   </data>
   <data name="C_General_Lang.Description" xml:space="preserve">
     <value>Buttons, menus and other controls will show in this language.
-Select 'System' to use device's selected language.
 This setting will be applied on the next start of the app.</value>
     <comment>Buttons, menus and other controls will show in this language.
-Select 'System' to use device's selected language.
 This setting will be applied on the next start of the app.</comment>
   </data>
   <data name="C_General_Lang.Title" xml:space="preserve">
@@ -646,12 +644,12 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Auto switch to 1 column layout</comment>
   </data>
   <data name="C_Reader_AutoScroll.Description" xml:space="preserve">
-    <value>ReadAloud auto-scroll</value>
-    <comment>ReadAloud auto-scroll</comment>
-  </data>
-  <data name="C_Reader_AutoScroll.Title" xml:space="preserve">
     <value>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</value>
     <comment>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</comment>
+  </data>
+  <data name="C_Reader_AutoScroll.Title" xml:space="preserve">
+    <value>ReadAloud auto-scroll</value>
+    <comment>ReadAloud auto-scroll</comment>
   </data>
   <data name="C_Reader_BookFont.Description" xml:space="preserve">
     <value>Reader uses the original fonts packaged with the book</value>

@@ -584,7 +584,6 @@
   <data name="C_General_Lang.Description" xml:space="preserve">
     <value></value>
     <comment>Buttons, menus and other controls will show in this language.
-Select 'System' to use device's selected language.
 This setting will be applied on the next start of the app.</comment>
   </data>
   <data name="C_General_Lang.Title" xml:space="preserve">

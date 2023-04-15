@@ -583,10 +583,8 @@
   </data>
   <data name="C_General_Lang.Description" xml:space="preserve">
     <value>बटन, मेनू और अन्य नियंत्रण इस भाषा में दिखाई देंगे।
-डिवाइस की चयनित भाषा का उपयोग करने के लिए 'सिस्टम' चुनें।
 यह सेटिंग ऐप के अगले प्रारंभ पर लागू की जाएगी।</value>
     <comment>Buttons, menus and other controls will show in this language.
-Select 'System' to use device's selected language.
 This setting will be applied on the next start of the app.</comment>
   </data>
   <data name="C_General_Lang.Title" xml:space="preserve">

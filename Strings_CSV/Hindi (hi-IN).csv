@@ -116,9 +116,7 @@
 "C_General_BookTitle.Description","लाइब्रेरी दृश्य में सभी पुस्तकों के लिए शीर्षक प्रदर्शित करें","Display title for all books in the library view"
 "C_General_BookTitle.Title","पुस्तक शीर्षक दिखाएं","Show book titles"
 "C_General_Lang.Description","बटन, मेनू और अन्य नियंत्रण इस भाषा में दिखाई देंगे।
-डिवाइस की चयनित भाषा का उपयोग करने के लिए 'सिस्टम' चुनें।
 यह सेटिंग ऐप के अगले प्रारंभ पर लागू की जाएगी।","Buttons, menus and other controls will show in this language.
-Select 'System' to use device's selected language.
 This setting will be applied on the next start of the app."
 "C_General_Lang.Title","प्रदर्शन भाषा","Display language"
 "C_General_Tutorial.Description","सभी ट्यूटोरियल फिर से दिखाएँ","Show all the tutorials again"

@@ -116,7 +116,6 @@
 "C_General_BookTitle.Description","","Display title for all books in the library view"
 "C_General_BookTitle.Title","","Show book titles"
 "C_General_Lang.Description","","Buttons, menus and other controls will show in this language.
-Select 'System' to use device's selected language.
 This setting will be applied on the next start of the app."
 "C_General_Lang.Title","","Display language"
 "C_General_Tutorial.Description","","Show all the tutorials again"
