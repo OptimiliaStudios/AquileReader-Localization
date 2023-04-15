@@ -647,11 +647,11 @@ This setting will be applied on the next start of the app.</comment>
   </data>
   <data name="C_Reader_AutoScroll.Description" xml:space="preserve">
     <value>रीड अलाउड मोड में पढ़े जा रहे वाक्य का पालन करने के लिए पेज को ऑटो स्क्रॉल करें</value>
-    <comment>ReadAloud auto-scroll</comment>
+    <comment>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</comment>
   </data>
   <data name="C_Reader_AutoScroll.Title" xml:space="preserve">
     <value>रीड अलाउड ऑटो-स्क्रॉल</value>
-    <comment>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</comment>
+    <comment>ReadAloud auto-scroll</comment>
   </data>
   <data name="C_Reader_BookFont.Description" xml:space="preserve">
     <value>रीडर पुस्तक के साथ पैक किए गए मूल फोंट का उपयोग करेगा</value>

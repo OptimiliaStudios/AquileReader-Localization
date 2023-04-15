@@ -645,11 +645,11 @@ This setting will be applied on the next start of the app.</comment>
   </data>
   <data name="C_Reader_AutoScroll.Description" xml:space="preserve">
     <value></value>
-    <comment>ReadAloud auto-scroll</comment>
+    <comment>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</comment>
   </data>
   <data name="C_Reader_AutoScroll.Title" xml:space="preserve">
     <value></value>
-    <comment>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</comment>
+    <comment>ReadAloud auto-scroll</comment>
   </data>
   <data name="C_Reader_BookFont.Description" xml:space="preserve">
     <value></value>
