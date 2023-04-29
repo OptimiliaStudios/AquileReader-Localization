@@ -318,11 +318,11 @@
         <comment>Open Book</comment>
     </data>
     <data name="B_Pag1Cols.ToolTipService.ToolTip" xml:space="preserve">
-        <value>1 колонка з розбивкою по сторінках</value>
+        <value>1 колонка з поділом на сторінки</value>
         <comment>Paginated 1 column</comment>
     </data>
     <data name="B_Pag2Cols.ToolTipService.ToolTip" xml:space="preserve">
-        <value>2 колонки з розбивкою по сторінках</value>
+        <value>2 колонка з поділом на сторінки</value>
         <comment>Paginated 2 columns</comment>
     </data>
     <data name="B_PagVertical.ToolTipService.ToolTip" xml:space="preserve">
@@ -466,7 +466,7 @@
         <comment>Table Of Contents</comment>
     </data>
     <data name="B_ToggleFav.ToolTipService.ToolTip" xml:space="preserve">
-        <value>Позначити обраним</value>
+        <value>Перемкнути Вибране</value>
         <comment>Toggle Favorite</comment>
     </data>
     <data name="B_ToggleFullscreen.ToolTipService.ToolTip" xml:space="preserve">
@@ -738,11 +738,11 @@
         <comment>Language(s) : </comment>
     </data>
     <data name="EBI_Msg1.Text" xml:space="preserve">
-        <value> • (множина) - Використовуйте крапку з комою ( ; ) щоб відокремити декілька елементів.</value>
+        <value> • (и) - Використовуйте крапку з комою ( ; ) щоб відокремити декілька елементів.</value>
         <comment> • (s) - Use semi-colon ( ; ) to separate multiple entries.</comment>
     </data>
     <data name="EBI_Publisher.Text" xml:space="preserve">
-        <value>Видавець(і): </value>
+        <value>Видавець(и): </value>
         <comment>Publisher(s) : </comment>
     </data>
     <data name="EBI_Series.Text" xml:space="preserve">
@@ -758,7 +758,7 @@
         <comment>Edit book information</comment>
     </data>
     <data name="IAP_Discount.Text" xml:space="preserve">
-        <value>-20%</value>
+        <value>Знижка 20%</value>
         <comment>20% off</comment>
     </data>
     <data name="IAP_Popular.Text" xml:space="preserve">
@@ -782,7 +782,7 @@
         <comment>Add folder</comment>
     </data>
     <data name="M_Backup.Content" xml:space="preserve">
-        <value>Резервна копія</value>
+        <value>Резервна копія і відновлення</value>
         <comment>Backup &amp; Restore</comment>
     </data>
     <data name="M_BookInfo.Text" xml:space="preserve">
@@ -1554,11 +1554,11 @@
         <comment>Premium [Lifetime]</comment>
     </data>
     <data name="S_PremOff1" xml:space="preserve">
-        <value>-25%</value>
+        <value>Знижка 25%</value>
         <comment>25% off</comment>
     </data>
     <data name="S_PremOff2" xml:space="preserve">
-        <value>-30%</value>
+        <value>Знижка 30%</value>
         <comment>30% off</comment>
     </data>
     <data name="S_PremQuarterly" xml:space="preserve">
@@ -1857,15 +1857,15 @@
         <value>Виберіть сайт, щоб почати завантажувати електронні книги</value>
         <comment>Select the site to start downloading eBooks</comment>
     </data>
-    <data name="T_OnlineBooksWarn1.Text" xml:space="preserve">
+    <data name="T_OnlineBooksWarn1" xml:space="preserve">
         <value>Важлива інформація</value>
         <comment>Important Information</comment>
     </data>
-    <data name="T_OnlineBooksWarn2.Text" xml:space="preserve">
+    <data name="T_OnlineBooksWarn2" xml:space="preserve">
         <value>Ми зберігаємо файли cookie, які використовуються веб-сайтами, щоб пам'ятати входи в облікові записи і забезпечувати кращий користувацький досвід.</value>
         <comment>We save the cookies used by websites to maintain continuity of your logins and provide better experience.</comment>
     </data>
-    <data name="T_OnlineBooksWarn3.Text" xml:space="preserve">
+    <data name="T_OnlineBooksWarn3" xml:space="preserve">
         <value>Ми не рекомендуємо робити покупки/платежі звідси, будь ласка, використовуйте для цього свій звичайний браузер.</value>
         <comment>We don't recommend making purchases/payments from here, please use your regular browser for the same.</comment>
     </data>

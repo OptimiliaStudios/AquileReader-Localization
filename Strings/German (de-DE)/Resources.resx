@@ -1883,15 +1883,15 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <value></value>
     <comment>Select the site to start downloading eBooks</comment>
   </data>
-  <data name="T_OnlineBooksWarn1.Text" xml:space="preserve">
+  <data name="T_OnlineBooksWarn1" xml:space="preserve">
     <value></value>
     <comment>Important Information</comment>
   </data>
-  <data name="T_OnlineBooksWarn2.Text" xml:space="preserve">
+  <data name="T_OnlineBooksWarn2" xml:space="preserve">
     <value></value>
     <comment>We save the cookies used by websites to maintain continuity of your logins and provide better experience.</comment>
   </data>
-  <data name="T_OnlineBooksWarn3.Text" xml:space="preserve">
+  <data name="T_OnlineBooksWarn3" xml:space="preserve">
     <value></value>
     <comment>We don't recommend making purchases/payments from here, please use your regular browser for the same.</comment>
   </data>

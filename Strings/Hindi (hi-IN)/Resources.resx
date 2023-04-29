@@ -1909,15 +1909,15 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <value>ईपुस्तकें डाउनलोड करना प्रारंभ करने के लिए साइट का चयन करें</value>
     <comment>Select the site to start downloading eBooks</comment>
   </data>
-  <data name="T_OnlineBooksWarn1.Text" xml:space="preserve">
+  <data name="T_OnlineBooksWarn1" xml:space="preserve">
     <value>महत्वपूर्ण जानकारी</value>
     <comment>Important Information</comment>
   </data>
-  <data name="T_OnlineBooksWarn2.Text" xml:space="preserve">
+  <data name="T_OnlineBooksWarn2" xml:space="preserve">
     <value>हम आपके लॉगिन की निरंतरता बनाए रखने और बेहतर अनुभव प्रदान करने के लिए वेबसाइटों द्वारा उपयोग की जाने वाली कुकीज़ को सहेजते हैं।</value>
     <comment>We save the cookies used by websites to maintain continuity of your logins and provide better experience.</comment>
   </data>
-  <data name="T_OnlineBooksWarn3.Text" xml:space="preserve">
+  <data name="T_OnlineBooksWarn3" xml:space="preserve">
     <value>हम यहां से खरीदारी/भुगतान करने की अनुशंसा नहीं करते हैं, कृपया इसके लिए अपने नियमित ब्राउज़र का उपयोग करें।</value>
     <comment>We don't recommend making purchases/payments from here, please use your regular browser for the same.</comment>
   </data>
