@@ -115,7 +115,9 @@
 "C_General_Advt.Title","Рекламні вподобання","Advt. preference"
 "C_General_BookTitle.Description","Відображати назви для всіх книг у бібліотеці","Display title for all books in the library view"
 "C_General_BookTitle.Title","Показувати назви книг","Show book titles"
-"C_General_Lang.Description","Кнопки, меню і інші елементи будуть відображатися цією мовою. Це налаштування буде застосоване при наступному старті програми.","Buttons, menus and other controls will show in this language.This setting will be applied on the next start of the app."
+"C_General_Lang.Description","Кнопки, меню і інші елементи будуть відображатися цією мовою.
+Це налаштування буде застосоване при наступному старті програми.","Buttons, menus and other controls will show in this language.
+This setting will be applied on the next start of the app."
 "C_General_Lang.Title","Мова інтерфейсу","Display language"
 "C_General_Tutorial.Description","Знову показати покрокову інструкцію","Show all the tutorials again"
 "C_General_Tutorial.Title","Скинути інструкцію","Reset tutorials"
@@ -159,13 +161,13 @@
 "EBI_Series.Text","Серія: ","Series : "
 "EBI_SeriesNumber.Text","Номер в серії: ","Series Number : "
 "EBI_Title.Text","Редагування інформації про книгу","Edit book information"
-"IAP_Discount.Text","Знижка 20%","20% off"
+"IAP_Discount.Text","- 20%","20% off"
 "IAP_Popular.Text","Найпопулярніше","Most Popular"
 "M_About.Content","Про нас","About us"
 "M_AddBook.Text","Додати файли книг","Add book file(s)"
 "M_AddFavourite.Text","Додати в обране","Add Favourite"
 "M_AddFolder.Text","Додати папку","Add folder"
-"M_Backup.Content","Резервна копія і відновлення","Backup & Restore"
+"M_Backup.Content","Резервна копія","Backup & Restore"
 "M_BookInfo.Text","Інформація про книгу","Book Info"
 "M_ChngLog.Content","Журнал змін","Change log"
 "M_CreationTime.Text","Дата створення","Creation time"
@@ -216,10 +218,18 @@
 "S_AS_SpeedWPM","Швидкість читання (слів на хвилину)","Reading speed (words per minute)"
 "S_AS_TotalReadHours","Всього годин читання","Total reading hours"
 "S_B_Close","Закрити","Close"
-"S_B_OnlineBookContent1","Виберіть веб-сайт, з якого ви хочете завантажити електронну книгу.[1/4]","Select the website from where you want to download the eBook.[1/4]"
-"S_B_OnlineBookContent2","Перегляньте каталог і натисніть будь-яке посилання для завантаження електронної книги. Програма завантажить книгу та додасть її до бібліотеки.[2/4]","Browse the catalog and click on any eBook download link. App will download the book and add it to the library.[2/4]"
-"S_B_OnlineBookContent3","Ваші завантаження відображатимуться тут.[3/4]","Your downloads would appear here.[3/4]"
-"S_B_OnlineBookContent4","Додайте власний веб-сайт, звідки ви хочете завантажувати електронні книги.[4/4]","Add your own website from where you want to download eBooks.[4/4]"
+"S_B_OnlineBookContent1","Виберіть веб-сайт, з якого ви хочете завантажити електронну книгу.
+[1/4]","Select the website from where you want to download the eBook.
+[1/4]"
+"S_B_OnlineBookContent2","Перегляньте каталог і натисніть будь-яке посилання для завантаження електронної книги. Програма завантажить книгу та додасть її до бібліотеки.
+[2/4]","Browse the catalog and click on any eBook download link. App will download the book and add it to the library.
+[2/4]"
+"S_B_OnlineBookContent3","Ваші завантаження відображатимуться тут.
+[3/4]","Your downloads would appear here.
+[3/4]"
+"S_B_OnlineBookContent4","Додайте власний веб-сайт, звідки ви хочете завантажувати електронні книги.
+[4/4]","Add your own website from where you want to download eBooks.
+[4/4]"
 "S_B_OnlineBookTitle1","Виберіть веб-сайт з електронними книгами","Select eBook website"
 "S_B_OnlineBookTitle2","Завантажте електронну книгу","Download eBook"
 "S_B_OnlineBookTitle3","Відстежуйте завантаження","Track downloads"
@@ -228,14 +238,31 @@
 "S_B_StartReading","Почати читання (Пробіл)","Start Reading (Space)"
 "S_B_TutDone","Готово","Done"
 "S_B_TutNext","Далі","Next"
-"S_B_TutReaderContent1","Щоб перейти до наступної чи попередньої сторінки, торкніться країв екрана, проведіть пальцем по сторінці, використовуйте клавіші ← / → на клавіатурі або колесо миші.[1/8]","Tap on the edges of the screen, swipe the page, use ← / → keyboard keys or use mouse scroll wheel, to go to next or previous page.[1/8]"
-"S_B_TutReaderContent2","Виділіть текст або клацніть будь-яке слово правою кнопкою миші, щоб відкрити контекстне меню читалки.Звідси ви можете додати примітку, виділити маркером або зробити закладку.[2/8]","Select text or right click on any word to open the Reader context menu.You can add note, highlight or bookmark from here.[2/8]"
-"S_B_TutReaderContent3","Тут ви можете знайти зміст книги.[3/8]","Access the table of contents of the book from here.[3/8]"
-"S_B_TutReaderContent4","Ваші примітки і виділені маркером фрагменти будуть тут.[4/8]","Your notes and highlights would be listed here.[4/8]"
-"S_B_TutReaderContent5","Закладки з'являться тут.[5/8]","Set bookmarks would appear here.[5/8]"
-"S_B_TutReaderContent6","Шукайте в поточній главі або в усій книзі.[6/8]","Search in the current chapter or the entire book.[6/8]"
-"S_B_TutReaderContent7","За допомогою цього можна читати книгу вголос (синтез мовлення).[7/8]","You can use this to read aloud the book contents (text-to-speech).[7/8]"
-"S_B_TutReaderContent8","Тут ви можете налаштувати макет сторінки, стиль, колірну схему тощо.[8/8]","You can configure the page layout, style, color scheme, etc. from here.[8/8]"
+"S_B_TutReaderContent1","Щоб перейти до наступної чи попередньої сторінки, торкніться країв екрана, проведіть пальцем по сторінці, використовуйте клавіші ← / → на клавіатурі або колесо миші.
+[1/8]","Tap on the edges of the screen, swipe the page, use ← / → keyboard keys or use mouse scroll wheel, to go to next or previous page.
+[1/8]"
+"S_B_TutReaderContent2","Виділіть текст або клацніть будь-яке слово правою кнопкою миші, щоб відкрити контекстне меню читалки.Звідси ви можете додати примітку, виділити маркером або зробити закладку.
+[2/8]","Select text or right click on any word to open the Reader context menu.
+You can add note, highlight or bookmark from here.
+[2/8]"
+"S_B_TutReaderContent3","Тут ви можете знайти зміст книги.
+[3/8]","Access the table of contents of the book from here.
+[3/8]"
+"S_B_TutReaderContent4","Ваші примітки і виділені маркером фрагменти будуть тут.
+[4/8]","Your notes and highlights would be listed here.
+[4/8]"
+"S_B_TutReaderContent5","Закладки з'являться тут.
+[5/8]","Set bookmarks would appear here.
+[5/8]"
+"S_B_TutReaderContent6","Шукайте в поточній главі або в усій книзі.
+[6/8]","Search in the current chapter or the entire book.
+[6/8]"
+"S_B_TutReaderContent7","За допомогою цього можна читати книгу вголос (синтез мовлення).
+[7/8]","You can use this to read aloud the book contents (text-to-speech).
+[7/8]"
+"S_B_TutReaderContent8","Тут ви можете налаштувати макет сторінки, стиль, колірну схему тощо.
+[8/8]","You can configure the page layout, style, color scheme, etc. from here.
+[8/8]"
 "S_B_TutReaderTitle1","Зміна сторінки","Page change"
 "S_B_TutReaderTitle2","Контекстне меню читалки","Reader context menu"
 "S_B_TutReaderTitle3","Зміст","Table of contents"
@@ -286,9 +313,13 @@
 "S_DownloadBook_Msg","Бажаєте завантажити цю книгу і додати до бібліотеки?","Do you want to download this book and add to library?"
 "S_Downloading","Завантаження","Downloading"
 "S_EntireBook","Вся книга","Entire book"
-"S_ErrMsg1","Aquile Reader не має дозволу на доступ до файлу книги - {0}.Натисніть ""Надати дозвіл"" і виберіть той же самий файл книги у вікні вибору файлів.","Aquile Reader does not have permission to access the book file - {0}.Click 'Grant Permission' and select the same book file in the file picker window."
+"S_ErrMsg1","Aquile Reader не має дозволу на доступ до файлу книги - {0}.
+Натисніть ""Надати дозвіл"" і виберіть той же самий файл книги у вікні вибору файлів.","Aquile Reader does not have permission to access the book file - {0}.
+Click 'Grant Permission' and select the same book file in the file picker window."
 "S_ErrMsg1_btn","Надати дозвіл","Grant Permission"
-"S_ErrMsg2","Файл, який ви намагаєтеся відкрити, більше не існує.Будь ласка, перевірте його наявність, та повторіть спробу.","The file you are trying to open, no longer exists.Please check and try again."
+"S_ErrMsg2","Файл, який ви намагаєтеся відкрити, більше не існує.
+Будь ласка, перевірте його наявність, та повторіть спробу.","The file you are trying to open, no longer exists.
+Please check and try again."
 "S_ErrMsg3","Можливо, файл використовується, заблокований або у вас недостатньо прав.","The file may be in use, locked, or you don't have sufficient permissions."
 "S_ErrMsg4","Вибраний файл відрізняється від вихідного файлу книги - {0}.","Selected File is different from the original book file - {0}."
 "S_ErrMsg6","Якщо проблема не зникає, зверніться до служби підтримки.","If the problem persists please contact support."
@@ -302,7 +333,9 @@
 "S_Failed","Помилка","Failed"
 "S_FileCountLimitBtn1","Перервати та використати ""Додати папку""","Abort and use 'Add Folder'"
 "S_FileCountLimitBtn2","Продовжити додавати книги","Continue to add books"
-"S_FileCountLimitMsg","Додавання великої кількості окремих файлів книг може перевищити системний ліміт, таким чином перешкоджаючи додаванню нової книги.Використовуйте опцію ""Додати папку"", щоб масово додавати файли книг.","Adding large number of individual book files can hit system limit, thus preventing new book from being added.Use 'Add Folder' option to add book files in bulk."
+"S_FileCountLimitMsg","Додавання великої кількості окремих файлів книг може перевищити системний ліміт, таким чином перешкоджаючи додаванню нової книги.
+Використовуйте опцію ""Додати папку"", щоб масово додавати файли книг.","Adding large number of individual book files can hit system limit, thus preventing new book from being added.
+Use 'Add Folder' option to add book files in bulk."
 "S_FileCountLimitTitle","Увага!","Warning!"
 "S_FileNotSaved","{0} не вдалося зберегти.","{0} could not be saved."
 "S_FilePath.Text","Шлях до файлу: ","File path : "
@@ -349,17 +382,31 @@
 "S_Prem_Msg6","Вибачте! Під час покупки щось пішло не так. Будь ласка, спробуйте ще раз.","Sorry! Something went wrong during the purchase, plz try again."
 "S_PremAnnual","Преміум [Щорічно]","Premium [Annual]"
 "S_PremFree","Безкоштовно","Free"
-"S_PremiumBooksCount","Безкоштовна версія програми підтримує лише до {0} книг у бібліотеці одночасно.Щоб додати більше, оновіть програму до Aquile Reader Premium.","Free version of the app supports only {0} books in the library at a time.To add more, please upgrade to Aquile Reader Premium."
-"S_PremiumCollection","Безкоштовна версія програми підтримує лише до {0} елементів колекцій одночасно.Щоб створити більше, оновіть програму до Aquile Reader Premium.","Free version of the app supports total of {0} collections items.To create more, please upgrade to Aquile Reader Premium."
-"S_PremiumColorThemes","Безкоштовна версія програми підтримує лише {0} користувацьку тему.Щоб створити більше, оновіть програму до Aquile Reader Premium.","Free version of the app supports only {0} custom themes.To create more, please upgrade to Aquile Reader Premium."
+"S_PremiumBooksCount","Безкоштовна версія програми підтримує лише до {0} книг у бібліотеці одночасно.
+Щоб додати більше, оновіть програму до Aquile Reader Premium.","Free version of the app supports only {0} books in the library at a time.
+To add more, please upgrade to Aquile Reader Premium."
+"S_PremiumCollection","Безкоштовна версія програми підтримує лише до {0} елементів колекцій одночасно.
+Щоб створити більше, оновіть програму до Aquile Reader Premium.","Free version of the app supports total of {0} collections items.
+To create more, please upgrade to Aquile Reader Premium."
+"S_PremiumColorThemes","Безкоштовна версія програми підтримує лише {0} користувацьку тему.
+Щоб створити більше, оновіть програму до Aquile Reader Premium.","Free version of the app supports only {0} custom themes.
+To create more, please upgrade to Aquile Reader Premium."
 "S_PremiumFonts","Оновіться до Преміуму і отримайте доступ до всіх шрифтів, встановлених в системі.","Upgrade to Premium and get access to all fonts installed on the system."
-"S_PremiumPin","Безкоштовна версія програми підтримує лише до {0} книг, закріплених в меню ""Пуск"" одночасно.Щоб додати більше, оновіть програму до Aquile Reader Premium.","Free version of the app supports only {0} books pinned to start screen at a time.To add more, please upgrade to Aquile Reader Premium."
-"S_PremiumRAHighlight","Користувацькі кольори підсвітки читання вголос доступні тільки в Aquile Reader Premium.Оновіться до Преміуму і отримайте всі функції.","Custom ReadAloud highlight colors are only available in Aquile Reader Premium.Upgrade to Premium and enjoy all the features."
-"S_PremiumSyncFolders","Безкоштовна версія програми підтримує лише {0} папку для синхронізації.Щоб додати більше, оновіть програму до Aquile Reader Premium.","Free version of the app supports only {0} sync folder(s).To create more, please upgrade to Aquile Reader Premium."
-"S_PremiumThemes","Користувацькі теми оформлення сторінок доступні тільки в Aquile Reader Premium.Оновіться до Преміуму і отримайте всі функції.","Custom Page Themes are only available in Aquile Reader Premium.Upgrade to Premium and enjoy all the features."
+"S_PremiumPin","Безкоштовна версія програми підтримує лише до {0} книг, закріплених в меню ""Пуск"" одночасно.
+Щоб додати більше, оновіть програму до Aquile Reader Premium.","Free version of the app supports only {0} books pinned to start screen at a time.
+To add more, please upgrade to Aquile Reader Premium."
+"S_PremiumRAHighlight","Користувацькі кольори підсвітки читання вголос доступні тільки в Aquile Reader Premium.
+Оновіться до Преміуму і отримайте всі функції.","Custom ReadAloud highlight colors are only available in Aquile Reader Premium.
+Upgrade to Premium and enjoy all the features."
+"S_PremiumSyncFolders","Безкоштовна версія програми підтримує лише {0} папку для синхронізації.
+Щоб додати більше, оновіть програму до Aquile Reader Premium.","Free version of the app supports only {0} sync folder(s).
+To create more, please upgrade to Aquile Reader Premium."
+"S_PremiumThemes","Користувацькі теми оформлення сторінок доступні тільки в Aquile Reader Premium.
+Оновіться до Преміуму і отримайте всі функції.","Custom Page Themes are only available in Aquile Reader Premium.
+Upgrade to Premium and enjoy all the features."
 "S_PremLife","Преміум [Пожиттєво]","Premium [Lifetime]"
-"S_PremOff1","Знижка 25%","25% off"
-"S_PremOff2","Знижка 30%","30% off"
+"S_PremOff1","- 25%","25% off"
+"S_PremOff2","- 30%","30% off"
 "S_PremQuarterly","Преміум [Щоквартально]","Premium [Quarterly]"
 "S_PremTrial","Преміум [Ознайомлювальна версія]","Premium [Trial]"
 "S_PremUpg","Оновлення до Преміуму","Premium upgrade"
@@ -390,7 +437,9 @@
 "S_UpdateFolder","Оновити папку","Update folder"
 "S_UrlNotExist","URL-адреса не існує!","Url does not exist!"
 "S_WordCount.Text","Кількість слів: ","Word count : "
-"S_WrongMsg1","Вибачте, схоже, щось пішло не так.Спробуйте відкрити файл знову. Якщо проблема не зникає, зверніться до служби підтримки.","Sorry, but looks like something just went wrong.Try opening the file again. If the problem persists please contact support."
+"S_WrongMsg1","Вибачте, схоже, щось пішло не так.Спробуйте відкрити файл знову.
+Якщо проблема не зникає, зверніться до служби підтримки.","Sorry, but looks like something just went wrong.
+Try opening the file again. If the problem persists please contact support."
 "S_Yes","Так","Yes"
 "T_About_copyright.Text","© Optimilia Studios. Всі права захищені.","© Optimilia Studios. All Rights Reserved."
 "T_AddBook.Text","Щоб почати, додайте книгу","Add a book to get started"
@@ -404,7 +453,9 @@
 "T_Backup_Beta.Text","Beta","Beta"
 "T_Backup_Bkp.Text","Зробити резервну копію з вибраною конфігурацією.","Create a backup copy with the selected configurations."
 "T_Backup_Heading.Text","Резервна копія і відновлення","Backup & Restore"
-"T_Backup_Restore.Text","Відновіти вибрані конфігурації з файлу резервної копії.Примітка: Це перевизначить поточні конфігурації, напр. нові примітки, виділення маркером тощо можуть бути втрачені, якщо вони не містяться в резервній копії.","Restore the selected configurations from the backup file.Note: This will override current configurations, e.g. new notes, highlights etc can be lost if they are not contained in the backup copy."
+"T_Backup_Restore.Text","Відновіти вибрані конфігурації з файлу резервної копії.
+Примітка: Це перевизначить поточні конфігурації, напр.нові примітки, виділення маркером тощо можуть бути втрачені, якщо вони не містяться в резервній копії.","Restore the selected configurations from the backup file.
+Note: This will override current configurations, e.g. new notes, highlights etc can be lost if they are not contained in the backup copy."
 "T_BookmarksEmpty.Text","Тут ви знайдете свої закладки.","Find your bookmarks here."
 "T_ChangeLog.Text","Журнал змін","Change log"
 "T_Credits1.Text","Титри","Credits"
@@ -505,7 +556,6 @@
 "S_B_LangRestartMsg","Необхідно перезапустити програму, щоб зміна мови відображення вступила в силу. Ви бажаєте продовжити?","App restart is required for display language change to take effect. Do you want to proceed?"
 "S_B_Upgrade","Оновити","Upgrade"
 "S_B_UpgradePremMsg","Оновити до Aquile Reader Premium!","Upgrade to Aquile Reader Premium!"
-"T_HelpTranslateLink","Допоможіть перекласти на більше мов","Help translate to more languages"
 "S_Free.Text","Безкоштовна версія","Free Version"
 "S_Free_Msg1.Text","Реклама в програмі","Advertisements in the app"
 "S_Free_Msg2.Text","Підтримується до 40 елементів в колекції","Max 40 collection items supported"
@@ -526,3 +576,4 @@
 "S_PremPage_Msg7.Text","Повна підтримка TTS (синтезу мовлення)","Full TTS (Text-to-Speech) experience"
 "S_PremPage_Msg8.Text","Безлімітна кількість папок для синхронізації","No limit on number of sync folders"
 "S_PremPage_Msg9.Text","В меню ""Пуск"" можна закріпити безлімітну кількість книг одночасно","No limit on number books pinned to Start screen"
+"T_HelpTranslateLink.Text","Допоможіть перекласти на більше мов","Help translate to more languages"

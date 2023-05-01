@@ -2193,7 +2193,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <value>Upgrade to Aquile Reader Premium!</value>
     <comment>Upgrade to Aquile Reader Premium!</comment>
   </data>
-  <data name="T_HelpTranslateLink" xml:space="preserve">
+  <data name="T_HelpTranslateLink.Text" xml:space="preserve">
     <value>Help translate to more languages</value>
     <comment>Help translate to more languages</comment>
   </data>
@@ -2246,8 +2246,8 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Ad free reading experience</comment>
   </data>
   <data name="S_PremPage_Msg2.Text" xml:space="preserve">
-    <value>No limit on collections (highlights, notes &amp;amp; bookmarks)</value>
-    <comment>No limit on collections (highlights, notes &amp;amp; bookmarks)</comment>
+    <value>No limit on collections (highlights, notes &amp; bookmarks)</value>
+    <comment>No limit on collections (highlights, notes &amp; bookmarks)</comment>
   </data>
   <data name="S_PremPage_Msg3.Text" xml:space="preserve">
     <value>No limit on number of books in the library</value>

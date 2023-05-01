@@ -2193,7 +2193,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <value>Aquile Reader प्रीमियम में अपग्रेड करें!</value>
     <comment>Upgrade to Aquile Reader Premium!</comment>
   </data>
-  <data name="T_HelpTranslateLink" xml:space="preserve">
+  <data name="T_HelpTranslateLink.Text" xml:space="preserve">
     <value>और भाषाओं में अनुवाद करने में मदद करें</value>
     <comment>Help translate to more languages</comment>
   </data>
@@ -2247,7 +2247,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
   </data>
   <data name="S_PremPage_Msg2.Text" xml:space="preserve">
     <value>संग्रह पर कोई सीमा नहीं (हाइलाइट्स, नोट्स और बुकमार्क)</value>
-    <comment>No limit on collections (highlights, notes &amp;amp; bookmarks)</comment>
+    <comment>No limit on collections (highlights, notes &amp; bookmarks)</comment>
   </data>
   <data name="S_PremPage_Msg3.Text" xml:space="preserve">
     <value>पुस्तकालय में पुस्तकों की संख्या पर कोई सीमा नहीं है</value>
