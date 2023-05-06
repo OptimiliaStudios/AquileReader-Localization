@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="B_Add.Content" xml:space="preserve">
-    <value></value>
+    <value>添加</value>
     <comment>Add</comment>
   </data>
   <data name="B_AddBook.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>添加新图书</value>
     <comment>Add new book</comment>
   </data>
   <data name="B_AddBookmark.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>添加书签</value>
     <comment>Add Bookmark</comment>
   </data>
   <data name="B_AddFolder.Content" xml:space="preserve">
@@ -134,720 +134,720 @@
     <comment>Add folder</comment>
   </data>
   <data name="B_AddNote.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>添加备注</value>
     <comment>Add Note</comment>
   </data>
   <data name="B_AddSite.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>添加新网站</value>
     <comment>Add new site</comment>
   </data>
   <data name="B_AudioSettings.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>音频设置</value>
     <comment>Audio settings</comment>
   </data>
   <data name="B_Back.Content" xml:space="preserve">
-    <value></value>
+    <value>返回</value>
     <comment>Back</comment>
   </data>
   <data name="B_Back1.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>返回</value>
     <comment>Back</comment>
   </data>
   <data name="B_Backup_Bkp.Content" xml:space="preserve">
-    <value></value>
+    <value>备份</value>
     <comment>Backup</comment>
   </data>
   <data name="B_Backup_Restore.Content" xml:space="preserve">
-    <value></value>
+    <value>从备份还原</value>
     <comment>Restore</comment>
   </data>
   <data name="B_Blog.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>查看我们的博客</value>
     <comment>Read our blog</comment>
   </data>
   <data name="B_Bookmarks.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>书签</value>
     <comment>Bookmarks</comment>
   </data>
   <data name="B_Cancel.Content" xml:space="preserve">
-    <value></value>
+    <value>取消</value>
     <comment>Cancel</comment>
   </data>
   <data name="B_ChngLog.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>更新记录</value>
     <comment>Change log</comment>
   </data>
   <data name="B_ClearHighlight.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>清楚高亮墨迹</value>
     <comment>Clear highlight</comment>
   </data>
   <data name="B_Close.Content" xml:space="preserve">
-    <value></value>
+    <value>关闭</value>
     <comment>Close</comment>
   </data>
   <data name="B_Close1.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>关闭</value>
     <comment>Close</comment>
   </data>
   <data name="B_Collapse.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>崩溃</value>
     <comment>Collapse</comment>
   </data>
   <data name="B_ColorMenu.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>关闭菜单</value>
     <comment>Color Menu</comment>
   </data>
   <data name="B_ContactSupport.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>联系支持</value>
     <comment>Contact support</comment>
   </data>
   <data name="B_Copy.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>复制</value>
     <comment>Copy</comment>
   </data>
   <data name="B_Credits.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>鸣谢</value>
     <comment>Credits</comment>
   </data>
   <data name="B_Delete.Text" xml:space="preserve">
-    <value></value>
+    <value>删除</value>
     <comment>Delete</comment>
   </data>
   <data name="B_DeleteNote.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>删除笔记</value>
     <comment>Delete note</comment>
   </data>
   <data name="B_Done.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>完成</value>
     <comment>Done</comment>
   </data>
   <data name="B_Downloads.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>下载</value>
     <comment>Downloads</comment>
   </data>
   <data name="B_ExitReadingMode.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>退出阅读模式(Ctrl + E)</value>
     <comment>Exit Reading Mode (Ctrl + E)</comment>
   </data>
   <data name="B_Expand.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>展开</value>
     <comment>Expand</comment>
   </data>
   <data name="B_ExportCollection.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>导出集合</value>
     <comment>Export collections</comment>
   </data>
   <data name="B_Fb.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>关注我们的Facebook</value>
     <comment>Like us on Facebook</comment>
   </data>
   <data name="B_Female.Content" xml:space="preserve">
-    <value></value>
+    <value>女</value>
     <comment>Female</comment>
   </data>
   <data name="B_FilterFav.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>按收藏夹筛选</value>
     <comment>Filter by favorites</comment>
   </data>
   <data name="B_Forward.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>向前</value>
     <comment>Forward</comment>
   </data>
   <data name="B_General.Content" xml:space="preserve">
-    <value></value>
+    <value>重置</value>
     <comment>Reset</comment>
   </data>
   <data name="B_GitHub.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>GitHub</value>
     <comment>GitHub</comment>
   </data>
   <data name="B_Group.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>组</value>
     <comment>Group</comment>
   </data>
   <data name="B_Highlight.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>高亮</value>
     <comment>Highlight</comment>
   </data>
   <data name="B_Home.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>主页</value>
     <comment>Home</comment>
   </data>
   <data name="B_Information.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>详细信息</value>
     <comment>Information</comment>
   </data>
   <data name="B_JSInspect.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>检查JS</value>
     <comment>JS Inspect</comment>
   </data>
   <data name="B_LinkBack.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>返回链接源</value>
     <comment>Go back to link source</comment>
   </data>
   <data name="B_Mail.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>邮箱</value>
     <comment>Mail</comment>
   </data>
   <data name="B_Male.Content" xml:space="preserve">
-    <value></value>
+    <value>男</value>
     <comment>Male</comment>
   </data>
   <data name="B_MatchCase.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>区分大小写</value>
     <comment>Match case</comment>
   </data>
   <data name="B_MatchWWord.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>全字匹配</value>
     <comment>Match whole word</comment>
   </data>
   <data name="B_Next.Content" xml:space="preserve">
-    <value></value>
+    <value>下一个</value>
     <comment>Next</comment>
   </data>
   <data name="B_NextLine.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>下一行(Ctrl + 向右键)</value>
     <comment>Next Line (Ctrl + →)</comment>
   </data>
   <data name="B_NH.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>高亮标记</value>
     <comment>Notes &amp; Highlights</comment>
   </data>
   <data name="B_OpenBook.Content" xml:space="preserve">
-    <value></value>
+    <value>开始阅读</value>
     <comment>Open Book</comment>
   </data>
   <data name="B_Pag1Cols.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>分页一列</value>
     <comment>Paginated 1 column</comment>
   </data>
   <data name="B_Pag2Cols.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>分页两列</value>
     <comment>Paginated 2 columns</comment>
   </data>
   <data name="B_PagVertical.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>垂直滚动</value>
     <comment>Vertical scroll</comment>
   </data>
   <data name="B_PreviousLine.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>上一行(Ctrl + 向左键)</value>
     <comment>Previous Line (Ctrl + ←)</comment>
   </data>
   <data name="B_PrivacyPolicy.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>隐私政策</value>
     <comment>Privacy policy</comment>
   </data>
   <data name="B_RateStore.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>商店价格</value>
     <comment>Rate on store</comment>
   </data>
   <data name="B_ReadAloud.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>大声朗读(Ctrl + R)</value>
     <comment>Read Aloud (Ctrl + R)</comment>
   </data>
   <data name="B_ReadAloud1.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>朗读</value>
     <comment>ReadAloud</comment>
   </data>
   <data name="B_ReadAloudSettings.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>语音选项</value>
     <comment>ReadAloud settings</comment>
   </data>
   <data name="B_Refresh.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>刷新</value>
     <comment>Refresh</comment>
   </data>
   <data name="B_Remove.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>删除</value>
     <comment>Remove</comment>
   </data>
   <data name="B_Reset.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>重置</value>
     <comment>Reset</comment>
   </data>
   <data name="B_RmSyncFolderBtn1.Content" xml:space="preserve">
-    <value></value>
+    <value>是，但是保留图书</value>
     <comment>Yes, but keep books</comment>
   </data>
   <data name="B_RmSyncFolderBtn2.Content" xml:space="preserve">
-    <value></value>
+    <value>是，并且删除图书</value>
     <comment>Yes, and remove books</comment>
   </data>
   <data name="B_Save.Content" xml:space="preserve">
-    <value></value>
+    <value>保存</value>
     <comment>Save</comment>
   </data>
   <data name="B_Search.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>搜索</value>
     <comment>Search</comment>
   </data>
   <data name="B_Search1.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>搜索(Ctrl + F)</value>
     <comment>Search (Ctrl + F)</comment>
   </data>
   <data name="B_SearchWeb.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>在网络上查找</value>
     <comment>Search web</comment>
   </data>
   <data name="B_SelectFolder.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>选择文件夹</value>
     <comment>Select folder</comment>
   </data>
   <data name="B_SelectIcon.Content" xml:space="preserve">
-    <value></value>
+    <value>选择图标</value>
     <comment>Select icon</comment>
   </data>
   <data name="B_ShowCB.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>显示命令栏</value>
     <comment>Show command bar</comment>
   </data>
   <data name="B_Sort.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>分类</value>
     <comment>Sort</comment>
   </data>
   <data name="B_Sync_Edit.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>编辑</value>
     <comment>Edit</comment>
   </data>
   <data name="B_TextFormat.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>文本格式</value>
     <comment>Text Format</comment>
   </data>
   <data name="B_TextStyle.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>文本样式</value>
     <comment>Text Style</comment>
   </data>
   <data name="B_Theme1.Content" xml:space="preserve">
-    <value></value>
+    <value>白色</value>
     <comment>White</comment>
   </data>
   <data name="B_Theme1.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>白色(Ctrl + T + 1)</value>
     <comment>White (Ctrl + T + 1)</comment>
   </data>
   <data name="B_Theme2.Content" xml:space="preserve">
-    <value></value>
+    <value>灰色</value>
     <comment>Silver</comment>
   </data>
   <data name="B_Theme2.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>灰色(Ctrl + T + 2)</value>
     <comment>Silver (Ctrl + T + 2)</comment>
   </data>
   <data name="B_Theme3.Content" xml:space="preserve">
-    <value></value>
+    <value>棕色</value>
     <comment>Sepia</comment>
   </data>
   <data name="B_Theme3.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>棕色(Ctrl + T + 3)</value>
     <comment>Sepia (Ctrl + T + 3)</comment>
   </data>
   <data name="B_Theme4.Content" xml:space="preserve">
-    <value></value>
+    <value>黑色</value>
     <comment>Night</comment>
   </data>
   <data name="B_Theme4.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>黑色(Ctrl + T + 4)</value>
     <comment>Night (Ctrl + T + 4)</comment>
   </data>
   <data name="B_Theme5.Content" xml:space="preserve">
-    <value></value>
+    <value>Solarized</value>
     <comment>Solarized</comment>
   </data>
   <data name="B_Theme5.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>Solarized (Ctrl + T + 5)</value>
     <comment>Solarized (Ctrl + T + 5)</comment>
   </data>
   <data name="B_Theme6.Content" xml:space="preserve">
-    <value></value>
+    <value>自定义</value>
     <comment>Custom</comment>
   </data>
   <data name="B_TOC.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>目录</value>
     <comment>Table Of Contents</comment>
   </data>
   <data name="B_ToggleFav.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>切换收藏夹</value>
     <comment>Toggle Favorite</comment>
   </data>
   <data name="B_ToggleFullscreen.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>全屏模式(F11)</value>
     <comment>Toggle Fullscreen (F11)</comment>
   </data>
   <data name="B_Translate.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>翻译</value>
     <comment>Translate</comment>
   </data>
   <data name="B_Tw.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>关注我们的Twitter</value>
     <comment>Follow us on Twitter</comment>
   </data>
   <data name="B_ZoomIn.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>放大</value>
     <comment>Zoom In</comment>
   </data>
   <data name="B_ZoomOut.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>缩小</value>
     <comment>Zoom Out</comment>
   </data>
   <data name="C_AddFolder_AddRecent.Content" xml:space="preserve">
-    <value></value>
+    <value>将书籍添加到最近的列表</value>
     <comment>Add books to recent list</comment>
   </data>
   <data name="C_AddFolder_AutoRemove.Content" xml:space="preserve">
-    <value></value>
+    <value>从文件夹中删除文件时，自动删除图书（包括笔记、高亮等）</value>
     <comment>Automatically remove books from the library (including notes, highlights, etc) when files are deleted from the folder</comment>
   </data>
   <data name="C_AddFolder_RecSearch.Content" xml:space="preserve">
-    <value></value>
+    <value>递归搜索子文件夹</value>
     <comment>Recursively search sub-folders</comment>
   </data>
   <data name="C_AddFolder_SyncFolder.Content" xml:space="preserve">
-    <value></value>
+    <value>同步此文件夹并自动添加新书</value>
     <comment>Sync this folder and automatically add new books</comment>
   </data>
   <data name="C_Backup_AStats.Content" xml:space="preserve">
-    <value></value>
+    <value>应用统计信息</value>
     <comment>App statistics</comment>
   </data>
   <data name="C_Backup_BFav.Content" xml:space="preserve">
-    <value></value>
+    <value>图书收藏列表</value>
     <comment>Book favorite list</comment>
   </data>
   <data name="C_Backup_BFiles.Content" xml:space="preserve">
-    <value></value>
+    <value>图书文件</value>
     <comment>Book files</comment>
   </data>
   <data name="C_Backup_BMeta.Content" xml:space="preserve">
-    <value></value>
+    <value>图书元数据</value>
     <comment>Book metadata</comment>
   </data>
   <data name="C_Backup_Bookmarks.Content" xml:space="preserve">
-    <value></value>
+    <value>书签</value>
     <comment>Bookmarks</comment>
   </data>
   <data name="C_Backup_Config.Description" xml:space="preserve">
-    <value></value>
+    <value>选择备份或还原操作的设置</value>
     <comment>Select the configuration for backup or restore operation</comment>
   </data>
   <data name="C_Backup_Config.Title" xml:space="preserve">
-    <value></value>
+    <value>选择预设</value>
     <comment>Choose configuration</comment>
   </data>
   <data name="C_Backup_NandH.Content" xml:space="preserve">
-    <value></value>
+    <value>备注亮点</value>
     <comment>Notes &amp; highlights</comment>
   </data>
   <data name="C_Backup_Operation.Description" xml:space="preserve">
-    <value></value>
+    <value>选择要执行的操作</value>
     <comment>Select the operation you want to perform</comment>
   </data>
   <data name="C_Backup_Operation.Title" xml:space="preserve">
-    <value></value>
+    <value>选择操作</value>
     <comment>Choose operation</comment>
   </data>
   <data name="C_Backup_Storage.Description" xml:space="preserve">
-    <value></value>
+    <value>选择储存的位置</value>
     <comment>Select the source or target storage for the operation</comment>
   </data>
   <data name="C_Backup_Storage.Title" xml:space="preserve">
-    <value></value>
+    <value>选择储存</value>
     <comment>Choose storage</comment>
   </data>
   <data name="C_Books.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>图书</value>
     <comment>Books</comment>
   </data>
   <data name="C_ChapterList.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>章节列表</value>
     <comment>Chapter list</comment>
   </data>
   <data name="C_CollectionType.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>收藏类型</value>
     <comment>Collection Type</comment>
   </data>
   <data name="C_General_Advt.Description" xml:space="preserve">
-    <value></value>
+    <value>广告偏好</value>
     <comment>Preference for type of advertisements</comment>
   </data>
   <data name="C_General_Advt.Title" xml:space="preserve">
-    <value></value>
+    <value>优先选择</value>
     <comment>Advt. preference</comment>
   </data>
   <data name="C_General_BookTitle.Description" xml:space="preserve">
-    <value></value>
+    <value>在主页显示图书标题</value>
     <comment>Display title for all books in the library view</comment>
   </data>
   <data name="C_General_BookTitle.Title" xml:space="preserve">
-    <value></value>
+    <value>显示图书标题</value>
     <comment>Show book titles</comment>
   </data>
   <data name="C_General_Lang.Description" xml:space="preserve">
-    <value></value>
+    <value>所有的控件将以这种语言显示（需要重新启动软件）</value>
     <comment>Buttons, menus and other controls will show in this language.
 This setting will be applied on the next start of the app.</comment>
   </data>
   <data name="C_General_Lang.Title" xml:space="preserve">
-    <value></value>
+    <value>显示语言</value>
     <comment>Display language</comment>
   </data>
   <data name="C_General_Tutorial.Description" xml:space="preserve">
-    <value></value>
+    <value>再次显示教程</value>
     <comment>Show all the tutorials again</comment>
   </data>
   <data name="C_General_Tutorial.Title" xml:space="preserve">
-    <value></value>
+    <value>重置教程</value>
     <comment>Reset tutorials</comment>
   </data>
   <data name="C_Personal_ColorThemes.Title" xml:space="preserve">
-    <value></value>
+    <value>颜色主题</value>
     <comment>Color themes</comment>
   </data>
   <data name="C_Personal_TransBanckground.Title" xml:space="preserve">
-    <value></value>
+    <value>背景透明</value>
     <comment>Transparent background</comment>
   </data>
   <data name="C_Personal_TransBanckSlider.Title" xml:space="preserve">
-    <value></value>
+    <value>透明度</value>
     <comment>Background transparency</comment>
   </data>
   <data name="C_Prem1.BillDetails" xml:space="preserve">
-    <value></value>
+    <value>每季度</value>
     <comment>Billed quarterly</comment>
   </data>
   <data name="C_Prem1.DurationString" xml:space="preserve">
-    <value></value>
+    <value>每月</value>
     <comment> months</comment>
   </data>
   <data name="C_Prem2.BillDetails" xml:space="preserve">
-    <value></value>
+    <value>每年</value>
     <comment>Billed annually</comment>
   </data>
   <data name="C_Prem2.DurationString" xml:space="preserve">
-    <value></value>
+    <value>每月</value>
     <comment> months</comment>
   </data>
   <data name="C_Prem3.BillDetails" xml:space="preserve">
-    <value></value>
+    <value>一次性购买</value>
     <comment>One time purchase</comment>
   </data>
   <data name="C_Prem3.DurationString" xml:space="preserve">
-    <value></value>
+    <value>终身</value>
     <comment>Lifetime</comment>
   </data>
   <data name="C_Reader_AutoLayout.Description" xml:space="preserve">
-    <value></value>
+    <value>在两列布局时，当设备旋转到纵向时，软件将自动切换到一列布局，反之亦然</value>
     <comment>In 2-column layout when device rotates to portrait mode, reader will auto switch to 1-column layout, and vice versa</comment>
   </data>
   <data name="C_Reader_AutoLayout.Title" xml:space="preserve">
-    <value></value>
+    <value>自动切换到一列布局</value>
     <comment>Auto switch to 1 column layout</comment>
   </data>
   <data name="C_Reader_AutoScroll.Description" xml:space="preserve">
-    <value></value>
+    <value>在此模式下，将自动滚动页面以跟随正在阅读的句子</value>
     <comment>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</comment>
   </data>
   <data name="C_Reader_AutoScroll.Title" xml:space="preserve">
-    <value></value>
+    <value>朗读自动滚动</value>
     <comment>ReadAloud auto-scroll</comment>
   </data>
   <data name="C_Reader_BookFont.Description" xml:space="preserve">
-    <value></value>
+    <value>使用图书文件中储存的原始字体</value>
     <comment>Reader uses the original fonts packaged with the book</comment>
   </data>
   <data name="C_Reader_BookFont.Title" xml:space="preserve">
-    <value></value>
+    <value>使用原始字体</value>
     <comment>Use book's fonts</comment>
   </data>
   <data name="C_Reader_DictLang.Description" xml:space="preserve">
-    <value></value>
+    <value>读者词典的语言</value>
     <comment>Language of the in-reader dictionary</comment>
   </data>
   <data name="C_Reader_DictLang.Title" xml:space="preserve">
-    <value></value>
+    <value>字典语言</value>
     <comment>Dictionary language</comment>
   </data>
   <data name="C_Reader_EnhRender.Description" xml:space="preserve">
-    <value></value>
+    <value>改进呈现书籍阅读的格式/布局</value>
     <comment>Improves the format/layout in which books are rendered for reading</comment>
   </data>
   <data name="C_Reader_EnhRender.Title" xml:space="preserve">
-    <value></value>
+    <value>渲染增强</value>
     <comment>Enhanced rendering</comment>
   </data>
   <data name="C_Reader_SearchEngine.Description" xml:space="preserve">
-    <value></value>
+    <value>搜索网络时使用的搜索引擎</value>
     <comment>Search engine to use for web search</comment>
   </data>
   <data name="C_Reader_SearchEngine.Title" xml:space="preserve">
-    <value></value>
+    <value>搜索引擎</value>
     <comment>Search engine</comment>
   </data>
   <data name="C_Reader_StdMrgn.Description" xml:space="preserve">
-    <value></value>
+    <value>修改书本中文字的边距，以便在阅读器中提供一致的布局</value>
     <comment>Overrides any margin specified in the book to provide consistent layout in the reader</comment>
   </data>
   <data name="C_Reader_StdMrgn.Title" xml:space="preserve">
-    <value></value>
+    <value>统一边距</value>
     <comment>Standardize margins</comment>
   </data>
   <data name="C_Reader_TextAlign.Description" xml:space="preserve">
-    <value></value>
+    <value>修改书本中设置的所有文本对齐首选项，以便在阅读器中提供一致的布局</value>
     <comment>Overrides any text alignment preference set in the book to provide consistent layout in the reader</comment>
   </data>
   <data name="C_Reader_TextAlign.Title" xml:space="preserve">
-    <value></value>
+    <value>统一文字对齐</value>
     <comment>Override text alignment</comment>
   </data>
   <data name="C_ShowFavs.Content" xml:space="preserve">
-    <value></value>
+    <value>只显示收藏夹</value>
     <comment>Show only favorites</comment>
   </data>
   <data name="CB_Category.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>分类</value>
     <comment>Categories</comment>
   </data>
   <data name="EBI_Author.Text" xml:space="preserve">
-    <value></value>
+    <value>作者：</value>
     <comment>Author(s) : </comment>
   </data>
   <data name="EBI_Cover1.Content" xml:space="preserve">
-    <value></value>
+    <value>选择封面</value>
     <comment>Select cover</comment>
   </data>
   <data name="EBI_Cover2.ToolTipService.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>恢复默认的封面</value>
     <comment>Restore original cover</comment>
   </data>
   <data name="EBI_Description.Text" xml:space="preserve">
-    <value></value>
+    <value>说明</value>
     <comment>Description : </comment>
   </data>
   <data name="EBI_ErrMsg1" xml:space="preserve">
-    <value></value>
+    <value>序列号不能为空</value>
     <comment>Series number cannot be empty</comment>
   </data>
   <data name="EBI_ErrMsg2" xml:space="preserve">
-    <value></value>
+    <value>序列号无效</value>
     <comment>Series number not valid</comment>
   </data>
   <data name="EBI_Genre.Text" xml:space="preserve">
-    <value></value>
+    <value>类型：</value>
     <comment>Genre(s) : </comment>
   </data>
   <data name="EBI_Language.Text" xml:space="preserve">
-    <value></value>
+    <value>语言：</value>
     <comment>Language(s) : </comment>
   </data>
   <data name="EBI_Msg1.Text" xml:space="preserve">
-    <value></value>
+    <value>使用分号(；)分隔多个项目</value>
     <comment> • (s) - Use semi-colon ( ; ) to separate multiple entries.</comment>
   </data>
   <data name="EBI_Publisher.Text" xml:space="preserve">
-    <value></value>
+    <value>出版社：</value>
     <comment>Publisher(s) : </comment>
   </data>
   <data name="EBI_Series.Text" xml:space="preserve">
-    <value></value>
+    <value>系列：</value>
     <comment>Series : </comment>
   </data>
   <data name="EBI_SeriesNumber.Text" xml:space="preserve">
-    <value></value>
+    <value>系列编号：</value>
     <comment>Series Number : </comment>
   </data>
   <data name="EBI_Title.Text" xml:space="preserve">
-    <value></value>
+    <value>编辑图书信息</value>
     <comment>Edit book information</comment>
   </data>
   <data name="IAP_Discount.Text" xml:space="preserve">
-    <value></value>
+    <value>8折</value>
     <comment>20% off</comment>
   </data>
   <data name="IAP_Popular.Text" xml:space="preserve">
-    <value></value>
+    <value>最受欢迎</value>
     <comment>Most Popular</comment>
   </data>
   <data name="M_About.Content" xml:space="preserve">
-    <value></value>
+    <value>关于我们</value>
     <comment>About us</comment>
   </data>
   <data name="M_AddBook.Text" xml:space="preserve">
-    <value></value>
+    <value>添加图书文件</value>
     <comment>Add book file(s)</comment>
   </data>
   <data name="M_AddFavourite.Text" xml:space="preserve">
-    <value></value>
+    <value>添加收藏夹</value>
     <comment>Add Favourite</comment>
   </data>
   <data name="M_AddFolder.Text" xml:space="preserve">
-    <value></value>
+    <value>添加文件夹</value>
     <comment>Add folder</comment>
   </data>
   <data name="M_Backup.Content" xml:space="preserve">
-    <value></value>
+    <value>备份和还原</value>
     <comment>Backup &amp; Restore</comment>
   </data>
   <data name="M_BookInfo.Text" xml:space="preserve">
-    <value></value>
+    <value>图书信息</value>
     <comment>Book Info</comment>
   </data>
   <data name="M_ChngLog.Content" xml:space="preserve">
-    <value></value>
+    <value>更新记录</value>
     <comment>Change log</comment>
   </data>
   <data name="M_CreationTime.Text" xml:space="preserve">
-    <value></value>
+    <value>创建时间</value>
     <comment>Creation time</comment>
   </data>
   <data name="M_Edit.Text" xml:space="preserve">
-    <value></value>
+    <value>编辑</value>
     <comment>Edit</comment>
   </data>
   <data name="M_EditBookInfo.Text" xml:space="preserve">
-    <value></value>
+    <value>编辑图书信息</value>
     <comment>Edit Book Info</comment>
   </data>
   <data name="M_General.Content" xml:space="preserve">
-    <value></value>
+    <value>常规</value>
     <comment>General</comment>
   </data>
   <data name="M_OpenBook.Text" xml:space="preserve">
-    <value></value>
+    <value>开始阅读</value>
     <comment>Open Book</comment>
   </data>
   <data name="M_Personal.Content" xml:space="preserve">
-    <value></value>
+    <value>个性化</value>
     <comment>Personalization</comment>
   </data>
   <data name="M_PinUnpin.Text" xml:space="preserve">
-    <value></value>
+    <value>从“开始”屏幕 固定/取消固定</value>
     <comment>Pin/Unpin to Start</comment>
   </data>
   <data name="M_PosInBook.Text" xml:space="preserve">
-    <value></value>
+    <value>在书中的位置</value>
     <comment>Position in book</comment>
   </data>
   <data name="M_Reader.Content" xml:space="preserve">
-    <value></value>
+    <value>读者</value>
     <comment>Reader</comment>
   </data>
   <data name="M_Remove.Text" xml:space="preserve">
-    <value></value>
+    <value>删除</value>
     <comment>Remove</comment>
   </data>
   <data name="M_RemoveFavourite.Text" xml:space="preserve">
-    <value></value>
+    <value>删除收藏夹</value>
     <comment>Remove Favourite</comment>
   </data>
   <data name="M_SaveToFile.Text" xml:space="preserve">
-    <value></value>
+    <value>保存到文件</value>
     <comment>Save to file</comment>
   </data>
   <data name="M_Share.Text" xml:space="preserve">
-    <value></value>
+    <value>分享</value>
     <comment>Share</comment>
   </data>
   <data name="M_SyncFolder.Content" xml:space="preserve">
-    <value></value>
+    <value>同步文件夹</value>
     <comment>Sync folders</comment>
   </data>
   <data name="N_Collections.Content" xml:space="preserve">
