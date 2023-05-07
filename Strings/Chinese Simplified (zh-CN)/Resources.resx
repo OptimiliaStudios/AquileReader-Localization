@@ -162,7 +162,7 @@
     <comment>Restore</comment>
   </data>
   <data name="B_Blog.ToolTipService.ToolTip" xml:space="preserve">
-    <value>查看我们的博客</value>
+    <value>我们的博客</value>
     <comment>Read our blog</comment>
   </data>
   <data name="B_Bookmarks.ToolTipService.ToolTip" xml:space="preserve">
