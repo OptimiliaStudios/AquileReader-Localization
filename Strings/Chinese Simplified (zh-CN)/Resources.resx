@@ -851,551 +851,551 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Sync folders</comment>
   </data>
   <data name="N_Collections.Content" xml:space="preserve">
-    <value></value>
+    <value>收藏</value>
     <comment>Collections</comment>
   </data>
   <data name="N_Feedback.Content" xml:space="preserve">
-    <value></value>
+    <value>反馈</value>
     <comment>Feedback</comment>
   </data>
   <data name="N_Home.Content" xml:space="preserve">
-    <value></value>
+    <value>主页</value>
     <comment>Home</comment>
   </data>
   <data name="N_Library.Content" xml:space="preserve">
-    <value></value>
+    <value>图书</value>
     <comment>Library</comment>
   </data>
   <data name="N_OnlineBooks.Content" xml:space="preserve">
-    <value></value>
+    <value>在线图书</value>
     <comment>Online Books</comment>
   </data>
   <data name="N_Premium.Content" xml:space="preserve">
-    <value></value>
+    <value>大会员</value>
     <comment>Premium</comment>
   </data>
   <data name="N_ReportBug.Content" xml:space="preserve">
-    <value></value>
+    <value>问题反馈</value>
     <comment>Report bug</comment>
   </data>
   <data name="N_Settings.Content" xml:space="preserve">
-    <value></value>
+    <value>设置</value>
     <comment>Settings</comment>
   </data>
   <data name="N_Statistics.Content" xml:space="preserve">
-    <value></value>
+    <value>统计</value>
     <comment>Statistics</comment>
   </data>
   <data name="RI_No" xml:space="preserve">
-    <value></value>
+    <value>否</value>
     <comment>No</comment>
   </data>
   <data name="RI_Title.Text" xml:space="preserve">
-    <value></value>
+    <value>你喜欢本软件吗</value>
     <comment>Are you enjoying Aquile Reader?</comment>
   </data>
   <data name="RI_Title2" xml:space="preserve">
-    <value></value>
+    <value>您是否愿意前往微软商店对此软件进行评分？</value>
     <comment>Would you spare a moment to rate us on the store?</comment>
   </data>
   <data name="RI_Title3" xml:space="preserve">
-    <value></value>
+    <value>您是否愿意与我们共享一些反馈数据？</value>
     <comment>Would you like to share some feedback with us?</comment>
   </data>
   <data name="RI_Yes.Content" xml:space="preserve">
-    <value></value>
+    <value>是</value>
     <comment>Yes</comment>
   </data>
   <data name="S_ActSub" xml:space="preserve">
-    <value></value>
+    <value>活动订阅</value>
     <comment>Active subscription</comment>
   </data>
   <data name="S_ActSub_Msg1" xml:space="preserve">
-    <value></value>
+    <value>看起来您已经订阅，请取消它以避免重复订阅</value>
     <comment>Looks like you already have an active subscription, make sure to cancel it to avoid additional billing.</comment>
   </data>
   <data name="S_AddMore" xml:space="preserve">
-    <value></value>
+    <value>添加更多...</value>
     <comment>Add more ...</comment>
   </data>
   <data name="S_AddSite_Err1" xml:space="preserve">
-    <value></value>
+    <value>标题不能为空</value>
     <comment>Title cannot be empty</comment>
   </data>
   <data name="S_AddSite_Err2" xml:space="preserve">
-    <value></value>
+    <value>标题最多100字符</value>
     <comment>Title length can be up-to 100 chars</comment>
   </data>
   <data name="S_AdMsg1" xml:space="preserve">
-    <value></value>
+    <value>开通会员</value>
     <comment>Upgrade to PREMIUM version</comment>
   </data>
   <data name="S_AdMsg2" xml:space="preserve">
-    <value></value>
+    <value>点击此处删除广告</value>
     <comment>To remove Ads and get additional features, click here.</comment>
   </data>
   <data name="S_All" xml:space="preserve">
-    <value></value>
+    <value>全部</value>
     <comment>All</comment>
   </data>
   <data name="S_AppWidthBookInfo" xml:space="preserve">
-    <value></value>
+    <value>应用程序窗口宽度太小，无法展开图书详细信息</value>
     <comment>App window width too small to open Book info pane.</comment>
   </data>
   <data name="S_AppWidthLess" xml:space="preserve">
-    <value></value>
+    <value>应用程序窗口宽度太小</value>
     <comment>App window width too less.</comment>
   </data>
   <data name="S_AS_AvgPagePerHr" xml:space="preserve">
-    <value></value>
+    <value>每小时翻转的平均页数</value>
     <comment>Avg. number of pages flipped per hour</comment>
   </data>
   <data name="S_AS_AvgReadHours" xml:space="preserve">
-    <value></value>
+    <value>每天平均阅读时间</value>
     <comment>Avg. reading hours per day</comment>
   </data>
   <data name="S_AS_AvgTimePerPage" xml:space="preserve">
-    <value></value>
+    <value>每页平均阅读时间（秒）</value>
     <comment>Avg. reading time (sec) per page</comment>
   </data>
   <data name="S_AS_Msg1" xml:space="preserve">
-    <value></value>
+    <value>您确定要删除所有统计信息？</value>
     <comment>Are you sure you want to clear all statistics?</comment>
   </data>
   <data name="S_AS_NumBooksLib" xml:space="preserve">
-    <value></value>
+    <value>图书数量</value>
     <comment>Number of books in library</comment>
   </data>
   <data name="S_AS_NumBooksRead" xml:space="preserve">
-    <value></value>
+    <value>已阅读的图书数量</value>
     <comment>Number of books read</comment>
   </data>
   <data name="S_AS_NumPagesTurned" xml:space="preserve">
-    <value></value>
+    <value>翻转的页数</value>
     <comment>Number of pages flipped</comment>
   </data>
   <data name="S_AS_SpeedWPM" xml:space="preserve">
-    <value></value>
+    <value>阅读速度（词/每分钟）</value>
     <comment>Reading speed (words per minute)</comment>
   </data>
   <data name="S_AS_TotalReadHours" xml:space="preserve">
-    <value></value>
+    <value>总阅读小时数</value>
     <comment>Total reading hours</comment>
   </data>
   <data name="S_B_Close" xml:space="preserve">
-    <value></value>
+    <value>关闭</value>
     <comment>Close</comment>
   </data>
   <data name="S_B_OnlineBookContent1" xml:space="preserve">
-    <value></value>
+    <value>选择下载电子书的网站[1/4]</value>
     <comment>Select the website from where you want to download the eBook.
 [1/4]</comment>
   </data>
   <data name="S_B_OnlineBookContent2" xml:space="preserve">
-    <value></value>
+    <value>浏览目录并点击任何图书的下载链接，将下载这本书并将其添加到主页[2/4]</value>
     <comment>Browse the catalog and click on any eBook download link. App will download the book and add it to the library.
 [2/4]</comment>
   </data>
   <data name="S_B_OnlineBookContent3" xml:space="preserve">
-    <value></value>
+    <value>您的下载的内容将显示在此处[3/4]</value>
     <comment>Your downloads would appear here.
 [3/4]</comment>
   </data>
   <data name="S_B_OnlineBookContent4" xml:space="preserve">
-    <value></value>
+    <value>从您想要下载电子书的地方添加您自己的网站[4/4]</value>
     <comment>Add your own website from where you want to download eBooks.
 [4/4]</comment>
   </data>
   <data name="S_B_OnlineBookTitle1" xml:space="preserve">
-    <value></value>
+    <value>选择电子书网站</value>
     <comment>Select eBook website</comment>
   </data>
   <data name="S_B_OnlineBookTitle2" xml:space="preserve">
-    <value></value>
+    <value>下载图书</value>
     <comment>Download eBook</comment>
   </data>
   <data name="S_B_OnlineBookTitle3" xml:space="preserve">
-    <value></value>
+    <value>查看下载</value>
     <comment>Track downloads</comment>
   </data>
   <data name="S_B_OnlineBookTitle4" xml:space="preserve">
-    <value></value>
+    <value>添加图书网站</value>
     <comment>Add eBook website</comment>
   </data>
   <data name="S_B_PauseReading" xml:space="preserve">
-    <value></value>
+    <value>暂停朗读(空格键)</value>
     <comment>Pause Reading (Space)</comment>
   </data>
   <data name="S_B_StartReading" xml:space="preserve">
-    <value></value>
+    <value>继续朗读(空格键)</value>
     <comment>Start Reading (Space)</comment>
   </data>
   <data name="S_B_TutDone" xml:space="preserve">
-    <value></value>
+    <value>完成</value>
     <comment>Done</comment>
   </data>
   <data name="S_B_TutNext" xml:space="preserve">
-    <value></value>
+    <value>下一个</value>
     <comment>Next</comment>
   </data>
   <data name="S_B_TutReaderContent1" xml:space="preserve">
-    <value></value>
+    <value>点击屏幕边缘滑动页面，使用 向左键或向右键 或 鼠标滚轮，转到下一页或上一页[1/8]</value>
     <comment>Tap on the edges of the screen, swipe the page, use ← / → keyboard keys or use mouse scroll wheel, to go to next or previous page.
 [1/8]</comment>
   </data>
   <data name="S_B_TutReaderContent2" xml:space="preserve">
-    <value></value>
+    <value>选择文本或右键单击任何词组以打开上下文菜单。您可以在此处添加备注、高亮或书签[2/8]</value>
     <comment>Select text or right click on any word to open the Reader context menu.
 You can add note, highlight or bookmark from here.
 [2/8]</comment>
   </data>
   <data name="S_B_TutReaderContent3" xml:space="preserve">
-    <value></value>
+    <value>从这里访问图书目录[3/8]</value>
     <comment>Access the table of contents of the book from here.
 [3/8]</comment>
   </data>
   <data name="S_B_TutReaderContent4" xml:space="preserve">
-    <value></value>
+    <value>您的笔记在此列出[4/8]</value>
     <comment>Your notes and highlights would be listed here.
 [4/8]</comment>
   </data>
   <data name="S_B_TutReaderContent5" xml:space="preserve">
-    <value></value>
+    <value>您的书签在此列出[5/8]</value>
     <comment>Set bookmarks would appear here.
 [5/8]</comment>
   </data>
   <data name="S_B_TutReaderContent6" xml:space="preserve">
-    <value></value>
+    <value>在本章节或全书中搜索[6/8]</value>
     <comment>Search in the current chapter or the entire book.
 [6/8]</comment>
   </data>
   <data name="S_B_TutReaderContent7" xml:space="preserve">
-    <value></value>
+    <value>您可以在此使用朗读功能[7/8]</value>
     <comment>You can use this to read aloud the book contents (text-to-speech).
 [7/8]</comment>
   </data>
   <data name="S_B_TutReaderContent8" xml:space="preserve">
-    <value></value>
+    <value>您可以从这里配置页面布局、样式、配色方案等[8/8]</value>
     <comment>You can configure the page layout, style, color scheme, etc. from here.
 [8/8]</comment>
   </data>
   <data name="S_B_TutReaderTitle1" xml:space="preserve">
-    <value></value>
+    <value>跳转到</value>
     <comment>Page change</comment>
   </data>
   <data name="S_B_TutReaderTitle2" xml:space="preserve">
-    <value></value>
+    <value>阅读器右键菜单</value>
     <comment>Reader context menu</comment>
   </data>
   <data name="S_B_TutReaderTitle3" xml:space="preserve">
-    <value></value>
+    <value>目录</value>
     <comment>Table of contents</comment>
   </data>
   <data name="S_B_TutReaderTitle4" xml:space="preserve">
-    <value></value>
+    <value>笔记和高亮墨迹</value>
     <comment>Notes and highlights</comment>
   </data>
   <data name="S_B_TutReaderTitle5" xml:space="preserve">
-    <value></value>
+    <value>书签</value>
     <comment>Bookmarks</comment>
   </data>
   <data name="S_B_TutReaderTitle6" xml:space="preserve">
-    <value></value>
+    <value>搜索</value>
     <comment>Search</comment>
   </data>
   <data name="S_B_TutReaderTitle7" xml:space="preserve">
-    <value></value>
+    <value>大声朗读</value>
     <comment>ReadAloud</comment>
   </data>
   <data name="S_B_TutReaderTitle8" xml:space="preserve">
-    <value></value>
+    <value>文本样式</value>
     <comment>Text style</comment>
   </data>
   <data name="S_Backup" xml:space="preserve">
-    <value></value>
+    <value>备份</value>
     <comment>Backup</comment>
   </data>
   <data name="S_Backup_ErrMsg1" xml:space="preserve">
-    <value></value>
+    <value>必须选择一项配置</value>
     <comment>Select at-least 1 configuration</comment>
   </data>
   <data name="S_Backup_ErrMsg2" xml:space="preserve">
-    <value></value>
+    <value>操作失败，请尝试联系支持</value>
     <comment>Operation failed. Plz contact support.</comment>
   </data>
   <data name="S_BannerAds" xml:space="preserve">
-    <value></value>
+    <value>横幅广告</value>
     <comment>Banner Ads</comment>
   </data>
   <data name="S_BookAddedMsg" xml:space="preserve">
-    <value></value>
+    <value>{0}:已成功添加的书籍</value>
     <comment>{0}: Book added successfully.</comment>
   </data>
   <data name="S_BookAddStartScreen" xml:space="preserve">
-    <value></value>
+    <value>图书已添加到“开始”屏幕</value>
     <comment>Book added to start screen.</comment>
   </data>
   <data name="S_BookExistsMsg" xml:space="preserve">
-    <value></value>
+    <value>{0}:书本已存在</value>
     <comment>{0}: Book already exists.</comment>
   </data>
   <data name="S_BookFont" xml:space="preserve">
-    <value></value>
+    <value>图书字体</value>
     <comment>Book's font</comment>
   </data>
   <data name="S_BookmarkAdded" xml:space="preserve">
-    <value></value>
+    <value>已添加书签</value>
     <comment>Bookmark added.</comment>
   </data>
   <data name="S_BookmarkExists" xml:space="preserve">
-    <value></value>
+    <value>已存在相同书签</value>
     <comment>Bookmark already exists.</comment>
   </data>
   <data name="S_BookRmStartScreen" xml:space="preserve">
-    <value></value>
+    <value>图书已从“开始”屏幕中删除</value>
     <comment>Book removed from start screen.</comment>
   </data>
   <data name="S_BooksAdded" xml:space="preserve">
-    <value></value>
+    <value>{0}:已添加书籍</value>
     <comment>{0} book(s) added.</comment>
   </data>
   <data name="S_BooksAlreadyExists" xml:space="preserve">
-    <value></value>
+    <value>已存在相同书籍</value>
     <comment>Book already exists.</comment>
   </data>
   <data name="S_BookSystemLimitError_Msg" xml:space="preserve">
-    <value></value>
+    <value>无法添加图书，因为已达到系统限制。请删除单独添加的图书文件，并使用“添加文件夹”选项批量添加图书。</value>
     <comment>Cannot add more books as the system limit has been reached. Consider removing individually added book files and use 'Add Folder' option to add books in bulk.</comment>
   </data>
   <data name="S_BookSystemLimitError_Title" xml:space="preserve">
-    <value></value>
+    <value>无法添加图书</value>
     <comment>Unable to add book(s)</comment>
   </data>
   <data name="S_Cancelled" xml:space="preserve">
-    <value></value>
+    <value>已取消</value>
     <comment>Cancelled</comment>
   </data>
   <data name="S_Collapse" xml:space="preserve">
-    <value></value>
+    <value>崩溃</value>
     <comment>Collapse</comment>
   </data>
   <data name="S_CollectionConstAll" xml:space="preserve">
-    <value></value>
+    <value>全部</value>
     <comment>All</comment>
   </data>
   <data name="S_CollectionConstBookmarks" xml:space="preserve">
-    <value></value>
+    <value>书签</value>
     <comment>Bookmarks</comment>
   </data>
   <data name="S_CollectionConstHighlights" xml:space="preserve">
-    <value></value>
+    <value>高亮墨迹</value>
     <comment>Highlights</comment>
   </data>
   <data name="S_CollectionConstNotes" xml:space="preserve">
-    <value></value>
+    <value>笔记</value>
     <comment>Notes</comment>
   </data>
   <data name="S_Completed" xml:space="preserve">
-    <value></value>
+    <value>已完成</value>
     <comment>Completed</comment>
   </data>
   <data name="S_Confirmation" xml:space="preserve">
-    <value></value>
+    <value>确认</value>
     <comment>Confirmation</comment>
   </data>
   <data name="S_CTheme1" xml:space="preserve">
-    <value></value>
+    <value>葡萄园</value>
     <comment>Vine Yard</comment>
   </data>
   <data name="S_CTheme2" xml:space="preserve">
-    <value></value>
+    <value>暗边</value>
     <comment>Dark Side</comment>
   </data>
   <data name="S_CTheme3" xml:space="preserve">
-    <value></value>
+    <value>新鲜水果</value>
     <comment>Fresh Berry</comment>
   </data>
   <data name="S_CTheme4" xml:space="preserve">
-    <value></value>
+    <value>淡橙色</value>
     <comment>Pulpy Orange</comment>
   </data>
   <data name="S_CTheme5" xml:space="preserve">
-    <value></value>
+    <value>晴空</value>
     <comment>Clear sky</comment>
   </data>
   <data name="S_CTheme6" xml:space="preserve">
-    <value></value>
+    <value>闪光</value>
     <comment>Flash</comment>
   </data>
   <data name="S_CTheme7" xml:space="preserve">
-    <value></value>
+    <value>蓝绿色</value>
     <comment>Turquoise</comment>
   </data>
   <data name="S_CTheme8" xml:space="preserve">
-    <value></value>
+    <value>青苹果</value>
     <comment>Green Apple</comment>
   </data>
   <data name="S_CThemeMsg1" xml:space="preserve">
-    <value></value>
+    <value>主题已复制到剪贴板</value>
     <comment>Theme copied to clipboard.</comment>
   </data>
   <data name="S_CThemeMsg2" xml:space="preserve">
-    <value></value>
+    <value>未选择主题</value>
     <comment>Theme not selected.</comment>
   </data>
   <data name="S_CurrentChapter" xml:space="preserve">
-    <value></value>
+    <value>当前章节</value>
     <comment>Current chapter</comment>
   </data>
   <data name="S_DateAdded.Text" xml:space="preserve">
-    <value></value>
+    <value>添加日期：</value>
     <comment>Date added : </comment>
   </data>
   <data name="S_Description.Text" xml:space="preserve">
-    <value></value>
+    <value>说明：</value>
     <comment>Description : </comment>
   </data>
   <data name="S_DockLeft" xml:space="preserve">
-    <value></value>
+    <value>靠左</value>
     <comment>Dock left</comment>
   </data>
   <data name="S_DockRight" xml:space="preserve">
-    <value></value>
+    <value>靠右</value>
     <comment>Dock right</comment>
   </data>
   <data name="S_DownloadBook" xml:space="preserve">
-    <value></value>
+    <value>下载图书</value>
     <comment>Download book</comment>
   </data>
   <data name="S_DownloadBook_Msg" xml:space="preserve">
-    <value></value>
+    <value>你确定下载这本书并添加到主页吗</value>
     <comment>Do you want to download this book and add to library?</comment>
   </data>
   <data name="S_Downloading" xml:space="preserve">
-    <value></value>
+    <value>下载中</value>
     <comment>Downloading</comment>
   </data>
   <data name="S_EntireBook" xml:space="preserve">
-    <value></value>
+    <value>全书</value>
     <comment>Entire book</comment>
   </data>
   <data name="S_ErrMsg1" xml:space="preserve">
-    <value></value>
+    <value>没有访问图书文件的权限｛0｝单击“授予权限”，然后重新选择图书文件。</value>
     <comment>Aquile Reader does not have permission to access the book file - {0}.
 Click 'Grant Permission' and select the same book file in the file picker window.</comment>
   </data>
   <data name="S_ErrMsg1_btn" xml:space="preserve">
-    <value></value>
+    <value>授予权限</value>
     <comment>Grant Permission</comment>
   </data>
   <data name="S_ErrMsg2" xml:space="preserve">
-    <value></value>
+    <value>文件不存在，请重试</value>
     <comment>The file you are trying to open, no longer exists.
 Please check and try again.</comment>
   </data>
   <data name="S_ErrMsg3" xml:space="preserve">
-    <value></value>
+    <value>文件正在使用，或已锁定，或您没有足够的权限</value>
     <comment>The file may be in use, locked, or you don't have sufficient permissions.</comment>
   </data>
   <data name="S_ErrMsg4" xml:space="preserve">
-    <value></value>
+    <value>所选文件与原始图书文件不同｛0｝</value>
     <comment>Selected File is different from the original book file - {0}.</comment>
   </data>
   <data name="S_ErrMsg6" xml:space="preserve">
-    <value></value>
+    <value>如果问题仍然存在，请联系支持</value>
     <comment>If the problem persists please contact support.</comment>
   </data>
   <data name="S_ErrTitle1" xml:space="preserve">
-    <value></value>
+    <value>无法访问该图书</value>
     <comment>Unable to access the book!</comment>
   </data>
   <data name="S_ErrTitle2" xml:space="preserve">
-    <value></value>
+    <value>文件不存在！</value>
     <comment>File does not exist!</comment>
   </data>
   <data name="S_ErrTitle3" xml:space="preserve">
-    <value></value>
+    <value>无法打开文件！</value>
     <comment>Can't open file!</comment>
   </data>
   <data name="S_ErrTitle4" xml:space="preserve">
-    <value></value>
+    <value>不是同一个文件！</value>
     <comment>Not the same file!</comment>
   </data>
   <data name="S_ErrTitle5" xml:space="preserve">
-    <value></value>
+    <value>出现意外错误！</value>
     <comment>Unexpected error occurred!</comment>
   </data>
   <data name="S_ErrTitle6" xml:space="preserve">
-    <value></value>
+    <value>未能打开文件！</value>
     <comment>Couldn't open file</comment>
   </data>
   <data name="S_Expand" xml:space="preserve">
-    <value></value>
+    <value>展开</value>
     <comment>Expand</comment>
   </data>
   <data name="S_Failed" xml:space="preserve">
-    <value></value>
+    <value>失败</value>
     <comment>Failed</comment>
   </data>
   <data name="S_FileCountLimitBtn1" xml:space="preserve">
-    <value></value>
+    <value>中止并使用“添加文件夹”</value>
     <comment>Abort and use 'Add Folder'</comment>
   </data>
   <data name="S_FileCountLimitBtn2" xml:space="preserve">
-    <value></value>
+    <value>继续添加图书</value>
     <comment>Continue to add books</comment>
   </data>
   <data name="S_FileCountLimitMsg" xml:space="preserve">
-    <value></value>
+    <value>一次添加大量的图书可能会达到系统限制。请使用“添加文件夹”选项批量添加图书。</value>
     <comment>Adding large number of individual book files can hit system limit, thus preventing new book from being added.
 Use 'Add Folder' option to add book files in bulk.</comment>
   </data>
   <data name="S_FileCountLimitTitle" xml:space="preserve">
-    <value></value>
+    <value>警告！</value>
     <comment>Warning!</comment>
   </data>
   <data name="S_FileNotSaved" xml:space="preserve">
-    <value></value>
+    <value>{0}未成功保存</value>
     <comment>{0} could not be saved.</comment>
   </data>
   <data name="S_FilePath.Text" xml:space="preserve">
-    <value></value>
+    <value>文件路径</value>
     <comment>File path : </comment>
   </data>
   <data name="S_FileSaved" xml:space="preserve">
-    <value></value>
+    <value>{0}已保存</value>
     <comment>{0} was saved.</comment>
   </data>
   <data name="S_Genre.Text" xml:space="preserve">
-    <value></value>
+    <value>流派：</value>
     <comment>Genre : </comment>
   </data>
   <data name="S_GoPrem" xml:space="preserve">
-    <value></value>
+    <value>高级会员</value>
     <comment>Go Premium</comment>
   </data>
   <data name="S_HighNotes_Msg1" xml:space="preserve">
-    <value></value>
+    <value>所选内容不应包括页眉或页脚中的空格。请重新选择</value>
     <comment>Selected content should not include the white spaces from header or footer. Please re-select.</comment>
   </data>
   <data name="S_HighNotesMsg1" xml:space="preserve">
-    <value></value>
+    <value>打开搜索窗格时无法添加高亮</value>
     <comment>Highlight cannot be added while search pane is open.</comment>
   </data>
   <data name="S_HighNotesMsg2" xml:space="preserve">
-    <value></value>
+    <value>“高亮”和“注释”选择的文本不能重叠。</value>
     <comment>Selected text for Highlight and Note cannot overlap.</comment>
   </data>
   <data name="S_HighNotesMsg3" xml:space="preserve">
-    <value></value>
+    <value>必须选择至少一个字符添加高亮墨迹</value>
     <comment>Minimum 1 character must be selected for highlight.</comment>
   </data>
   <data name="S_HighNotesMsg4" xml:space="preserve">
-    <value></value>
+    <value>最多高亮4000给字符</value>
     <comment>Maximum 4000 characters can be selected for highlight.</comment>
   </data>
   <data name="S_HighNotesMsg5" xml:space="preserve">
-    <value></value>
+    <value>搜索窗格打开时无法添加注释</value>
     <comment>Note cannot be added while search pane is open.</comment>
   </data>
   <data name="S_HighNotesMsg6" xml:space="preserve">
