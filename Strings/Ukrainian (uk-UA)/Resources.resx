@@ -466,7 +466,7 @@
         <comment>Table Of Contents</comment>
     </data>
   <data name="B_ToggleFav.ToolTipService.ToolTip" xml:space="preserve">
-        <value>Перемкнути Вибране</value>
+        <value>Перемкнути Обране</value>
         <comment>Toggle Favorite</comment>
     </data>
   <data name="B_ToggleFullscreen.ToolTipService.ToolTip" xml:space="preserve">
@@ -640,7 +640,7 @@ This setting will be applied on the next start of the app.</comment>
         <comment>In 2-column layout when device rotates to portrait mode, reader will auto switch to 1-column layout, and vice versa</comment>
     </data>
   <data name="C_Reader_AutoLayout.Title" xml:space="preserve">
-        <value>Автоматичне перемикання в 1-колонковий макет</value>
+        <value>Automatic layout switching</value>
         <comment>Auto switch to 1 column layout</comment>
     </data>
   <data name="C_Reader_AutoScroll.Description" xml:space="preserve">
@@ -756,7 +756,7 @@ This setting will be applied on the next start of the app.</comment>
         <comment>Series Number : </comment>
     </data>
   <data name="EBI_Title.Text" xml:space="preserve">
-        <value>Редагування інформації про книгу</value>
+        <value>Редагувати інформацію</value>
         <comment>Edit book information</comment>
     </data>
   <data name="IAP_Discount.Text" xml:space="preserve">
@@ -764,7 +764,7 @@ This setting will be applied on the next start of the app.</comment>
         <comment>20% off</comment>
     </data>
   <data name="IAP_Popular.Text" xml:space="preserve">
-        <value>Найпопулярніше</value>
+        <value>популярний</value>
         <comment>Most Popular</comment>
     </data>
   <data name="M_About.Content" xml:space="preserve">
@@ -1961,7 +1961,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
         <comment>Recent Reads</comment>
     </data>
   <data name="T_RmSyncFolder.Text" xml:space="preserve">
-        <value>Вилучити папку для синхронізації</value>
+        <value>Видалити папку синхронізації</value>
         <comment>Remove Sync Folder</comment>
     </data>
   <data name="T_RmSyncFolderConf.Text" xml:space="preserve">
@@ -1977,7 +1977,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
         <comment>Find ...</comment>
     </data>
   <data name="T_SearchBox.PlaceholderText" xml:space="preserve">
-        <value>Шукати за назвою або іменем автора...</value>
+        <value>Шукати за назвою або автора...</value>
         <comment>Search by title or author name ...</comment>
     </data>
   <data name="T_Searching.Text" xml:space="preserve">
@@ -1985,7 +1985,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
         <comment>Searching</comment>
     </data>
   <data name="T_SeeMore.Text" xml:space="preserve">
-        <value>See more</value>
+        <value>Побачити більше</value>
         <comment>See more</comment>
     </data>
   <data name="T_SelectFolder.Text" xml:space="preserve">
