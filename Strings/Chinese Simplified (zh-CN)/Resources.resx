@@ -1968,15 +1968,15 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Search by title or author name ...</comment>
   </data>
   <data name="T_Searching.Text" xml:space="preserve">
-    <value>查找中...</value>
+    <value>查找中</value>
     <comment>Searching</comment>
   </data>
   <data name="T_SeeMore.Text" xml:space="preserve">
-    <value>查看更多...</value>
+    <value>查看更多</value>
     <comment>See more</comment>
   </data>
   <data name="T_SelectFolder.Text" xml:space="preserve">
-    <value>选择文件夹...</value>
+    <value>选择文件夹</value>
     <comment>Select folder</comment>
   </data>
   <data name="T_Settings.Text" xml:space="preserve">
