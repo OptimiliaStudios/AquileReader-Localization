@@ -339,7 +339,7 @@
   </data>
   <data name="S_B_OnlineBookContent1" xml:space="preserve">
     <value>Selecione o site de onde você deseja baixar o eBook.
-[1/4]</value>
+ [1/4]</value>
     <comment>Select the website from where you want to download the eBook.
 [1/4]</comment>
   </data>
@@ -357,7 +357,7 @@
   </data>
   <data name="S_B_OnlineBookContent4" xml:space="preserve">
     <value>Adicione seu próprio site de onde deseja baixar eBooks.
-[4/4]</value>
+ [4/4]</value>
     <comment>Add your own website from where you want to download eBooks.
 [4/4]</comment>
   </data>
@@ -395,13 +395,13 @@
   </data>
   <data name="S_B_TutReaderContent1" xml:space="preserve">
     <value>Toque nas bordas da tela, deslize a página, use as teclas ← / → do teclado ou use a roda de rolagem do mouse para ir para a página seguinte ou anterior.
-[1/8]</value>
+ [1/8]</value>
     <comment>Tap on the edges of the screen, swipe the page, use ← / → keyboard keys or use mouse scroll wheel, to go to next or previous page.
 [1/8]</comment>
   </data>
   <data name="S_B_TutReaderContent2" xml:space="preserve">
-    <value>Selecione o texto ou clique com o botão direito do mouse em qualquer palavra para abrir o menu de contexto do Reader. 
-Você pode adicionar notas, realçar ou marcar informações por aqui.
+    <value>Selecione o texto ou clique com o botão direito do mouse em qualquer palavra para abrir o menu de contexto do Reader.
+Você pode adicionar notas, realçar ou marcar informações por aqui. 
 [2/8]</value>
     <comment>Select text or right click on any word to open the Reader context menu.
 You can add note, highlight or bookmark from here.
@@ -427,7 +427,7 @@ You can add note, highlight or bookmark from here.
   </data>
   <data name="S_B_TutReaderContent6" xml:space="preserve">
     <value>Pesquise no capítulo atual ou no livro inteiro.
-[6/8]</value>
+ [6/8]</value>
     <comment>Search in the current chapter or the entire book.
 [6/8]</comment>
   </data>
@@ -951,7 +951,7 @@ Use 'Add Folder' option to add book files in bulk.</comment>
   </data>
   <data name="S_PremiumBooksCount" xml:space="preserve">
     <value>A versão gratuita do aplicativo suporta apenas {0} livros na biblioteca por vez.
-Para adicionar mais, atualize para o Aquile Reader Premium.</value>
+ Para adicionar mais, atualize para o Aquile Reader Premium.</value>
     <comment>Free version of the app supports only {0} books in the library at a time.
 To add more, please upgrade to Aquile Reader Premium.</comment>
   </data>
@@ -963,7 +963,7 @@ To create more, please upgrade to Aquile Reader Premium.</comment>
   </data>
   <data name="S_PremiumColorThemes" xml:space="preserve">
     <value>A versão gratuita do aplicativo suporta apenas {0} temas personalizados.
-Para criar mais, atualize para o Aquile Reader Premium.</value>
+ Para criar mais, atualize para o Aquile Reader Premium.</value>
     <comment>Free version of the app supports only {0} custom themes.
 To create more, please upgrade to Aquile Reader Premium.</comment>
   </data>
@@ -973,7 +973,7 @@ To create more, please upgrade to Aquile Reader Premium.</comment>
   </data>
   <data name="S_PremiumPin" xml:space="preserve">
     <value>A versão gratuita do aplicativo suporta apenas {0} livros fixados na tela inicial por vez.
-Para adicionar mais, atualize para o Aquile Reader Premium.</value>
+ Para adicionar mais, atualize para o Aquile Reader Premium.</value>
     <comment>Free version of the app supports only {0} books pinned to start screen at a time.
 To add more, please upgrade to Aquile Reader Premium.</comment>
   </data>
@@ -991,7 +991,7 @@ To create more, please upgrade to Aquile Reader Premium.</comment>
   </data>
   <data name="S_PremiumThemes" xml:space="preserve">
     <value>Temas de página personalizados estão disponíveis apenas no Aquile Reader Premium.
-Atualize para Premium e aproveite todos os recursos.</value>
+ Atualize para Premium e aproveite todos os recursos.</value>
     <comment>Custom Page Themes are only available in Aquile Reader Premium.
 Upgrade to Premium and enjoy all the features.</comment>
   </data>
@@ -1226,12 +1226,12 @@ Try opening the file again. If the problem persists please contact support.</com
     <comment>Create a backup copy with the selected configurations.</comment>
   </data>
   <data name="T_Backup_Heading.Text" xml:space="preserve">
-    <value>Cópia de Seurança e Restauração</value>
+    <value>Cópia de Segurança e Restauração</value>
     <comment>Backup &amp; Restore</comment>
   </data>
   <data name="T_Backup_Restore.Text" xml:space="preserve">
     <value>Restaure as configurações selecionadas do arquivo de backup. 
-Observação: isso substituirá as configurações atuais, por exemplo, notas, destaques, etc, podem ser perdidos se não estiverem contidos na cópia de segurança.</value>
+Observação: isso substituirá as configurações atuais, notas, destaques e favoritos, por exemplo, podem ser perdidos se não estiverem contidos na cópia de segurança.</value>
     <comment>Restore the selected configurations from the backup file.
 Note: This will override current configurations, e.g. new notes, highlights etc can be lost if they are not contained in the backup copy.</comment>
   </data>
@@ -1280,7 +1280,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Experimental</comment>
   </data>
   <data name="T_ExpDetails.Text" xml:space="preserve">
-    <value>Esses recursos ainda estão em desenvolvimento e podem ser um pouco instáveis ​​ou com bugs. Você pode experimentá-los e compartilhar feedback conosco.</value>
+    <value>Esses recursos ainda estão em desenvolvimento e podem ser um pouco instáveis ​​ou com bugs. Você pode experimentá-los e compartilhar seu feedback conosco.</value>
     <comment>These features are still in development and might be little unstable or buggy. You can try them out and share feedback with us.</comment>
   </data>
   <data name="T_ExpDetailsLink.Text" xml:space="preserve">
@@ -1368,7 +1368,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Opening Book</comment>
   </data>
   <data name="T_OpenLibrary.Text" xml:space="preserve">
-    <value>Abrir Biblioteca</value>
+    <value>Ver Biblioteca</value>
     <comment>Open Library</comment>
   </data>
   <data name="T_PageLayout.Text" xml:space="preserve">
@@ -1448,7 +1448,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Statistics</comment>
   </data>
   <data name="T_Sync_AddFolder.Text" xml:space="preserve">
-    <value>Adicionar pasta a sincronização</value>
+    <value>Adicionar pasta à sincronização</value>
     <comment>Add sync folder</comment>
   </data>
   <data name="T_Sync_BookCount.Text" xml:space="preserve">
@@ -1556,7 +1556,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Last read time</comment>
   </data>
   <data name="TM_None.Text" xml:space="preserve">
-    <value>(Nada mais)</value>
+    <value>(Nenhum)</value>
     <comment>(None)</comment>
   </data>
   <data name="TM_Publisher.Text" xml:space="preserve">
@@ -1592,7 +1592,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Exit Reading Mode (Ctrl + E)</comment>
   </data>
   <data name="M_About.Content" xml:space="preserve">
-    <value>Sobre nós</value>
+    <value>Sobre</value>
     <comment>About us</comment>
   </data>
   <data name="T_SBInput.PlaceholderText" xml:space="preserve">
@@ -1684,7 +1684,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Cancel</comment>
   </data>
   <data name="B_ChngLog.ToolTipService.ToolTip" xml:space="preserve">
-    <value>Histórico de alterações</value>
+    <value>Novidades da versão</value>
     <comment>Change log</comment>
   </data>
   <data name="B_ClearHighlight.ToolTipService.ToolTip" xml:space="preserve">
@@ -1780,7 +1780,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Go back to link source</comment>
   </data>
   <data name="B_Mail.ToolTipService.ToolTip" xml:space="preserve">
-    <value>Mail</value>
+    <value>E-mail</value>
     <comment>Mail</comment>
   </data>
   <data name="B_Male.Content" xml:space="preserve">
@@ -1896,7 +1896,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Show command bar</comment>
   </data>
   <data name="B_Sort.ToolTipService.ToolTip" xml:space="preserve">
-    <value>Organizar</value>
+    <value>Ordenar</value>
     <comment>Sort</comment>
   </data>
   <data name="B_Sync_Edit.ToolTipService.ToolTip" xml:space="preserve">
@@ -2060,11 +2060,11 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Collection Type</comment>
   </data>
   <data name="C_General_Advt.Description" xml:space="preserve">
-    <value>Preferência por tipo de anúncios</value>
+    <value>Tipo de anúncios preferido</value>
     <comment>Preference for type of advertisements</comment>
   </data>
   <data name="C_General_Advt.Title" xml:space="preserve">
-    <value>Adv. preferência</value>
+    <value>Preferência de anúncios</value>
     <comment>Advt. preference</comment>
   </data>
   <data name="C_General_BookTitle.Description" xml:space="preserve">
@@ -2133,11 +2133,11 @@ This setting will be applied on the next start of the app.</comment>
     <comment>In 2-column layout when device rotates to portrait mode, reader will auto switch to 1-column layout, and vice versa</comment>
   </data>
   <data name="C_Reader_AutoLayout.Title" xml:space="preserve">
-    <value>Mudança automática para layout de 1 coluna</value>
+    <value>Mudar automaticamente para layout de 1 coluna</value>
     <comment>Auto switch to 1 column layout</comment>
   </data>
   <data name="C_Reader_AutoScroll.Description" xml:space="preserve">
-    <value>Auto rolar a página para seguir a frase que está sendo lida no modo Ler em Voz Alta</value>
+    <value>Mudar a página automaticamente para seguir a frase que está sendo lida no modo Ler em Voz Alta</value>
     <comment>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</comment>
   </data>
   <data name="C_Reader_AutoScroll.Title" xml:space="preserve">
@@ -2149,7 +2149,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Reader uses the original fonts packaged with the book</comment>
   </data>
   <data name="C_Reader_BookFont.Title" xml:space="preserve">
-    <value>Use as fontes do livro</value>
+    <value>Usar as fontes do livro</value>
     <comment>Use book's fonts</comment>
   </data>
   <data name="C_Reader_DictLang.Description" xml:space="preserve">
@@ -2189,7 +2189,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Overrides any text alignment preference set in the book to provide consistent layout in the reader</comment>
   </data>
   <data name="C_Reader_TextAlign.Title" xml:space="preserve">
-    <value>Substituir o alinhamento do texto</value>
+    <value>Padronizar o alinhamento do texto</value>
     <comment>Override text alignment</comment>
   </data>
   <data name="C_ShowFavs.Content" xml:space="preserve">
@@ -2209,7 +2209,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Restore original cover</comment>
   </data>
   <data name="M_Backup.Content" xml:space="preserve">
-    <value>Cópia de Segurança e Restauração</value>
+    <value>Cópia de Segurança</value>
     <comment>Backup &amp; Restore</comment>
   </data>
   <data name="M_ChngLog.Content" xml:space="preserve">

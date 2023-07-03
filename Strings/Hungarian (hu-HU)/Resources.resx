@@ -310,7 +310,7 @@
     <comment>Next Line (Ctrl + →)</comment>
   </data>
   <data name="B_NH.ToolTipService.ToolTip" xml:space="preserve">
-    <value>Jegyzetek és Kiemelések</value>
+    <value>Jegyzetek és kiemelések</value>
     <comment>Notes &amp; Highlights</comment>
   </data>
   <data name="B_OpenBook.Content" xml:space="preserve">
@@ -534,7 +534,7 @@
     <comment>Choose configuration</comment>
   </data>
   <data name="C_Backup_NandH.Content" xml:space="preserve">
-    <value>Jegyzetek és Kiemelések</value>
+    <value>Jegyzetek és kiemelések</value>
     <comment>Notes &amp; highlights</comment>
   </data>
   <data name="C_Backup_Operation.Description" xml:space="preserve">
@@ -732,11 +732,11 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Series number not valid</comment>
   </data>
   <data name="EBI_Genre.Text" xml:space="preserve">
-    <value>Műfaj(k) : </value>
+    <value>Műfaj(ok) : </value>
     <comment>Genre(s) : </comment>
   </data>
   <data name="EBI_Language.Text" xml:space="preserve">
-    <value>Nyelv(k):</value>
+    <value>Nyelv(ek):</value>
     <comment>Language(s) : </comment>
   </data>
   <data name="EBI_Msg1.Text" xml:space="preserve">
@@ -784,7 +784,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Add folder</comment>
   </data>
   <data name="M_Backup.Content" xml:space="preserve">
-    <value>Biztonsági mentés és Helyreállítás</value>
+    <value>Biztonsági mentés és helyreállítás</value>
     <comment>Backup &amp; Restore</comment>
   </data>
   <data name="M_BookInfo.Text" xml:space="preserve">
@@ -944,7 +944,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>App window width too small to open Book info pane.</comment>
   </data>
   <data name="S_AppWidthLess" xml:space="preserve">
-    <value>Az ablak túl keskeny</value>
+    <value>Az ablak túl keskeny.</value>
     <comment>App window width too less.</comment>
   </data>
   <data name="S_AS_AvgPagePerHr" xml:space="preserve">
@@ -1146,7 +1146,7 @@ You can add note, highlight or bookmark from here.
     <comment>{0}: Book added successfully.</comment>
   </data>
   <data name="S_BookAddStartScreen" xml:space="preserve">
-    <value>Könyv hozzáadva a kezdőképernyőhöz.</value>
+    <value>Könyv hozzáadva a Start menühöz.</value>
     <comment>Book added to start screen.</comment>
   </data>
   <data name="S_BookExistsMsg" xml:space="preserve">
@@ -1166,7 +1166,7 @@ You can add note, highlight or bookmark from here.
     <comment>Bookmark already exists.</comment>
   </data>
   <data name="S_BookRmStartScreen" xml:space="preserve">
-    <value>Könyv eltávolítva a kezdőképernyőről.</value>
+    <value>Könyv eltávolítva a Start menüről.</value>
     <comment>Book removed from start screen.</comment>
   </data>
   <data name="S_BooksAdded" xml:space="preserve">
@@ -1574,7 +1574,7 @@ To create more, please upgrade to Aquile Reader Premium.</comment>
     <comment>Upgrade to Premium and get access to all fonts installed on the system.</comment>
   </data>
   <data name="S_PremiumPin" xml:space="preserve">
-    <value>A program ingyenes változata egyszerre csak {0} db könyv kihelyezését támogatja a kezdőképernyőre.
+    <value>A program ingyenes változata egyszerre csak {0} db könyv kitűzését támogatja a Start menüre.
 Továbbiak létrehozásához, kérjük frissítsen az Aquile Reader prémium változatára.</value>
     <comment>Free version of the app supports only {0} books pinned to start screen at a time.
 To add more, please upgrade to Aquile Reader Premium.</comment>
@@ -1780,11 +1780,11 @@ Try opening the file again. If the problem persists please contact support.</com
     <comment>Beta</comment>
   </data>
   <data name="T_Backup_Bkp.Text" xml:space="preserve">
-    <value>Biztonsági másolat létrehozása a kiválasztott beállításokkal</value>
+    <value>Biztonsági mentés létrehozása a kiválasztott beállításokkal.</value>
     <comment>Create a backup copy with the selected configurations.</comment>
   </data>
   <data name="T_Backup_Heading.Text" xml:space="preserve">
-    <value>Biztonsági másolat és Helyreállítás</value>
+    <value>Biztonsági mentés és helyreállítás</value>
     <comment>Backup &amp; Restore</comment>
   </data>
   <data name="T_Backup_Restore.Text" xml:space="preserve">
@@ -1838,7 +1838,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Experimental</comment>
   </data>
   <data name="T_ExpDetails.Text" xml:space="preserve">
-    <value>Ezek a funkciók még fejlesztés alatt állnak, így használatuk közben esetlegesen hibák fordulhatnak elő. Lehetősége van kipróbálni őket, és megoszthatja velünk észrevételeit!</value>
+    <value>Ezek a funkciók még fejlesztés alatt állnak, így használatuk közben hibák fordulhatnak elő. Lehetősége van kipróbálni őket, és megoszthatja velünk észrevételeit!</value>
     <comment>These features are still in development and might be little unstable or buggy. You can try them out and share feedback with us.</comment>
   </data>
   <data name="T_ExpDetailsLink.Text" xml:space="preserve">
@@ -1850,7 +1850,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Favourite Books</comment>
   </data>
   <data name="T_FavEmptyMsg.Text" xml:space="preserve">
-    <value>Kedvenc könyvei fognak megjelenni.</value>
+    <value>Kedvenc könyvei itt fognak megjelenni</value>
     <comment>Your favourite books would appear here</comment>
   </data>
   <data name="T_FontStyle.Text" xml:space="preserve">
@@ -2026,7 +2026,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>This provides an easy way to keep the Aquile Reader library and your local book collection in sync.</comment>
   </data>
   <data name="T_Sync_msg2.Text" xml:space="preserve">
-    <value>Az Aquile Reader induláskor automatikusan szinkronizálja a könyveket a „Szinkronizációs mappákból” , valamint hozzáadja/eltávolítja a könyveket az alkalmazás könyvtárából.</value>
+    <value>Az Aquile Reader induláskor automatikusan szinkronizálja a könyveket a szinkronizációs mappákból, valamint hozzáadja/eltávolítja a könyveket az alkalmazás könyvtárából.</value>
     <comment>Aquile Reader on app start-up syncs books from 'Sync Folders' and automatically add/remove books from the app library.</comment>
   </data>
   <data name="T_Sync_SyncFolders.Text" xml:space="preserve">
@@ -2234,7 +2234,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Only 1 sync folder allowed</comment>
   </data>
   <data name="S_Free_Msg9.Text" xml:space="preserve">
-    <value>Egyszerre maximum 5 könyv tűzhető ki a kezdőképernyőre</value>
+    <value>Egyszerre maximum 5 könyv tűzhető ki a Start menüre</value>
     <comment>Max 5 books can be pinned to Start screen at a time</comment>
   </data>
   <data name="S_PremPage.Text" xml:space="preserve">
@@ -2274,7 +2274,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>No limit on number of sync folders</comment>
   </data>
   <data name="S_PremPage_Msg9.Text" xml:space="preserve">
-    <value>Korlátlan számban tűzhet ki könyveket a kezdőképernyőre</value>
+    <value>Korlátlan számban tűzhet ki könyveket a Start menüre</value>
     <comment>No limit on number books pinned to Start screen</comment>
   </data>
 </root>
