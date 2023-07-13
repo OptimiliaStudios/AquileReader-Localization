@@ -1,0 +1,1714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="B_Add.Content" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="B_AddBook.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Dodaj novo knjigo</value>
+  </data>
+  <data name="B_AddBookmark.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Dodaj zaznamek</value>
+  </data>
+  <data name="B_AddFolder.Content" xml:space="preserve">
+    <value>Dodaj mapo</value>
+  </data>
+  <data name="B_AddNote.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Dodaj opombo</value>
+  </data>
+  <data name="B_AddSite.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Dodaj novo spletno mesto</value>
+  </data>
+  <data name="B_AudioSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Nastavitve zvoka</value>
+  </data>
+  <data name="B_Back.Content" xml:space="preserve">
+    <value>Nazaj</value>
+  </data>
+  <data name="B_Back1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Nazaj</value>
+  </data>
+  <data name="B_Backup_Bkp.Content" xml:space="preserve">
+    <value>Varnostno kopiranje</value>
+  </data>
+  <data name="B_Backup_Restore.Content" xml:space="preserve">
+    <value>Obnovitev</value>
+  </data>
+  <data name="B_Blog.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Preberite naš blog</value>
+  </data>
+  <data name="B_Bookmarks.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zaznamki</value>
+  </data>
+  <data name="B_Cancel.Content" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="B_ChngLog.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Dnevnik sprememb</value>
+  </data>
+  <data name="B_ClearHighlight.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Počisti poudarek</value>
+  </data>
+  <data name="B_Close.Content" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="B_Close1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="B_Collapse.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Strni</value>
+  </data>
+  <data name="B_ColorMenu.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Menu barv</value>
+  </data>
+  <data name="B_ContactSupport.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Obrnite se na podporo</value>
+  </data>
+  <data name="B_Copy.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kopiraj</value>
+  </data>
+  <data name="B_Credits.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zahvale</value>
+  </data>
+  <data name="B_Delete.Text" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="B_DeleteNote.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Izbriši opombo</value>
+  </data>
+  <data name="B_Done.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Končano</value>
+  </data>
+  <data name="B_Downloads.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Prenosi</value>
+  </data>
+  <data name="B_ExitReadingMode.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Izhod iz načina branja (Ctrl + E)</value>
+  </data>
+  <data name="B_Expand.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Razširi</value>
+  </data>
+  <data name="B_ExportCollection.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Izvoz zbirk</value>
+  </data>
+  <data name="B_Fb.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Všečkajte nas na Facebooku</value>
+  </data>
+  <data name="B_Female.Content" xml:space="preserve">
+    <value>Ženska</value>
+  </data>
+  <data name="B_FilterFav.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Filtriraj po priljubljenih</value>
+  </data>
+  <data name="B_Forward.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Naprej</value>
+  </data>
+  <data name="B_General.Content" xml:space="preserve">
+    <value>Ponastaviti</value>
+  </data>
+  <data name="B_GitHub.ToolTipService.ToolTip" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="B_Group.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Skupina</value>
+  </data>
+  <data name="B_Highlight.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Označite</value>
+  </data>
+  <data name="B_Home.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Domov</value>
+  </data>
+  <data name="B_Information.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Informacije</value>
+  </data>
+  <data name="B_JSInspect.ToolTipService.ToolTip" xml:space="preserve">
+    <value>JS pregled</value>
+  </data>
+  <data name="B_LinkBack.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Vrnite se na vir povezave</value>
+  </data>
+  <data name="B_Mail.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Pošta</value>
+  </data>
+  <data name="B_Male.Content" xml:space="preserve">
+    <value>Moški</value>
+  </data>
+  <data name="B_MatchCase.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ujemaj velikost črk</value>
+  </data>
+  <data name="B_MatchWWord.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ujemaj celotno besedo</value>
+  </data>
+  <data name="B_Next.Content" xml:space="preserve">
+    <value>Naslednji</value>
+  </data>
+  <data name="B_NextLine.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Naslednja vrstica (Ctrl + →)</value>
+  </data>
+  <data name="B_NH.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Opombe in poudarki</value>
+  </data>
+  <data name="B_OpenBook.Content" xml:space="preserve">
+    <value>Odpri knjigo</value>
+  </data>
+  <data name="B_Pag1Cols.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Paginirano 1 stolpec</value>
+  </data>
+  <data name="B_Pag2Cols.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Paginirana 2 stolpca</value>
+  </data>
+  <data name="B_PagVertical.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Navpično drsenje</value>
+  </data>
+  <data name="B_PreviousLine.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Prejšnja vrstica (Ctrl + ←)</value>
+  </data>
+  <data name="B_PrivacyPolicy.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Politika zasebnosti</value>
+  </data>
+  <data name="B_RateStore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ocenite v trgovini</value>
+  </data>
+  <data name="B_ReadAloud.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Branje na glas (Ctrl + R)</value>
+  </data>
+  <data name="B_ReadAloud1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Branje na glas</value>
+  </data>
+  <data name="B_ReadAloudSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Nastavitve Branja na glas</value>
+  </data>
+  <data name="B_Refresh.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Osveži</value>
+  </data>
+  <data name="B_Remove.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Odstrani</value>
+  </data>
+  <data name="B_Reset.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ponastaviti</value>
+  </data>
+  <data name="B_RmSyncFolderBtn1.Content" xml:space="preserve">
+    <value>Da, vendar obdržite knjige</value>
+  </data>
+  <data name="B_RmSyncFolderBtn2.Content" xml:space="preserve">
+    <value>Da, in odstranite knjige</value>
+  </data>
+  <data name="B_Save.Content" xml:space="preserve">
+    <value>Shrani</value>
+  </data>
+  <data name="B_Search.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Iskanje</value>
+  </data>
+  <data name="B_Search1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Iskanje (Ctrl + F)</value>
+  </data>
+  <data name="B_SearchWeb.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Išči po spletu</value>
+  </data>
+  <data name="B_SelectFolder.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Izberite mapo</value>
+  </data>
+  <data name="B_SelectIcon.Content" xml:space="preserve">
+    <value>Izberite ikono</value>
+  </data>
+  <data name="B_ShowCB.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Pokaži ukazno vrstico</value>
+  </data>
+  <data name="B_Sort.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Razvrsti</value>
+  </data>
+  <data name="B_Sync_Edit.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Uredi</value>
+  </data>
+  <data name="B_TextFormat.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Oblika besedila</value>
+  </data>
+  <data name="B_TextStyle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Slog besedila</value>
+  </data>
+  <data name="B_Theme1.Content" xml:space="preserve">
+    <value>Bela</value>
+  </data>
+  <data name="B_Theme1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Bela (Ctrl + T + 1)</value>
+  </data>
+  <data name="B_Theme2.Content" xml:space="preserve">
+    <value>Srebrna</value>
+  </data>
+  <data name="B_Theme2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>srebrna (Ctrl + T + 2)</value>
+  </data>
+  <data name="B_Theme3.Content" xml:space="preserve">
+    <value>Rjavkasto črna</value>
+  </data>
+  <data name="B_Theme3.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Rjavkasto črna (Ctrl + T + 3)</value>
+  </data>
+  <data name="B_Theme4.Content" xml:space="preserve">
+    <value>Noč</value>
+  </data>
+  <data name="B_Theme4.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Noč (Ctrl + T + 4)</value>
+  </data>
+  <data name="B_Theme5.Content" xml:space="preserve">
+    <value>Solarizirano</value>
+  </data>
+  <data name="B_Theme5.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Solarizirano (Ctrl + T + 5)</value>
+  </data>
+  <data name="B_Theme6.Content" xml:space="preserve">
+    <value>Po meri</value>
+  </data>
+  <data name="B_TOC.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kazalo</value>
+  </data>
+  <data name="B_ToggleFav.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Preklopi med priljubljene</value>
+  </data>
+  <data name="B_ToggleFullscreen.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Preklop na celozaslonski način (F11)</value>
+  </data>
+  <data name="B_Translate.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Prevedi</value>
+  </data>
+  <data name="B_Tw.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sledite nam na Twitterju</value>
+  </data>
+  <data name="B_ZoomIn.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Približaj</value>
+  </data>
+  <data name="B_ZoomOut.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Pomanjšaj</value>
+  </data>
+  <data name="C_AddFolder_AddRecent.Content" xml:space="preserve">
+    <value>Dodajte knjige na nedavni seznam</value>
+  </data>
+  <data name="C_AddFolder_AutoRemove.Content" xml:space="preserve">
+    <value>Samodejno odstranite knjige iz knjižnice (vključno z opombami, poudarki itd.), ko so datoteke izbrisane iz mape</value>
+  </data>
+  <data name="C_AddFolder_RecSearch.Content" xml:space="preserve">
+    <value>Rekurzivno iskanje podmap</value>
+  </data>
+  <data name="C_AddFolder_SyncFolder.Content" xml:space="preserve">
+    <value>Sinhronizirajte to mapo in samodejno dodajte nove knjige</value>
+  </data>
+  <data name="C_Backup_AStats.Content" xml:space="preserve">
+    <value>Statistika aplikacije</value>
+  </data>
+  <data name="C_Backup_BFav.Content" xml:space="preserve">
+    <value>Seznam priljubljenih knjig</value>
+  </data>
+  <data name="C_Backup_BFiles.Content" xml:space="preserve">
+    <value>Datoteke knjig</value>
+  </data>
+  <data name="C_Backup_BMeta.Content" xml:space="preserve">
+    <value>Metapodatki knjige</value>
+  </data>
+  <data name="C_Backup_Bookmarks.Content" xml:space="preserve">
+    <value>Zaznamki</value>
+  </data>
+  <data name="C_Backup_Config.Description" xml:space="preserve">
+    <value>Izberite konfiguracijo za operacijo varnostnega kopiranja ali obnovitve</value>
+  </data>
+  <data name="C_Backup_Config.Title" xml:space="preserve">
+    <value>Izberite konfiguracijo</value>
+  </data>
+  <data name="C_Backup_NandH.Content" xml:space="preserve">
+    <value>Opombe in poudarki</value>
+  </data>
+  <data name="C_Backup_Operation.Description" xml:space="preserve">
+    <value>Izberite opravilo, ki ga želite izvesti</value>
+  </data>
+  <data name="C_Backup_Operation.Title" xml:space="preserve">
+    <value>Izberite opravilo</value>
+  </data>
+  <data name="C_Backup_Storage.Description" xml:space="preserve">
+    <value>Izberite izvorni ali ciljni prostor za shranjevanje za to opravilo</value>
+  </data>
+  <data name="C_Backup_Storage.Title" xml:space="preserve">
+    <value>Izberite prostor za shranjevanje</value>
+  </data>
+  <data name="C_Books.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Knjige</value>
+  </data>
+  <data name="C_ChapterList.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Seznam poglavij</value>
+  </data>
+  <data name="C_CollectionType.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Vrsta zbirke</value>
+  </data>
+  <data name="C_General_Advt.Description" xml:space="preserve">
+    <value>Prednost glede vrste oglasov</value>
+  </data>
+  <data name="C_General_Advt.Title" xml:space="preserve">
+    <value>Prednost oglasov</value>
+  </data>
+  <data name="C_General_BookTitle.Description" xml:space="preserve">
+    <value>Prikaz naslova za vse knjige v pogledu knjižnice</value>
+  </data>
+  <data name="C_General_BookTitle.Title" xml:space="preserve">
+    <value>Prikaži naslove knjig</value>
+  </data>
+  <data name="C_General_Lang.Description" xml:space="preserve">
+    <value>Gumbi, meniji in drugi kontrolniki bodo prikazani v tem jeziku. Ta nastavitev bo v uporabi šele ob naslednjem zagonu aplikacije.</value>
+  </data>
+  <data name="C_General_Lang.Title" xml:space="preserve">
+    <value>Jezik vmesnika</value>
+  </data>
+  <data name="C_General_Tutorial.Description" xml:space="preserve">
+    <value>Ponovno pokaži vse vadnice</value>
+  </data>
+  <data name="C_General_Tutorial.Title" xml:space="preserve">
+    <value>Ponastavi vadnice</value>
+  </data>
+  <data name="C_Personal_ColorThemes.Title" xml:space="preserve">
+    <value>Barvne teme</value>
+  </data>
+  <data name="C_Personal_TransBanckground.Title" xml:space="preserve">
+    <value>Prozorno ozadje</value>
+  </data>
+  <data name="C_Personal_TransBanckSlider.Title" xml:space="preserve">
+    <value>Prozornost ozadja</value>
+  </data>
+  <data name="C_Prem1.BillDetails" xml:space="preserve">
+    <value>Zaračunava se četrtletno</value>
+  </data>
+  <data name="C_Prem1.DurationString" xml:space="preserve">
+    <value> mesece</value>
+  </data>
+  <data name="C_Prem2.BillDetails" xml:space="preserve">
+    <value>Zaračunava se letno</value>
+  </data>
+  <data name="C_Prem2.DurationString" xml:space="preserve">
+    <value> mesecev</value>
+  </data>
+  <data name="C_Prem3.BillDetails" xml:space="preserve">
+    <value>Enkratni nakup</value>
+  </data>
+  <data name="C_Prem3.DurationString" xml:space="preserve">
+    <value>Doživljensko</value>
+  </data>
+  <data name="C_Reader_AutoLayout.Description" xml:space="preserve">
+    <value>Pri postavitvi z 2 stolpcema, ko se naprava obrne v pokončni način, bralnik samodejno preklopi na postavitev z 1 stolpcem in obratno</value>
+  </data>
+  <data name="C_Reader_AutoLayout.Title" xml:space="preserve">
+    <value>Samodejni preklop na postavitev 1 stolpca</value>
+  </data>
+  <data name="C_Reader_AutoScroll.Description" xml:space="preserve">
+    <value>Samodejno se pomika po strani, da sledi stavku, ki se bere v načinu Branje na glas</value>
+  </data>
+  <data name="C_Reader_AutoScroll.Title" xml:space="preserve">
+    <value>Samodejno drsenje v Branje na glas</value>
+  </data>
+  <data name="C_Reader_BookFont.Description" xml:space="preserve">
+    <value>Bralnik uporablja originalne pisave, ki so priložene knjigi</value>
+  </data>
+  <data name="C_Reader_BookFont.Title" xml:space="preserve">
+    <value>Uporabite pisave knjige</value>
+  </data>
+  <data name="C_Reader_DictLang.Description" xml:space="preserve">
+    <value>Jezik slovarja znotraj bralniku</value>
+  </data>
+  <data name="C_Reader_DictLang.Title" xml:space="preserve">
+    <value>Jezik slovarja</value>
+  </data>
+  <data name="C_Reader_EnhRender.Description" xml:space="preserve">
+    <value>Izboljša obliko/postavitev, v kateri so knjige upodobljene za branje</value>
+  </data>
+  <data name="C_Reader_EnhRender.Title" xml:space="preserve">
+    <value>Izboljšano upodabljanje</value>
+  </data>
+  <data name="C_Reader_SearchEngine.Description" xml:space="preserve">
+    <value>Iskalnik za spletno iskanje</value>
+  </data>
+  <data name="C_Reader_SearchEngine.Title" xml:space="preserve">
+    <value>Iskalnik</value>
+  </data>
+  <data name="C_Reader_StdMrgn.Description" xml:space="preserve">
+    <value>Preglasi vse robove, določene v knjigi, da zagotovi dosledno postavitev v bralniku</value>
+  </data>
+  <data name="C_Reader_StdMrgn.Title" xml:space="preserve">
+    <value>Standardizirajte robove</value>
+  </data>
+  <data name="C_Reader_TextAlign.Description" xml:space="preserve">
+    <value>Preglasi vse nastavitve poravnave besedila, nastavljene v knjigi, da zagotovi dosledno postavitev v bralniku</value>
+  </data>
+  <data name="C_Reader_TextAlign.Title" xml:space="preserve">
+    <value>Preglasi poravnavo besedila</value>
+  </data>
+  <data name="C_ShowFavs.Content" xml:space="preserve">
+    <value>Pokaži samo priljubljene</value>
+  </data>
+  <data name="CB_Category.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kategorije</value>
+  </data>
+  <data name="EBI_Author.Text" xml:space="preserve">
+    <value>Avtor(ji) : </value>
+  </data>
+  <data name="EBI_Cover1.Content" xml:space="preserve">
+    <value>Izberite naslovnico</value>
+  </data>
+  <data name="EBI_Cover2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Obnovite prvotno naslovnico</value>
+  </data>
+  <data name="EBI_Description.Text" xml:space="preserve">
+    <value>Opis : </value>
+  </data>
+  <data name="EBI_ErrMsg1" xml:space="preserve">
+    <value>Številka serije ne sme biti prazna</value>
+  </data>
+  <data name="EBI_ErrMsg2" xml:space="preserve">
+    <value>Številka serije ni veljavna</value>
+  </data>
+  <data name="EBI_Genre.Text" xml:space="preserve">
+    <value>Zvrst(i) : </value>
+  </data>
+  <data name="EBI_Language.Text" xml:space="preserve">
+    <value>Jezik(i) : </value>
+  </data>
+  <data name="EBI_Msg1.Text" xml:space="preserve">
+    <value> • (s) – uporabite podpičje ( ; ) za ločevanje več vnosov.</value>
+  </data>
+  <data name="EBI_Publisher.Text" xml:space="preserve">
+    <value>Založnik(-i) : </value>
+  </data>
+  <data name="EBI_Series.Text" xml:space="preserve">
+    <value>Serija : </value>
+  </data>
+  <data name="EBI_SeriesNumber.Text" xml:space="preserve">
+    <value>Številka serije : </value>
+  </data>
+  <data name="EBI_Title.Text" xml:space="preserve">
+    <value>Uredite podatke o knjigi</value>
+  </data>
+  <data name="IAP_Discount.Text" xml:space="preserve">
+    <value>20 % popust</value>
+  </data>
+  <data name="IAP_Popular.Text" xml:space="preserve">
+    <value>Najbolj priljubljeno</value>
+  </data>
+  <data name="M_About.Content" xml:space="preserve">
+    <value>O nas</value>
+  </data>
+  <data name="M_AddBook.Text" xml:space="preserve">
+    <value>Dodajanje datoteke knjig</value>
+  </data>
+  <data name="M_AddFavourite.Text" xml:space="preserve">
+    <value>Dodaj priljubljeno</value>
+  </data>
+  <data name="M_AddFolder.Text" xml:space="preserve">
+    <value>Dodaj mapo</value>
+  </data>
+  <data name="M_Backup.Content" xml:space="preserve">
+    <value>Varnostno kopiranje in obnovitev</value>
+  </data>
+  <data name="M_BookInfo.Text" xml:space="preserve">
+    <value>Informacije o knjigi</value>
+  </data>
+  <data name="M_ChngLog.Content" xml:space="preserve">
+    <value>Dnevnik sprememb</value>
+  </data>
+  <data name="M_CreationTime.Text" xml:space="preserve">
+    <value>Čas ustvarjanja</value>
+  </data>
+  <data name="M_Edit.Text" xml:space="preserve">
+    <value>Uredi</value>
+  </data>
+  <data name="M_EditBookInfo.Text" xml:space="preserve">
+    <value>Uredi podatke o knjigi</value>
+  </data>
+  <data name="M_General.Content" xml:space="preserve">
+    <value>Splošno</value>
+  </data>
+  <data name="M_OpenBook.Text" xml:space="preserve">
+    <value>Odpri knjigo</value>
+  </data>
+  <data name="M_Personal.Content" xml:space="preserve">
+    <value>Personalizacija</value>
+  </data>
+  <data name="M_PinUnpin.Text" xml:space="preserve">
+    <value>Pripni/odpni na začetek</value>
+  </data>
+  <data name="M_PosInBook.Text" xml:space="preserve">
+    <value>Položaj v knjigi</value>
+  </data>
+  <data name="M_Reader.Content" xml:space="preserve">
+    <value>Bralnik</value>
+  </data>
+  <data name="M_Remove.Text" xml:space="preserve">
+    <value>Odstrani</value>
+  </data>
+  <data name="M_RemoveFavourite.Text" xml:space="preserve">
+    <value>Odstrani priljubljeno</value>
+  </data>
+  <data name="M_SaveToFile.Text" xml:space="preserve">
+    <value>Shrani v datoteko</value>
+  </data>
+  <data name="M_Share.Text" xml:space="preserve">
+    <value>Deljenje</value>
+  </data>
+  <data name="M_SyncFolder.Content" xml:space="preserve">
+    <value>Sinhroniziraj mape</value>
+  </data>
+  <data name="N_Collections.Content" xml:space="preserve">
+    <value>Zbirke</value>
+  </data>
+  <data name="N_Feedback.Content" xml:space="preserve">
+    <value>Povratne informacije</value>
+  </data>
+  <data name="N_Home.Content" xml:space="preserve">
+    <value>Domov</value>
+  </data>
+  <data name="N_Library.Content" xml:space="preserve">
+    <value>Knjižnica</value>
+  </data>
+  <data name="N_OnlineBooks.Content" xml:space="preserve">
+    <value>Spletne knjige</value>
+  </data>
+  <data name="N_Premium.Content" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="N_ReportBug.Content" xml:space="preserve">
+    <value>Prijavi napako</value>
+  </data>
+  <data name="N_Settings.Content" xml:space="preserve">
+    <value>Nastavitve</value>
+  </data>
+  <data name="N_Statistics.Content" xml:space="preserve">
+    <value>Statistika</value>
+  </data>
+  <data name="RI_No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="RI_Title.Text" xml:space="preserve">
+    <value>Vam je všeč Aquile Reader?</value>
+  </data>
+  <data name="RI_Title2" xml:space="preserve">
+    <value>Bi si vzeli trenutek in nas ocenili v trgovini?</value>
+  </data>
+  <data name="RI_Title3" xml:space="preserve">
+    <value>Ali želite z nami deliti povratne informacije?</value>
+  </data>
+  <data name="RI_Yes.Content" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="S_ActSub" xml:space="preserve">
+    <value>Aktivna naročnina</value>
+  </data>
+  <data name="S_ActSub_Msg1" xml:space="preserve">
+    <value>Videti je, da že imate aktivno naročnino. Prekličite jo, da se izognete dodatnemu zaračunavanju.</value>
+  </data>
+  <data name="S_AddMore" xml:space="preserve">
+    <value>Dodaj več ...</value>
+  </data>
+  <data name="S_AddSite_Err1" xml:space="preserve">
+    <value>Naslov ne sme biti prazen</value>
+  </data>
+  <data name="S_AddSite_Err2" xml:space="preserve">
+    <value>Dolžina naslova je lahko do 100 znakov</value>
+  </data>
+  <data name="S_AdMsg1" xml:space="preserve">
+    <value>Nadgradite na različico Premium</value>
+  </data>
+  <data name="S_AdMsg2" xml:space="preserve">
+    <value>Če želite odstraniti oglase in pridobiti dodatne funkcije, kliknite tukaj.</value>
+  </data>
+  <data name="S_All" xml:space="preserve">
+    <value>Vse</value>
+  </data>
+  <data name="S_AppWidthBookInfo" xml:space="preserve">
+    <value>Širina okna aplikacije je premajhna za odpiranje podokna z informacijami o knjigi.</value>
+  </data>
+  <data name="S_AppWidthLess" xml:space="preserve">
+    <value>Širina okna aplikacije premajhna.</value>
+  </data>
+  <data name="S_AS_AvgPagePerHr" xml:space="preserve">
+    <value>Povpr. število obrnjenih strani na uro</value>
+  </data>
+  <data name="S_AS_AvgReadHours" xml:space="preserve">
+    <value>Povpr. ur branja na dan</value>
+  </data>
+  <data name="S_AS_AvgTimePerPage" xml:space="preserve">
+    <value>Povpr. čas branja (sek) na stran</value>
+  </data>
+  <data name="S_AS_Msg1" xml:space="preserve">
+    <value>Ali ste prepričani, da želite počistiti vse statistike?</value>
+  </data>
+  <data name="S_AS_NumBooksLib" xml:space="preserve">
+    <value>Število knjig v knjižnici</value>
+  </data>
+  <data name="S_AS_NumBooksRead" xml:space="preserve">
+    <value>Število prebranih knjig</value>
+  </data>
+  <data name="S_AS_NumPagesTurned" xml:space="preserve">
+    <value>Število obrnjenih strani</value>
+  </data>
+  <data name="S_AS_SpeedWPM" xml:space="preserve">
+    <value>Hitrost branja (besed na minuto)</value>
+  </data>
+  <data name="S_AS_TotalReadHours" xml:space="preserve">
+    <value>Skupaj ure branja</value>
+  </data>
+  <data name="S_B_AppRestart" xml:space="preserve">
+    <value>Potreben je ponovni zagon aplikacije</value>
+  </data>
+  <data name="S_B_AppRestartFailed" xml:space="preserve">
+    <value>Aplikacije ni mogoče znova zagnati, znova zaženite ročno, da bodo spremembe začele veljati.</value>
+  </data>
+  <data name="S_B_Close" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="S_B_LangRestartMsg" xml:space="preserve">
+    <value>Za uveljavitev spremembe jezika prikaza je potreben ponovni zagon aplikacije. Želite nadaljevati?</value>
+  </data>
+  <data name="S_B_OnlineBookContent1" xml:space="preserve">
+    <value>Izberite spletno stran, s katere želite prenesti e-knjigo.
+[1/4]</value>
+  </data>
+  <data name="S_B_OnlineBookContent2" xml:space="preserve">
+    <value>Prebrskajte po katalogu in kliknite katero koli povezavo za prenos e-knjige. Aplikacija bo prenesla knjigo in jo dodala v knjižnico.
+[2/4]</value>
+  </data>
+  <data name="S_B_OnlineBookContent3" xml:space="preserve">
+    <value>Tukaj bodo prikazani vaši prenosi.
+[3/4]</value>
+  </data>
+  <data name="S_B_OnlineBookContent4" xml:space="preserve">
+    <value>Dodajte svoje spletno mesto, od koder želite prenesti e-knjige.
+[4/4]</value>
+  </data>
+  <data name="S_B_OnlineBookTitle1" xml:space="preserve">
+    <value>Izberite spletno mesto e-knjige</value>
+  </data>
+  <data name="S_B_OnlineBookTitle2" xml:space="preserve">
+    <value>Prenesite e-knjigo</value>
+  </data>
+  <data name="S_B_OnlineBookTitle3" xml:space="preserve">
+    <value>Sledite prenosom</value>
+  </data>
+  <data name="S_B_OnlineBookTitle4" xml:space="preserve">
+    <value>Dodajte spletno mesto e-knjige</value>
+  </data>
+  <data name="S_B_PauseReading" xml:space="preserve">
+    <value>Premor pri branju (presledek)</value>
+  </data>
+  <data name="S_B_StartReading" xml:space="preserve">
+    <value>Začnite brati (presledek)</value>
+  </data>
+  <data name="S_B_TutDone" xml:space="preserve">
+    <value>Končano</value>
+  </data>
+  <data name="S_B_TutNext" xml:space="preserve">
+    <value>Naslednji</value>
+  </data>
+  <data name="S_B_TutReaderContent1" xml:space="preserve">
+    <value>Dotaknite se robov zaslona, povlecite po strani, uporabite tipke ← / → na tipkovnici ali uporabite kolesce miške, da se pomaknete na naslednjo ali prejšnjo stran.
+[1/8]</value>
+  </data>
+  <data name="S_B_TutReaderContent2" xml:space="preserve">
+    <value>Izberite besedilo ali z desno miškino tipko kliknite katero koli besedo, da odprete kontekstni meni bralnika.
+[2/8]</value>
+  </data>
+  <data name="S_B_TutReaderContent3" xml:space="preserve">
+    <value>Od tukaj dostopajte do kazala vsebine knjige.
+[3/8]</value>
+  </data>
+  <data name="S_B_TutReaderContent4" xml:space="preserve">
+    <value>Vaše opombe in poudarki bodo navedeni tukaj.
+[4/8]</value>
+  </data>
+  <data name="S_B_TutReaderContent5" xml:space="preserve">
+    <value>Tukaj bi se pojavili nastavljeni zaznamki.
+[5/8]</value>
+  </data>
+  <data name="S_B_TutReaderContent6" xml:space="preserve">
+    <value>Iščite v trenutnem poglavju ali celotni knjigi.
+[6/8]</value>
+  </data>
+  <data name="S_B_TutReaderContent7" xml:space="preserve">
+    <value>To lahko uporabite za glasno branje vsebine knjige (pretvorba besedila v govor).
+[7/8]</value>
+  </data>
+  <data name="S_B_TutReaderContent8" xml:space="preserve">
+    <value>Tu lahko konfigurirate postavitev strani, slog, barvno shemo itd.
+[8/8]</value>
+  </data>
+  <data name="S_B_TutReaderTitle1" xml:space="preserve">
+    <value>Sprememba strani</value>
+  </data>
+  <data name="S_B_TutReaderTitle2" xml:space="preserve">
+    <value>Kontekstni meni bralnika</value>
+  </data>
+  <data name="S_B_TutReaderTitle3" xml:space="preserve">
+    <value>Kazalo</value>
+  </data>
+  <data name="S_B_TutReaderTitle4" xml:space="preserve">
+    <value>Opombe in poudarki</value>
+  </data>
+  <data name="S_B_TutReaderTitle5" xml:space="preserve">
+    <value>Zaznamki</value>
+  </data>
+  <data name="S_B_TutReaderTitle6" xml:space="preserve">
+    <value>Iskanje</value>
+  </data>
+  <data name="S_B_TutReaderTitle7" xml:space="preserve">
+    <value>Branje na glas</value>
+  </data>
+  <data name="S_B_TutReaderTitle8" xml:space="preserve">
+    <value>Slog besedila</value>
+  </data>
+  <data name="S_B_Upgrade" xml:space="preserve">
+    <value>Nadgradnja</value>
+  </data>
+  <data name="S_B_UpgradePremMsg" xml:space="preserve">
+    <value>Nadgradite na Aquile Reader Premium!</value>
+  </data>
+  <data name="S_Backup" xml:space="preserve">
+    <value>Varnostna kopija</value>
+  </data>
+  <data name="S_Backup_ErrMsg1" xml:space="preserve">
+    <value>Izberite vsaj eno konfiguracijo</value>
+  </data>
+  <data name="S_Backup_ErrMsg2" xml:space="preserve">
+    <value>Operacija ni uspela. Obrnite se na podporo.</value>
+  </data>
+  <data name="S_BannerAds" xml:space="preserve">
+    <value>Oglasne pasice</value>
+  </data>
+  <data name="S_BookAddedMsg" xml:space="preserve">
+    <value>{0}: knjiga je bila uspešno dodana.</value>
+  </data>
+  <data name="S_BookAddStartScreen" xml:space="preserve">
+    <value>Knjiga dodana na začetni zaslon.</value>
+  </data>
+  <data name="S_BookExistsMsg" xml:space="preserve">
+    <value>{0}: Knjiga že obstaja.</value>
+  </data>
+  <data name="S_BookFont" xml:space="preserve">
+    <value>Pisava knjige</value>
+  </data>
+  <data name="S_BookmarkAdded" xml:space="preserve">
+    <value>Zaznamek dodan.</value>
+  </data>
+  <data name="S_BookmarkExists" xml:space="preserve">
+    <value>Zaznamek že obstaja.</value>
+  </data>
+  <data name="S_BookRmStartScreen" xml:space="preserve">
+    <value>Knjiga odstranjena z začetnega zaslona.</value>
+  </data>
+  <data name="S_BooksAdded" xml:space="preserve">
+    <value>Št. dodanih knjig: {0}.</value>
+  </data>
+  <data name="S_BooksAlreadyExists" xml:space="preserve">
+    <value>Knjiga že obstaja.</value>
+  </data>
+  <data name="S_BookSystemLimitError_Msg" xml:space="preserve">
+    <value>Več knjig ni mogoče dodati, ker je bila sistemska omejitev dosežena. Razmislite o odstranitvi posamezno dodanih knjižnih datotek in uporabite možnost »Dodaj mapo« za množično dodajanje knjig.</value>
+  </data>
+  <data name="S_BookSystemLimitError_Title" xml:space="preserve">
+    <value>Ni mogoče dodati knjig</value>
+  </data>
+  <data name="S_Cancelled" xml:space="preserve">
+    <value>Prekinjeno</value>
+  </data>
+  <data name="S_Collapse" xml:space="preserve">
+    <value>Strni</value>
+  </data>
+  <data name="S_CollectionConstAll" xml:space="preserve">
+    <value>Vse</value>
+  </data>
+  <data name="S_CollectionConstBookmarks" xml:space="preserve">
+    <value>Zaznamki</value>
+  </data>
+  <data name="S_CollectionConstHighlights" xml:space="preserve">
+    <value>Poudarki</value>
+  </data>
+  <data name="S_CollectionConstNotes" xml:space="preserve">
+    <value>Opombe</value>
+  </data>
+  <data name="S_Completed" xml:space="preserve">
+    <value>Dokončano</value>
+  </data>
+  <data name="S_Confirmation" xml:space="preserve">
+    <value>Potrditev</value>
+  </data>
+  <data name="S_CTheme1" xml:space="preserve">
+    <value>Vinograd</value>
+  </data>
+  <data name="S_CTheme2" xml:space="preserve">
+    <value>Temna stran</value>
+  </data>
+  <data name="S_CTheme3" xml:space="preserve">
+    <value>Sveže jagode</value>
+  </data>
+  <data name="S_CTheme4" xml:space="preserve">
+    <value>Mesasta pomaranča</value>
+  </data>
+  <data name="S_CTheme5" xml:space="preserve">
+    <value>Jasno nebo</value>
+  </data>
+  <data name="S_CTheme6" xml:space="preserve">
+    <value>Blisk</value>
+  </data>
+  <data name="S_CTheme7" xml:space="preserve">
+    <value>Turkizna</value>
+  </data>
+  <data name="S_CTheme8" xml:space="preserve">
+    <value>Zeleno jabolko</value>
+  </data>
+  <data name="S_CThemeMsg1" xml:space="preserve">
+    <value>Tema je bila kopirana v odložišče.</value>
+  </data>
+  <data name="S_CThemeMsg2" xml:space="preserve">
+    <value>Tema ni izbrana.</value>
+  </data>
+  <data name="S_CurrentChapter" xml:space="preserve">
+    <value>Trenutno poglavje</value>
+  </data>
+  <data name="S_DateAdded.Text" xml:space="preserve">
+    <value>Datum dodajanja : </value>
+  </data>
+  <data name="S_Description.Text" xml:space="preserve">
+    <value>Opis : </value>
+  </data>
+  <data name="S_DockLeft" xml:space="preserve">
+    <value>Zasidraj levo</value>
+  </data>
+  <data name="S_DockRight" xml:space="preserve">
+    <value>Zasidraj desno</value>
+  </data>
+  <data name="S_DownloadBook" xml:space="preserve">
+    <value>Prenesi knjigo</value>
+  </data>
+  <data name="S_DownloadBook_Msg" xml:space="preserve">
+    <value>Ali želite prenesti to knjigo in jo dodati v knjižnico?</value>
+  </data>
+  <data name="S_Downloading" xml:space="preserve">
+    <value>Prenašanje</value>
+  </data>
+  <data name="S_EntireBook" xml:space="preserve">
+    <value>Celotna knjiga</value>
+  </data>
+  <data name="S_ErrMsg1" xml:space="preserve">
+    <value>Aquile Reader nima dovoljenja za dostop do datoteke knjige - {0}.</value>
+  </data>
+  <data name="S_ErrMsg1_btn" xml:space="preserve">
+    <value>Podeli dovoljenje</value>
+  </data>
+  <data name="S_ErrMsg2" xml:space="preserve">
+    <value>Datoteka, ki jo poskušate odpreti, ne obstaja več.</value>
+  </data>
+  <data name="S_ErrMsg3" xml:space="preserve">
+    <value>Datoteka je morda v uporabi, zaklenjena ali pa nimate zadostnih dovoljenj.</value>
+  </data>
+  <data name="S_ErrMsg4" xml:space="preserve">
+    <value>Izbrana datoteka se razlikuje od izvirne knjižne datoteke - {0}.</value>
+  </data>
+  <data name="S_ErrMsg6" xml:space="preserve">
+    <value>Če težave ne odpravite, se obrnite na podporo.</value>
+  </data>
+  <data name="S_ErrTitle1" xml:space="preserve">
+    <value>Do knjige ni mogoče dostopati!</value>
+  </data>
+  <data name="S_ErrTitle2" xml:space="preserve">
+    <value>Datoteka ne obstaja!</value>
+  </data>
+  <data name="S_ErrTitle3" xml:space="preserve">
+    <value>Datoteke ni mogoče odpreti!</value>
+  </data>
+  <data name="S_ErrTitle4" xml:space="preserve">
+    <value>Ni ista datoteka!</value>
+  </data>
+  <data name="S_ErrTitle5" xml:space="preserve">
+    <value>Prišlo je do nepričakovane napake!</value>
+  </data>
+  <data name="S_ErrTitle6" xml:space="preserve">
+    <value>Datoteke ni bilo mogoče odpreti</value>
+  </data>
+  <data name="S_Expand" xml:space="preserve">
+    <value>Razširi</value>
+  </data>
+  <data name="S_Failed" xml:space="preserve">
+    <value>Ni uspelo</value>
+  </data>
+  <data name="S_FileCountLimitBtn1" xml:space="preserve">
+    <value>Prekini in uporabi »Dodaj mapo«</value>
+  </data>
+  <data name="S_FileCountLimitBtn2" xml:space="preserve">
+    <value>Nadaljujte z dodajanjem knjig</value>
+  </data>
+  <data name="S_FileCountLimitMsg" xml:space="preserve">
+    <value>Dodajanje velikega števila posameznih knjižnih datotek lahko preseže sistemsko omejitev in tako prepreči dodajanje nove knjige.</value>
+  </data>
+  <data name="S_FileCountLimitTitle" xml:space="preserve">
+    <value>Opozorilo!</value>
+  </data>
+  <data name="S_FileNotSaved" xml:space="preserve">
+    <value>{0} ni bilo mogoče shraniti.</value>
+  </data>
+  <data name="S_FilePath.Text" xml:space="preserve">
+    <value>Pot datoteke : </value>
+  </data>
+  <data name="S_FileSaved" xml:space="preserve">
+    <value>{0} je bil shranjen.</value>
+  </data>
+  <data name="S_Free.Text" xml:space="preserve">
+    <value>Brezplačna različica</value>
+  </data>
+  <data name="S_Free_Msg1.Text" xml:space="preserve">
+    <value>Oglasi v aplikaciji</value>
+  </data>
+  <data name="S_Free_Msg2.Text" xml:space="preserve">
+    <value>Podprtih je največ 40 predmetov zbirke</value>
+  </data>
+  <data name="S_Free_Msg3.Text" xml:space="preserve">
+    <value>V knjižnici največ 20 knjig</value>
+  </data>
+  <data name="S_Free_Msg4.Text" xml:space="preserve">
+    <value>Barvne sheme po meri niso podprte v Readerju</value>
+  </data>
+  <data name="S_Free_Msg5.Text" xml:space="preserve">
+    <value>Dovoljena je samo ena barvna tema aplikacije po meri</value>
+  </data>
+  <data name="S_Free_Msg6.Text" xml:space="preserve">
+    <value>V bralniku je podprto omejeno število pisav</value>
+  </data>
+  <data name="S_Free_Msg7.Text" xml:space="preserve">
+    <value>Omejena podpora za TTS (besedilo v govor)</value>
+  </data>
+  <data name="S_Free_Msg8.Text" xml:space="preserve">
+    <value>Dovoljena je samo ena mapa za sinhronizacijo</value>
+  </data>
+  <data name="S_Free_Msg9.Text" xml:space="preserve">
+    <value>Na začetni zaslon lahko hkrati pripnete največ 5 knjig</value>
+  </data>
+  <data name="S_Genre.Text" xml:space="preserve">
+    <value>Žanr : </value>
+  </data>
+  <data name="S_GoPrem" xml:space="preserve">
+    <value>Izberite Premium</value>
+  </data>
+  <data name="S_HighNotes_Msg1" xml:space="preserve">
+    <value>Izbrana vsebina ne sme vsebovati presledkov v glavi ali nogi. Prosim ponovno izberite.</value>
+  </data>
+  <data name="S_HighNotesMsg1" xml:space="preserve">
+    <value>Označevanja ni mogoče dodati, ko je odprto podokno za iskanje.</value>
+  </data>
+  <data name="S_HighNotesMsg2" xml:space="preserve">
+    <value>Izbrano besedilo za osvetlitev in opombo se ne more prekrivati.</value>
+  </data>
+  <data name="S_HighNotesMsg3" xml:space="preserve">
+    <value>Za osvetlitev mora biti izbran najmanj en znak.</value>
+  </data>
+  <data name="S_HighNotesMsg4" xml:space="preserve">
+    <value>Za osvetlitev lahko izberete največ 4000 znakov.</value>
+  </data>
+  <data name="S_HighNotesMsg5" xml:space="preserve">
+    <value>Opombe ni mogoče dodati, ko je iskalno podokno odprto.</value>
+  </data>
+  <data name="S_HighNotesMsg6" xml:space="preserve">
+    <value>Izbrano besedilo za opombo in poudarek se ne more prekrivati.</value>
+  </data>
+  <data name="S_HighNotesMsg7" xml:space="preserve">
+    <value>Za dodajanje opombe mora biti izbran najmanj en znak.</value>
+  </data>
+  <data name="S_HighNotesMsg8" xml:space="preserve">
+    <value>Za dodajanje opombe lahko izberete največ 4000 znakov.</value>
+  </data>
+  <data name="S_HighNotesMsg9" xml:space="preserve">
+    <value>Besedilo opombe ne sme biti prazno.</value>
+  </data>
+  <data name="S_InterstitialAds" xml:space="preserve">
+    <value>Vmesni oglasi</value>
+  </data>
+  <data name="S_InvalidUrl" xml:space="preserve">
+    <value>Neveljaven URL</value>
+  </data>
+  <data name="S_Language.Text" xml:space="preserve">
+    <value>Jezik : </value>
+  </data>
+  <data name="S_LastRead.Text" xml:space="preserve">
+    <value>Nazadnje prebrano : </value>
+  </data>
+  <data name="S_LibConstAllBooks" xml:space="preserve">
+    <value>Vse knjige</value>
+  </data>
+  <data name="S_LibConstCompleted" xml:space="preserve">
+    <value>Dokončano</value>
+  </data>
+  <data name="S_LibConstDownloads" xml:space="preserve">
+    <value>Prenosi</value>
+  </data>
+  <data name="S_LibConstFav" xml:space="preserve">
+    <value>Priljubljene</value>
+  </data>
+  <data name="S_LibConstNotStarted" xml:space="preserve">
+    <value>Ni se še začelo</value>
+  </data>
+  <data name="S_LibConstReading" xml:space="preserve">
+    <value>Branje</value>
+  </data>
+  <data name="S_LineCount.Text" xml:space="preserve">
+    <value>Število vrstic : </value>
+  </data>
+  <data name="S_matchesFound" xml:space="preserve">
+    <value>Št. najdenih ujemanj: {0}</value>
+  </data>
+  <data name="S_MoreFonts" xml:space="preserve">
+    <value>Pridobite več pisav!!</value>
+  </data>
+  <data name="S_No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="S_None" xml:space="preserve">
+    <value>(brez)</value>
+  </data>
+  <data name="S_NotSupported" xml:space="preserve">
+    <value>Ne podpira</value>
+  </data>
+  <data name="S_NotSupported_Msg" xml:space="preserve">
+    <value>Prenos datotek, ki niso .epub, ni podprt</value>
+  </data>
+  <data name="S_OnlineBook_CompleteAdded" xml:space="preserve">
+    <value>Dokončano | Dodano v knjižnico</value>
+  </data>
+  <data name="S_OnlineBook_CompleteExists" xml:space="preserve">
+    <value>Dokončano | Že obstaja</value>
+  </data>
+  <data name="S_OnlineBook_CompleteFailAdd" xml:space="preserve">
+    <value>Dokončano | Dodajanje v knjižnico ni uspelo</value>
+  </data>
+  <data name="S_PercentageRead.Text" xml:space="preserve">
+    <value>Odstotek branja : </value>
+  </data>
+  <data name="S_Pin" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="S_Prem_Msg1" xml:space="preserve">
+    <value>Opravičujem se! Videti je, da ste že lastnik tega. Posodobili smo naše zapise, da pravilno odražajo stanje.</value>
+  </data>
+  <data name="S_Prem_Msg2" xml:space="preserve">
+    <value>Čestitke! Nakup je uspel.</value>
+  </data>
+  <data name="S_Prem_Msg3" xml:space="preserve">
+    <value>Oprostite! Videti je, da je bila transakcija preklicana, poskusite znova.</value>
+  </data>
+  <data name="S_Prem_Msg4" xml:space="preserve">
+    <value>Oprostite! Videti je, da nakup ni uspel zaradi težav z omrežjem, poskusite znova.</value>
+  </data>
+  <data name="S_Prem_Msg5" xml:space="preserve">
+    <value>Oprostite! Videti je, da nakup ni uspel zaradi napake strežnika, poskusite znova.</value>
+  </data>
+  <data name="S_Prem_Msg6" xml:space="preserve">
+    <value>Oprostite! Med nakupom je šlo nekaj narobe, poskusite znova.</value>
+  </data>
+  <data name="S_PremAnnual" xml:space="preserve">
+    <value>Premium [letno]</value>
+  </data>
+  <data name="S_PremFree" xml:space="preserve">
+    <value>Brezplačno</value>
+  </data>
+  <data name="S_PremiumBooksCount" xml:space="preserve">
+    <value>Brezplačna različica aplikacije podpira samo {0} knjig v knjižnici hkrati. Nadgradite na Aquile Reader Premium.</value>
+  </data>
+  <data name="S_PremiumCollection" xml:space="preserve">
+    <value>Brezplačna različica aplikacije podpira skupno {0} elementov zbirk. Nadgradite na Aquile Reader Premium.</value>
+  </data>
+  <data name="S_PremiumColorThemes" xml:space="preserve">
+    <value>Brezplačna različica aplikacije podpira samo {0} tem po meri. Nadgradite na Aquile Reader Premium.</value>
+  </data>
+  <data name="S_PremiumFonts" xml:space="preserve">
+    <value>Nadgradite na Premium in pridobite dostop do vseh pisav, nameščenih v sistemu. Nadgradite na Aquile Reader Premium.</value>
+  </data>
+  <data name="S_PremiumPin" xml:space="preserve">
+    <value>Brezplačna različica aplikacije podpira samo {0} knjig, pripetih na začetni zaslon hkrati. Nadgradite na Aquile Reader Premium.</value>
+  </data>
+  <data name="S_PremiumRAHighlight" xml:space="preserve">
+    <value>Barve osvetlitve Branja na glas po meri so na voljo samo v programu Aquile Reader Premium.</value>
+  </data>
+  <data name="S_PremiumSyncFolders" xml:space="preserve">
+    <value>Brezplačna različica aplikacije podpira samo {0} sinhronizacijskih map. Nadgradite na Aquile Reader Premium.</value>
+  </data>
+  <data name="S_PremiumThemes" xml:space="preserve">
+    <value>Teme strani po meri so na voljo samo v programu Aquile Reader Premium.</value>
+  </data>
+  <data name="S_PremLife" xml:space="preserve">
+    <value>Premium [doživljensko]</value>
+  </data>
+  <data name="S_PremOff1" xml:space="preserve">
+    <value>25 % popust</value>
+  </data>
+  <data name="S_PremOff2" xml:space="preserve">
+    <value>30 % popust</value>
+  </data>
+  <data name="S_PremPage.Text" xml:space="preserve">
+    <value>Premium različica</value>
+  </data>
+  <data name="S_PremPage_Msg1.Text" xml:space="preserve">
+    <value>Bralna izkušnja brez oglasov</value>
+  </data>
+  <data name="S_PremPage_Msg2.Text" xml:space="preserve">
+    <value>Brez omejitev zbirk (poudarki, opombe in zaznamki)</value>
+  </data>
+  <data name="S_PremPage_Msg3.Text" xml:space="preserve">
+    <value>Število knjig v knjižnici ni omejeno</value>
+  </data>
+  <data name="S_PremPage_Msg4.Text" xml:space="preserve">
+    <value>Barvne sheme po meri, ki so na voljo v Readerju</value>
+  </data>
+  <data name="S_PremPage_Msg5.Text" xml:space="preserve">
+    <value>Podpora za poljubno število barvnih tem aplikacij po meri</value>
+  </data>
+  <data name="S_PremPage_Msg6.Text" xml:space="preserve">
+    <value>Dostop do vseh pisav, nameščenih v sistemu</value>
+  </data>
+  <data name="S_PremPage_Msg7.Text" xml:space="preserve">
+    <value>Popolna izkušnja TTS (Besedilo v govor)</value>
+  </data>
+  <data name="S_PremPage_Msg8.Text" xml:space="preserve">
+    <value>Brez omejitev števila map za sinhronizacijo</value>
+  </data>
+  <data name="S_PremPage_Msg9.Text" xml:space="preserve">
+    <value>Brez omejitev števila knjig, pripetih na začetni zaslon</value>
+  </data>
+  <data name="S_PremQuarterly" xml:space="preserve">
+    <value>Premium [četrtletno]</value>
+  </data>
+  <data name="S_PremTrial" xml:space="preserve">
+    <value>Premium [preizkusno]</value>
+  </data>
+  <data name="S_PremUpg" xml:space="preserve">
+    <value>Premium nadgradnja</value>
+  </data>
+  <data name="S_Previous" xml:space="preserve">
+    <value>Prejšnja</value>
+  </data>
+  <data name="S_Publisher.Text" xml:space="preserve">
+    <value>Založnik : </value>
+  </data>
+  <data name="S_ReadAloud_Err1" xml:space="preserve">
+    <value>Napaka konfiguracije pretvorbe besedila v govor</value>
+  </data>
+  <data name="S_ReadAloud_ErrMsg1" xml:space="preserve">
+    <value>Pretvorba besedila v govor v tej napravi ni pravilno konfigurirana. Sledite povezavi »Kako popraviti«, da jo pravilno konfigurirate. Če težave ne odpravite, se obrnite na podporo.</value>
+  </data>
+  <data name="S_ReadAloud_ErrMsg1_btn" xml:space="preserve">
+    <value>Kako popraviti</value>
+  </data>
+  <data name="S_ReadAloudMsg1" xml:space="preserve">
+    <value>Spreminjanje poglavij v načinu Branje na glas ni dovoljeno.</value>
+  </data>
+  <data name="S_ReadAloudMsg2" xml:space="preserve">
+    <value>Zaznani neberljivi znaki. Preskakovanje.</value>
+  </data>
+  <data name="S_ReadAloudMsg3" xml:space="preserve">
+    <value>Naslednje poglavje.</value>
+  </data>
+  <data name="S_ReadAloudMsg4" xml:space="preserve">
+    <value>Med branjem je prišlo do nepričakovane napake.</value>
+  </data>
+  <data name="S_Restore" xml:space="preserve">
+    <value>Obnovitev</value>
+  </data>
+  <data name="S_RmSyncFolderMsg1" xml:space="preserve">
+    <value>Št. odstranjenih knjig: {0}.</value>
+  </data>
+  <data name="S_Save" xml:space="preserve">
+    <value>Shrani</value>
+  </data>
+  <data name="S_SelectBackupFile" xml:space="preserve">
+    <value>Izberite datoteko varnostne kopije</value>
+  </data>
+  <data name="S_SelectFolder" xml:space="preserve">
+    <value>Izberite mapo</value>
+  </data>
+  <data name="S_Series.Text" xml:space="preserve">
+    <value>Serija : </value>
+  </data>
+  <data name="S_ShareCollection" xml:space="preserve">
+    <value>Delite zbirke</value>
+  </data>
+  <data name="S_SomethingWentWrong" xml:space="preserve">
+    <value>Nekaj ​​je šlo narobe!</value>
+  </data>
+  <data name="S_Sync_Now" xml:space="preserve">
+    <value>Sinhroniziraj zdaj</value>
+  </data>
+  <data name="S_Sync_syncing" xml:space="preserve">
+    <value>Sinhronizacija ...</value>
+  </data>
+  <data name="S_SyncFolder" xml:space="preserve">
+    <value>Sinhroniziraj mapo</value>
+  </data>
+  <data name="S_TextCopied" xml:space="preserve">
+    <value>Izbrano besedilo je kopirano v odložišče.</value>
+  </data>
+  <data name="S_TOCMsg1" xml:space="preserve">
+    <value>Kazalo se še nalaga ...</value>
+  </data>
+  <data name="S_Understand" xml:space="preserve">
+    <value>Razumem</value>
+  </data>
+  <data name="S_UnPin" xml:space="preserve">
+    <value>Odpni</value>
+  </data>
+  <data name="S_Update" xml:space="preserve">
+    <value>Posodobi</value>
+  </data>
+  <data name="S_UpdateFolder" xml:space="preserve">
+    <value>Posodobi mapo</value>
+  </data>
+  <data name="S_UrlNotExist" xml:space="preserve">
+    <value>URL ne obstaja!</value>
+  </data>
+  <data name="S_WordCount.Text" xml:space="preserve">
+    <value>Število besed : </value>
+  </data>
+  <data name="S_WrongMsg1" xml:space="preserve">
+    <value>Žal je videti, da je šlo nekaj narobe.</value>
+  </data>
+  <data name="S_Yes" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="T_About_copyright.Text" xml:space="preserve">
+    <value>© Optimilia Studios. Vse pravice pridržane.</value>
+  </data>
+  <data name="T_AddBook.Text" xml:space="preserve">
+    <value>Če želite začeti, dodajte knjigo</value>
+  </data>
+  <data name="T_AddFolderMsg1.Text" xml:space="preserve">
+    <value>Skeniranje in dodajanje knjig</value>
+  </data>
+  <data name="T_AddFolderRes1.Text" xml:space="preserve">
+    <value>Dodane nove knjige : </value>
+  </data>
+  <data name="T_AddFolderRes2.Text" xml:space="preserve">
+    <value>Že obstoječe knjige : </value>
+  </data>
+  <data name="T_AddFolderRes3.Text" xml:space="preserve">
+    <value>Knjig ni bilo mogoče dodati : </value>
+  </data>
+  <data name="T_AddSite.Text" xml:space="preserve">
+    <value>Dodaj spletno mesto</value>
+  </data>
+  <data name="T_AddTheme.Text" xml:space="preserve">
+    <value>Dodaj temo</value>
+  </data>
+  <data name="T_AquilePremium.Text" xml:space="preserve">
+    <value>Aquile Reader Premium</value>
+  </data>
+  <data name="T_Backup_Beta.Text" xml:space="preserve">
+    <value>Beta</value>
+  </data>
+  <data name="T_Backup_Bkp.Text" xml:space="preserve">
+    <value>Ustvarite varnostno kopijo z izbranimi konfiguracijami.</value>
+  </data>
+  <data name="T_Backup_Heading.Text" xml:space="preserve">
+    <value>Varnostno kopiranje in obnovitev</value>
+  </data>
+  <data name="T_Backup_Restore.Text" xml:space="preserve">
+    <value>Obnovite izbrane konfiguracije iz datoteke varnostne kopije.
+Opomba: To bo preglasilo trenutne konfiguracije, npr. nove opombe, poudarki itd. se lahko izgubijo, če niso v varnostni kopiji.</value>
+  </data>
+  <data name="T_BookmarksEmpty.Text" xml:space="preserve">
+    <value>Tukaj poiščite svoje zaznamke.</value>
+  </data>
+  <data name="T_ChangeLog.Text" xml:space="preserve">
+    <value>Dnevnik sprememb</value>
+  </data>
+  <data name="T_Credits1.Text" xml:space="preserve">
+    <value>Zahvale</value>
+  </data>
+  <data name="T_CurrentPlan.Text" xml:space="preserve">
+    <value>Trenutni načrt:</value>
+  </data>
+  <data name="T_Custom1" xml:space="preserve">
+    <value>1. Izberite barvo ozadja</value>
+  </data>
+  <data name="T_Custom2" xml:space="preserve">
+    <value>2. Izberite barvo ospredja besedila</value>
+  </data>
+  <data name="T_Custom3" xml:space="preserve">
+    <value>3. Izberite barvni način</value>
+  </data>
+  <data name="T_DictWebSrch1.Text" xml:space="preserve">
+    <value>Preverite to</value>
+  </data>
+  <data name="T_DictWebSrch2.Text" xml:space="preserve">
+    <value>na spletu</value>
+  </data>
+  <data name="T_Downloads1.Text" xml:space="preserve">
+    <value>Poiščite svoje prenose tukaj.</value>
+  </data>
+  <data name="T_Exp.Text" xml:space="preserve">
+    <value>Eksperimentalno</value>
+  </data>
+  <data name="T_ExpDetails.Text" xml:space="preserve">
+    <value>Te funkcije so še v razvoju in so morda nekoliko nestabilne ali imajo napake. Lahko jih preizkusite in z nami delite povratne informacije.</value>
+  </data>
+  <data name="T_ExpDetailsLink.Text" xml:space="preserve">
+    <value>Več podrobnosti in znane težave</value>
+  </data>
+  <data name="T_FavBooks.Text" xml:space="preserve">
+    <value>Priljubljene knjige</value>
+  </data>
+  <data name="T_FavEmptyMsg.Text" xml:space="preserve">
+    <value>Tukaj bi se pojavile vaše najljubše knjige</value>
+  </data>
+  <data name="T_FontStyle.Text" xml:space="preserve">
+    <value>Slog pisave</value>
+  </data>
+  <data name="t_For.Text" xml:space="preserve">
+    <value>za</value>
+  </data>
+  <data name="T_GeneralSettings.Text" xml:space="preserve">
+    <value>Splošne nastavitve</value>
+  </data>
+  <data name="T_HelpTranslateLink.Text" xml:space="preserve">
+    <value>Pomagajte prevesti v več jezikov</value>
+  </data>
+  <data name="T_HighEdit1.Text" xml:space="preserve">
+    <value>Izberite barvo osvetlitve besedila</value>
+  </data>
+  <data name="T_HighlightColor.Text" xml:space="preserve">
+    <value>Označite barvo</value>
+  </data>
+  <data name="T_HighNotesEmpty.Text" xml:space="preserve">
+    <value>Tukaj poiščite svoje opombe in poudarke.</value>
+  </data>
+  <data name="T_Initializing.Text" xml:space="preserve">
+    <value>Inicializacija</value>
+  </data>
+  <data name="T_Language.Text" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="T_LineSpace.Text" xml:space="preserve">
+    <value>Razmik med vrsticami</value>
+  </data>
+  <data name="T_NoCollections.Text" xml:space="preserve">
+    <value>Na voljo ni nobene zbirke</value>
+  </data>
+  <data name="T_NoDefFound.Text" xml:space="preserve">
+    <value>Ni definicije</value>
+  </data>
+  <data name="T_NoMatchesFound.Text" xml:space="preserve">
+    <value>Ni zadetkov</value>
+  </data>
+  <data name="T_NoteText.PlaceholderText" xml:space="preserve">
+    <value>Vnesite besedilo opombe</value>
+  </data>
+  <data name="T_OBPlaceHolder.Text" xml:space="preserve">
+    <value>Izberite spletno mesto za začetek prenosa e-knjig</value>
+  </data>
+  <data name="T_OnlineBooksWarn1" xml:space="preserve">
+    <value>Pomembna informacija</value>
+  </data>
+  <data name="T_OnlineBooksWarn2" xml:space="preserve">
+    <value>Piškotke, ki jih uporabljajo spletna mesta, shranjujemo, da ohranimo kontinuiteto vaših prijav in zagotovimo boljšo izkušnjo.</value>
+  </data>
+  <data name="T_OnlineBooksWarn3" xml:space="preserve">
+    <value>Ne priporočamo nakupov/plačil od tu, prosimo, da za isto uporabite običajni brskalnik.</value>
+  </data>
+  <data name="T_OpeningBook.Text" xml:space="preserve">
+    <value>Odpiram knjigo</value>
+  </data>
+  <data name="T_OpenLibrary.Text" xml:space="preserve">
+    <value>Odprite knjižnico</value>
+  </data>
+  <data name="T_PageLayout.Text" xml:space="preserve">
+    <value>Postavitev strani</value>
+  </data>
+  <data name="T_PageTheme.Text" xml:space="preserve">
+    <value>Teme strani</value>
+  </data>
+  <data name="T_ParagraphSpace.Text" xml:space="preserve">
+    <value>Presledek odstavka</value>
+  </data>
+  <data name="T_Personalization.Text" xml:space="preserve">
+    <value>Personalizacija</value>
+  </data>
+  <data name="T_Processing.Text" xml:space="preserve">
+    <value>Procesiram</value>
+  </data>
+  <data name="T_RaPremMsg.Text" xml:space="preserve">
+    <value>Kontrolniki zvoka TTS (pretvorba besedila v govor), ki vključujejo hitrost branja, višino zvoka in glasnost, so na voljo samo v premium različici aplikacije.</value>
+  </data>
+  <data name="T_ReaderSettings.Text" xml:space="preserve">
+    <value>Nastavitve bralnika</value>
+  </data>
+  <data name="T_RecentReads.Text" xml:space="preserve">
+    <value>Nedavna branja</value>
+  </data>
+  <data name="T_RmSyncFolder.Text" xml:space="preserve">
+    <value>Odstrani mapo za sinhronizacijo</value>
+  </data>
+  <data name="T_RmSyncFolderConf.Text" xml:space="preserve">
+    <value>Ali ste prepričani, da želite odstraniti to sinhronizirano mapo?</value>
+  </data>
+  <data name="T_RmSyncFolderMsg1.Text" xml:space="preserve">
+    <value>Odstranjevanje knjig</value>
+  </data>
+  <data name="T_SBInput.PlaceholderText" xml:space="preserve">
+    <value>Išči ...</value>
+  </data>
+  <data name="T_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Iskanje po naslovu ali imenu avtorja ...</value>
+  </data>
+  <data name="T_Searching.Text" xml:space="preserve">
+    <value>Iskanje</value>
+  </data>
+  <data name="T_SeeMore.Text" xml:space="preserve">
+    <value>Poglej več</value>
+  </data>
+  <data name="T_SelectFolder.Text" xml:space="preserve">
+    <value>Izberite mapo</value>
+  </data>
+  <data name="T_Settings.Text" xml:space="preserve">
+    <value>Nastavitve</value>
+  </data>
+  <data name="T_SiteUrl.Text" xml:space="preserve">
+    <value>URL spletnega mesta : </value>
+  </data>
+  <data name="T_SomeWentWrong.Text" xml:space="preserve">
+    <value>Nekaj je šlo narobe, poskusite znova.</value>
+  </data>
+  <data name="T_SpeechSpeed.Text" xml:space="preserve">
+    <value>Hitrost govora</value>
+  </data>
+  <data name="T_Statistics.Text" xml:space="preserve">
+    <value>Statistika</value>
+  </data>
+  <data name="T_Sync_AddFolder.Text" xml:space="preserve">
+    <value>Dodaj mapo za sinhronizacijo</value>
+  </data>
+  <data name="T_Sync_BookCount.Text" xml:space="preserve">
+    <value>Število knjig : </value>
+  </data>
+  <data name="T_Sync_msg1.Text" xml:space="preserve">
+    <value>To omogoča enostaven način za sinhronizacijo knjižnice Aquile Reader in vaše lokalne knjižne zbirke.</value>
+  </data>
+  <data name="T_Sync_msg2.Text" xml:space="preserve">
+    <value>Aquile Reader ob zagonu aplikacije sinhronizira knjige iz 'Sinhroniziraj mape' in samodejno doda/odstrani knjige iz knjižnice aplikacij.</value>
+  </data>
+  <data name="T_Sync_SyncFolders.Text" xml:space="preserve">
+    <value>Sinhroniziraj mape</value>
+  </data>
+  <data name="T_TextAlignment.Text" xml:space="preserve">
+    <value>Poravnava besedila</value>
+  </data>
+  <data name="T_TextSize.Text" xml:space="preserve">
+    <value>Velikost besedila</value>
+  </data>
+  <data name="T_TextSizeDecrease.Text" xml:space="preserve">
+    <value>A-</value>
+  </data>
+  <data name="T_TextSizeDecrease.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zmanjšaj (Ctrl + -)</value>
+  </data>
+  <data name="T_TextSizeIncrease.Text" xml:space="preserve">
+    <value>A+</value>
+  </data>
+  <data name="T_TextSizeIncrease.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Povečaj (Ctrl + +)</value>
+  </data>
+  <data name="T_Title.Text" xml:space="preserve">
+    <value>Naslov : </value>
+  </data>
+  <data name="T_TocEmpty.Text" xml:space="preserve">
+    <value>Kazalo ni na voljo za to knjigo.</value>
+  </data>
+  <data name="T_Voice.Text" xml:space="preserve">
+    <value>Glas</value>
+  </data>
+  <data name="T_VoiceGender.Text" xml:space="preserve">
+    <value>Glasovni spol</value>
+  </data>
+  <data name="T_VoicePitch.Text" xml:space="preserve">
+    <value>Višina glasu</value>
+  </data>
+  <data name="T_Volume.Text" xml:space="preserve">
+    <value>Glasnost</value>
+  </data>
+  <data name="T_WordSpace.Text" xml:space="preserve">
+    <value>Presledek med besedo</value>
+  </data>
+  <data name="TC_B_DarkMode.Content" xml:space="preserve">
+    <value>Temni način</value>
+  </data>
+  <data name="TC_B_LightMode.Content" xml:space="preserve">
+    <value>Svetli način</value>
+  </data>
+  <data name="TC_S_ErrMsg1" xml:space="preserve">
+    <value>Ime teme mora biti med 1 in 15 znaki.</value>
+  </data>
+  <data name="TC_S_SelectAccentColor" xml:space="preserve">
+    <value>2. Izberite barvo poudarka</value>
+  </data>
+  <data name="TC_S_SelectBackColor" xml:space="preserve">
+    <value>1. Izberite barvo ozadja</value>
+  </data>
+  <data name="TC_S_SelectColorMode" xml:space="preserve">
+    <value>3. Izberite barvni način</value>
+  </data>
+  <data name="TC_T_ThemeName.Text" xml:space="preserve">
+    <value>4. Ime teme</value>
+  </data>
+  <data name="TM_Author.Text" xml:space="preserve">
+    <value>Avtor</value>
+  </data>
+  <data name="TM_FilePath.Text" xml:space="preserve">
+    <value>Pot datoteke</value>
+  </data>
+  <data name="TM_Genre.Text" xml:space="preserve">
+    <value>Žanr</value>
+  </data>
+  <data name="TM_ImportTime.Text" xml:space="preserve">
+    <value>Čas uvoza</value>
+  </data>
+  <data name="TM_Language.Text" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="TM_LastReadTime.Text" xml:space="preserve">
+    <value>Čas zadnjega branja</value>
+  </data>
+  <data name="TM_None.Text" xml:space="preserve">
+    <value>(brez)</value>
+  </data>
+  <data name="TM_Publisher.Text" xml:space="preserve">
+    <value>Založnik</value>
+  </data>
+  <data name="TM_ReadingProg.Text" xml:space="preserve">
+    <value>Napredek pri branju</value>
+  </data>
+  <data name="TM_Series.Text" xml:space="preserve">
+    <value>Serija</value>
+  </data>
+  <data name="TM_SeriesNum.Text" xml:space="preserve">
+    <value>Številka serije</value>
+  </data>
+  <data name="TM_Title.Text" xml:space="preserve">
+    <value>Naslov</value>
+  </data>
+  <data name="ToggleSwitch.OffContent" xml:space="preserve">
+    <value>Onemogočeno</value>
+  </data>
+  <data name="ToggleSwitch.OnContent" xml:space="preserve">
+    <value>Omogočeno</value>
+  </data>
+</root>
