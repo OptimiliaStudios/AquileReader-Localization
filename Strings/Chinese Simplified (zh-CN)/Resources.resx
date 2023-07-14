@@ -1547,12 +1547,12 @@ Use 'Add Folder' option to add book files in bulk.</comment>
     <comment>Free</comment>
   </data>
   <data name="S_PremiumBooksCount" xml:space="preserve">
-    <value>免费版最多添加{0}本书，请订阅Aquile Reader高级版解锁限制</value>
+    <value>免费版最多添加{0}本书，请订阅Aquile Reader解锁限制</value>
     <comment>Free version of the app supports only {0} books in the library at a time.
 To add more, please upgrade to Aquile Reader Premium.</comment>
   </data>
   <data name="S_PremiumCollection" xml:space="preserve">
-    <value>免费版最多收藏{0}本书，请订阅Aquile Reader高级版解锁限制</value>
+    <value>免费版最多收藏{0}本书，请订阅Aquile Reader解锁限制</value>
     <comment>Free version of the app supports total of {0} collections items.
 To create more, please upgrade to Aquile Reader Premium.</comment>
   </data>
