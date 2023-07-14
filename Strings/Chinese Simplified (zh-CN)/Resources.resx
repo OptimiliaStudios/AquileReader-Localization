@@ -162,7 +162,7 @@
     <comment>Restore</comment>
   </data>
   <data name="B_Blog.ToolTipService.ToolTip" xml:space="preserve">
-    <value>我们的博客</value>
+    <value>我们的blog</value>
     <comment>Read our blog</comment>
   </data>
   <data name="B_Bookmarks.ToolTipService.ToolTip" xml:space="preserve">
@@ -174,11 +174,11 @@
     <comment>Cancel</comment>
   </data>
   <data name="B_ChngLog.ToolTipService.ToolTip" xml:space="preserve">
-    <value>更新记录</value>
+    <value>更新日志</value>
     <comment>Change log</comment>
   </data>
   <data name="B_ClearHighlight.ToolTipService.ToolTip" xml:space="preserve">
-    <value>清楚高亮墨迹</value>
+    <value>清除高亮墨迹</value>
     <comment>Clear highlight</comment>
   </data>
   <data name="B_Close.Content" xml:space="preserve">
@@ -238,7 +238,7 @@
     <comment>Export collections</comment>
   </data>
   <data name="B_Fb.ToolTipService.ToolTip" xml:space="preserve">
-    <value>关注我们的Facebook</value>
+    <value>我们的Facebook</value>
     <comment>Like us on Facebook</comment>
   </data>
   <data name="B_Female.Content" xml:space="preserve">
@@ -250,7 +250,7 @@
     <comment>Filter by favorites</comment>
   </data>
   <data name="B_Forward.ToolTipService.ToolTip" xml:space="preserve">
-    <value>向前</value>
+    <value>前进</value>
     <comment>Forward</comment>
   </data>
   <data name="B_General.Content" xml:space="preserve">
@@ -266,7 +266,7 @@
     <comment>Group</comment>
   </data>
   <data name="B_Highlight.ToolTipService.ToolTip" xml:space="preserve">
-    <value>高亮</value>
+    <value>高亮墨迹</value>
     <comment>Highlight</comment>
   </data>
   <data name="B_Home.ToolTipService.ToolTip" xml:space="preserve">
@@ -310,7 +310,7 @@
     <comment>Next Line (Ctrl + →)</comment>
   </data>
   <data name="B_NH.ToolTipService.ToolTip" xml:space="preserve">
-    <value>高亮标记</value>
+    <value>高亮墨迹</value>
     <comment>Notes &amp; Highlights</comment>
   </data>
   <data name="B_OpenBook.Content" xml:space="preserve">
@@ -338,7 +338,7 @@
     <comment>Privacy policy</comment>
   </data>
   <data name="B_RateStore.ToolTipService.ToolTip" xml:space="preserve">
-    <value>商店价格</value>
+    <value>商店页面</value>
     <comment>Rate on store</comment>
   </data>
   <data name="B_ReadAloud.ToolTipService.ToolTip" xml:space="preserve">
@@ -478,7 +478,7 @@
     <comment>Translate</comment>
   </data>
   <data name="B_Tw.ToolTipService.ToolTip" xml:space="preserve">
-    <value>关注我们的Twitter</value>
+    <value>我们的Twitter</value>
     <comment>Follow us on Twitter</comment>
   </data>
   <data name="B_ZoomIn.ToolTipService.ToolTip" xml:space="preserve">
@@ -494,7 +494,7 @@
     <comment>Add books to recent list</comment>
   </data>
   <data name="C_AddFolder_AutoRemove.Content" xml:space="preserve">
-    <value>从文件夹中删除文件时，自动删除图书（包括笔记、高亮等）</value>
+    <value>从文件夹中删除文件时，自动删除图书（包括笔记、墨迹等）</value>
     <comment>Automatically remove books from the library (including notes, highlights, etc) when files are deleted from the folder</comment>
   </data>
   <data name="C_AddFolder_RecSearch.Content" xml:space="preserve">
@@ -526,11 +526,11 @@
     <comment>Bookmarks</comment>
   </data>
   <data name="C_Backup_Config.Description" xml:space="preserve">
-    <value>选择备份或还原操作的设置</value>
+    <value>选择备份或还原操作的内容</value>
     <comment>Select the configuration for backup or restore operation</comment>
   </data>
   <data name="C_Backup_Config.Title" xml:space="preserve">
-    <value>选择预设</value>
+    <value>选择内容</value>
     <comment>Choose configuration</comment>
   </data>
   <data name="C_Backup_NandH.Content" xml:space="preserve">
@@ -550,7 +550,7 @@
     <comment>Select the source or target storage for the operation</comment>
   </data>
   <data name="C_Backup_Storage.Title" xml:space="preserve">
-    <value>选择储存</value>
+    <value>选择路径</value>
     <comment>Choose storage</comment>
   </data>
   <data name="C_Books.ToolTipService.ToolTip" xml:space="preserve">
@@ -566,11 +566,11 @@
     <comment>Collection Type</comment>
   </data>
   <data name="C_General_Advt.Description" xml:space="preserve">
-    <value>广告偏好</value>
+    <value>选择广告偏好</value>
     <comment>Preference for type of advertisements</comment>
   </data>
   <data name="C_General_Advt.Title" xml:space="preserve">
-    <value>优先选择</value>
+    <value>广告选择</value>
     <comment>Advt. preference</comment>
   </data>
   <data name="C_General_BookTitle.Description" xml:space="preserve">
@@ -582,7 +582,7 @@
     <comment>Show book titles</comment>
   </data>
   <data name="C_General_Lang.Description" xml:space="preserve">
-    <value>所有的控件将以这种语言显示（需要重新启动软件）</value>
+    <value>Aquile Reader将以这种语言显示（需要重新启动软件）</value>
     <comment>Buttons, menus and other controls will show in this language.
 This setting will be applied on the next start of the app.</comment>
   </data>
@@ -599,11 +599,11 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Reset tutorials</comment>
   </data>
   <data name="C_Personal_ColorThemes.Title" xml:space="preserve">
-    <value>颜色主题</value>
+    <value>主题色</value>
     <comment>Color themes</comment>
   </data>
   <data name="C_Personal_TransBanckground.Title" xml:space="preserve">
-    <value>背景透明</value>
+    <value>透明效果</value>
     <comment>Transparent background</comment>
   </data>
   <data name="C_Personal_TransBanckSlider.Title" xml:space="preserve">
@@ -615,7 +615,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Billed quarterly</comment>
   </data>
   <data name="C_Prem1.DurationString" xml:space="preserve">
-    <value>每月</value>
+    <value>个月</value>
     <comment> months</comment>
   </data>
   <data name="C_Prem2.BillDetails" xml:space="preserve">
@@ -623,7 +623,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Billed annually</comment>
   </data>
   <data name="C_Prem2.DurationString" xml:space="preserve">
-    <value>每月</value>
+    <value>个月</value>
     <comment> months</comment>
   </data>
   <data name="C_Prem3.BillDetails" xml:space="preserve">
@@ -659,7 +659,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Use book's fonts</comment>
   </data>
   <data name="C_Reader_DictLang.Description" xml:space="preserve">
-    <value>读者词典的语言</value>
+    <value>阅读时的词典的语言</value>
     <comment>Language of the in-reader dictionary</comment>
   </data>
   <data name="C_Reader_DictLang.Title" xml:space="preserve">
@@ -695,7 +695,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Overrides any text alignment preference set in the book to provide consistent layout in the reader</comment>
   </data>
   <data name="C_Reader_TextAlign.Title" xml:space="preserve">
-    <value>统一文字对齐</value>
+    <value>文字对齐</value>
     <comment>Override text alignment</comment>
   </data>
   <data name="C_ShowFavs.Content" xml:space="preserve">
@@ -791,7 +791,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Book Info</comment>
   </data>
   <data name="M_ChngLog.Content" xml:space="preserve">
-    <value>更新记录</value>
+    <value>更新日志</value>
     <comment>Change log</comment>
   </data>
   <data name="M_CreationTime.Text" xml:space="preserve">
@@ -827,7 +827,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Position in book</comment>
   </data>
   <data name="M_Reader.Content" xml:space="preserve">
-    <value>读者</value>
+    <value>阅读</value>
     <comment>Reader</comment>
   </data>
   <data name="M_Remove.Text" xml:space="preserve">
@@ -871,7 +871,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Online Books</comment>
   </data>
   <data name="N_Premium.Content" xml:space="preserve">
-    <value>大会员</value>
+    <value>Aquile Reader高级版</value>
     <comment>Premium</comment>
   </data>
   <data name="N_ReportBug.Content" xml:space="preserve">
@@ -891,11 +891,11 @@ This setting will be applied on the next start of the app.</comment>
     <comment>No</comment>
   </data>
   <data name="RI_Title.Text" xml:space="preserve">
-    <value>你喜欢本软件吗</value>
+    <value>你喜欢Aquile Reader吗</value>
     <comment>Are you enjoying Aquile Reader?</comment>
   </data>
   <data name="RI_Title2" xml:space="preserve">
-    <value>您是否愿意前往微软商店对此软件进行评分？</value>
+    <value>在Microsoft Store为Aquile Reader撰写评论？</value>
     <comment>Would you spare a moment to rate us on the store?</comment>
   </data>
   <data name="RI_Title3" xml:space="preserve">
@@ -931,7 +931,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Upgrade to PREMIUM version</comment>
   </data>
   <data name="S_AdMsg2" xml:space="preserve">
-    <value>点击此处删除广告</value>
+    <value>点击此处关闭广告</value>
     <comment>To remove Ads and get additional features, click here.</comment>
   </data>
   <data name="S_All" xml:space="preserve">
@@ -947,7 +947,7 @@ This setting will be applied on the next start of the app.</comment>
     <comment>App window width too less.</comment>
   </data>
   <data name="S_AS_AvgPagePerHr" xml:space="preserve">
-    <value>每小时翻转的平均页数</value>
+    <value>每小时平均翻页数量</value>
     <comment>Avg. number of pages flipped per hour</comment>
   </data>
   <data name="S_AS_AvgReadHours" xml:space="preserve">
@@ -967,11 +967,11 @@ This setting will be applied on the next start of the app.</comment>
     <comment>Number of books in library</comment>
   </data>
   <data name="S_AS_NumBooksRead" xml:space="preserve">
-    <value>已阅读的图书数量</value>
+    <value>总阅读的图书数量</value>
     <comment>Number of books read</comment>
   </data>
   <data name="S_AS_NumPagesTurned" xml:space="preserve">
-    <value>翻转的页数</value>
+    <value>翻页数量</value>
     <comment>Number of pages flipped</comment>
   </data>
   <data name="S_AS_SpeedWPM" xml:space="preserve">
@@ -1049,7 +1049,7 @@ This setting will be applied on the next start of the app.</comment>
 [1/8]</comment>
   </data>
   <data name="S_B_TutReaderContent2" xml:space="preserve">
-    <value>选择文本或右键单击任何词组以打开上下文菜单。您可以在此处添加备注、高亮或书签
+    <value>选择文本或右键单击任何词组以打开上下文菜单。您可以在此处添加备注、高亮墨迹或书签
 [2/8]</value>
     <comment>Select text or right click on any word to open the Reader context menu.
 You can add note, highlight or bookmark from here.
@@ -1074,7 +1074,7 @@ You can add note, highlight or bookmark from here.
 [5/8]</comment>
   </data>
   <data name="S_B_TutReaderContent6" xml:space="preserve">
-    <value>在本章节或全书中搜索
+    <value>在本章节或整本书中搜索
 [6/8]</value>
     <comment>Search in the current chapter or the entire book.
 [6/8]</comment>
@@ -1252,7 +1252,7 @@ You can add note, highlight or bookmark from here.
     <comment>Theme copied to clipboard.</comment>
   </data>
   <data name="S_CThemeMsg2" xml:space="preserve">
-    <value>未选择主题</value>
+    <value>未选择主题色</value>
     <comment>Theme not selected.</comment>
   </data>
   <data name="S_CurrentChapter" xml:space="preserve">
@@ -1288,11 +1288,11 @@ You can add note, highlight or bookmark from here.
     <comment>Downloading</comment>
   </data>
   <data name="S_EntireBook" xml:space="preserve">
-    <value>全书</value>
+    <value>整本书</value>
     <comment>Entire book</comment>
   </data>
   <data name="S_ErrMsg1" xml:space="preserve">
-    <value>没有访问图书文件的权限｛0｝单击“授予权限”，然后重新选择图书文件。</value>
+    <value>Aquile Reader没有访问图书文件的权限｛0｝单击“授予权限”，然后重新选择图书文件。</value>
     <comment>Aquile Reader does not have permission to access the book file - {0}.
 Click 'Grant Permission' and select the same book file in the file picker window.</comment>
   </data>
@@ -1383,7 +1383,7 @@ Use 'Add Folder' option to add book files in bulk.</comment>
     <comment>Genre : </comment>
   </data>
   <data name="S_GoPrem" xml:space="preserve">
-    <value>高级会员</value>
+    <value>升级到高级版</value>
     <comment>Go Premium</comment>
   </data>
   <data name="S_HighNotes_Msg1" xml:space="preserve">
@@ -1391,11 +1391,11 @@ Use 'Add Folder' option to add book files in bulk.</comment>
     <comment>Selected content should not include the white spaces from header or footer. Please re-select.</comment>
   </data>
   <data name="S_HighNotesMsg1" xml:space="preserve">
-    <value>打开搜索窗格时无法添加高亮</value>
+    <value>打开搜索窗格时无法添加高亮墨迹</value>
     <comment>Highlight cannot be added while search pane is open.</comment>
   </data>
   <data name="S_HighNotesMsg2" xml:space="preserve">
-    <value>“高亮”和“注释”选择的文本不能重叠。</value>
+    <value>“高亮墨迹”和“注释”选择的文本不能重叠。</value>
     <comment>Selected text for Highlight and Note cannot overlap.</comment>
   </data>
   <data name="S_HighNotesMsg3" xml:space="preserve">
@@ -1403,7 +1403,7 @@ Use 'Add Folder' option to add book files in bulk.</comment>
     <comment>Minimum 1 character must be selected for highlight.</comment>
   </data>
   <data name="S_HighNotesMsg4" xml:space="preserve">
-    <value>最多高亮4000个字符</value>
+    <value>高亮墨迹最多添加4000个字符</value>
     <comment>Maximum 4000 characters can be selected for highlight.</comment>
   </data>
   <data name="S_HighNotesMsg5" xml:space="preserve">
@@ -1459,7 +1459,7 @@ Use 'Add Folder' option to add book files in bulk.</comment>
     <comment>Favourites</comment>
   </data>
   <data name="S_LibConstNotStarted" xml:space="preserve">
-    <value>未启动</value>
+    <value>未开始</value>
     <comment>Not Started</comment>
   </data>
   <data name="S_LibConstReading" xml:space="preserve">
@@ -1511,7 +1511,7 @@ Use 'Add Folder' option to add book files in bulk.</comment>
     <comment>Percentage read : </comment>
   </data>
   <data name="S_Pin" xml:space="preserve">
-    <value>标记</value>
+    <value>固定</value>
     <comment>Pin</comment>
   </data>
   <data name="S_Prem_Msg1" xml:space="preserve">
@@ -1547,17 +1547,17 @@ Use 'Add Folder' option to add book files in bulk.</comment>
     <comment>Free</comment>
   </data>
   <data name="S_PremiumBooksCount" xml:space="preserve">
-    <value>免费版最多添加{0}本书，请订阅高级版解锁更多</value>
+    <value>免费版最多添加{0}本书，请订阅Aquile Reader高级版解锁限制</value>
     <comment>Free version of the app supports only {0} books in the library at a time.
 To add more, please upgrade to Aquile Reader Premium.</comment>
   </data>
   <data name="S_PremiumCollection" xml:space="preserve">
-    <value>免费版最多收藏{0}本书，请订阅高级版解锁更多</value>
+    <value>免费版最多收藏{0}本书，请订阅Aquile Reader高级版解锁限制</value>
     <comment>Free version of the app supports total of {0} collections items.
 To create more, please upgrade to Aquile Reader Premium.</comment>
   </data>
   <data name="S_PremiumColorThemes" xml:space="preserve">
-    <value>免费版最多自定义{0}个主题，请订阅高级版解锁更多</value>
+    <value>免费版最多自定义{0}个主题色，请订阅Aquile Reader高级版解锁限制</value>
     <comment>Free version of the app supports only {0} custom themes.
 To create more, please upgrade to Aquile Reader Premium.</comment>
   </data>
@@ -1566,22 +1566,22 @@ To create more, please upgrade to Aquile Reader Premium.</comment>
     <comment>Upgrade to Premium and get access to all fonts installed on the system.</comment>
   </data>
   <data name="S_PremiumPin" xml:space="preserve">
-    <value>免费版最多添加到“开始”屏幕{0}本书，请订阅高级版解锁更多</value>
+    <value>免费版最多添加到“开始”屏幕{0}本书，请订阅Aquile Reader高级版解锁限制</value>
     <comment>Free version of the app supports only {0} books pinned to start screen at a time.
 To add more, please upgrade to Aquile Reader Premium.</comment>
   </data>
   <data name="S_PremiumRAHighlight" xml:space="preserve">
-    <value>自定义高亮墨迹颜色仅高级版可用，请订阅高级版解锁更多</value>
+    <value>自定义高亮墨迹颜色仅高级版可用，请订阅Aquile Reader高级版解锁限制</value>
     <comment>Custom ReadAloud highlight colors are only available in Aquile Reader Premium.
 Upgrade to Premium and enjoy all the features.</comment>
   </data>
   <data name="S_PremiumSyncFolders" xml:space="preserve">
-    <value>免费版最多同步{0}个收藏夹，请订阅高级版解锁更多</value>
+    <value>免费版最多同步{0}个收藏夹，请订阅Aquile Reader高级版解锁限制</value>
     <comment>Free version of the app supports only {0} sync folder(s).
 To create more, please upgrade to Aquile Reader Premium.</comment>
   </data>
   <data name="S_PremiumThemes" xml:space="preserve">
-    <value>自定义主页主题仅高级版可用，请订阅高级版解锁更多</value>
+    <value>自定义主页主题色仅高级版可用，请订阅Aquile Reader高级版解锁限制</value>
     <comment>Custom Page Themes are only available in Aquile Reader Premium.
 Upgrade to Premium and enjoy all the features.</comment>
   </data>
@@ -1698,7 +1698,7 @@ Upgrade to Premium and enjoy all the features.</comment>
     <comment>I understand</comment>
   </data>
   <data name="S_UnPin" xml:space="preserve">
-    <value>取消标记</value>
+    <value>取消固定</value>
     <comment>Un-Pin</comment>
   </data>
   <data name="S_Update" xml:space="preserve">
@@ -1755,11 +1755,11 @@ Try opening the file again. If the problem persists please contact support.</com
     <comment>Add site</comment>
   </data>
   <data name="T_AddTheme.Text" xml:space="preserve">
-    <value>添加主题</value>
+    <value>自定义主题色</value>
     <comment>Add theme</comment>
   </data>
   <data name="T_AquilePremium.Text" xml:space="preserve">
-    <value>高级版阅读器</value>
+    <value>Aquile Reader高级版</value>
     <comment>Aquile Reader Premium</comment>
   </data>
   <data name="T_Backup_Beta.Text" xml:space="preserve">
@@ -1767,7 +1767,7 @@ Try opening the file again. If the problem persists please contact support.</com
     <comment>Beta</comment>
   </data>
   <data name="T_Backup_Bkp.Text" xml:space="preserve">
-    <value>备份此配置</value>
+    <value>备份当前的配置</value>
     <comment>Create a backup copy with the selected configurations.</comment>
   </data>
   <data name="T_Backup_Heading.Text" xml:space="preserve">
@@ -1775,7 +1775,7 @@ Try opening the file again. If the problem persists please contact support.</com
     <comment>Backup &amp; Restore</comment>
   </data>
   <data name="T_Backup_Restore.Text" xml:space="preserve">
-    <value>从备份中恢复。注意，这将覆盖当前配置！例如，如果备份副本中不包含新注释、突出显示等，则可能会丢失这些内容。</value>
+    <value>从备份中恢复（注意，这将覆盖当前的配置！例如，如果备份副本中不包含新注释、突出显示等，则可能会丢失这些内容）</value>
     <comment>Restore the selected configurations from the backup file.
 Note: This will override current configurations, e.g. new notes, highlights etc can be lost if they are not contained in the backup copy.</comment>
   </data>
@@ -1808,7 +1808,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>3. Select color mode</comment>
   </data>
   <data name="T_DictWebSrch1.Text" xml:space="preserve">
-    <value>查看这个</value>
+    <value>查找这个</value>
     <comment>Look this up</comment>
   </data>
   <data name="T_DictWebSrch2.Text" xml:space="preserve">
@@ -1824,11 +1824,11 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Experimental</comment>
   </data>
   <data name="T_ExpDetails.Text" xml:space="preserve">
-    <value>这些功能正在开发中，可能出现未知问题，您可以给我们提交反馈</value>
+    <value>这些功能正在开发中，可能出现未知问题，您可以给我们提交反馈以协助开发</value>
     <comment>These features are still in development and might be little unstable or buggy. You can try them out and share feedback with us.</comment>
   </data>
   <data name="T_ExpDetailsLink.Text" xml:space="preserve">
-    <value>已知更多细节和问题</value>
+    <value>已知问题</value>
     <comment>More details and known issues</comment>
   </data>
   <data name="T_FavBooks.Text" xml:space="preserve">
@@ -1844,7 +1844,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Font style</comment>
   </data>
   <data name="t_For.Text" xml:space="preserve">
-    <value>对于</value>
+    <value>价格</value>
     <comment>for</comment>
   </data>
   <data name="T_GeneralSettings.Text" xml:space="preserve">
@@ -1896,7 +1896,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Select the site to start downloading eBooks</comment>
   </data>
   <data name="T_OnlineBooksWarn1" xml:space="preserve">
-    <value>重要信息</value>
+    <value>详细信息</value>
     <comment>Important Information</comment>
   </data>
   <data name="T_OnlineBooksWarn2" xml:space="preserve">
@@ -1936,7 +1936,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Processing</comment>
   </data>
   <data name="T_RaPremMsg.Text" xml:space="preserve">
-    <value>朗读设置，包括阅读速度、音高和音量，仅在高级版本中可用</value>
+    <value>朗读设置、包括阅读速度、音高和音量，仅在高级版中可用</value>
     <comment>TTS (Text-to-Speech) audio controls which include reading speed, audio pitch and volume are only available in premium version of the app.</comment>
   </data>
   <data name="T_ReaderSettings.Text" xml:space="preserve">
@@ -1996,7 +1996,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Speech speed</comment>
   </data>
   <data name="T_Statistics.Text" xml:space="preserve">
-    <value>统计数字</value>
+    <value>统计信息</value>
     <comment>Statistics</comment>
   </data>
   <data name="T_Sync_AddFolder.Text" xml:space="preserve">
@@ -2176,7 +2176,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Upgrade</comment>
   </data>
   <data name="S_B_UpgradePremMsg" xml:space="preserve">
-    <value>升级到高级版！</value>
+    <value>升级到Aquile Reader高级版！</value>
     <comment>Upgrade to Aquile Reader Premium!</comment>
   </data>
   <data name="T_HelpTranslateLink.Text" xml:space="preserve">
@@ -2188,7 +2188,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Free Version</comment>
   </data>
   <data name="S_Free_Msg1.Text" xml:space="preserve">
-    <value>应用程序中的广告</value>
+    <value>有广告</value>
     <comment>Advertisements in the app</comment>
   </data>
   <data name="S_Free_Msg2.Text" xml:space="preserve">
@@ -2196,11 +2196,11 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Max 40 collection items supported</comment>
   </data>
   <data name="S_Free_Msg3.Text" xml:space="preserve">
-    <value>主页最多20本书</value>
+    <value>主页最多添加20本书</value>
     <comment>Max 20 books in the library</comment>
   </data>
   <data name="S_Free_Msg4.Text" xml:space="preserve">
-    <value>阅读器不支持自定义配色方案</value>
+    <value>不支持自定义配色方案</value>
     <comment>Custom color schemes not supported in the Reader</comment>
   </data>
   <data name="S_Free_Msg5.Text" xml:space="preserve">
@@ -2208,11 +2208,11 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Only 1 custom app color theme allowed</comment>
   </data>
   <data name="S_Free_Msg6.Text" xml:space="preserve">
-    <value>阅读器支持的字体数量有限</value>
+    <value>仅支持有限的字体</value>
     <comment>Limited number of fonts supported in the reader</comment>
   </data>
   <data name="S_Free_Msg7.Text" xml:space="preserve">
-    <value>有限的支持</value>
+    <value>基础的语音朗读</value>
     <comment>Limited TTS (Text-to-Speech) support</comment>
   </data>
   <data name="S_Free_Msg8.Text" xml:space="preserve">
@@ -2228,7 +2228,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Premium Version</comment>
   </data>
   <data name="S_PremPage_Msg1.Text" xml:space="preserve">
-    <value>无广告</value>
+    <value>无广告的阅读体验</value>
     <comment>Ad free reading experience</comment>
   </data>
   <data name="S_PremPage_Msg2.Text" xml:space="preserve">
@@ -2248,7 +2248,7 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <comment>Support for any number of custom app color themes</comment>
   </data>
   <data name="S_PremPage_Msg6.Text" xml:space="preserve">
-    <value>使用系统中的所有字体</value>
+    <value>使用任何字体</value>
     <comment>Access to all fonts installed in the system</comment>
   </data>
   <data name="S_PremPage_Msg7.Text" xml:space="preserve">
