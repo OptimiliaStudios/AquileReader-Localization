@@ -1,1 +1,2279 @@
-
+<?xml version="1.0" encoding="utf-8"?> 
+ <root> 
+   <!-- 
+     Microsoft ResX Schema 
+  
+     Version 2.0 
+  
+     The primary goals of this format is to allow a simple XML format 
+     that is mostly human readable. The generation and parsing of the 
+     various data types are done through the TypeConverter classes 
+     associated with the data types. 
+  
+     Example: 
+  
+     ... ado.net/XML headers & schema ... 
+     <resheader name="resmimetype">text/microsoft-resx</resheader> 
+     <resheader name="version">2.0</resheader> 
+     <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader> 
+     <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader> 
+     <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data> 
+     <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data> 
+     <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64"> 
+         <value>[base64 mime encoded serialized .NET Framework object]</value> 
+     </data> 
+     <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64"> 
+         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value> 
+         <comment>This is a comment</comment> 
+     </data> 
+  
+     There are any number of "resheader" rows that contain simple 
+     name/value pairs. 
+  
+     Each data row contains a name, and value. The row also contains a 
+     type or mimetype. Type corresponds to a .NET class that support 
+     text/value conversion through the TypeConverter architecture. 
+     Classes that don't support this are serialized and stored with the 
+     mimetype set. 
+  
+     The mimetype is used for serialized objects, and tells the 
+     ResXResourceReader how to depersist the object. This is currently not 
+     extensible. For a given mimetype the value must be set accordingly: 
+  
+     Note - application/x-microsoft.net.object.binary.base64 is the format 
+     that the ResXResourceWriter will generate, however the reader can 
+     read any of the formats listed below. 
+  
+     mimetype: application/x-microsoft.net.object.binary.base64 
+     value   : The object must be serialized with 
+             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter 
+             : and then encoded with base64 encoding. 
+  
+     mimetype: application/x-microsoft.net.object.soap.base64 
+     value   : The object must be serialized with 
+             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter 
+             : and then encoded with base64 encoding. 
+  
+     mimetype: application/x-microsoft.net.object.bytearray.base64 
+     value   : The object must be serialized into a byte array 
+             : using a System.ComponentModel.TypeConverter 
+             : and then encoded with base64 encoding. 
+     --> 
+   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" /> 
+     <xsd:element name="root" msdata:IsDataSet="true"> 
+       <xsd:complexType> 
+         <xsd:choice maxOccurs="unbounded"> 
+           <xsd:element name="metadata"> 
+             <xsd:complexType> 
+               <xsd:sequence> 
+                 <xsd:element name="value" type="xsd:string" minOccurs="0" /> 
+               </xsd:sequence> 
+               <xsd:attribute name="name" use="required" type="xsd:string" /> 
+               <xsd:attribute name="type" type="xsd:string" /> 
+               <xsd:attribute name="mimetype" type="xsd:string" /> 
+               <xsd:attribute ref="xml:space" /> 
+             </xsd:complexType> 
+           </xsd:element> 
+           <xsd:element name="assembly"> 
+             <xsd:complexType> 
+               <xsd:attribute name="alias" type="xsd:string" /> 
+               <xsd:attribute name="name" type="xsd:string" /> 
+             </xsd:complexType> 
+           </xsd:element> 
+           <xsd:element name="data"> 
+             <xsd:complexType> 
+               <xsd:sequence> 
+                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /> 
+                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /> 
+               </xsd:sequence> 
+               <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /> 
+               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /> 
+               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /> 
+               <xsd:attribute ref="xml:space" /> 
+             </xsd:complexType> 
+           </xsd:element> 
+           <xsd:element name="resheader"> 
+             <xsd:complexType> 
+               <xsd:sequence> 
+                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /> 
+               </xsd:sequence> 
+               <xsd:attribute name="name" type="xsd:string" use="required" /> 
+             </xsd:complexType> 
+           </xsd:element> 
+         </xsd:choice> 
+       </xsd:complexType> 
+     </xsd:element> 
+   </xsd:schema> 
+   <resheader name="resmimetype"> 
+     <value>text/microsoft-resx</value> 
+   </resheader> 
+   <resheader name="version"> 
+     <value>2.0</value> 
+   </resheader> 
+   <resheader name="reader"> 
+     <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value> 
+   </resheader> 
+   <resheader name="writer"> 
+     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value> 
+   </resheader> 
+   <data name="B_Add.Content" xml:space="preserve"> 
+         <value>Додати</value> 
+         <comment>Add</comment> 
+     </data> 
+   <data name="B_AddBook.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Додати нову книгу</value> 
+         <comment>Add new book</comment> 
+     </data> 
+   <data name="B_AddBookmark.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Додати закладку</value> 
+         <comment>Add Bookmark</comment> 
+     </data> 
+   <data name="B_AddFolder.Content" xml:space="preserve"> 
+         <value>Додати папку</value> 
+         <comment>Add folder</comment> 
+     </data> 
+   <data name="B_AddNote.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Додати примітку</value> 
+         <comment>Add Note</comment> 
+     </data> 
+   <data name="B_AddSite.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Додати новий сайт</value> 
+         <comment>Add new site</comment> 
+     </data> 
+   <data name="B_AudioSettings.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Налаштування звуку</value> 
+         <comment>Audio settings</comment> 
+     </data> 
+   <data name="B_Back.Content" xml:space="preserve"> 
+         <value>Назад</value> 
+         <comment>Back</comment> 
+     </data> 
+   <data name="B_Back1.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Назад</value> 
+         <comment>Back</comment> 
+     </data> 
+   <data name="B_Backup_Bkp.Content" xml:space="preserve"> 
+         <value>Створити резервну копію</value> 
+         <comment>Backup</comment> 
+     </data> 
+   <data name="B_Backup_Restore.Content" xml:space="preserve"> 
+         <value>Відновити</value> 
+         <comment>Restore</comment> 
+     </data> 
+   <data name="B_Blog.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Читати наш блог</value> 
+         <comment>Read our blog</comment> 
+     </data> 
+   <data name="B_Bookmarks.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Закладки</value> 
+         <comment>Bookmarks</comment> 
+     </data> 
+   <data name="B_Cancel.Content" xml:space="preserve"> 
+         <value>Скасувати</value> 
+         <comment>Cancel</comment> 
+     </data> 
+   <data name="B_ChngLog.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Журнал змін</value> 
+         <comment>Change log</comment> 
+     </data> 
+   <data name="B_ClearHighlight.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Очистити виділення</value> 
+         <comment>Clear highlight</comment> 
+     </data> 
+   <data name="B_Close.Content" xml:space="preserve"> 
+         <value>Закрити</value> 
+         <comment>Close</comment> 
+     </data> 
+   <data name="B_Close1.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Закрити</value> 
+         <comment>Close</comment> 
+     </data> 
+   <data name="B_Collapse.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Згорнути</value> 
+         <comment>Collapse</comment> 
+     </data> 
+   <data name="B_ColorMenu.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Меню кольору</value> 
+         <comment>Color Menu</comment> 
+     </data> 
+   <data name="B_ContactSupport.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Звернутися до служби підтримки</value> 
+         <comment>Contact support</comment> 
+     </data> 
+   <data name="B_Copy.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Копіювати</value> 
+         <comment>Copy</comment> 
+     </data> 
+   <data name="B_Credits.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Титри</value> 
+         <comment>Credits</comment> 
+     </data> 
+   <data name="B_Delete.Text" xml:space="preserve"> 
+         <value>Видалити</value> 
+         <comment>Delete</comment> 
+     </data> 
+   <data name="B_DeleteNote.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Видалити примітку</value> 
+         <comment>Delete note</comment> 
+     </data> 
+   <data name="B_Done.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Готово</value> 
+         <comment>Done</comment> 
+     </data> 
+   <data name="B_Downloads.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Завантаження</value> 
+         <comment>Downloads</comment> 
+     </data> 
+   <data name="B_ExitReadingMode.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Вийти з режиму читання (Ctrl + E)</value> 
+         <comment>Exit Reading Mode (Ctrl + E)</comment> 
+     </data> 
+   <data name="B_Expand.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Розгорнути</value> 
+         <comment>Expand</comment> 
+     </data> 
+   <data name="B_ExportCollection.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Експортувати колекції</value> 
+         <comment>Export collections</comment> 
+     </data> 
+   <data name="B_Fb.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Вподобайте нас на Facebook</value> 
+         <comment>Like us on Facebook</comment> 
+     </data> 
+   <data name="B_Female.Content" xml:space="preserve"> 
+         <value>Жіночий</value> 
+         <comment>Female</comment> 
+     </data> 
+   <data name="B_FilterFav.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Фільтрувати за обраним</value> 
+         <comment>Filter by favorites</comment> 
+     </data> 
+   <data name="B_Forward.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Вперед</value> 
+         <comment>Forward</comment> 
+     </data> 
+   <data name="B_General.Content" xml:space="preserve"> 
+         <value>Скинути</value> 
+         <comment>Reset</comment> 
+     </data> 
+   <data name="B_GitHub.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>GitHub</value> 
+         <comment>GitHub</comment> 
+     </data> 
+   <data name="B_Group.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Групувати</value> 
+         <comment>Group</comment> 
+     </data> 
+   <data name="B_Highlight.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Виділити маркером</value> 
+         <comment>Highlight</comment> 
+     </data> 
+   <data name="B_Home.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Головна</value> 
+         <comment>Home</comment> 
+     </data> 
+   <data name="B_Information.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Інформація</value> 
+         <comment>Information</comment> 
+     </data> 
+   <data name="B_JSInspect.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Інспектувати JS</value> 
+         <comment>JS Inspect</comment> 
+     </data> 
+   <data name="B_LinkBack.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Назад до джерела посилання</value> 
+         <comment>Go back to link source</comment> 
+     </data> 
+   <data name="B_Mail.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Пошта</value> 
+         <comment>Mail</comment> 
+     </data> 
+   <data name="B_Male.Content" xml:space="preserve"> 
+         <value>Чоловічий</value> 
+         <comment>Male</comment> 
+     </data> 
+   <data name="B_MatchCase.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Враховувати регістр</value> 
+         <comment>Match case</comment> 
+     </data> 
+   <data name="B_MatchWWord.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Слово повністю</value> 
+         <comment>Match whole word</comment> 
+     </data> 
+   <data name="B_Next.Content" xml:space="preserve"> 
+         <value>Далі</value> 
+         <comment>Next</comment> 
+     </data> 
+   <data name="B_NextLine.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Наступний рядок (Ctrl + →)</value> 
+         <comment>Next Line (Ctrl + →)</comment> 
+     </data> 
+   <data name="B_NH.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Примітки і виділення маркером</value> 
+         <comment>Notes &amp; Highlights</comment> 
+     </data> 
+   <data name="B_OpenBook.Content" xml:space="preserve"> 
+         <value>Відкрити книгу</value> 
+         <comment>Open Book</comment> 
+     </data> 
+   <data name="B_Pag1Cols.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>1 колонка з поділом на сторінки</value> 
+         <comment>Paginated 1 column</comment> 
+     </data> 
+   <data name="B_Pag2Cols.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>2 колонка з поділом на сторінки</value> 
+         <comment>Paginated 2 columns</comment> 
+     </data> 
+   <data name="B_PagVertical.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Прокручування по вертикалі</value> 
+         <comment>Vertical scroll</comment> 
+     </data> 
+   <data name="B_PreviousLine.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Попередній рядок (Ctrl + ←)</value> 
+         <comment>Previous Line (Ctrl + ←)</comment> 
+     </data> 
+   <data name="B_PrivacyPolicy.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Політика конфіденційності</value> 
+         <comment>Privacy policy</comment> 
+     </data> 
+   <data name="B_RateStore.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Оцінити в магазині</value> 
+         <comment>Rate on store</comment> 
+     </data> 
+   <data name="B_ReadAloud.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Читати вголос (Ctrl + R)</value> 
+         <comment>Read Aloud (Ctrl + R)</comment> 
+     </data> 
+   <data name="B_ReadAloud1.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Читання вголос</value> 
+         <comment>ReadAloud</comment> 
+     </data> 
+   <data name="B_ReadAloudSettings.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Налаштування читання вголос</value> 
+         <comment>ReadAloud settings</comment> 
+     </data> 
+   <data name="B_Refresh.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Оновити</value> 
+         <comment>Refresh</comment> 
+     </data> 
+   <data name="B_Remove.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Прибрати</value> 
+         <comment>Remove</comment> 
+     </data> 
+   <data name="B_Reset.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Скинути</value> 
+         <comment>Reset</comment> 
+     </data> 
+   <data name="B_RmSyncFolderBtn1.Content" xml:space="preserve"> 
+         <value>Так, але книги залишити</value> 
+         <comment>Yes, but keep books</comment> 
+     </data> 
+   <data name="B_RmSyncFolderBtn2.Content" xml:space="preserve"> 
+         <value>Так, і книги теж прибрати</value> 
+         <comment>Yes, and remove books</comment> 
+     </data> 
+   <data name="B_Save.Content" xml:space="preserve"> 
+         <value>Зберегти</value> 
+         <comment>Save</comment> 
+     </data> 
+   <data name="B_Search.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Пошук</value> 
+         <comment>Search</comment> 
+     </data> 
+   <data name="B_Search1.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Шукати (Ctrl + F)</value> 
+         <comment>Search (Ctrl + F)</comment> 
+     </data> 
+   <data name="B_SearchWeb.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Шукати в мережі</value> 
+         <comment>Search web</comment> 
+     </data> 
+   <data name="B_SelectFolder.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Вибрати папку</value> 
+         <comment>Select folder</comment> 
+     </data> 
+   <data name="B_SelectIcon.Content" xml:space="preserve"> 
+         <value>Вибрати значок</value> 
+         <comment>Select icon</comment> 
+     </data> 
+   <data name="B_ShowCB.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Показати панель команд</value> 
+         <comment>Show command bar</comment> 
+     </data> 
+   <data name="B_Sort.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Сортувати</value> 
+         <comment>Sort</comment> 
+     </data> 
+   <data name="B_Sync_Edit.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Редагувати</value> 
+         <comment>Edit</comment> 
+     </data> 
+   <data name="B_TextFormat.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Формат тексту</value> 
+         <comment>Text Format</comment> 
+     </data> 
+   <data name="B_TextStyle.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Стиль тексту</value> 
+         <comment>Text Style</comment> 
+     </data> 
+   <data name="B_Theme1.Content" xml:space="preserve"> 
+         <value>Біла</value> 
+         <comment>White</comment> 
+     </data> 
+   <data name="B_Theme1.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Біла (Ctrl + T + 1)</value> 
+         <comment>White (Ctrl + T + 1)</comment> 
+     </data> 
+   <data name="B_Theme2.Content" xml:space="preserve"> 
+         <value>Срібна</value> 
+         <comment>Silver</comment> 
+     </data> 
+   <data name="B_Theme2.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Срібна (Ctrl + T + 2)</value> 
+         <comment>Silver (Ctrl + T + 2)</comment> 
+     </data> 
+   <data name="B_Theme3.Content" xml:space="preserve"> 
+         <value>Сепія</value> 
+         <comment>Sepia</comment> 
+     </data> 
+   <data name="B_Theme3.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Сепія (Ctrl + T + 3)</value> 
+         <comment>Sepia (Ctrl + T + 3)</comment> 
+     </data> 
+   <data name="B_Theme4.Content" xml:space="preserve"> 
+         <value>Нічна</value> 
+         <comment>Night</comment> 
+     </data> 
+   <data name="B_Theme4.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Нічна (Ctrl + T + 4)</value> 
+         <comment>Night (Ctrl + T + 4)</comment> 
+     </data> 
+   <data name="B_Theme5.Content" xml:space="preserve"> 
+         <value>Вигоріла</value> 
+         <comment>Solarized</comment> 
+     </data> 
+   <data name="B_Theme5.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Вигоріла (Ctrl + T + 5)</value> 
+         <comment>Solarized (Ctrl + T + 5)</comment> 
+     </data> 
+   <data name="B_Theme6.Content" xml:space="preserve"> 
+         <value>Власна</value> 
+         <comment>Custom</comment> 
+     </data> 
+   <data name="B_TOC.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Зміст</value> 
+         <comment>Table Of Contents</comment> 
+     </data> 
+   <data name="B_ToggleFav.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Перемкнути Обране</value> 
+         <comment>Toggle Favorite</comment> 
+     </data> 
+   <data name="B_ToggleFullscreen.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Увімкнути або вимкнути повноекранний режим (F11)</value> 
+         <comment>Toggle Fullscreen (F11)</comment> 
+     </data> 
+   <data name="B_Translate.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Перекласти</value> 
+         <comment>Translate</comment> 
+     </data> 
+   <data name="B_Tw.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Підпишіться на нас у Twitter</value> 
+         <comment>Follow us on Twitter</comment> 
+     </data> 
+   <data name="B_ZoomIn.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Збільшити</value> 
+         <comment>Zoom In</comment> 
+     </data> 
+   <data name="B_ZoomOut.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Зменшити</value> 
+         <comment>Zoom Out</comment> 
+     </data> 
+   <data name="C_AddFolder_AddRecent.Content" xml:space="preserve"> 
+         <value>Додати книги до списку нещодавніх</value> 
+         <comment>Add books to recent list</comment> 
+     </data> 
+   <data name="C_AddFolder_AutoRemove.Content" xml:space="preserve"> 
+         <value>Автоматично прибирати книги з бібліотеки (включно з примітками, виділеннями маркером тощо) коли файли видаляються з папки</value> 
+         <comment>Automatically remove books from the library (including notes, highlights, etc) when files are deleted from the folder</comment> 
+     </data> 
+   <data name="C_AddFolder_RecSearch.Content" xml:space="preserve"> 
+         <value>Рекурсивно шукати у вкладених папках</value> 
+         <comment>Recursively search sub-folders</comment> 
+     </data> 
+   <data name="C_AddFolder_SyncFolder.Content" xml:space="preserve"> 
+         <value>Синхронізувати цю папку і автоматично додавати нові книги</value> 
+         <comment>Sync this folder and automatically add new books</comment> 
+     </data> 
+   <data name="C_Backup_AStats.Content" xml:space="preserve"> 
+         <value>Статистика програми</value> 
+         <comment>App statistics</comment> 
+     </data> 
+   <data name="C_Backup_BFav.Content" xml:space="preserve"> 
+         <value>Список обраного в книгах</value> 
+         <comment>Book favorite list</comment> 
+     </data> 
+   <data name="C_Backup_BFiles.Content" xml:space="preserve"> 
+         <value>Файли книг</value> 
+         <comment>Book files</comment> 
+     </data> 
+   <data name="C_Backup_BMeta.Content" xml:space="preserve"> 
+         <value>Метадані книг</value> 
+         <comment>Book metadata</comment> 
+     </data> 
+   <data name="C_Backup_Bookmarks.Content" xml:space="preserve"> 
+         <value>Закладки</value> 
+         <comment>Bookmarks</comment> 
+     </data> 
+   <data name="C_Backup_Config.Description" xml:space="preserve"> 
+         <value>Оберіть конфігурацію для операції створення або відновлення резервної копії</value> 
+         <comment>Select the configuration for backup or restore operation</comment> 
+     </data> 
+   <data name="C_Backup_Config.Title" xml:space="preserve"> 
+         <value>Вибір конфігурації</value> 
+         <comment>Choose configuration</comment> 
+     </data> 
+   <data name="C_Backup_NandH.Content" xml:space="preserve"> 
+         <value>Примітки і виділення маркером</value> 
+         <comment>Notes &amp; highlights</comment> 
+     </data> 
+   <data name="C_Backup_Operation.Description" xml:space="preserve"> 
+         <value>Оберіть операцію, яку бажаєте виконати</value> 
+         <comment>Select the operation you want to perform</comment> 
+     </data> 
+   <data name="C_Backup_Operation.Title" xml:space="preserve"> 
+         <value>Вибір операції</value> 
+         <comment>Choose operation</comment> 
+     </data> 
+   <data name="C_Backup_Storage.Description" xml:space="preserve"> 
+         <value>Оберіть місце зберігання файлів</value> 
+         <comment>Select the source or target storage for the operation</comment> 
+     </data> 
+   <data name="C_Backup_Storage.Title" xml:space="preserve"> 
+         <value>Вибір розташування сховища</value> 
+         <comment>Choose storage</comment> 
+     </data> 
+   <data name="C_Books.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Книги</value> 
+         <comment>Books</comment> 
+     </data> 
+   <data name="C_ChapterList.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Список глав</value> 
+         <comment>Chapter list</comment> 
+     </data> 
+   <data name="C_CollectionType.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Тип колекції</value> 
+         <comment>Collection Type</comment> 
+     </data> 
+   <data name="C_General_Advt.Description" xml:space="preserve"> 
+         <value>Вподобання щодо типу реклами</value> 
+         <comment>Preference for type of advertisements</comment> 
+     </data> 
+   <data name="C_General_Advt.Title" xml:space="preserve"> 
+         <value>Рекламні вподобання</value> 
+         <comment>Advt. preference</comment> 
+     </data> 
+   <data name="C_General_BookTitle.Description" xml:space="preserve"> 
+         <value>Відображати назви для всіх книг у бібліотеці</value> 
+         <comment>Display title for all books in the library view</comment> 
+     </data> 
+   <data name="C_General_BookTitle.Title" xml:space="preserve"> 
+         <value>Показувати назви книг</value> 
+         <comment>Show book titles</comment> 
+     </data> 
+   <data name="C_General_Lang.Description" xml:space="preserve"> 
+         <value>Кнопки, меню і інші елементи будуть відображатися цією мовою. 
+ Це налаштування буде застосоване при наступному старті програми.</value> 
+         <comment>Buttons, menus and other controls will show in this language. 
+ This setting will be applied on the next start of the app.</comment> 
+     </data> 
+   <data name="C_General_Lang.Title" xml:space="preserve"> 
+         <value>Мова інтерфейсу</value> 
+         <comment>Display language</comment> 
+     </data> 
+   <data name="C_General_Tutorial.Description" xml:space="preserve"> 
+         <value>Знову показати покрокову інструкцію</value> 
+         <comment>Show all the tutorials again</comment> 
+     </data> 
+   <data name="C_General_Tutorial.Title" xml:space="preserve"> 
+         <value>Скинути інструкцію</value> 
+         <comment>Reset tutorials</comment> 
+     </data> 
+   <data name="C_Personal_ColorThemes.Title" xml:space="preserve"> 
+         <value>Колірні теми</value> 
+         <comment>Color themes</comment> 
+     </data> 
+   <data name="C_Personal_TransBanckground.Title" xml:space="preserve"> 
+         <value>Прозорий фон</value> 
+         <comment>Transparent background</comment> 
+     </data> 
+   <data name="C_Personal_TransBanckSlider.Title" xml:space="preserve"> 
+         <value>Прозорість фону</value> 
+         <comment>Background transparency</comment> 
+     </data> 
+   <data name="C_Prem1.BillDetails" xml:space="preserve"> 
+         <value>Оплата щокварталу</value> 
+         <comment>Billed quarterly</comment> 
+     </data> 
+   <data name="C_Prem1.DurationString" xml:space="preserve"> 
+         <value> місяці</value> 
+         <comment> months</comment> 
+     </data> 
+   <data name="C_Prem2.BillDetails" xml:space="preserve"> 
+         <value>Оплата щороку</value> 
+         <comment>Billed annually</comment> 
+     </data> 
+   <data name="C_Prem2.DurationString" xml:space="preserve"> 
+         <value> місяців</value> 
+         <comment> months</comment> 
+     </data> 
+   <data name="C_Prem3.BillDetails" xml:space="preserve"> 
+         <value>Одноразове придбання</value> 
+         <comment>One time purchase</comment> 
+     </data> 
+   <data name="C_Prem3.DurationString" xml:space="preserve"> 
+         <value>Пожиттєво</value> 
+         <comment>Lifetime</comment> 
+     </data> 
+   <data name="C_Reader_AutoLayout.Description" xml:space="preserve"> 
+         <value>У 2-колонковому макеті, коли пристрій повертається в портретний режим, читалка автоматично перемикатиметься на 1-колонковий макет, і навпаки</value> 
+         <comment>In 2-column layout when device rotates to portrait mode, reader will auto switch to 1-column layout, and vice versa</comment> 
+     </data> 
+   <data name="C_Reader_AutoLayout.Title" xml:space="preserve"> 
+         <value>Automatic layout switching</value> 
+         <comment>Auto switch to 1 column layout</comment> 
+     </data> 
+   <data name="C_Reader_AutoScroll.Description" xml:space="preserve"> 
+         <value>Сторінка автоматично прокручуватиметься вслід за реченням, що озвучується в режимі читання вголос</value> 
+         <comment>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</comment> 
+     </data> 
+   <data name="C_Reader_AutoScroll.Title" xml:space="preserve"> 
+         <value>Автопрокрутка при читанні вголос</value> 
+         <comment>ReadAloud auto-scroll</comment> 
+     </data> 
+   <data name="C_Reader_BookFont.Description" xml:space="preserve"> 
+         <value>Читалка використовуватиме оригінальні шрифти, що йдуть в комплекті з книгою</value> 
+         <comment>Reader uses the original fonts packaged with the book</comment> 
+     </data> 
+   <data name="C_Reader_BookFont.Title" xml:space="preserve"> 
+         <value>Використання шрифтів книги</value> 
+         <comment>Use book's fonts</comment> 
+     </data> 
+   <data name="C_Reader_DictLang.Description" xml:space="preserve"> 
+         <value>Мова словника в читалці</value> 
+         <comment>Language of the in-reader dictionary</comment> 
+     </data> 
+   <data name="C_Reader_DictLang.Title" xml:space="preserve"> 
+         <value>Мова словника</value> 
+         <comment>Dictionary language</comment> 
+     </data> 
+   <data name="C_Reader_EnhRender.Description" xml:space="preserve"> 
+         <value>Покращить формат/макет, в якому книги відмальовуються для читання</value> 
+         <comment>Improves the format/layout in which books are rendered for reading</comment> 
+     </data> 
+   <data name="C_Reader_EnhRender.Title" xml:space="preserve"> 
+         <value>Покращена візуалізація</value> 
+         <comment>Enhanced rendering</comment> 
+     </data> 
+   <data name="C_Reader_SearchEngine.Description" xml:space="preserve"> 
+         <value>Пошуковик для веб-пошуку</value> 
+         <comment>Search engine to use for web search</comment> 
+     </data> 
+   <data name="C_Reader_SearchEngine.Title" xml:space="preserve"> 
+         <value>Пошукова система</value> 
+         <comment>Search engine</comment> 
+     </data> 
+   <data name="C_Reader_StdMrgn.Description" xml:space="preserve"> 
+         <value>Перевизначає будь-які поля, установлені в книзі, щоб забезпечити узгоджений макет у читалці</value> 
+         <comment>Overrides any margin specified in the book to provide consistent layout in the reader</comment> 
+     </data> 
+   <data name="C_Reader_StdMrgn.Title" xml:space="preserve"> 
+         <value>Стандартизація полів</value> 
+         <comment>Standardize margins</comment> 
+     </data> 
+   <data name="C_Reader_TextAlign.Description" xml:space="preserve"> 
+         <value>Перевизначає будь-які параметри вирівнювання тексту, установлені в книзі, щоб забезпечити узгоджений макет у читалці</value> 
+         <comment>Overrides any text alignment preference set in the book to provide consistent layout in the reader</comment> 
+     </data> 
+   <data name="C_Reader_TextAlign.Title" xml:space="preserve"> 
+         <value>Перевизначення вирівнювання тексту</value> 
+         <comment>Override text alignment</comment> 
+     </data> 
+   <data name="C_ShowFavs.Content" xml:space="preserve"> 
+         <value>Показувати тільки обране</value> 
+         <comment>Show only favorites</comment> 
+     </data> 
+   <data name="CB_Category.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Категорії</value> 
+         <comment>Categories</comment> 
+     </data> 
+   <data name="EBI_Author.Text" xml:space="preserve"> 
+         <value>Автор(и): </value> 
+         <comment>Author(s) : </comment> 
+     </data> 
+   <data name="EBI_Cover1.Content" xml:space="preserve"> 
+         <value>Обрати обкладинку</value> 
+         <comment>Select cover</comment> 
+     </data> 
+   <data name="EBI_Cover2.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Повернути оригінальну обкладинку</value> 
+         <comment>Restore original cover</comment> 
+     </data> 
+   <data name="EBI_Description.Text" xml:space="preserve"> 
+         <value>Опис: </value> 
+         <comment>Description : </comment> 
+     </data> 
+   <data name="EBI_ErrMsg1" xml:space="preserve"> 
+         <value>Номер в серії не може бути порожнім</value> 
+         <comment>Series number cannot be empty</comment> 
+     </data> 
+   <data name="EBI_ErrMsg2" xml:space="preserve"> 
+         <value>Номер в серії некоректний</value> 
+         <comment>Series number not valid</comment> 
+     </data> 
+   <data name="EBI_Genre.Text" xml:space="preserve"> 
+         <value>Жанр(и): </value> 
+         <comment>Genre(s) : </comment> 
+     </data> 
+   <data name="EBI_Language.Text" xml:space="preserve"> 
+         <value>Мова(и): </value> 
+         <comment>Language(s) : </comment> 
+     </data> 
+   <data name="EBI_Msg1.Text" xml:space="preserve"> 
+         <value> • (и) - Використовуйте крапку з комою ( ; ) щоб відокремити декілька елементів.</value> 
+         <comment> • (s) - Use semi-colon ( ; ) to separate multiple entries.</comment> 
+     </data> 
+   <data name="EBI_Publisher.Text" xml:space="preserve"> 
+         <value>Видавець(и): </value> 
+         <comment>Publisher(s) : </comment> 
+     </data> 
+   <data name="EBI_Series.Text" xml:space="preserve"> 
+         <value>Серія: </value> 
+         <comment>Series : </comment> 
+     </data> 
+   <data name="EBI_SeriesNumber.Text" xml:space="preserve"> 
+         <value>Номер в серії: </value> 
+         <comment>Series Number : </comment> 
+     </data> 
+   <data name="EBI_Title.Text" xml:space="preserve"> 
+         <value>Редагувати інформацію</value> 
+         <comment>Edit book information</comment> 
+     </data> 
+   <data name="IAP_Discount.Text" xml:space="preserve"> 
+         <value>- 20%</value> 
+         <comment>20% off</comment> 
+     </data> 
+   <data name="IAP_Popular.Text" xml:space="preserve"> 
+         <value>популярний</value> 
+         <comment>Most Popular</comment> 
+     </data> 
+   <data name="M_About.Content" xml:space="preserve"> 
+         <value>Про нас</value> 
+         <comment>About us</comment> 
+     </data> 
+   <data name="M_AddBook.Text" xml:space="preserve"> 
+         <value>Додати файли книг</value> 
+         <comment>Add book file(s)</comment> 
+     </data> 
+   <data name="M_AddFavourite.Text" xml:space="preserve"> 
+         <value>Додати в обране</value> 
+         <comment>Add Favourite</comment> 
+     </data> 
+   <data name="M_AddFolder.Text" xml:space="preserve"> 
+         <value>Додати папку</value> 
+         <comment>Add folder</comment> 
+     </data> 
+   <data name="M_Backup.Content" xml:space="preserve"> 
+         <value>Резервна копія</value> 
+         <comment>Backup &amp; Restore</comment> 
+     </data> 
+   <data name="M_BookInfo.Text" xml:space="preserve"> 
+         <value>Інформація про книгу</value> 
+         <comment>Book Info</comment> 
+     </data> 
+   <data name="M_ChngLog.Content" xml:space="preserve"> 
+         <value>Журнал змін</value> 
+         <comment>Change log</comment> 
+     </data> 
+   <data name="M_CreationTime.Text" xml:space="preserve"> 
+         <value>Дата створення</value> 
+         <comment>Creation time</comment> 
+     </data> 
+   <data name="M_Edit.Text" xml:space="preserve"> 
+         <value>Редагувати</value> 
+         <comment>Edit</comment> 
+     </data> 
+   <data name="M_EditBookInfo.Text" xml:space="preserve"> 
+         <value>Редагувати інформацію</value> 
+         <comment>Edit Book Info</comment> 
+     </data> 
+   <data name="M_General.Content" xml:space="preserve"> 
+         <value>Загальне</value> 
+         <comment>General</comment> 
+     </data> 
+   <data name="M_OpenBook.Text" xml:space="preserve"> 
+         <value>Відкрити книгу</value> 
+         <comment>Open Book</comment> 
+     </data> 
+   <data name="M_Personal.Content" xml:space="preserve"> 
+         <value>Персоналізація</value> 
+         <comment>Personalization</comment> 
+     </data> 
+   <data name="M_PinUnpin.Text" xml:space="preserve"> 
+         <value>Закріпити/Відкріпити у меню "Пуск"</value> 
+         <comment>Pin/Unpin to Start</comment> 
+     </data> 
+   <data name="M_PosInBook.Text" xml:space="preserve"> 
+         <value>Позиція в книзі</value> 
+         <comment>Position in book</comment> 
+     </data> 
+   <data name="M_Reader.Content" xml:space="preserve"> 
+         <value>Читалка</value> 
+         <comment>Reader</comment> 
+     </data> 
+   <data name="M_Remove.Text" xml:space="preserve"> 
+         <value>Прибрати</value> 
+         <comment>Remove</comment> 
+     </data> 
+   <data name="M_RemoveFavourite.Text" xml:space="preserve"> 
+         <value>Прибрати з обраного</value> 
+         <comment>Remove Favourite</comment> 
+     </data> 
+   <data name="M_SaveToFile.Text" xml:space="preserve"> 
+         <value>Зберегти в файл</value> 
+         <comment>Save to file</comment> 
+     </data> 
+   <data name="M_Share.Text" xml:space="preserve"> 
+         <value>Поділитися</value> 
+         <comment>Share</comment> 
+     </data> 
+   <data name="M_SyncFolder.Content" xml:space="preserve"> 
+         <value>Синхронізація папок</value> 
+         <comment>Sync folders</comment> 
+     </data> 
+   <data name="N_Collections.Content" xml:space="preserve"> 
+         <value>Колекції</value> 
+         <comment>Collections</comment> 
+     </data> 
+   <data name="N_Feedback.Content" xml:space="preserve"> 
+         <value>Відгук</value> 
+         <comment>Feedback</comment> 
+     </data> 
+   <data name="N_Home.Content" xml:space="preserve"> 
+         <value>Початок</value> 
+         <comment>Home</comment> 
+     </data> 
+   <data name="N_Library.Content" xml:space="preserve"> 
+         <value>Бібліотека</value> 
+         <comment>Library</comment> 
+     </data> 
+   <data name="N_OnlineBooks.Content" xml:space="preserve"> 
+         <value>Книги в інтернеті</value> 
+         <comment>Online Books</comment> 
+     </data> 
+   <data name="N_Premium.Content" xml:space="preserve"> 
+         <value>Преміум</value> 
+         <comment>Premium</comment> 
+     </data> 
+   <data name="N_ReportBug.Content" xml:space="preserve"> 
+         <value>Повідомити про помилку</value> 
+         <comment>Report bug</comment> 
+     </data> 
+   <data name="N_Settings.Content" xml:space="preserve"> 
+         <value>Налаштування</value> 
+         <comment>Settings</comment> 
+     </data> 
+   <data name="N_Statistics.Content" xml:space="preserve"> 
+         <value>Статистика</value> 
+         <comment>Statistics</comment> 
+     </data> 
+   <data name="RI_No" xml:space="preserve"> 
+         <value>Ні</value> 
+         <comment>No</comment> 
+     </data> 
+   <data name="RI_Title.Text" xml:space="preserve"> 
+         <value>Вам подобається Aquile Reader?</value> 
+         <comment>Are you enjoying Aquile Reader?</comment> 
+     </data> 
+   <data name="RI_Title2" xml:space="preserve"> 
+         <value>Не могли б ви приділити хвилинку, щоб оцінити нас у магазині?</value> 
+         <comment>Would you spare a moment to rate us on the store?</comment> 
+     </data> 
+   <data name="RI_Title3" xml:space="preserve"> 
+         <value>Хочете поділитися з нами відгуком?</value> 
+         <comment>Would you like to share some feedback with us?</comment> 
+     </data> 
+   <data name="RI_Yes.Content" xml:space="preserve"> 
+         <value>Так</value> 
+         <comment>Yes</comment> 
+     </data> 
+   <data name="S_ActSub" xml:space="preserve"> 
+         <value>Активна підписка</value> 
+         <comment>Active subscription</comment> 
+     </data> 
+   <data name="S_ActSub_Msg1" xml:space="preserve"> 
+         <value>Схоже, у вас вже є активна підписка, переконайтеся, що скасували її, щоб уникнути зайвого списання коштів.</value> 
+         <comment>Looks like you already have an active subscription, make sure to cancel it to avoid additional billing.</comment> 
+     </data> 
+   <data name="S_AddMore" xml:space="preserve"> 
+         <value>Додати ще...</value> 
+         <comment>Add more ...</comment> 
+     </data> 
+   <data name="S_AddSite_Err1" xml:space="preserve"> 
+         <value>Назва не може бути пустою</value> 
+         <comment>Title cannot be empty</comment> 
+     </data> 
+   <data name="S_AddSite_Err2" xml:space="preserve"> 
+         <value>Довжина назви може бути не більше 100 символів</value> 
+         <comment>Title length can be up-to 100 chars</comment> 
+     </data> 
+   <data name="S_AdMsg1" xml:space="preserve"> 
+         <value>Перейдіть на ПРЕМІУМ-версію</value> 
+         <comment>Upgrade to PREMIUM version</comment> 
+     </data> 
+   <data name="S_AdMsg2" xml:space="preserve"> 
+         <value>Щоб прибрати рекламу і отримати додаткові функції, натисніть сюди.</value> 
+         <comment>To remove Ads and get additional features, click here.</comment> 
+     </data> 
+   <data name="S_All" xml:space="preserve"> 
+         <value>Всі</value> 
+         <comment>All</comment> 
+     </data> 
+   <data name="S_AppWidthBookInfo" xml:space="preserve"> 
+         <value>Ширина вікна програми замала, щоб відкрити панель інформації про книгу.</value> 
+         <comment>App window width too small to open Book info pane.</comment> 
+     </data> 
+   <data name="S_AppWidthLess" xml:space="preserve"> 
+         <value>Ширина вікна програми занадто мала.</value> 
+         <comment>App window width too less.</comment> 
+     </data> 
+   <data name="S_AS_AvgPagePerHr" xml:space="preserve"> 
+         <value>Сер. кількість перегортань сторінок на годину</value> 
+         <comment>Avg. number of pages flipped per hour</comment> 
+     </data> 
+   <data name="S_AS_AvgReadHours" xml:space="preserve"> 
+         <value>Сер. кількість годин читання на день</value> 
+         <comment>Avg. reading hours per day</comment> 
+     </data> 
+   <data name="S_AS_AvgTimePerPage" xml:space="preserve"> 
+         <value>Сер. час читання (сек) однієї сторінки</value> 
+         <comment>Avg. reading time (sec) per page</comment> 
+     </data> 
+   <data name="S_AS_Msg1" xml:space="preserve"> 
+         <value>Впевнені, що хочете очистити всю статистику?</value> 
+         <comment>Are you sure you want to clear all statistics?</comment> 
+     </data> 
+   <data name="S_AS_NumBooksLib" xml:space="preserve"> 
+         <value>Кількість книг в бібліотеці</value> 
+         <comment>Number of books in library</comment> 
+     </data> 
+   <data name="S_AS_NumBooksRead" xml:space="preserve"> 
+         <value>Кількість прочитаних книг</value> 
+         <comment>Number of books read</comment> 
+     </data> 
+   <data name="S_AS_NumPagesTurned" xml:space="preserve"> 
+         <value>Кількість перегорнутих сторінок</value> 
+         <comment>Number of pages flipped</comment> 
+     </data> 
+   <data name="S_AS_SpeedWPM" xml:space="preserve"> 
+         <value>Швидкість читання (слів на хвилину)</value> 
+         <comment>Reading speed (words per minute)</comment> 
+     </data> 
+   <data name="S_AS_TotalReadHours" xml:space="preserve"> 
+         <value>Всього годин читання</value> 
+         <comment>Total reading hours</comment> 
+     </data> 
+   <data name="S_B_Close" xml:space="preserve"> 
+         <value>Закрити</value> 
+         <comment>Close</comment> 
+     </data> 
+   <data name="S_B_OnlineBookContent1" xml:space="preserve"> 
+         <value>Виберіть веб-сайт, з якого ви хочете завантажити електронну книгу. 
+ [1/4]</value> 
+         <comment>Select the website from where you want to download the eBook. 
+ [1/4]</comment> 
+     </data> 
+   <data name="S_B_OnlineBookContent2" xml:space="preserve"> 
+         <value>Перегляньте каталог і натисніть будь-яке посилання для завантаження електронної книги. Програма завантажить книгу та додасть її до бібліотеки. 
+ [2/4]</value> 
+         <comment>Browse the catalog and click on any eBook download link. App will download the book and add it to the library. 
+ [2/4]</comment> 
+     </data> 
+   <data name="S_B_OnlineBookContent3" xml:space="preserve"> 
+         <value>Ваші завантаження відображатимуться тут. 
+ [3/4]</value> 
+         <comment>Your downloads would appear here. 
+ [3/4]</comment> 
+     </data> 
+   <data name="S_B_OnlineBookContent4" xml:space="preserve"> 
+         <value>Додайте власний веб-сайт, звідки ви хочете завантажувати електронні книги. 
+ [4/4]</value> 
+         <comment>Add your own website from where you want to download eBooks. 
+ [4/4]</comment> 
+     </data> 
+   <data name="S_B_OnlineBookTitle1" xml:space="preserve"> 
+         <value>Виберіть веб-сайт з електронними книгами</value> 
+         <comment>Select eBook website</comment> 
+     </data> 
+   <data name="S_B_OnlineBookTitle2" xml:space="preserve"> 
+         <value>Завантажте електронну книгу</value> 
+         <comment>Download eBook</comment> 
+     </data> 
+   <data name="S_B_OnlineBookTitle3" xml:space="preserve"> 
+         <value>Відстежуйте завантаження</value> 
+         <comment>Track downloads</comment> 
+     </data> 
+   <data name="S_B_OnlineBookTitle4" xml:space="preserve"> 
+         <value>Додайте веб-сайт з електронними книгами</value> 
+         <comment>Add eBook website</comment> 
+     </data> 
+   <data name="S_B_PauseReading" xml:space="preserve"> 
+         <value>Призупинити читання (Пробіл)</value> 
+         <comment>Pause Reading (Space)</comment> 
+     </data> 
+   <data name="S_B_StartReading" xml:space="preserve"> 
+         <value>Почати читання (Пробіл)</value> 
+         <comment>Start Reading (Space)</comment> 
+     </data> 
+   <data name="S_B_TutDone" xml:space="preserve"> 
+         <value>Готово</value> 
+         <comment>Done</comment> 
+     </data> 
+   <data name="S_B_TutNext" xml:space="preserve"> 
+         <value>Далі</value> 
+         <comment>Next</comment> 
+     </data> 
+   <data name="S_B_TutReaderContent1" xml:space="preserve"> 
+         <value>Щоб перейти до наступної чи попередньої сторінки, торкніться країв екрана, проведіть пальцем по сторінці, використовуйте клавіші ← / → на клавіатурі або колесо миші. 
+ [1/8]</value> 
+         <comment>Tap on the edges of the screen, swipe the page, use ← / → keyboard keys or use mouse scroll wheel, to go to next or previous page. 
+ [1/8]</comment> 
+     </data> 
+   <data name="S_B_TutReaderContent2" xml:space="preserve"> 
+         <value>Виділіть текст або клацніть будь-яке слово правою кнопкою миші, щоб відкрити контекстне меню читалки.Звідси ви можете додати примітку, виділити маркером або зробити закладку. 
+ [2/8]</value> 
+         <comment>Select text or right click on any word to open the Reader context menu. 
+ You can add note, highlight or bookmark from here. 
+ [2/8]</comment> 
+     </data> 
+   <data name="S_B_TutReaderContent3" xml:space="preserve"> 
+         <value>Тут ви можете знайти зміст книги. 
+ [3/8]</value> 
+         <comment>Access the table of contents of the book from here. 
+ [3/8]</comment> 
+     </data> 
+   <data name="S_B_TutReaderContent4" xml:space="preserve"> 
+         <value>Ваші примітки і виділені маркером фрагменти будуть тут. 
+ [4/8]</value> 
+         <comment>Your notes and highlights would be listed here. 
+ [4/8]</comment> 
+     </data> 
+   <data name="S_B_TutReaderContent5" xml:space="preserve"> 
+         <value>Закладки з'являться тут. 
+ [5/8]</value> 
+         <comment>Set bookmarks would appear here. 
+ [5/8]</comment> 
+     </data> 
+   <data name="S_B_TutReaderContent6" xml:space="preserve"> 
+         <value>Шукайте в поточній главі або в усій книзі. 
+ [6/8]</value> 
+         <comment>Search in the current chapter or the entire book. 
+ [6/8]</comment> 
+     </data> 
+   <data name="S_B_TutReaderContent7" xml:space="preserve"> 
+         <value>За допомогою цього можна читати книгу вголос (синтез мовлення). 
+ [7/8]</value> 
+         <comment>You can use this to read aloud the book contents (text-to-speech). 
+ [7/8]</comment> 
+     </data> 
+   <data name="S_B_TutReaderContent8" xml:space="preserve"> 
+         <value>Тут ви можете налаштувати макет сторінки, стиль, колірну схему тощо. 
+ [8/8]</value> 
+         <comment>You can configure the page layout, style, color scheme, etc. from here. 
+ [8/8]</comment> 
+     </data> 
+   <data name="S_B_TutReaderTitle1" xml:space="preserve"> 
+         <value>Зміна сторінки</value> 
+         <comment>Page change</comment> 
+     </data> 
+   <data name="S_B_TutReaderTitle2" xml:space="preserve"> 
+         <value>Контекстне меню читалки</value> 
+         <comment>Reader context menu</comment> 
+     </data> 
+   <data name="S_B_TutReaderTitle3" xml:space="preserve"> 
+         <value>Зміст</value> 
+         <comment>Table of contents</comment> 
+     </data> 
+   <data name="S_B_TutReaderTitle4" xml:space="preserve"> 
+         <value>Примітки і виділення маркером</value> 
+         <comment>Notes and highlights</comment> 
+     </data> 
+   <data name="S_B_TutReaderTitle5" xml:space="preserve"> 
+         <value>Закладки</value> 
+         <comment>Bookmarks</comment> 
+     </data> 
+   <data name="S_B_TutReaderTitle6" xml:space="preserve"> 
+         <value>Пошук</value> 
+         <comment>Search</comment> 
+     </data> 
+   <data name="S_B_TutReaderTitle7" xml:space="preserve"> 
+         <value>Читання вголос</value> 
+         <comment>ReadAloud</comment> 
+     </data> 
+   <data name="S_B_TutReaderTitle8" xml:space="preserve"> 
+         <value>Стиль тексту</value> 
+         <comment>Text style</comment> 
+     </data> 
+   <data name="S_Backup" xml:space="preserve"> 
+         <value>Резервна копія</value> 
+         <comment>Backup</comment> 
+     </data> 
+   <data name="S_Backup_ErrMsg1" xml:space="preserve"> 
+         <value>Виберіть щонайменше 1 конфігурацію</value> 
+         <comment>Select at-least 1 configuration</comment> 
+     </data> 
+   <data name="S_Backup_ErrMsg2" xml:space="preserve"> 
+         <value>Не вдалося виконати операцію. Будь ласка, зв'яжіться зі службою підтримки.</value> 
+         <comment>Operation failed. Plz contact support.</comment> 
+     </data> 
+   <data name="S_BannerAds" xml:space="preserve"> 
+         <value>Рекламні банери</value> 
+         <comment>Banner Ads</comment> 
+     </data> 
+   <data name="S_BookAddedMsg" xml:space="preserve"> 
+         <value>{0}: Книгу успішно додано.</value> 
+         <comment>{0}: Book added successfully.</comment> 
+     </data> 
+   <data name="S_BookAddStartScreen" xml:space="preserve"> 
+         <value>Книгу додано до початкового екрану.</value> 
+         <comment>Book added to start screen.</comment> 
+     </data> 
+   <data name="S_BookExistsMsg" xml:space="preserve"> 
+         <value>{0}: Книга вже існує.</value> 
+         <comment>{0}: Book already exists.</comment> 
+     </data> 
+   <data name="S_BookFont" xml:space="preserve"> 
+         <value>Шрифт книги</value> 
+         <comment>Book's font</comment> 
+     </data> 
+   <data name="S_BookmarkAdded" xml:space="preserve"> 
+         <value>Закладку додано.</value> 
+         <comment>Bookmark added.</comment> 
+     </data> 
+   <data name="S_BookmarkExists" xml:space="preserve"> 
+         <value>Закладка вже існує.</value> 
+         <comment>Bookmark already exists.</comment> 
+     </data> 
+   <data name="S_BookRmStartScreen" xml:space="preserve"> 
+         <value>Книгу прибрано з початкового екрану.</value> 
+         <comment>Book removed from start screen.</comment> 
+     </data> 
+   <data name="S_BooksAdded" xml:space="preserve"> 
+         <value>Книг додано: {0}.</value> 
+         <comment>{0} book(s) added.</comment> 
+     </data> 
+   <data name="S_BooksAlreadyExists" xml:space="preserve"> 
+         <value>Книга вже існує.</value> 
+         <comment>Book already exists.</comment> 
+     </data> 
+   <data name="S_BookSystemLimitError_Msg" xml:space="preserve"> 
+         <value>Не можна додати більше книг, оскільки досягнуто системного ліміту. Ви можете видалити окремо додані файли книг і скористатися опцією "Додати папку", щоб масово додавати книги.</value> 
+         <comment>Cannot add more books as the system limit has been reached. Consider removing individually added book files and use 'Add Folder' option to add books in bulk.</comment> 
+     </data> 
+   <data name="S_BookSystemLimitError_Title" xml:space="preserve"> 
+         <value>Не вдалося додати книги</value> 
+         <comment>Unable to add book(s)</comment> 
+     </data> 
+   <data name="S_Cancelled" xml:space="preserve"> 
+         <value>Скасовано</value> 
+         <comment>Cancelled</comment> 
+     </data> 
+   <data name="S_Collapse" xml:space="preserve"> 
+         <value>Згорнути</value> 
+         <comment>Collapse</comment> 
+     </data> 
+   <data name="S_CollectionConstAll" xml:space="preserve"> 
+         <value>Всі</value> 
+         <comment>All</comment> 
+     </data> 
+   <data name="S_CollectionConstBookmarks" xml:space="preserve"> 
+         <value>Закладки</value> 
+         <comment>Bookmarks</comment> 
+     </data> 
+   <data name="S_CollectionConstHighlights" xml:space="preserve"> 
+         <value>Виділення маркером</value> 
+         <comment>Highlights</comment> 
+     </data> 
+   <data name="S_CollectionConstNotes" xml:space="preserve"> 
+         <value>Примітки</value> 
+         <comment>Notes</comment> 
+     </data> 
+   <data name="S_Completed" xml:space="preserve"> 
+         <value>Завершено</value> 
+         <comment>Completed</comment> 
+     </data> 
+   <data name="S_Confirmation" xml:space="preserve"> 
+         <value>Підтвердження</value> 
+         <comment>Confirmation</comment> 
+     </data> 
+   <data name="S_CTheme1" xml:space="preserve"> 
+         <value>Виноградник</value> 
+         <comment>Vine Yard</comment> 
+     </data> 
+   <data name="S_CTheme2" xml:space="preserve"> 
+         <value>Темна сторона</value> 
+         <comment>Dark Side</comment> 
+     </data> 
+   <data name="S_CTheme3" xml:space="preserve"> 
+         <value>Свіжі ягоди</value> 
+         <comment>Fresh Berry</comment> 
+     </data> 
+   <data name="S_CTheme4" xml:space="preserve"> 
+         <value>Апельсин</value> 
+         <comment>Pulpy Orange</comment> 
+     </data> 
+   <data name="S_CTheme5" xml:space="preserve"> 
+         <value>Чисте небо</value> 
+         <comment>Clear sky</comment> 
+     </data> 
+   <data name="S_CTheme6" xml:space="preserve"> 
+         <value>Спалах</value> 
+         <comment>Flash</comment> 
+     </data> 
+   <data name="S_CTheme7" xml:space="preserve"> 
+         <value>Черепаха</value> 
+         <comment>Turquoise</comment> 
+     </data> 
+   <data name="S_CTheme8" xml:space="preserve"> 
+         <value>Зелене яблуко</value> 
+         <comment>Green Apple</comment> 
+     </data> 
+   <data name="S_CThemeMsg1" xml:space="preserve"> 
+         <value>Тему скопійовано в буфер обміну.</value> 
+         <comment>Theme copied to clipboard.</comment> 
+     </data> 
+   <data name="S_CThemeMsg2" xml:space="preserve"> 
+         <value>Тема не вибрана.</value> 
+         <comment>Theme not selected.</comment> 
+     </data> 
+   <data name="S_CurrentChapter" xml:space="preserve"> 
+         <value>Поточна глава</value> 
+         <comment>Current chapter</comment> 
+     </data> 
+   <data name="S_DateAdded.Text" xml:space="preserve"> 
+         <value>Дата додавання: </value> 
+         <comment>Date added : </comment> 
+     </data> 
+   <data name="S_Description.Text" xml:space="preserve"> 
+         <value>Опис: </value> 
+         <comment>Description : </comment> 
+     </data> 
+   <data name="S_DockLeft" xml:space="preserve"> 
+         <value>Пристикувати зліва</value> 
+         <comment>Dock left</comment> 
+     </data> 
+   <data name="S_DockRight" xml:space="preserve"> 
+         <value>Пристикувати справа</value> 
+         <comment>Dock right</comment> 
+     </data> 
+   <data name="S_DownloadBook" xml:space="preserve"> 
+         <value>Завантажити книгу</value> 
+         <comment>Download book</comment> 
+     </data> 
+   <data name="S_DownloadBook_Msg" xml:space="preserve"> 
+         <value>Бажаєте завантажити цю книгу і додати до бібліотеки?</value> 
+         <comment>Do you want to download this book and add to library?</comment> 
+     </data> 
+   <data name="S_Downloading" xml:space="preserve"> 
+         <value>Завантаження</value> 
+         <comment>Downloading</comment> 
+     </data> 
+   <data name="S_EntireBook" xml:space="preserve"> 
+         <value>Вся книга</value> 
+         <comment>Entire book</comment> 
+     </data> 
+   <data name="S_ErrMsg1" xml:space="preserve"> 
+         <value>Aquile Reader не має дозволу на доступ до файлу книги - {0}. 
+ Натисніть "Надати дозвіл" і виберіть той же самий файл книги у вікні вибору файлів.</value> 
+         <comment>Aquile Reader does not have permission to access the book file - {0}. 
+ Click 'Grant Permission' and select the same book file in the file picker window.</comment> 
+     </data> 
+   <data name="S_ErrMsg1_btn" xml:space="preserve"> 
+         <value>Надати дозвіл</value> 
+         <comment>Grant Permission</comment> 
+     </data> 
+   <data name="S_ErrMsg2" xml:space="preserve"> 
+         <value>Файл, який ви намагаєтеся відкрити, більше не існує. 
+ Будь ласка, перевірте його наявність, та повторіть спробу.</value> 
+         <comment>The file you are trying to open, no longer exists. 
+ Please check and try again.</comment> 
+     </data> 
+   <data name="S_ErrMsg3" xml:space="preserve"> 
+         <value>Можливо, файл використовується, заблокований або у вас недостатньо прав.</value> 
+         <comment>The file may be in use, locked, or you don't have sufficient permissions.</comment> 
+     </data> 
+   <data name="S_ErrMsg4" xml:space="preserve"> 
+         <value>Вибраний файл відрізняється від вихідного файлу книги - {0}.</value> 
+         <comment>Selected File is different from the original book file - {0}.</comment> 
+     </data> 
+   <data name="S_ErrMsg6" xml:space="preserve"> 
+         <value>Якщо проблема не зникає, зверніться до служби підтримки.</value> 
+         <comment>If the problem persists please contact support.</comment> 
+     </data> 
+   <data name="S_ErrTitle1" xml:space="preserve"> 
+         <value>Не вдалося отримати доступ до книги!</value> 
+         <comment>Unable to access the book!</comment> 
+     </data> 
+   <data name="S_ErrTitle2" xml:space="preserve"> 
+         <value>Файл не існує!</value> 
+         <comment>File does not exist!</comment> 
+     </data> 
+   <data name="S_ErrTitle3" xml:space="preserve"> 
+         <value>Не вдалося відкрити файл!</value> 
+         <comment>Can't open file!</comment> 
+     </data> 
+   <data name="S_ErrTitle4" xml:space="preserve"> 
+         <value>Не той самий файл!</value> 
+         <comment>Not the same file!</comment> 
+     </data> 
+   <data name="S_ErrTitle5" xml:space="preserve"> 
+         <value>Сталася неочікувана помилка!</value> 
+         <comment>Unexpected error occurred!</comment> 
+     </data> 
+   <data name="S_ErrTitle6" xml:space="preserve"> 
+         <value>Не вдалося відкрити файл</value> 
+         <comment>Couldn't open file</comment> 
+     </data> 
+   <data name="S_Expand" xml:space="preserve"> 
+         <value>Розгорнути</value> 
+         <comment>Expand</comment> 
+     </data> 
+   <data name="S_Failed" xml:space="preserve"> 
+         <value>Помилка</value> 
+         <comment>Failed</comment> 
+     </data> 
+   <data name="S_FileCountLimitBtn1" xml:space="preserve"> 
+         <value>Перервати та використати "Додати папку"</value> 
+         <comment>Abort and use 'Add Folder'</comment> 
+     </data> 
+   <data name="S_FileCountLimitBtn2" xml:space="preserve"> 
+         <value>Продовжити додавати книги</value> 
+         <comment>Continue to add books</comment> 
+     </data> 
+   <data name="S_FileCountLimitMsg" xml:space="preserve"> 
+         <value>Додавання великої кількості окремих файлів книг може перевищити системний ліміт, таким чином перешкоджаючи додаванню нової книги. 
+ Використовуйте опцію "Додати папку", щоб масово додавати файли книг.</value> 
+         <comment>Adding large number of individual book files can hit system limit, thus preventing new book from being added. 
+ Use 'Add Folder' option to add book files in bulk.</comment> 
+     </data> 
+   <data name="S_FileCountLimitTitle" xml:space="preserve"> 
+         <value>Увага!</value> 
+         <comment>Warning!</comment> 
+     </data> 
+   <data name="S_FileNotSaved" xml:space="preserve"> 
+         <value>{0} не вдалося зберегти.</value> 
+         <comment>{0} could not be saved.</comment> 
+     </data> 
+   <data name="S_FilePath.Text" xml:space="preserve"> 
+         <value>Шлях до файлу: </value> 
+         <comment>File path : </comment> 
+     </data> 
+   <data name="S_FileSaved" xml:space="preserve"> 
+         <value>{0} збережено.</value> 
+         <comment>{0} was saved.</comment> 
+     </data> 
+   <data name="S_Genre.Text" xml:space="preserve"> 
+         <value>Жанр: </value> 
+         <comment>Genre : </comment> 
+     </data> 
+   <data name="S_GoPrem" xml:space="preserve"> 
+         <value>Перейти на Преміум</value> 
+         <comment>Go Premium</comment> 
+     </data> 
+   <data name="S_HighNotes_Msg1" xml:space="preserve"> 
+         <value>Вибраний вміст не повинен включати пробіли в верхньому або нижньому колонтитулі. Будь ласка, виберіть ще раз.</value> 
+         <comment>Selected content should not include the white spaces from header or footer. Please re-select.</comment> 
+     </data> 
+   <data name="S_HighNotesMsg1" xml:space="preserve"> 
+         <value>Неможливо додати виділення маркером, коли відкрита панель пошуку.</value> 
+         <comment>Highlight cannot be added while search pane is open.</comment> 
+     </data> 
+   <data name="S_HighNotesMsg2" xml:space="preserve"> 
+         <value>Вибраний текст для виділення маркером і примітки не може пересікатися.</value> 
+         <comment>Selected text for Highlight and Note cannot overlap.</comment> 
+     </data> 
+   <data name="S_HighNotesMsg3" xml:space="preserve"> 
+         <value>Для виділення маркером необхідно вибрати щонайменше 1 символ.</value> 
+         <comment>Minimum 1 character must be selected for highlight.</comment> 
+     </data> 
+   <data name="S_HighNotesMsg4" xml:space="preserve"> 
+         <value>Для виділення маркером може бути вибрано не більше 4000 символів.</value> 
+         <comment>Maximum 4000 characters can be selected for highlight.</comment> 
+     </data> 
+   <data name="S_HighNotesMsg5" xml:space="preserve"> 
+         <value>Неможливо додати виділення маркером, коли відкрита панель пошуку.Неможливо додати примітку, коли відкрита панель пошуку.</value> 
+         <comment>Note cannot be added while search pane is open.</comment> 
+     </data> 
+   <data name="S_HighNotesMsg6" xml:space="preserve"> 
+         <value>Вибраний текст для примітки і виділення маркером не може пересікатися.</value> 
+         <comment>Selected text for Note and Highlight cannot overlap.</comment> 
+     </data> 
+   <data name="S_HighNotesMsg7" xml:space="preserve"> 
+         <value>Для додавання примітки необхідно вибрати щонайменше 1 символ.</value> 
+         <comment>Minimum 1 character must be selected for adding note.</comment> 
+     </data> 
+   <data name="S_HighNotesMsg8" xml:space="preserve"> 
+         <value>Для додавання примітки може бути вибрано не більше 4000 символів.</value> 
+         <comment>Maximum 4000 characters can be selected for adding note.</comment> 
+     </data> 
+   <data name="S_HighNotesMsg9" xml:space="preserve"> 
+         <value>Текст примітки не може бути порожнім.</value> 
+         <comment>Note text cannot be empty.</comment> 
+     </data> 
+   <data name="S_InterstitialAds" xml:space="preserve"> 
+         <value>Рекламна заставка</value> 
+         <comment>Interstitial Ads</comment> 
+     </data> 
+   <data name="S_InvalidUrl" xml:space="preserve"> 
+         <value>Недійсна URL-адреса</value> 
+         <comment>Invalid URL</comment> 
+     </data> 
+   <data name="S_Language.Text" xml:space="preserve"> 
+         <value>Мова: </value> 
+         <comment>Language : </comment> 
+     </data> 
+   <data name="S_LastRead.Text" xml:space="preserve"> 
+         <value>Останнє прочитання: </value> 
+         <comment>Last read : </comment> 
+     </data> 
+   <data name="S_LibConstAllBooks" xml:space="preserve"> 
+         <value>Всі книги</value> 
+         <comment>All Books</comment> 
+     </data> 
+   <data name="S_LibConstCompleted" xml:space="preserve"> 
+         <value>Завершені</value> 
+         <comment>Completed</comment> 
+     </data> 
+   <data name="S_LibConstDownloads" xml:space="preserve"> 
+         <value>Завантажені</value> 
+         <comment>Downloads</comment> 
+     </data> 
+   <data name="S_LibConstFav" xml:space="preserve"> 
+         <value>Обрані</value> 
+         <comment>Favourites</comment> 
+     </data> 
+   <data name="S_LibConstNotStarted" xml:space="preserve"> 
+         <value>Не початі</value> 
+         <comment>Not Started</comment> 
+     </data> 
+   <data name="S_LibConstReading" xml:space="preserve"> 
+         <value>В процесі читання</value> 
+         <comment>Reading</comment> 
+     </data> 
+   <data name="S_LineCount.Text" xml:space="preserve"> 
+         <value>Кількість рядків: </value> 
+         <comment>Line count : </comment> 
+     </data> 
+   <data name="S_matchesFound" xml:space="preserve"> 
+         <value>Збігів знайдено: {0}</value> 
+         <comment>{0} matches found</comment> 
+     </data> 
+   <data name="S_MoreFonts" xml:space="preserve"> 
+         <value>Отримати більше шрифтів!!</value> 
+         <comment>Get more fonts!!</comment> 
+     </data> 
+   <data name="S_No" xml:space="preserve"> 
+         <value>Ні</value> 
+         <comment>No</comment> 
+     </data> 
+   <data name="S_None" xml:space="preserve"> 
+         <value>(Нічого)</value> 
+         <comment>(None)</comment> 
+     </data> 
+   <data name="S_NotSupported" xml:space="preserve"> 
+         <value>Не підтримується</value> 
+         <comment>Not supported</comment> 
+     </data> 
+   <data name="S_NotSupported_Msg" xml:space="preserve"> 
+         <value>Завантаження файлів, відмінних від .epub, не підтримується</value> 
+         <comment>Download of files other than .epub is not supported</comment> 
+     </data> 
+   <data name="S_OnlineBook_CompleteAdded" xml:space="preserve"> 
+         <value>Завершено | Додано до бібліотеки</value> 
+         <comment>Completed | Added to library</comment> 
+     </data> 
+   <data name="S_OnlineBook_CompleteExists" xml:space="preserve"> 
+         <value>Завершено | Вже є</value> 
+         <comment>Completed | Already exists</comment> 
+     </data> 
+   <data name="S_OnlineBook_CompleteFailAdd" xml:space="preserve"> 
+         <value>Завершено | Не вдалося додати до бібліотеки</value> 
+         <comment>Completed | Failed to add to library</comment> 
+     </data> 
+   <data name="S_PercentageRead.Text" xml:space="preserve"> 
+         <value>Відсоток прочитаного: </value> 
+         <comment>Percentage read : </comment> 
+     </data> 
+   <data name="S_Pin" xml:space="preserve"> 
+         <value>Закріпити</value> 
+         <comment>Pin</comment> 
+     </data> 
+   <data name="S_Prem_Msg1" xml:space="preserve"> 
+         <value>Вибачаємося! Схоже, ви вже володієте цим. Ми оновили наші записи, щоб відобразити це правильно.</value> 
+         <comment>Apologies! Looks like you already own this, we have updated our records to reflect this correctly.</comment> 
+     </data> 
+   <data name="S_Prem_Msg2" xml:space="preserve"> 
+         <value>Вітаємо! Купівля пройшла успішно.</value> 
+         <comment>Congrats! The purchase was successful.</comment> 
+     </data> 
+   <data name="S_Prem_Msg3" xml:space="preserve"> 
+         <value>Вибачте! Схоже, трансакцію скасовано. Будь ласка, спробуйте ще раз.</value> 
+         <comment>Sorry! Looks like the transaction was canceled, plz try again.</comment> 
+     </data> 
+   <data name="S_Prem_Msg4" xml:space="preserve"> 
+         <value>Вибачте! Схоже, покупка не вдалася через проблему з мережею. Будь ласка, спробуйте ще раз.</value> 
+         <comment>Sorry! Looks like the purchase failed due to network issues, plz try again.</comment> 
+     </data> 
+   <data name="S_Prem_Msg5" xml:space="preserve"> 
+         <value>Вибачте! Схоже, покупка не вдалася через помилку сервера. Будь ласка, спробуйте ще раз.</value> 
+         <comment>Sorry! Looks like the purchase failed due to some server error, plz try again.</comment> 
+     </data> 
+   <data name="S_Prem_Msg6" xml:space="preserve"> 
+         <value>Вибачте! Під час покупки щось пішло не так. Будь ласка, спробуйте ще раз.</value> 
+         <comment>Sorry! Something went wrong during the purchase, plz try again.</comment> 
+     </data> 
+   <data name="S_PremAnnual" xml:space="preserve"> 
+         <value>Преміум [Щорічно]</value> 
+         <comment>Premium [Annual]</comment> 
+     </data> 
+   <data name="S_PremFree" xml:space="preserve"> 
+         <value>Безкоштовно</value> 
+         <comment>Free</comment> 
+     </data> 
+   <data name="S_PremiumBooksCount" xml:space="preserve"> 
+         <value>Безкоштовна версія програми підтримує лише до {0} книг у бібліотеці одночасно. 
+ Щоб додати більше, оновіть програму до Aquile Reader Premium.</value> 
+         <comment>Free version of the app supports only {0} books in the library at a time. 
+ To add more, please upgrade to Aquile Reader Premium.</comment> 
+     </data> 
+   <data name="S_PremiumCollection" xml:space="preserve"> 
+         <value>Безкоштовна версія програми підтримує лише до {0} елементів колекцій одночасно. 
+ Щоб створити більше, оновіть програму до Aquile Reader Premium.</value> 
+         <comment>Free version of the app supports total of {0} collections items. 
+ To create more, please upgrade to Aquile Reader Premium.</comment> 
+     </data> 
+   <data name="S_PremiumColorThemes" xml:space="preserve"> 
+         <value>Безкоштовна версія програми підтримує лише {0} користувацьку тему. 
+ Щоб створити більше, оновіть програму до Aquile Reader Premium.</value> 
+         <comment>Free version of the app supports only {0} custom themes. 
+ To create more, please upgrade to Aquile Reader Premium.</comment> 
+     </data> 
+   <data name="S_PremiumFonts" xml:space="preserve"> 
+         <value>Оновіться до Преміуму і отримайте доступ до всіх шрифтів, встановлених в системі.</value> 
+         <comment>Upgrade to Premium and get access to all fonts installed on the system.</comment> 
+     </data> 
+   <data name="S_PremiumPin" xml:space="preserve"> 
+         <value>Безкоштовна версія програми підтримує лише до {0} книг, закріплених в меню "Пуск" одночасно. 
+ Щоб додати більше, оновіть програму до Aquile Reader Premium.</value> 
+         <comment>Free version of the app supports only {0} books pinned to start screen at a time. 
+ To add more, please upgrade to Aquile Reader Premium.</comment> 
+     </data> 
+   <data name="S_PremiumRAHighlight" xml:space="preserve"> 
+         <value>Користувацькі кольори підсвітки читання вголос доступні тільки в Aquile Reader Premium. 
+ Оновіться до Преміуму і отримайте всі функції.</value> 
+         <comment>Custom ReadAloud highlight colors are only available in Aquile Reader Premium. 
+ Upgrade to Premium and enjoy all the features.</comment> 
+     </data> 
+   <data name="S_PremiumSyncFolders" xml:space="preserve"> 
+         <value>Безкоштовна версія програми підтримує лише {0} папку для синхронізації. 
+ Щоб додати більше, оновіть програму до Aquile Reader Premium.</value> 
+         <comment>Free version of the app supports only {0} sync folder(s). 
+ To create more, please upgrade to Aquile Reader Premium.</comment> 
+     </data> 
+   <data name="S_PremiumThemes" xml:space="preserve"> 
+         <value>Користувацькі теми оформлення сторінок доступні тільки в Aquile Reader Premium. 
+ Оновіться до Преміуму і отримайте всі функції.</value> 
+         <comment>Custom Page Themes are only available in Aquile Reader Premium. 
+ Upgrade to Premium and enjoy all the features.</comment> 
+     </data> 
+   <data name="S_PremLife" xml:space="preserve"> 
+         <value>Преміум [Пожиттєво]</value> 
+         <comment>Premium [Lifetime]</comment> 
+     </data> 
+   <data name="S_PremOff1" xml:space="preserve"> 
+         <value>- 25%</value> 
+         <comment>25% off</comment> 
+     </data> 
+   <data name="S_PremOff2" xml:space="preserve"> 
+         <value>- 30%</value> 
+         <comment>30% off</comment> 
+     </data> 
+   <data name="S_PremQuarterly" xml:space="preserve"> 
+         <value>Преміум [Щоквартально]</value> 
+         <comment>Premium [Quarterly]</comment> 
+     </data> 
+   <data name="S_PremTrial" xml:space="preserve"> 
+         <value>Преміум [Ознайомлювальна версія]</value> 
+         <comment>Premium [Trial]</comment> 
+     </data> 
+   <data name="S_PremUpg" xml:space="preserve"> 
+         <value>Оновлення до Преміуму</value> 
+         <comment>Premium upgrade</comment> 
+     </data> 
+   <data name="S_Publisher.Text" xml:space="preserve"> 
+         <value>Видавець: </value> 
+         <comment>Publisher : </comment> 
+     </data> 
+   <data name="S_ReadAloud_Err1" xml:space="preserve"> 
+         <value>Помилка конфігурації синтезу мовлення</value> 
+         <comment>Text-to-Speech configuration error</comment> 
+     </data> 
+   <data name="S_ReadAloud_ErrMsg1" xml:space="preserve"> 
+         <value>Синтез мовлення не налаштовано належним чином на цьому пристрої. Перейдіть за посиланням "Як виправити", щоб правильно налаштувати це. Якщо проблема не зникає, зверніться до служби підтримки.</value> 
+         <comment>Text-to-Speech is not configured correctly on this device, please follow the 'How to fix' link to configure it correctly. If the issue persists, contact support.</comment> 
+     </data> 
+   <data name="S_ReadAloud_ErrMsg1_btn" xml:space="preserve"> 
+         <value>Як виправити</value> 
+         <comment>How to fix</comment> 
+     </data> 
+   <data name="S_ReadAloudMsg1" xml:space="preserve"> 
+         <value>Зміна глави не дозволяється в режимі читання вголос.</value> 
+         <comment>Chapter change is not allowed in ReadAloud mode.</comment> 
+     </data> 
+   <data name="S_ReadAloudMsg2" xml:space="preserve"> 
+         <value>Виявлено нечитабельні символи. Пропускаємо.</value> 
+         <comment>Unreadable characters detected. Skipping.</comment> 
+     </data> 
+   <data name="S_ReadAloudMsg3" xml:space="preserve"> 
+         <value>Наступна глава.</value> 
+         <comment>Next chapter.</comment> 
+     </data> 
+   <data name="S_ReadAloudMsg4" xml:space="preserve"> 
+         <value>Під час читання сталася неочікувана помилка.</value> 
+         <comment>Unexpected error occurred while reading.</comment> 
+     </data> 
+   <data name="S_Restore" xml:space="preserve"> 
+         <value>Відновити</value> 
+         <comment>Restore</comment> 
+     </data> 
+   <data name="S_RmSyncFolderMsg1" xml:space="preserve"> 
+         <value>Книг прибрано: {0}.</value> 
+         <comment>{0} book(s) removed.</comment> 
+     </data> 
+   <data name="S_Save" xml:space="preserve"> 
+         <value>Зберегти</value> 
+         <comment>Save</comment> 
+     </data> 
+   <data name="S_SelectBackupFile" xml:space="preserve"> 
+         <value>Вибрати файл резервної копії</value> 
+         <comment>Select backup file</comment> 
+     </data> 
+   <data name="S_SelectFolder" xml:space="preserve"> 
+         <value>Вибрати папку</value> 
+         <comment>Select folder</comment> 
+     </data> 
+   <data name="S_Series.Text" xml:space="preserve"> 
+         <value>Серія: </value> 
+         <comment>Series : </comment> 
+     </data> 
+   <data name="S_ShareCollection" xml:space="preserve"> 
+         <value>Поділитися колекціями</value> 
+         <comment>Share collections</comment> 
+     </data> 
+   <data name="S_SomethingWentWrong" xml:space="preserve"> 
+         <value>Щось пішло не так!</value> 
+         <comment>Something went wrong!</comment> 
+     </data> 
+   <data name="S_Sync_Now" xml:space="preserve"> 
+         <value>Синхронізувати зараз</value> 
+         <comment>Sync now</comment> 
+     </data> 
+   <data name="S_Sync_syncing" xml:space="preserve"> 
+         <value>Синхронізація...</value> 
+         <comment>Syncing ...</comment> 
+     </data> 
+   <data name="S_SyncFolder" xml:space="preserve"> 
+         <value>Синхронізувати папку</value> 
+         <comment>Sync Folder</comment> 
+     </data> 
+   <data name="S_TextCopied" xml:space="preserve"> 
+         <value>Виділений текст скопійовано до буфера обміну.</value> 
+         <comment>Selected text copied to clipboard.</comment> 
+     </data> 
+   <data name="S_TOCMsg1" xml:space="preserve"> 
+         <value>Зміст ще завантажується...</value> 
+         <comment>Table of Contents is still loading...</comment> 
+     </data> 
+   <data name="S_Understand" xml:space="preserve"> 
+         <value>Зрозуміло</value> 
+         <comment>I understand</comment> 
+     </data> 
+   <data name="S_UnPin" xml:space="preserve"> 
+         <value>Відкріпити</value> 
+         <comment>Un-Pin</comment> 
+     </data> 
+   <data name="S_Update" xml:space="preserve"> 
+         <value>Оновити</value> 
+         <comment>Update</comment> 
+     </data> 
+   <data name="S_UpdateFolder" xml:space="preserve"> 
+         <value>Оновити папку</value> 
+         <comment>Update folder</comment> 
+     </data> 
+   <data name="S_UrlNotExist" xml:space="preserve"> 
+         <value>URL-адреса не існує!</value> 
+         <comment>Url does not exist!</comment> 
+     </data> 
+   <data name="S_WordCount.Text" xml:space="preserve"> 
+         <value>Кількість слів: </value> 
+         <comment>Word count : </comment> 
+     </data> 
+   <data name="S_WrongMsg1" xml:space="preserve"> 
+         <value>Вибачте, схоже, щось пішло не так.Спробуйте відкрити файл знову. 
+ Якщо проблема не зникає, зверніться до служби підтримки.</value> 
+         <comment>Sorry, but looks like something just went wrong. 
+ Try opening the file again. If the problem persists please contact support.</comment> 
+     </data> 
+   <data name="S_Yes" xml:space="preserve"> 
+         <value>Так</value> 
+         <comment>Yes</comment> 
+     </data> 
+   <data name="T_About_copyright.Text" xml:space="preserve"> 
+         <value>© Optimilia Studios. Всі права захищені.</value> 
+         <comment>© Optimilia Studios. All Rights Reserved.</comment> 
+     </data> 
+   <data name="T_AddBook.Text" xml:space="preserve"> 
+         <value>Щоб почати, додайте книгу</value> 
+         <comment>Add a book to get started</comment> 
+     </data> 
+   <data name="T_AddFolderMsg1.Text" xml:space="preserve"> 
+         <value>Сканування і додавання книг</value> 
+         <comment>Scanning and adding books</comment> 
+     </data> 
+   <data name="T_AddFolderRes1.Text" xml:space="preserve"> 
+         <value>Щойно додані книги: </value> 
+         <comment>New books added : </comment> 
+     </data> 
+   <data name="T_AddFolderRes2.Text" xml:space="preserve"> 
+         <value>Книги, що вже є: </value> 
+         <comment>Already existing books : </comment> 
+     </data> 
+   <data name="T_AddFolderRes3.Text" xml:space="preserve"> 
+         <value>Не вдалося додати книги: </value> 
+         <comment>Failed to add books : </comment> 
+     </data> 
+   <data name="T_AddSite.Text" xml:space="preserve"> 
+         <value>Додати сайт</value> 
+         <comment>Add site</comment> 
+     </data> 
+   <data name="T_AddTheme.Text" xml:space="preserve"> 
+         <value>Додати тему</value> 
+         <comment>Add theme</comment> 
+     </data> 
+   <data name="T_AquilePremium.Text" xml:space="preserve"> 
+         <value>Aquile Reader Premium</value> 
+         <comment>Aquile Reader Premium</comment> 
+     </data> 
+   <data name="T_Backup_Beta.Text" xml:space="preserve"> 
+         <value>Beta</value> 
+         <comment>Beta</comment> 
+     </data> 
+   <data name="T_Backup_Bkp.Text" xml:space="preserve"> 
+         <value>Зробити резервну копію з вибраною конфігурацією.</value> 
+         <comment>Create a backup copy with the selected configurations.</comment> 
+     </data> 
+   <data name="T_Backup_Heading.Text" xml:space="preserve"> 
+         <value>Резервна копія і відновлення</value> 
+         <comment>Backup &amp; Restore</comment> 
+     </data> 
+   <data name="T_Backup_Restore.Text" xml:space="preserve"> 
+         <value>Відновіти вибрані конфігурації з файлу резервної копії. 
+ Примітка: Це перевизначить поточні конфігурації, напр.нові примітки, виділення маркером тощо можуть бути втрачені, якщо вони не містяться в резервній копії.</value> 
+         <comment>Restore the selected configurations from the backup file. 
+ Note: This will override current configurations, e.g. new notes, highlights etc can be lost if they are not contained in the backup copy.</comment> 
+     </data> 
+   <data name="T_BookmarksEmpty.Text" xml:space="preserve"> 
+         <value>Тут ви знайдете свої закладки.</value> 
+         <comment>Find your bookmarks here.</comment> 
+     </data> 
+   <data name="T_ChangeLog.Text" xml:space="preserve"> 
+         <value>Журнал змін</value> 
+         <comment>Change log</comment> 
+     </data> 
+   <data name="T_Credits1.Text" xml:space="preserve"> 
+         <value>Титри</value> 
+         <comment>Credits</comment> 
+     </data> 
+   <data name="T_CurrentPlan.Text" xml:space="preserve"> 
+         <value>Поточний план:</value> 
+         <comment>Current Plan :</comment> 
+     </data> 
+   <data name="T_Custom1" xml:space="preserve"> 
+         <value>1. Виберіть колір фону</value> 
+         <comment>1. Select background color</comment> 
+     </data> 
+   <data name="T_Custom2" xml:space="preserve"> 
+         <value>2. Виберіть колір переднього плану тексту</value> 
+         <comment>2. Select text foreground color</comment> 
+     </data> 
+   <data name="T_Custom3" xml:space="preserve"> 
+         <value>3. Виберіть режим кольору</value> 
+         <comment>3. Select color mode</comment> 
+     </data> 
+   <data name="T_DictWebSrch1.Text" xml:space="preserve"> 
+         <value>Подивитись це</value> 
+         <comment>Look this up</comment> 
+     </data> 
+   <data name="T_DictWebSrch2.Text" xml:space="preserve"> 
+         <value>в мережі</value> 
+         <comment>on the web</comment> 
+     </data> 
+   <data name="T_Downloads1.Text" xml:space="preserve"> 
+         <value>Тут ви знайдете свої завантаження.</value> 
+         <comment>Find your downloads here.</comment> 
+     </data> 
+   <data name="T_Exp.Text" xml:space="preserve"> 
+         <value>Експериментальні функції</value> 
+         <comment>Experimental</comment> 
+     </data> 
+   <data name="T_ExpDetails.Text" xml:space="preserve"> 
+         <value>Ці функції все ще в розробці і можуть бути нестабільними або несправними. Ви можете спробувати їх і поділитися з нами відгуками.</value> 
+         <comment>These features are still in development and might be little unstable or buggy. You can try them out and share feedback with us.</comment> 
+     </data> 
+   <data name="T_ExpDetailsLink.Text" xml:space="preserve"> 
+         <value>Більше подробиць та відомі проблеми</value> 
+         <comment>More details and known issues</comment> 
+     </data> 
+   <data name="T_FavBooks.Text" xml:space="preserve"> 
+         <value>Обрані книги</value> 
+         <comment>Favourite Books</comment> 
+     </data> 
+   <data name="T_FavEmptyMsg.Text" xml:space="preserve"> 
+         <value>Ваші обрані книги з'являться тут</value> 
+         <comment>Your favourite books would appear here</comment> 
+     </data> 
+   <data name="T_FontStyle.Text" xml:space="preserve"> 
+         <value>Стиль шрифту</value> 
+         <comment>Font style</comment> 
+     </data> 
+   <data name="t_For.Text" xml:space="preserve"> 
+         <value>за</value> 
+         <comment>for</comment> 
+     </data> 
+   <data name="T_GeneralSettings.Text" xml:space="preserve"> 
+         <value>Загальні налаштування</value> 
+         <comment>General Settings</comment> 
+     </data> 
+   <data name="T_HighEdit1.Text" xml:space="preserve"> 
+         <value>Виберіть колір виділення тексту</value> 
+         <comment>Select text highlight color</comment> 
+     </data> 
+   <data name="T_HighlightColor.Text" xml:space="preserve"> 
+         <value>Колір маркеру</value> 
+         <comment>Highlight color</comment> 
+     </data> 
+   <data name="T_HighNotesEmpty.Text" xml:space="preserve"> 
+         <value>Тут ви знайдете свої примітки і виділення маркером</value> 
+         <comment>Find your notes and highlights here.</comment> 
+     </data> 
+   <data name="T_Initializing.Text" xml:space="preserve"> 
+         <value>Ініціалізація</value> 
+         <comment>Initializing</comment> 
+     </data> 
+   <data name="T_Language.Text" xml:space="preserve"> 
+         <value>Мова</value> 
+         <comment>Language</comment> 
+     </data> 
+   <data name="T_LineSpace.Text" xml:space="preserve"> 
+         <value>Відступи між рядками</value> 
+         <comment>Line space</comment> 
+     </data> 
+   <data name="T_NoCollections.Text" xml:space="preserve"> 
+         <value>Немає колекцій</value> 
+         <comment>No Collections available</comment> 
+     </data> 
+   <data name="T_NoDefFound.Text" xml:space="preserve"> 
+         <value>Визначення не знайдено</value> 
+         <comment>No definition found</comment> 
+     </data> 
+   <data name="T_NoMatchesFound.Text" xml:space="preserve"> 
+         <value>Співпадінь не знайдено</value> 
+         <comment>No matches found</comment> 
+     </data> 
+   <data name="T_NoteText.PlaceholderText" xml:space="preserve"> 
+         <value>Введіть текст примітки</value> 
+         <comment>Enter note text</comment> 
+     </data> 
+   <data name="T_OBPlaceHolder.Text" xml:space="preserve"> 
+         <value>Виберіть сайт, щоб почати завантажувати електронні книги</value> 
+         <comment>Select the site to start downloading eBooks</comment> 
+     </data> 
+   <data name="T_OnlineBooksWarn1" xml:space="preserve"> 
+         <value>Важлива інформація</value> 
+         <comment>Important Information</comment> 
+     </data> 
+   <data name="T_OnlineBooksWarn2" xml:space="preserve"> 
+         <value>Ми зберігаємо файли cookie, які використовуються веб-сайтами, щоб пам'ятати входи в облікові записи і забезпечувати кращий користувацький досвід.</value> 
+         <comment>We save the cookies used by websites to maintain continuity of your logins and provide better experience.</comment> 
+     </data> 
+   <data name="T_OnlineBooksWarn3" xml:space="preserve"> 
+         <value>Ми не рекомендуємо робити покупки/платежі звідси, будь ласка, використовуйте для цього свій звичайний браузер.</value> 
+         <comment>We don't recommend making purchases/payments from here, please use your regular browser for the same.</comment> 
+     </data> 
+   <data name="T_OpeningBook.Text" xml:space="preserve"> 
+         <value>Видкриття книги</value> 
+         <comment>Opening Book</comment> 
+     </data> 
+   <data name="T_OpenLibrary.Text" xml:space="preserve"> 
+         <value>Відкрити бібліотеку</value> 
+         <comment>Open Library</comment> 
+     </data> 
+   <data name="T_PageLayout.Text" xml:space="preserve"> 
+         <value>Макет сторінки</value> 
+         <comment>Page layout</comment> 
+     </data> 
+   <data name="T_PageTheme.Text" xml:space="preserve"> 
+         <value>Оформлення сторінки</value> 
+         <comment>Page themes</comment> 
+     </data> 
+   <data name="T_ParagraphSpace.Text" xml:space="preserve"> 
+         <value>Відступи між абзацами</value> 
+         <comment>Paragraph space</comment> 
+     </data> 
+   <data name="T_Personalization.Text" xml:space="preserve"> 
+         <value>Персоналізація</value> 
+         <comment>Personalization</comment> 
+     </data> 
+   <data name="T_Processing.Text" xml:space="preserve"> 
+         <value>Обробка</value> 
+         <comment>Processing</comment> 
+     </data> 
+   <data name="T_RaPremMsg.Text" xml:space="preserve"> 
+         <value>Елементи керування звуком TTS (синтезу мовлення), такі як швидкість читання, висота звуку та гучність, доступні лише в преміум-версії програми.</value> 
+         <comment>TTS (Text-to-Speech) audio controls which include reading speed, audio pitch and volume are only available in premium version of the app.</comment> 
+     </data> 
+   <data name="T_ReaderSettings.Text" xml:space="preserve"> 
+         <value>Налаштування читалки</value> 
+         <comment>Reader Settings</comment> 
+     </data> 
+   <data name="T_RecentReads.Text" xml:space="preserve"> 
+         <value>Нещодавні книги</value> 
+         <comment>Recent Reads</comment> 
+     </data> 
+   <data name="T_RmSyncFolder.Text" xml:space="preserve"> 
+         <value>Видалити папку синхронізації</value> 
+         <comment>Remove Sync Folder</comment> 
+     </data> 
+   <data name="T_RmSyncFolderConf.Text" xml:space="preserve"> 
+         <value>Впевнені, що хочете вилучити цю синхронізовану папку?</value> 
+         <comment>Are you sure you want to remove this synced folder?</comment> 
+     </data> 
+   <data name="T_RmSyncFolderMsg1.Text" xml:space="preserve"> 
+         <value>Вилучення книг</value> 
+         <comment>Removing books</comment> 
+     </data> 
+   <data name="T_SBInput.PlaceholderText" xml:space="preserve"> 
+         <value>Знайти...</value> 
+         <comment>Find ...</comment> 
+     </data> 
+   <data name="T_SearchBox.PlaceholderText" xml:space="preserve"> 
+         <value>Шукати за назвою або автора...</value> 
+         <comment>Search by title or author name ...</comment> 
+     </data> 
+   <data name="T_Searching.Text" xml:space="preserve"> 
+         <value>Шукаємо</value> 
+         <comment>Searching</comment> 
+     </data> 
+   <data name="T_SeeMore.Text" xml:space="preserve"> 
+         <value>Побачити більше</value> 
+         <comment>See more</comment> 
+     </data> 
+   <data name="T_SelectFolder.Text" xml:space="preserve"> 
+         <value>Вибрати папку</value> 
+         <comment>Select folder</comment> 
+     </data> 
+   <data name="T_Settings.Text" xml:space="preserve"> 
+         <value>Налаштування</value> 
+         <comment>Settings</comment> 
+     </data> 
+   <data name="T_SiteUrl.Text" xml:space="preserve"> 
+         <value>URL-адреса сайту: </value> 
+         <comment>Site url : </comment> 
+     </data> 
+   <data name="T_SomeWentWrong.Text" xml:space="preserve"> 
+         <value>Щось пішло не так, спробуйте ще раз.</value> 
+         <comment>Something went wrong, please try again.</comment> 
+     </data> 
+   <data name="T_SpeechSpeed.Text" xml:space="preserve"> 
+         <value>Швидкість мовлення</value> 
+         <comment>Speech speed</comment> 
+     </data> 
+   <data name="T_Statistics.Text" xml:space="preserve"> 
+         <value>Статистика</value> 
+         <comment>Statistics</comment> 
+     </data> 
+   <data name="T_Sync_AddFolder.Text" xml:space="preserve"> 
+         <value>Додати папку для синхронізації</value> 
+         <comment>Add sync folder</comment> 
+     </data> 
+   <data name="T_Sync_BookCount.Text" xml:space="preserve"> 
+         <value>Кількість книг: </value> 
+         <comment>Book count : </comment> 
+     </data> 
+   <data name="T_Sync_msg1.Text" xml:space="preserve"> 
+         <value>Це дозволяє легко підтримувати синхронізацію бібліотеки Aquile Reader і вашої локальної колекції книг.</value> 
+         <comment>This provides an easy way to keep the Aquile Reader library and your local book collection in sync.</comment> 
+     </data> 
+   <data name="T_Sync_msg2.Text" xml:space="preserve"> 
+         <value>Aquile Reader під час запуску програми синхронізує книги з "папок для синхронізації" і автоматично додає/вилучає книги з бібліотеки в програмі.</value> 
+         <comment>Aquile Reader on app start-up syncs books from 'Sync Folders' and automatically add/remove books from the app library.</comment> 
+     </data> 
+   <data name="T_Sync_SyncFolders.Text" xml:space="preserve"> 
+         <value>Папки для синхронізації</value> 
+         <comment>Sync Folders</comment> 
+     </data> 
+   <data name="T_TextAlignment.Text" xml:space="preserve"> 
+         <value>Вирівнювання тексту</value> 
+         <comment>Text alignment</comment> 
+     </data> 
+   <data name="T_TextSize.Text" xml:space="preserve"> 
+         <value>Розмір тексту</value> 
+         <comment>Text size</comment> 
+     </data> 
+   <data name="T_TextSizeDecrease.Text" xml:space="preserve"> 
+         <value>A-</value> 
+         <comment>A-</comment> 
+     </data> 
+   <data name="T_TextSizeDecrease.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Зменшити (Ctrl + -)</value> 
+         <comment>Decrease (Ctrl + -)</comment> 
+     </data> 
+   <data name="T_TextSizeIncrease.Text" xml:space="preserve"> 
+         <value>A+</value> 
+         <comment>A+</comment> 
+     </data> 
+   <data name="T_TextSizeIncrease.ToolTipService.ToolTip" xml:space="preserve"> 
+         <value>Збільшити (Ctrl + +)</value> 
+         <comment>Increase (Ctrl + +)</comment> 
+     </data> 
+   <data name="T_Title.Text" xml:space="preserve"> 
+         <value>Назва: </value> 
+         <comment>Title : </comment> 
+     </data> 
+   <data name="T_TocEmpty.Text" xml:space="preserve"> 
+         <value>Зміст цієї книги недоступний.</value> 
+         <comment>Table of contents is not available for this book.</comment> 
+     </data> 
+   <data name="T_Voice.Text" xml:space="preserve"> 
+         <value>Голос</value> 
+         <comment>Voice</comment> 
+     </data> 
+   <data name="T_VoiceGender.Text" xml:space="preserve"> 
+         <value>Гендер голосу</value> 
+         <comment>Voice gender</comment> 
+     </data> 
+   <data name="T_VoicePitch.Text" xml:space="preserve"> 
+         <value>Висота голосу</value> 
+         <comment>Voice pitch</comment> 
+     </data> 
+   <data name="T_Volume.Text" xml:space="preserve"> 
+         <value>Гучність</value> 
+         <comment>Volume</comment> 
+     </data> 
+   <data name="T_WordSpace.Text" xml:space="preserve"> 
+         <value>Проміжок між словами</value> 
+         <comment>Word space</comment> 
+     </data> 
+   <data name="TC_B_DarkMode.Content" xml:space="preserve"> 
+         <value>Темний режим</value> 
+         <comment>Dark mode</comment> 
+     </data> 
+   <data name="TC_B_LightMode.Content" xml:space="preserve"> 
+         <value>Світлий режим</value> 
+         <comment>Light mode</comment> 
+     </data> 
+   <data name="TC_S_ErrMsg1" xml:space="preserve"> 
+         <value>Назва теми має містити від 1 до 15 символів.</value> 
+         <comment>Theme name should be between 1-15 chars.</comment> 
+     </data> 
+   <data name="TC_S_SelectAccentColor" xml:space="preserve"> 
+         <value>2. Виберіть акцентний колір</value> 
+         <comment>2. Select accent color</comment> 
+     </data> 
+   <data name="TC_S_SelectBackColor" xml:space="preserve"> 
+         <value>1. Виберіть колір фону</value> 
+         <comment>1. Select background color</comment> 
+     </data> 
+   <data name="TC_S_SelectColorMode" xml:space="preserve"> 
+         <value>3. Виберіть режим кольору</value> 
+         <comment>3. Select color mode</comment> 
+     </data> 
+   <data name="TC_T_ThemeName.Text" xml:space="preserve"> 
+         <value>4. Назва теми</value> 
+         <comment>4. Name of theme</comment> 
+     </data> 
+   <data name="TM_Author.Text" xml:space="preserve"> 
+         <value>Автор</value> 
+         <comment>Author</comment> 
+     </data> 
+   <data name="TM_FilePath.Text" xml:space="preserve"> 
+         <value>Шлях до файлу</value> 
+         <comment>File Path</comment> 
+     </data> 
+   <data name="TM_Genre.Text" xml:space="preserve"> 
+         <value>Жанр</value> 
+         <comment>Genre</comment> 
+     </data> 
+   <data name="TM_ImportTime.Text" xml:space="preserve"> 
+         <value>Час імпорту</value> 
+         <comment>Import time</comment> 
+     </data> 
+   <data name="TM_Language.Text" xml:space="preserve"> 
+         <value>Мова</value> 
+         <comment>Language</comment> 
+     </data> 
+   <data name="TM_LastReadTime.Text" xml:space="preserve"> 
+         <value>Час останнього читання</value> 
+         <comment>Last read time</comment> 
+     </data> 
+   <data name="TM_None.Text" xml:space="preserve"> 
+         <value>(Нічого)</value> 
+         <comment>(None)</comment> 
+     </data> 
+   <data name="TM_Publisher.Text" xml:space="preserve"> 
+         <value>Видавець</value> 
+         <comment>Publisher</comment> 
+     </data> 
+   <data name="TM_ReadingProg.Text" xml:space="preserve"> 
+         <value>Прогрес читання</value> 
+         <comment>Reading progress</comment> 
+     </data> 
+   <data name="TM_Series.Text" xml:space="preserve"> 
+         <value>Серія</value> 
+         <comment>Series</comment> 
+     </data> 
+   <data name="TM_SeriesNum.Text" xml:space="preserve"> 
+         <value>Номер в серії</value> 
+         <comment>Series Number</comment> 
+     </data> 
+   <data name="TM_Title.Text" xml:space="preserve"> 
+         <value>Назва</value> 
+         <comment>Title</comment> 
+     </data> 
+   <data name="ToggleSwitch.OffContent" xml:space="preserve"> 
+         <value>Вимкнуто</value> 
+         <comment>Disabled</comment> 
+     </data> 
+   <data name="ToggleSwitch.OnContent" xml:space="preserve"> 
+         <value>Увімкнуто</value> 
+         <comment>Enabled</comment> 
+     </data> 
+   <data name="S_Previous" xml:space="preserve"> 
+         <value>Попереднє</value> 
+         <comment>Previous</comment> 
+     </data> 
+   <data name="S_B_AppRestart" xml:space="preserve"> 
+         <value>Потрібен перезапуск програми</value> 
+         <comment>App restart needed</comment> 
+     </data> 
+   <data name="S_B_AppRestartFailed" xml:space="preserve"> 
+         <value>Не вдається перезапустити програму, перезапустіть її вручну, щоб зміни набули чинності.</value> 
+         <comment>Unable to restart the app, please restart manually for changes to take effect.</comment> 
+     </data> 
+   <data name="S_B_LangRestartMsg" xml:space="preserve"> 
+         <value>Необхідно перезапустити програму, щоб зміна мови відображення вступила в силу. Ви бажаєте продовжити?</value> 
+         <comment>App restart is required for display language change to take effect. Do you want to proceed?</comment> 
+     </data> 
+   <data name="S_B_Upgrade" xml:space="preserve"> 
+         <value>Оновити</value> 
+         <comment>Upgrade</comment> 
+     </data> 
+   <data name="S_B_UpgradePremMsg" xml:space="preserve"> 
+         <value>Оновити до Aquile Reader Premium!</value> 
+         <comment>Upgrade to Aquile Reader Premium!</comment> 
+     </data> 
+   <data name="T_HelpTranslateLink.Text" xml:space="preserve"> 
+         <value>Допоможіть перекласти на більше мов</value> 
+         <comment>Help translate to more languages</comment> 
+     </data> 
+   <data name="S_Free.Text" xml:space="preserve"> 
+         <value>Безкоштовна версія</value> 
+         <comment>Free Version</comment> 
+     </data> 
+   <data name="S_Free_Msg1.Text" xml:space="preserve"> 
+         <value>Реклама в програмі</value> 
+         <comment>Advertisements in the app</comment> 
+     </data> 
+   <data name="S_Free_Msg2.Text" xml:space="preserve"> 
+         <value>Підтримується до 40 елементів в колекції</value> 
+         <comment>Max 40 collection items supported</comment> 
+     </data> 
+   <data name="S_Free_Msg3.Text" xml:space="preserve"> 
+         <value>До 20 книг в бібліотеці</value> 
+         <comment>Max 20 books in the library</comment> 
+     </data> 
+   <data name="S_Free_Msg4.Text" xml:space="preserve"> 
+         <value>Користувацькі колірні схеми не підтримуються в читалці</value> 
+         <comment>Custom color schemes not supported in the Reader</comment> 
+     </data> 
+   <data name="S_Free_Msg5.Text" xml:space="preserve"> 
+         <value>Доступна лише 1 користувацька колірна тема для програми</value> 
+         <comment>Only 1 custom app color theme allowed</comment> 
+     </data> 
+   <data name="S_Free_Msg6.Text" xml:space="preserve"> 
+         <value>В читалці підтримується обмежена кількість шрифтів</value> 
+         <comment>Limited number of fonts supported in the reader</comment> 
+     </data> 
+   <data name="S_Free_Msg7.Text" xml:space="preserve"> 
+         <value>Обмежена підтримка TTS (синтезу мовлення)</value> 
+         <comment>Limited TTS (Text-to-Speech) support</comment> 
+     </data> 
+   <data name="S_Free_Msg8.Text" xml:space="preserve"> 
+         <value>Можна додати лише 1 папку для синхронізації</value> 
+         <comment>Only 1 sync folder allowed</comment> 
+     </data> 
+   <data name="S_Free_Msg9.Text" xml:space="preserve"> 
+         <value>В меню "Пуск" можна закріпити до 5 книг одночасно</value> 
+         <comment>Max 5 books can be pinned to Start screen at a time</comment> 
+     </data> 
+   <data name="S_PremPage.Text" xml:space="preserve"> 
+         <value>Преміумна версія</value> 
+         <comment>Premium Version</comment> 
+     </data> 
+   <data name="S_PremPage_Msg1.Text" xml:space="preserve"> 
+         <value>Читання без реклами</value> 
+         <comment>Ad free reading experience</comment> 
+     </data> 
+   <data name="S_PremPage_Msg2.Text" xml:space="preserve"> 
+         <value>Безлімітні колекції (виділення маркером, примітки і закладки)</value> 
+         <comment>No limit on collections (highlights, notes &amp; bookmarks)</comment> 
+     </data> 
+   <data name="S_PremPage_Msg3.Text" xml:space="preserve"> 
+         <value>Безлімітна кількість книг в бібліотеці</value> 
+         <comment>No limit on number of books in the library</comment> 
+     </data> 
+   <data name="S_PremPage_Msg4.Text" xml:space="preserve"> 
+         <value>В читалці доступні користувацькі колірні схеми</value> 
+         <comment>Custom color schemes available in the Reader</comment> 
+     </data> 
+   <data name="S_PremPage_Msg5.Text" xml:space="preserve"> 
+         <value>Підтримка будь-якої кількості користувацьких колірних тем для програми</value> 
+         <comment>Support for any number of custom app color themes</comment> 
+     </data> 
+   <data name="S_PremPage_Msg6.Text" xml:space="preserve"> 
+         <value>Доступ до всіх встановлених в системі шрифтів</value> 
+         <comment>Access to all fonts installed in the system</comment> 
+     </data> 
+   <data name="S_PremPage_Msg7.Text" xml:space="preserve"> 
+         <value>Повна підтримка TTS (синтезу мовлення)</value> 
+         <comment>Full TTS (Text-to-Speech) experience</comment> 
+     </data> 
+   <data name="S_PremPage_Msg8.Text" xml:space="preserve"> 
+         <value>Безлімітна кількість папок для синхронізації</value> 
+         <comment>No limit on number of sync folders</comment> 
+     </data> 
+   <data name="S_PremPage_Msg9.Text" xml:space="preserve"> 
+         <value>В меню "Пуск" можна закріпити безлімітну кількість книг одночасно</value> 
+         <comment>No limit on number books pinned to Start screen</comment> 
+     </data> 
+ </root>
