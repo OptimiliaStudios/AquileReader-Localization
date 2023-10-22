@@ -578,3 +578,55 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
 "S_PremPage_Msg7.Text","Teljes értékű Felolvasás funkció","Full TTS (Text-to-Speech) experience"
 "S_PremPage_Msg8.Text","Korlátlan számú szinkronizálható mappa","No limit on number of sync folders"
 "S_PremPage_Msg9.Text","Korlátlan számban tűzhet ki könyveket a Start menüre","No limit on number books pinned to Start screen"
+"Sync_CloudSync.Content","Felhő szinkronizálás","Cloud sync"
+"Sync_AllBooks","Minden könyv","All Books"
+"Sync_AllBooksListMsg","A következők kivételével az összes könyv szinkronizálása folyamatban van -","All books except following are being synced -"
+"Sync_CloudSync_Heading.Text","Felhő szinkronizálás","Cloud sync"
+"Sync_EnableSync.Description","Kapcsolja be a könyvek és a metaadatok eszközök közötti szinkronizálását az összekapcsolt Google Drive-fiók használatával.","Toggle cross-device sync of books and metadata using the linked Google drive account."
+"Sync_EnableSync.Title","Felhős szinkronizálás engedélyezése","Enable cloud sync"
+"Sync_LinkAccount","Kapcsolja össze a Google-fiókot","Link Google account"
+"Sync_LinkBeforeSync","A szinkronizálás engedélyezése előtt kapcsolja össze a Google-fiókot.","Link Google account before enabling sync."
+"Sync_LinkedGDrive","Összekapcsolva a Google Drive-val összekapcsolva a következővel: -","Linked to Google Drive connected to -"
+"Sync_SelectedBooks","Válogatott könyvek","Selected books"
+"Sync_SelectedBooksListMsg","A következő könyvek szinkronizálása folyamatban van -","Following books are being synced -"
+"Sync_SyncBookMode.Description","Az „Összes könyv” azt jelenti, hogy alapértelmezés szerint az összes könyv szinkronizálva lesz, kivéve a kizárt könyveket.
+A „Kiválasztott könyvek” azt jelenti, hogy alapértelmezés szerint egyetlen könyv sem lesz szinkronizálva, kivéve a benne foglaltakat.","'All Books' means by default all books will be synced, except for excluded ones.
+'Selected Books' means by default no book will be synced, except for included ones."
+"Sync_SyncBookMode.Title","Szinkronizálandó könyvek","Books to sync"
+"Sync_SyncGDrive","Szinkronizálás a következőhöz csatlakoztatott Google Drive-val:","Syncing to Google Drive connected to -"
+"Sync_SyncInfo.Text","A felhőszinkronizálás lehetővé teszi az Aquile Reader használatát több eszközön (Android és Windows), és szinkronizálja az adatokat a zökkenőmentes olvasási élmény érdekében. A felhőszinkronizálás biztonsági mentési adatként is szolgálhat, amelyet a friss telepítés után visszaállíthat.","Cloud sync enables use of Aquile Reader on multiple devices (Android and Windows) and syncs data acorss them for seamless reading experience. Cloud sync can also serve as backup data that can be used for restore after fresh install."
+"Sync_SyncMsg.Description","Szinkronizálás közben felugró üzenetek megjelenítése.","Display message pop-ups when sync is running."
+"Sync_SyncMsg.Title","Szinkronizálási munkaüzenetek megjelenítése","Show sync working messages"
+"Sync_SyncUploadFiles.Description","Töltse fel az e-könyv forrásfájljait a felhőbe.","Upload source eBook files to cloud."
+"Sync_SyncUploadFiles.Title","E-könyv fájlok szinkronizálása","Sync eBook files"
+"Sync_UnlinkAccount","A Google-fiók leválasztása","Unlink Google account"
+"S_EmptyList.Text","A lista üres","List is empty"
+"Sync_DisableSync","A felhőszinkronizálás letiltása","Disable cloud sync"
+"Sync_EnableSyncStr","Felhős szinkronizálás engedélyezése","Enable cloud sync"
+"Sync_SyncNow.Text","Szinkronizálja a könyvet most","Sync book now"
+"Sync_UploadBookFile.Text","Könyvfájl feltöltése","Upload book file"
+"S_AddFav","Kedvenc hozzáadása","Add Favourite"
+"S_RemoveFav","Kedvenc eltávolítása","Remove Favourite"
+"Sync_Cancelled","Szinkronizálás megszakítva","Sync cancelled"
+"Sync_Complete","A szinkronizálás befejeződött","Sync complete"
+"Sync_ComplteRefreshNeeded","A szinkronizálás kész, fejezetfrissítés szükséges","Sync complete, chapter refresh needed"
+"Sync_Failed","A szinkronizálás nem sikerült","Sync failed"
+"Sync_Started","A szinkronizálás elindult","Sync started"
+"sync_tip.Subtitle","A felhőszinkronizálás a Google Drive segítségével engedélyezi a könyvek, könyvfájlok, metaadatok, olvasási pozíció és megjegyzések eszközök közötti szinkronizálását (Android és Windows).
+
+Az alkalmazás indításakor a könyvek legújabb állapota letöltődik a felhőből. Egy könyv nyitásakor és bezárásakor a könyv állapota ismét szinkronizálódik (felfelé és lefelé egyaránt).
+
+Lehetőségek állnak rendelkezésre a szinkronizálási viselkedés szabályozására. Az „Összes könyv” opcióval alapértelmezés szerint az összes könyv szinkronizálva van, hacsak a felhasználó nem zárt ki néhány könyvet a szinkronizálásból. A „Kiválasztott könyvek” azt jelenti, hogy csak a felhasználó által kiválasztott könyvek szinkronizálódnak. A könyveket a könyv helyi menüjének használatával lehet bevenni/kizárni.","Cloud sync uses Google Drive to enable cross device sync (Android and Windows) of books, book files, metadata, reading position and annotations.
+
+At the app start, latest state of books are downloaded from cloud. On opening and closing a book, state of the book is synced again (both upwards and downwards).
+
+Options are provided to control the sync behaviour. With 'All books' option by default all the books are synced, unless user has excluded some books from sync. 'Selected books' means only user selected books are synced. Books can be included/excluded by using the book context menu."
+"sync_tip.Title","Felhő szinkronizálás","Cloud sync"
+"S_Free_Msg10.Text","Maximum 3 könyv szinkronizálható felhővel.","Max 3 books can be synced to cloud."
+"S_PremiumCloudSync","Az ingyenes verzió csak a „Kiválasztott könyvek” opciót támogatja.
+Kérjük, frissítsen az Aquile Reader Premiumra, hogy élvezhesse az összes funkciót.","Free version supports only 'Selected Books' option.
+Please upgrade to Aquile Reader Premium to enjoy all features."
+"S_PremiumCloudSyncLimit","Az alkalmazás ingyenes verziója csak {0} könyv szinkronizálását támogatja a felhővel.
+További hozzáadáshoz frissítsen az Aquile Reader Premiumra.","Free version of the app supports only {0} books to be synced to cloud.
+To add more, please upgrade to Aquile Reader Premium."
+"S_PremPage_Msg10.Text","A felhőalapú szinkronizálási lehetőségek nincsenek korlátozva.","No limitation on cloud sync options."

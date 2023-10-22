@@ -2263,4 +2263,170 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <value>不限制固定到“开始”屏幕的图书数量</value>
     <comment>No limit on number books pinned to Start screen</comment>
   </data>
+  <data name="Sync_CloudSync.Content" xml:space="preserve">
+    <value>云同步</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="Sync_AllBooks" xml:space="preserve">
+    <value>所有书籍</value>
+    <comment>All Books</comment>
+  </data>
+  <data name="Sync_AllBooksListMsg" xml:space="preserve">
+    <value>除以下书籍外的所有书籍都正在同步 -</value>
+    <comment>All books except following are being synced -</comment>
+  </data>
+  <data name="Sync_CloudSync_Heading.Text" xml:space="preserve">
+    <value>云同步</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSync.Description" xml:space="preserve">
+    <value>使用链接的 Google 云端硬盘帐户切换图书和元数据的跨设备同步。</value>
+    <comment>Toggle cross-device sync of books and metadata using the linked Google drive account.</comment>
+  </data>
+  <data name="Sync_EnableSync.Title" xml:space="preserve">
+    <value>启用云同步</value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_LinkAccount" xml:space="preserve">
+    <value>关联谷歌账户</value>
+    <comment>Link Google account</comment>
+  </data>
+  <data name="Sync_LinkBeforeSync" xml:space="preserve">
+    <value>在启用同步之前链接 Google 帐户。</value>
+    <comment>Link Google account before enabling sync.</comment>
+  </data>
+  <data name="Sync_LinkedGDrive" xml:space="preserve">
+    <value>链接到 Google 云端硬盘 连接到 -</value>
+    <comment>Linked to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SelectedBooks" xml:space="preserve">
+    <value>精选书籍</value>
+    <comment>Selected books</comment>
+  </data>
+  <data name="Sync_SelectedBooksListMsg" xml:space="preserve">
+    <value>以下书籍正在同步 -</value>
+    <comment>Following books are being synced -</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Description" xml:space="preserve">
+    <value>“所有图书”意味着默认情况下将同步所有图书（排除的图书除外）。
+“选定的图书”意味着默认情况下不会同步任何图书（包含的图书除外）。</value>
+    <comment>'All Books' means by default all books will be synced, except for excluded ones.
+'Selected Books' means by default no book will be synced, except for included ones.</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Title" xml:space="preserve">
+    <value>要同步的书籍</value>
+    <comment>Books to sync</comment>
+  </data>
+  <data name="Sync_SyncGDrive" xml:space="preserve">
+    <value>正在同步到连接到的 Google 云端硬盘 -</value>
+    <comment>Syncing to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SyncInfo.Text" xml:space="preserve">
+    <value>云同步支持在多个设备（Android 和 Windows）上使用 Aquile Reader，并在这些设备之间同步数据，以实现无缝的阅读体验。 云同步还可以作为备份数据，用于全新安装后的恢复。</value>
+    <comment>Cloud sync enables use of Aquile Reader on multiple devices (Android and Windows) and syncs data acorss them for seamless reading experience. Cloud sync can also serve as backup data that can be used for restore after fresh install.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Description" xml:space="preserve">
+    <value>同步运行时显示消息弹出窗口。</value>
+    <comment>Display message pop-ups when sync is running.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Title" xml:space="preserve">
+    <value>显示同步工作消息</value>
+    <comment>Show sync working messages</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Description" xml:space="preserve">
+    <value>将源电子书文件上传到云端。</value>
+    <comment>Upload source eBook files to cloud.</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Title" xml:space="preserve">
+    <value>同步电子书文件</value>
+    <comment>Sync eBook files</comment>
+  </data>
+  <data name="Sync_UnlinkAccount" xml:space="preserve">
+    <value>取消关联 Google 帐户</value>
+    <comment>Unlink Google account</comment>
+  </data>
+  <data name="S_EmptyList.Text" xml:space="preserve">
+    <value>列表为空</value>
+    <comment>List is empty</comment>
+  </data>
+  <data name="Sync_DisableSync" xml:space="preserve">
+    <value>禁用云同步</value>
+    <comment>Disable cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSyncStr" xml:space="preserve">
+    <value>启用云同步</value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_SyncNow.Text" xml:space="preserve">
+    <value>立即同步预订</value>
+    <comment>Sync book now</comment>
+  </data>
+  <data name="Sync_UploadBookFile.Text" xml:space="preserve">
+    <value>上传图书文件</value>
+    <comment>Upload book file</comment>
+  </data>
+  <data name="S_AddFav" xml:space="preserve">
+    <value>添加收藏夹</value>
+    <comment>Add Favourite</comment>
+  </data>
+  <data name="S_RemoveFav" xml:space="preserve">
+    <value>删除收藏夹</value>
+    <comment>Remove Favourite</comment>
+  </data>
+  <data name="Sync_Cancelled" xml:space="preserve">
+    <value>同步已取消</value>
+    <comment>Sync cancelled</comment>
+  </data>
+  <data name="Sync_Complete" xml:space="preserve">
+    <value>同步完成</value>
+    <comment>Sync complete</comment>
+  </data>
+  <data name="Sync_ComplteRefreshNeeded" xml:space="preserve">
+    <value>同步完成，需要刷新章节</value>
+    <comment>Sync complete, chapter refresh needed</comment>
+  </data>
+  <data name="Sync_Failed" xml:space="preserve">
+    <value>同步失败</value>
+    <comment>Sync failed</comment>
+  </data>
+  <data name="Sync_Started" xml:space="preserve">
+    <value>同步开始</value>
+    <comment>Sync started</comment>
+  </data>
+  <data name="sync_tip.Subtitle" xml:space="preserve">
+    <value>云同步使用 Google Drive 实现图书、图书文件、元数据、阅读位置和注释的跨设备同步（Android 和 Windows）。
+
+在应用程序启动时，会从云端下载最新的图书状态。 打开和关闭书籍时，书籍的状态会再次同步（向上和向下）。
+
+提供选项来控制同步行为。 默认情况下，使用“所有图书”选项，所有图书都会同步，除非用户已从同步中排除某些图书。 “选定的图书”表示仅同步用户选择的图书。 可以使用书籍上下文菜单包含/排除书籍。</value>
+    <comment>Cloud sync uses Google Drive to enable cross device sync (Android and Windows) of books, book files, metadata, reading position and annotations.
+
+At the app start, latest state of books are downloaded from cloud. On opening and closing a book, state of the book is synced again (both upwards and downwards).
+
+Options are provided to control the sync behaviour. With 'All books' option by default all the books are synced, unless user has excluded some books from sync. 'Selected books' means only user selected books are synced. Books can be included/excluded by using the book context menu.</comment>
+  </data>
+  <data name="sync_tip.Title" xml:space="preserve">
+    <value>云同步</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="S_Free_Msg10.Text" xml:space="preserve">
+    <value>最多可将 3 本书同步到云端。</value>
+    <comment>Max 3 books can be synced to cloud.</comment>
+  </data>
+  <data name="S_PremiumCloudSync" xml:space="preserve">
+    <value>免费版本仅支持“选定的书籍”选项。
+请升级到 Aquile Reader Premium 以享受所有功能。</value>
+    <comment>Free version supports only 'Selected Books' option.
+Please upgrade to Aquile Reader Premium to enjoy all features.</comment>
+  </data>
+  <data name="S_PremiumCloudSyncLimit" xml:space="preserve">
+    <value>该应用程序的免费版本仅支持将 {0} 本书同步到云端。
+要添加更多内容，请升级到 Aquile Reader Premium。</value>
+    <comment>Free version of the app supports only {0} books to be synced to cloud.
+To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremPage_Msg10.Text" xml:space="preserve">
+    <value>云同步选项没有限制。</value>
+    <comment>No limitation on cloud sync options.</comment>
+  </data>
 </root>

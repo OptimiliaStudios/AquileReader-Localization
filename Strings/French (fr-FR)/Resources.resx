@@ -2251,4 +2251,163 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <value></value>
     <comment>No limit on number books pinned to Start screen</comment>
   </data>
+  <data name="Sync_CloudSync.Content" xml:space="preserve">
+    <value></value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="Sync_AllBooks" xml:space="preserve">
+    <value></value>
+    <comment>All Books</comment>
+  </data>
+  <data name="Sync_AllBooksListMsg" xml:space="preserve">
+    <value></value>
+    <comment>All books except following are being synced -</comment>
+  </data>
+  <data name="Sync_CloudSync_Heading.Text" xml:space="preserve">
+    <value></value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSync.Description" xml:space="preserve">
+    <value></value>
+    <comment>Toggle cross-device sync of books and metadata using the linked Google drive account.</comment>
+  </data>
+  <data name="Sync_EnableSync.Title" xml:space="preserve">
+    <value></value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_LinkAccount" xml:space="preserve">
+    <value></value>
+    <comment>Link Google account</comment>
+  </data>
+  <data name="Sync_LinkBeforeSync" xml:space="preserve">
+    <value></value>
+    <comment>Link Google account before enabling sync.</comment>
+  </data>
+  <data name="Sync_LinkedGDrive" xml:space="preserve">
+    <value></value>
+    <comment>Linked to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SelectedBooks" xml:space="preserve">
+    <value></value>
+    <comment>Selected books</comment>
+  </data>
+  <data name="Sync_SelectedBooksListMsg" xml:space="preserve">
+    <value></value>
+    <comment>Following books are being synced -</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Description" xml:space="preserve">
+    <value></value>
+    <comment>'All Books' means by default all books will be synced, except for excluded ones.
+'Selected Books' means by default no book will be synced, except for included ones.</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Title" xml:space="preserve">
+    <value></value>
+    <comment>Books to sync</comment>
+  </data>
+  <data name="Sync_SyncGDrive" xml:space="preserve">
+    <value></value>
+    <comment>Syncing to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SyncInfo.Text" xml:space="preserve">
+    <value></value>
+    <comment>Cloud sync enables use of Aquile Reader on multiple devices (Android and Windows) and syncs data acorss them for seamless reading experience. Cloud sync can also serve as backup data that can be used for restore after fresh install.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Description" xml:space="preserve">
+    <value></value>
+    <comment>Display message pop-ups when sync is running.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Title" xml:space="preserve">
+    <value></value>
+    <comment>Show sync working messages</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Description" xml:space="preserve">
+    <value></value>
+    <comment>Upload source eBook files to cloud.</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Title" xml:space="preserve">
+    <value></value>
+    <comment>Sync eBook files</comment>
+  </data>
+  <data name="Sync_UnlinkAccount" xml:space="preserve">
+    <value></value>
+    <comment>Unlink Google account</comment>
+  </data>
+  <data name="S_EmptyList.Text" xml:space="preserve">
+    <value></value>
+    <comment>List is empty</comment>
+  </data>
+  <data name="Sync_DisableSync" xml:space="preserve">
+    <value></value>
+    <comment>Disable cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSyncStr" xml:space="preserve">
+    <value></value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_SyncNow.Text" xml:space="preserve">
+    <value></value>
+    <comment>Sync book now</comment>
+  </data>
+  <data name="Sync_UploadBookFile.Text" xml:space="preserve">
+    <value></value>
+    <comment>Upload book file</comment>
+  </data>
+  <data name="S_AddFav" xml:space="preserve">
+    <value></value>
+    <comment>Add Favourite</comment>
+  </data>
+  <data name="S_RemoveFav" xml:space="preserve">
+    <value></value>
+    <comment>Remove Favourite</comment>
+  </data>
+  <data name="Sync_Cancelled" xml:space="preserve">
+    <value></value>
+    <comment>Sync cancelled</comment>
+  </data>
+  <data name="Sync_Complete" xml:space="preserve">
+    <value></value>
+    <comment>Sync complete</comment>
+  </data>
+  <data name="Sync_ComplteRefreshNeeded" xml:space="preserve">
+    <value></value>
+    <comment>Sync complete, chapter refresh needed</comment>
+  </data>
+  <data name="Sync_Failed" xml:space="preserve">
+    <value></value>
+    <comment>Sync failed</comment>
+  </data>
+  <data name="Sync_Started" xml:space="preserve">
+    <value></value>
+    <comment>Sync started</comment>
+  </data>
+  <data name="sync_tip.Subtitle" xml:space="preserve">
+    <value></value>
+    <comment>Cloud sync uses Google Drive to enable cross device sync (Android and Windows) of books, book files, metadata, reading position and annotations.
+
+At the app start, latest state of books are downloaded from cloud. On opening and closing a book, state of the book is synced again (both upwards and downwards).
+
+Options are provided to control the sync behaviour. With 'All books' option by default all the books are synced, unless user has excluded some books from sync. 'Selected books' means only user selected books are synced. Books can be included/excluded by using the book context menu.</comment>
+  </data>
+  <data name="sync_tip.Title" xml:space="preserve">
+    <value></value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="S_Free_Msg10.Text" xml:space="preserve">
+    <value></value>
+    <comment>Max 3 books can be synced to cloud.</comment>
+  </data>
+  <data name="S_PremiumCloudSync" xml:space="preserve">
+    <value></value>
+    <comment>Free version supports only 'Selected Books' option.
+Please upgrade to Aquile Reader Premium to enjoy all features.</comment>
+  </data>
+  <data name="S_PremiumCloudSyncLimit" xml:space="preserve">
+    <value></value>
+    <comment>Free version of the app supports only {0} books to be synced to cloud.
+To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremPage_Msg10.Text" xml:space="preserve">
+    <value></value>
+    <comment>No limitation on cloud sync options.</comment>
+  </data>
 </root>

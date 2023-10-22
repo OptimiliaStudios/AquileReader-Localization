@@ -576,3 +576,56 @@ This setting will be applied on the next start of the app."
 "N_Settings.Content","Configurações","Settings"
 "N_Statistics.Content","Estatisticas","Statistics"
 "RI_Yes.Content","Sim","Yes"
+"Sync_CloudSync.Content","Sincronização na nuvem","Cloud sync"
+"T_NoteText.PlaceholderText","Insira o texto da nota","Enter note text"
+"Sync_AllBooks","Todos os livros","All Books"
+"Sync_AllBooksListMsg","Todos os livros, exceto os seguintes, estão sendo sincronizados -","All books except following are being synced -"
+"Sync_CloudSync_Heading.Text","Sincronização na nuvem","Cloud sync"
+"Sync_EnableSync.Description","Alterne a sincronização de livros e metadados entre dispositivos usando a conta vinculada do Google Drive.","Toggle cross-device sync of books and metadata using the linked Google drive account."
+"Sync_EnableSync.Title","Ativar sincronização na nuvem","Enable cloud sync"
+"Sync_LinkAccount","Vincular conta do Google","Link Google account"
+"Sync_LinkBeforeSync","Vincule a conta do Google antes de ativar a sincronização.","Link Google account before enabling sync."
+"Sync_LinkedGDrive","Vinculado ao Google Drive conectado a -","Linked to Google Drive connected to -"
+"Sync_SelectedBooks","Livros selecionados","Selected books"
+"Sync_SelectedBooksListMsg","Os seguintes livros estão sendo sincronizados -","Following books are being synced -"
+"Sync_SyncBookMode.Description","'Todos os livros' significa que, por padrão, todos os livros serão sincronizados, exceto os excluídos.
+'Livros Selecionados' significa que, por padrão, nenhum livro será sincronizado, exceto os incluídos.","'All Books' means by default all books will be synced, except for excluded ones.
+'Selected Books' means by default no book will be synced, except for included ones."
+"Sync_SyncBookMode.Title","Livros para sincronizar","Books to sync"
+"Sync_SyncGDrive","Sincronizando com o Google Drive conectado a -","Syncing to Google Drive connected to -"
+"Sync_SyncInfo.Text","A sincronização em nuvem permite o uso do Aquile Reader em vários dispositivos (Android e Windows) e sincroniza dados entre eles para uma experiência de leitura perfeita. A sincronização na nuvem também pode servir como dados de backup que podem ser usados para restauração após uma nova instalação.","Cloud sync enables use of Aquile Reader on multiple devices (Android and Windows) and syncs data acorss them for seamless reading experience. Cloud sync can also serve as backup data that can be used for restore after fresh install."
+"Sync_SyncMsg.Description","Exibir pop-ups de mensagens quando a sincronização estiver em execução.","Display message pop-ups when sync is running."
+"Sync_SyncMsg.Title","Mostrar mensagens de trabalho de sincronização","Show sync working messages"
+"Sync_SyncUploadFiles.Description","Carregue arquivos de e-books de origem para a nuvem.","Upload source eBook files to cloud."
+"Sync_SyncUploadFiles.Title","Sincronizar arquivos de e-books","Sync eBook files"
+"Sync_UnlinkAccount","Desvincular conta do Google","Unlink Google account"
+"S_EmptyList.Text","A lista está vazia","List is empty"
+"Sync_DisableSync","Desative a sincronização na nuvem","Disable cloud sync"
+"Sync_EnableSyncStr","Ativar sincronização na nuvem","Enable cloud sync"
+"Sync_SyncNow.Text","Sincronize o livro agora","Sync book now"
+"Sync_UploadBookFile.Text","Carregar arquivo do livro","Upload book file"
+"S_AddFav","Adicionar favorito","Add Favourite"
+"S_RemoveFav","Remover favorito","Remove Favourite"
+"Sync_Cancelled","Sincronização cancelada","Sync cancelled"
+"Sync_Complete","Sincronização concluída","Sync complete"
+"Sync_ComplteRefreshNeeded","Sincronização concluída, atualização de capítulo necessária","Sync complete, chapter refresh needed"
+"Sync_Failed","Falha na sincronização","Sync failed"
+"Sync_Started","Sincronização iniciada","Sync started"
+"sync_tip.Subtitle","A sincronização na nuvem usa o Google Drive para permitir a sincronização entre dispositivos (Android e Windows) de livros, arquivos de livros, metadados, posição de leitura e anotações.
+
+No início do aplicativo, o estado mais recente dos livros é baixado da nuvem. Ao abrir e fechar um livro, o estado do livro é sincronizado novamente (para cima e para baixo).
+
+São fornecidas opções para controlar o comportamento de sincronização. Com a opção 'Todos os livros' por padrão, todos os livros são sincronizados, a menos que o usuário tenha excluído alguns livros da sincronização. 'Livros selecionados' significa que apenas os livros selecionados pelo usuário são sincronizados. Os livros podem ser incluídos/excluídos usando o menu de contexto do livro.","Cloud sync uses Google Drive to enable cross device sync (Android and Windows) of books, book files, metadata, reading position and annotations.
+
+At the app start, latest state of books are downloaded from cloud. On opening and closing a book, state of the book is synced again (both upwards and downwards).
+
+Options are provided to control the sync behaviour. With 'All books' option by default all the books are synced, unless user has excluded some books from sync. 'Selected books' means only user selected books are synced. Books can be included/excluded by using the book context menu."
+"sync_tip.Title","Sincronização na nuvem","Cloud sync"
+"S_Free_Msg10.Text","No máximo 3 livros podem ser sincronizados com a nuvem.","Max 3 books can be synced to cloud."
+"S_PremiumCloudSync","A versão gratuita suporta apenas a opção ‘Livros selecionados’.
+Atualize para Aquile Reader Premium para aproveitar todos os recursos.","Free version supports only 'Selected Books' option.
+Please upgrade to Aquile Reader Premium to enjoy all features."
+"S_PremiumCloudSyncLimit","A versão gratuita do aplicativo suporta apenas {0} livros para serem sincronizados com a nuvem.
+Para adicionar mais, atualize para Aquile Reader Premium.","Free version of the app supports only {0} books to be synced to cloud.
+To add more, please upgrade to Aquile Reader Premium."
+"S_PremPage_Msg10.Text","Nenhuma limitação nas opções de sincronização na nuvem.","No limitation on cloud sync options."

@@ -578,3 +578,55 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
 "S_PremPage_Msg8.Text","सिंक फ़ोल्डरों की संख्या पर कोई सीमा नहीं","No limit on number of sync folders"
 "S_PremPage_Msg9.Text","स्टार्ट स्क्रीन पर पिन की गई संख्या पुस्तकों की कोई सीमा नहीं","No limit on number books pinned to Start screen"
 "T_HelpTranslateLink.Text","और भाषाओं में अनुवाद करने में मदद करें","Help translate to more languages"
+"Sync_CloudSync.Content","क्लाउड सिंक","Cloud sync"
+"Sync_AllBooks","सभी पुस्तकें","All Books"
+"Sync_AllBooksListMsg","निम्नलिखित को छोड़कर सभी पुस्तकें सिंक की जा रही हैं -","All books except following are being synced -"
+"Sync_CloudSync_Heading.Text","क्लाउड सिंक","Cloud sync"
+"Sync_EnableSync.Description","लिंक किए गए Google ड्राइव खाते का उपयोग करके पुस्तकों और मेटाडेटा के क्रॉस-डिवाइस सिंक को टॉगल करें।","Toggle cross-device sync of books and metadata using the linked Google drive account."
+"Sync_EnableSync.Title","क्लाउड सिंक प्रारंभ करें","Enable cloud sync"
+"Sync_LinkAccount","Google खाता लिंक करें","Link Google account"
+"Sync_LinkBeforeSync","सिंक प्रारंभ करने से पहले Google खाता लिंक करें.","Link Google account before enabling sync."
+"Sync_LinkedGDrive","Google Drive से जुड़ा हुआ है -","Linked to Google Drive connected to -"
+"Sync_SelectedBooks","चयनित पुस्तकें","Selected books"
+"Sync_SelectedBooksListMsg","निम्नलिखित पुस्तकें सिंक की जा रही हैं -","Following books are being synced -"
+"Sync_SyncBookMode.Description","'सभी पुस्तकें' का अर्थ है कि डिफ़ॉल्ट रूप से बहिष्कृत पुस्तकों को छोड़कर सभी पुस्तकें सिंक की जाएंगी।
+'चयनित पुस्तकें' का अर्थ है कि डिफ़ॉल्ट रूप से सम्मिलित पुस्तकों को छोड़कर कोई भी पुस्तक समन्वयित नहीं की जाएगी।","'All Books' means by default all books will be synced, except for excluded ones.
+'Selected Books' means by default no book will be synced, except for included ones."
+"Sync_SyncBookMode.Title","सिंक की जाने वाली पुस्तकें","Books to sync"
+"Sync_SyncGDrive","Google Drive से सिंक किया जा रहा है -","Syncing to Google Drive connected to -"
+"Sync_SyncInfo.Text","क्लाउड सिंक कई डिवाइसों (Android और Windows) पर Aquile Reader के उपयोग को सक्षम बनाता है और सहज पढ़ने के अनुभव के लिए उनके बीच डेटा को सिंक करता है। क्लाउड सिंक बैकअप डेटा के रूप में भी काम कर सकता है जिसका उपयोग ताजा इंस्टॉल के बाद पुनर्स्थापित करने के लिए किया जा सकता है।","Cloud sync enables use of Aquile Reader on multiple devices (Android and Windows) and syncs data acorss them for seamless reading experience. Cloud sync can also serve as backup data that can be used for restore after fresh install."
+"Sync_SyncMsg.Description","जब सिंक चल रहा हो तो संदेश पॉप-अप प्रदर्शित करें।","Display message pop-ups when sync is running."
+"Sync_SyncMsg.Title","सिंक कार्यशील संदेश दिखाएँ","Show sync working messages"
+"Sync_SyncUploadFiles.Description","क्लाउड पर स्रोत ईबुक फ़ाइलें अपलोड करें।","Upload source eBook files to cloud."
+"Sync_SyncUploadFiles.Title","ईबुक फ़ाइलें सिंक करें","Sync eBook files"
+"Sync_UnlinkAccount","Google खाता अनलिंक करें","Unlink Google account"
+"S_EmptyList.Text","सूची खाली है","List is empty"
+"Sync_DisableSync","क्लाउड सिंक बंद करें","Disable cloud sync"
+"Sync_EnableSyncStr","क्लाउड सिंक प्रारंभ करें","Enable cloud sync"
+"Sync_SyncNow.Text","पुस्तक अभी सिंक करें","Sync book now"
+"Sync_UploadBookFile.Text","पुस्तक फ़ाइल अपलोड करें","Upload book file"
+"S_AddFav","पसंदीदा बनाएं","Add Favourite"
+"S_RemoveFav","पसंदीदा हटाएं","Remove Favourite"
+"Sync_Cancelled","सिंक रद्द किया गया","Sync cancelled"
+"Sync_Complete","सिंक पूर्ण हुआ","Sync complete"
+"Sync_ComplteRefreshNeeded","सिंक पूर्ण, चैप्टर रिफ्रेश की जरूरत","Sync complete, chapter refresh needed"
+"Sync_Failed","सिंक विफल रहा","Sync failed"
+"Sync_Started","सिंक प्रारंभ हुआ","Sync started"
+"sync_tip.Subtitle","क्लाउड सिंक पुस्तकों, पुस्तक फ़ाइलों, मेटाडेटा, पढ़ने की स्थिति और एनोटेशन के क्रॉस डिवाइस सिंक (एंड्रॉइड और विंडोज) को सक्षम करने के लिए Google ड्राइव का उपयोग करता है।
+    
+ऐप प्रारंभ होने पर, पुस्तकों की नवीनतम स्थिति क्लाउड से डाउनलोड की जाती है। किसी पुस्तक को खोलने और बंद करने पर, पुस्तक की स्थिति फिर से सिंक हो जाती है (ऊपर और नीचे दोनों तरफ)।
+
+सिंक व्यवहार को नियंत्रित करने के लिए विकल्प प्रदान किए गए हैं। डिफ़ॉल्ट रूप से 'सभी पुस्तकें' विकल्प के साथ सभी पुस्तकें सिंक हो जाती हैं, जब तक कि उपयोगकर्ता ने कुछ पुस्तकों को सिंक से बाहर न कर दिया हो। 'चयनित पुस्तकें' का अर्थ है कि केवल उपयोगकर्ता द्वारा चयनित पुस्तकें ही सिंक की जाती हैं। पुस्तक संदर्भ मेनू का उपयोग करके पुस्तकों को शामिल/बहिष्कृत किया जा सकता है।","Cloud sync uses Google Drive to enable cross device sync (Android and Windows) of books, book files, metadata, reading position and annotations.
+
+At the app start, latest state of books are downloaded from cloud. On opening and closing a book, state of the book is synced again (both upwards and downwards).
+
+Options are provided to control the sync behaviour. With 'All books' option by default all the books are synced, unless user has excluded some books from sync. 'Selected books' means only user selected books are synced. Books can be included/excluded by using the book context menu."
+"sync_tip.Title","क्लाउड सिंक","Cloud sync"
+"S_Free_Msg10.Text","अधिकतम 3 पुस्तकों को क्लाउड से सिंक किया जा सकता है।","Max 3 books can be synced to cloud."
+"S_PremiumCloudSync","निःशुल्क संस्करण केवल 'चयनित पुस्तकों' विकल्प का समर्थन करता है।
+सभी सुविधाओं का आनंद लेने के लिए कृपया Aquile Reader प्रीमियम में अपग्रेड करें।","Free version supports only 'Selected Books' option.
+Please upgrade to Aquile Reader Premium to enjoy all features."
+"S_PremiumCloudSyncLimit","ऐप का निःशुल्क संस्करण केवल {0} पुस्तकों को क्लाउड से सिंक करने का समर्थन करता है।
+अधिक जोड़ने के लिए, कृपया Aquile Reader प्रीमियम में अपग्रेड करें।","Free version of the app supports only {0} books to be synced to cloud.
+To add more, please upgrade to Aquile Reader Premium."
+"S_PremPage_Msg10.Text","क्लाउड सिंक विकल्पों पर कोई सीमा नहीं।","No limitation on cloud sync options."

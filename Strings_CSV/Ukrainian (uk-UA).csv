@@ -577,3 +577,55 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
 "S_PremPage_Msg8.Text","Безлімітна кількість папок для синхронізації","No limit on number of sync folders"
 "S_PremPage_Msg9.Text","В меню ""Пуск"" можна закріпити безлімітну кількість книг одночасно","No limit on number books pinned to Start screen"
 "T_HelpTranslateLink.Text","Допоможіть перекласти на більше мов","Help translate to more languages"
+"Sync_CloudSync.Content","Хмарна синхронізація","Cloud sync"
+"Sync_AllBooks","Всі книги","All Books"
+"Sync_AllBooksListMsg","Усі книги, крім наступних, синхронізуються -","All books except following are being synced -"
+"Sync_CloudSync_Heading.Text","Хмарна синхронізація","Cloud sync"
+"Sync_EnableSync.Description","Увімкніть синхронізацію книг і метаданих на різних пристроях за допомогою зв’язаного облікового запису Диска Google.","Toggle cross-device sync of books and metadata using the linked Google drive account."
+"Sync_EnableSync.Title","Увімкнути хмарну синхронізацію","Enable cloud sync"
+"Sync_LinkAccount","Прив’язати обліковий запис Google","Link Google account"
+"Sync_LinkBeforeSync","Пов’яжіть обліковий запис Google перед увімкненням синхронізації.","Link Google account before enabling sync."
+"Sync_LinkedGDrive","Пов’язано з Диском Google, підключеним до –","Linked to Google Drive connected to -"
+"Sync_SelectedBooks","Вибрані книги","Selected books"
+"Sync_SelectedBooksListMsg","Наступні книги синхронізуються -","Following books are being synced -"
+"Sync_SyncBookMode.Description","«Усі книги» означає, що за умовчанням синхронізуватимуться всі книги, крім виключених.
+«Вибрані книги» означає, що за умовчанням жодна книга не буде синхронізована, за винятком включених.","'All Books' means by default all books will be synced, except for excluded ones.
+'Selected Books' means by default no book will be synced, except for included ones."
+"Sync_SyncBookMode.Title","Книги для синхронізації","Books to sync"
+"Sync_SyncGDrive","Синхронізація з Google Диском, підключеним до -","Syncing to Google Drive connected to -"
+"Sync_SyncInfo.Text","Хмарна синхронізація дає змогу використовувати Aquile Reader на кількох пристроях (Android і Windows) і синхронізувати дані між ними для зручного читання. Хмарна синхронізація також може служити резервною копією даних, які можна використовувати для відновлення після нової інсталяції.","Cloud sync enables use of Aquile Reader on multiple devices (Android and Windows) and syncs data acorss them for seamless reading experience. Cloud sync can also serve as backup data that can be used for restore after fresh install."
+"Sync_SyncMsg.Description","Показувати спливаючі повідомлення під час синхронізації.","Display message pop-ups when sync is running."
+"Sync_SyncMsg.Title","Показати робочі повідомлення синхронізації","Show sync working messages"
+"Sync_SyncUploadFiles.Description","Завантажте вихідні файли електронних книг у хмару.","Upload source eBook files to cloud."
+"Sync_SyncUploadFiles.Title","Синхронізація файлів електронних книг","Sync eBook files"
+"Sync_UnlinkAccount","Від’єднати обліковий запис Google","Unlink Google account"
+"S_EmptyList.Text","Список порожній","List is empty"
+"Sync_DisableSync","Вимкнути хмарну синхронізацію","Disable cloud sync"
+"Sync_EnableSyncStr","Увімкнути хмарну синхронізацію","Enable cloud sync"
+"Sync_SyncNow.Text","Синхронізувати книгу зараз","Sync book now"
+"Sync_UploadBookFile.Text","Завантажте файл книги","Upload book file"
+"S_AddFav","Додати в обране","Add Favourite"
+"S_RemoveFav","Видалити вибране","Remove Favourite"
+"Sync_Cancelled","Синхронізацію скасовано","Sync cancelled"
+"Sync_Complete","Синхронізація завершена","Sync complete"
+"Sync_ComplteRefreshNeeded","Синхронізацію завершено, потрібно оновити розділ","Sync complete, chapter refresh needed"
+"Sync_Failed","Помилка синхронізації","Sync failed"
+"Sync_Started","Синхронізацію розпочато","Sync started"
+"sync_tip.Subtitle","Хмарна синхронізація використовує Google Диск, щоб увімкнути синхронізацію між пристроями (Android і Windows) книг, файлів книг, метаданих, позиції читання та анотацій.
+
+Під час запуску програми останній стан книг завантажується з хмари. При відкритті та закритті книги стан книги знову синхронізується (як вгору, так і вниз).
+
+Надаються параметри для керування поведінкою синхронізації. За умовчанням параметр «Усі книги» синхронізує всі книги, якщо користувач не виключив деякі книги з синхронізації. «Вибрані книги» означає, що синхронізуються лише вибрані користувачем книги. Книги можна включати/виключати за допомогою контекстного меню книги.","Cloud sync uses Google Drive to enable cross device sync (Android and Windows) of books, book files, metadata, reading position and annotations.
+
+At the app start, latest state of books are downloaded from cloud. On opening and closing a book, state of the book is synced again (both upwards and downwards).
+
+Options are provided to control the sync behaviour. With 'All books' option by default all the books are synced, unless user has excluded some books from sync. 'Selected books' means only user selected books are synced. Books can be included/excluded by using the book context menu."
+"sync_tip.Title","Хмарна синхронізація","Cloud sync"
+"S_Free_Msg10.Text","У хмару можна синхронізувати максимум 3 книги.","Max 3 books can be synced to cloud."
+"S_PremiumCloudSync","Безкоштовна версія підтримує лише опцію «Вибрані книги».
+Оновіть програму до Aquile Reader Premium, щоб користуватися всіма функціями.","Free version supports only 'Selected Books' option.
+Please upgrade to Aquile Reader Premium to enjoy all features."
+"S_PremiumCloudSyncLimit","Безкоштовна версія програми підтримує лише {0} книг для синхронізації з хмарою.
+Щоб додати більше, оновіть програму до Aquile Reader Premium.","Free version of the app supports only {0} books to be synced to cloud.
+To add more, please upgrade to Aquile Reader Premium."
+"S_PremPage_Msg10.Text","Немає обмежень щодо параметрів хмарної синхронізації.","No limitation on cloud sync options."

@@ -564,3 +564,55 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
 "S_PremPage_Msg8.Text","同步不受到限制","No limit on number of sync folders"
 "S_PremPage_Msg9.Text","不限制固定到“开始”屏幕的图书数量","No limit on number books pinned to Start screen"
 "T_HelpTranslateLink.Text","帮助我们翻译软件","Help translate to more languages"
+"Sync_CloudSync.Content","云同步","Cloud sync"
+"Sync_AllBooks","所有书籍","All Books"
+"Sync_AllBooksListMsg","除以下书籍外的所有书籍都正在同步 -","All books except following are being synced -"
+"Sync_CloudSync_Heading.Text","云同步","Cloud sync"
+"Sync_EnableSync.Description","使用链接的 Google 云端硬盘帐户切换图书和元数据的跨设备同步。","Toggle cross-device sync of books and metadata using the linked Google drive account."
+"Sync_EnableSync.Title","启用云同步","Enable cloud sync"
+"Sync_LinkAccount","关联谷歌账户","Link Google account"
+"Sync_LinkBeforeSync","在启用同步之前链接 Google 帐户。","Link Google account before enabling sync."
+"Sync_LinkedGDrive","链接到 Google 云端硬盘 连接到 -","Linked to Google Drive connected to -"
+"Sync_SelectedBooks","精选书籍","Selected books"
+"Sync_SelectedBooksListMsg","以下书籍正在同步 -","Following books are being synced -"
+"Sync_SyncBookMode.Description","“所有图书”意味着默认情况下将同步所有图书（排除的图书除外）。
+“选定的图书”意味着默认情况下不会同步任何图书（包含的图书除外）。","'All Books' means by default all books will be synced, except for excluded ones.
+'Selected Books' means by default no book will be synced, except for included ones."
+"Sync_SyncBookMode.Title","要同步的书籍","Books to sync"
+"Sync_SyncGDrive","正在同步到连接到的 Google 云端硬盘 -","Syncing to Google Drive connected to -"
+"Sync_SyncInfo.Text","云同步支持在多个设备（Android 和 Windows）上使用 Aquile Reader，并在这些设备之间同步数据，以实现无缝的阅读体验。 云同步还可以作为备份数据，用于全新安装后的恢复。","Cloud sync enables use of Aquile Reader on multiple devices (Android and Windows) and syncs data acorss them for seamless reading experience. Cloud sync can also serve as backup data that can be used for restore after fresh install."
+"Sync_SyncMsg.Description","同步运行时显示消息弹出窗口。","Display message pop-ups when sync is running."
+"Sync_SyncMsg.Title","显示同步工作消息","Show sync working messages"
+"Sync_SyncUploadFiles.Description","将源电子书文件上传到云端。","Upload source eBook files to cloud."
+"Sync_SyncUploadFiles.Title","同步电子书文件","Sync eBook files"
+"Sync_UnlinkAccount","取消关联 Google 帐户","Unlink Google account"
+"S_EmptyList.Text","列表为空","List is empty"
+"Sync_DisableSync","禁用云同步","Disable cloud sync"
+"Sync_EnableSyncStr","启用云同步","Enable cloud sync"
+"Sync_SyncNow.Text","立即同步预订","Sync book now"
+"Sync_UploadBookFile.Text","上传图书文件","Upload book file"
+"S_AddFav","添加收藏夹","Add Favourite"
+"S_RemoveFav","删除收藏夹","Remove Favourite"
+"Sync_Cancelled","同步已取消","Sync cancelled"
+"Sync_Complete","同步完成","Sync complete"
+"Sync_ComplteRefreshNeeded","同步完成，需要刷新章节","Sync complete, chapter refresh needed"
+"Sync_Failed","同步失败","Sync failed"
+"Sync_Started","同步开始","Sync started"
+"sync_tip.Subtitle","云同步使用 Google Drive 实现图书、图书文件、元数据、阅读位置和注释的跨设备同步（Android 和 Windows）。
+
+在应用程序启动时，会从云端下载最新的图书状态。 打开和关闭书籍时，书籍的状态会再次同步（向上和向下）。
+
+提供选项来控制同步行为。 默认情况下，使用“所有图书”选项，所有图书都会同步，除非用户已从同步中排除某些图书。 “选定的图书”表示仅同步用户选择的图书。 可以使用书籍上下文菜单包含/排除书籍。","Cloud sync uses Google Drive to enable cross device sync (Android and Windows) of books, book files, metadata, reading position and annotations.
+
+At the app start, latest state of books are downloaded from cloud. On opening and closing a book, state of the book is synced again (both upwards and downwards).
+
+Options are provided to control the sync behaviour. With 'All books' option by default all the books are synced, unless user has excluded some books from sync. 'Selected books' means only user selected books are synced. Books can be included/excluded by using the book context menu."
+"sync_tip.Title","云同步","Cloud sync"
+"S_Free_Msg10.Text","最多可将 3 本书同步到云端。","Max 3 books can be synced to cloud."
+"S_PremiumCloudSync","免费版本仅支持“选定的书籍”选项。
+请升级到 Aquile Reader Premium 以享受所有功能。","Free version supports only 'Selected Books' option.
+Please upgrade to Aquile Reader Premium to enjoy all features."
+"S_PremiumCloudSyncLimit","该应用程序的免费版本仅支持将 {0} 本书同步到云端。
+要添加更多内容，请升级到 Aquile Reader Premium。","Free version of the app supports only {0} books to be synced to cloud.
+To add more, please upgrade to Aquile Reader Premium."
+"S_PremPage_Msg10.Text","云同步选项没有限制。","No limitation on cloud sync options."

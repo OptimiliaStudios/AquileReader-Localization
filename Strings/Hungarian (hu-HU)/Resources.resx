@@ -2277,4 +2277,170 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <value>Korlátlan számban tűzhet ki könyveket a Start menüre</value>
     <comment>No limit on number books pinned to Start screen</comment>
   </data>
+  <data name="Sync_CloudSync.Content" xml:space="preserve">
+    <value>Felhő szinkronizálás</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="Sync_AllBooks" xml:space="preserve">
+    <value>Minden könyv</value>
+    <comment>All Books</comment>
+  </data>
+  <data name="Sync_AllBooksListMsg" xml:space="preserve">
+    <value>A következők kivételével az összes könyv szinkronizálása folyamatban van -</value>
+    <comment>All books except following are being synced -</comment>
+  </data>
+  <data name="Sync_CloudSync_Heading.Text" xml:space="preserve">
+    <value>Felhő szinkronizálás</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSync.Description" xml:space="preserve">
+    <value>Kapcsolja be a könyvek és a metaadatok eszközök közötti szinkronizálását az összekapcsolt Google Drive-fiók használatával.</value>
+    <comment>Toggle cross-device sync of books and metadata using the linked Google drive account.</comment>
+  </data>
+  <data name="Sync_EnableSync.Title" xml:space="preserve">
+    <value>Felhős szinkronizálás engedélyezése</value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_LinkAccount" xml:space="preserve">
+    <value>Kapcsolja össze a Google-fiókot</value>
+    <comment>Link Google account</comment>
+  </data>
+  <data name="Sync_LinkBeforeSync" xml:space="preserve">
+    <value>A szinkronizálás engedélyezése előtt kapcsolja össze a Google-fiókot.</value>
+    <comment>Link Google account before enabling sync.</comment>
+  </data>
+  <data name="Sync_LinkedGDrive" xml:space="preserve">
+    <value>Összekapcsolva a Google Drive-val összekapcsolva a következővel: -</value>
+    <comment>Linked to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SelectedBooks" xml:space="preserve">
+    <value>Válogatott könyvek</value>
+    <comment>Selected books</comment>
+  </data>
+  <data name="Sync_SelectedBooksListMsg" xml:space="preserve">
+    <value>A következő könyvek szinkronizálása folyamatban van -</value>
+    <comment>Following books are being synced -</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Description" xml:space="preserve">
+    <value>Az „Összes könyv” azt jelenti, hogy alapértelmezés szerint az összes könyv szinkronizálva lesz, kivéve a kizárt könyveket.
+A „Kiválasztott könyvek” azt jelenti, hogy alapértelmezés szerint egyetlen könyv sem lesz szinkronizálva, kivéve a benne foglaltakat.</value>
+    <comment>'All Books' means by default all books will be synced, except for excluded ones.
+'Selected Books' means by default no book will be synced, except for included ones.</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Title" xml:space="preserve">
+    <value>Szinkronizálandó könyvek</value>
+    <comment>Books to sync</comment>
+  </data>
+  <data name="Sync_SyncGDrive" xml:space="preserve">
+    <value>Szinkronizálás a következőhöz csatlakoztatott Google Drive-val:</value>
+    <comment>Syncing to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SyncInfo.Text" xml:space="preserve">
+    <value>A felhőszinkronizálás lehetővé teszi az Aquile Reader használatát több eszközön (Android és Windows), és szinkronizálja az adatokat a zökkenőmentes olvasási élmény érdekében. A felhőszinkronizálás biztonsági mentési adatként is szolgálhat, amelyet a friss telepítés után visszaállíthat.</value>
+    <comment>Cloud sync enables use of Aquile Reader on multiple devices (Android and Windows) and syncs data acorss them for seamless reading experience. Cloud sync can also serve as backup data that can be used for restore after fresh install.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Description" xml:space="preserve">
+    <value>Szinkronizálás közben felugró üzenetek megjelenítése.</value>
+    <comment>Display message pop-ups when sync is running.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Title" xml:space="preserve">
+    <value>Szinkronizálási munkaüzenetek megjelenítése</value>
+    <comment>Show sync working messages</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Description" xml:space="preserve">
+    <value>Töltse fel az e-könyv forrásfájljait a felhőbe.</value>
+    <comment>Upload source eBook files to cloud.</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Title" xml:space="preserve">
+    <value>E-könyv fájlok szinkronizálása</value>
+    <comment>Sync eBook files</comment>
+  </data>
+  <data name="Sync_UnlinkAccount" xml:space="preserve">
+    <value>A Google-fiók leválasztása</value>
+    <comment>Unlink Google account</comment>
+  </data>
+  <data name="S_EmptyList.Text" xml:space="preserve">
+    <value>A lista üres</value>
+    <comment>List is empty</comment>
+  </data>
+  <data name="Sync_DisableSync" xml:space="preserve">
+    <value>A felhőszinkronizálás letiltása</value>
+    <comment>Disable cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSyncStr" xml:space="preserve">
+    <value>Felhős szinkronizálás engedélyezése</value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_SyncNow.Text" xml:space="preserve">
+    <value>Szinkronizálja a könyvet most</value>
+    <comment>Sync book now</comment>
+  </data>
+  <data name="Sync_UploadBookFile.Text" xml:space="preserve">
+    <value>Könyvfájl feltöltése</value>
+    <comment>Upload book file</comment>
+  </data>
+  <data name="S_AddFav" xml:space="preserve">
+    <value>Kedvenc hozzáadása</value>
+    <comment>Add Favourite</comment>
+  </data>
+  <data name="S_RemoveFav" xml:space="preserve">
+    <value>Kedvenc eltávolítása</value>
+    <comment>Remove Favourite</comment>
+  </data>
+  <data name="Sync_Cancelled" xml:space="preserve">
+    <value>Szinkronizálás megszakítva</value>
+    <comment>Sync cancelled</comment>
+  </data>
+  <data name="Sync_Complete" xml:space="preserve">
+    <value>A szinkronizálás befejeződött</value>
+    <comment>Sync complete</comment>
+  </data>
+  <data name="Sync_ComplteRefreshNeeded" xml:space="preserve">
+    <value>A szinkronizálás kész, fejezetfrissítés szükséges</value>
+    <comment>Sync complete, chapter refresh needed</comment>
+  </data>
+  <data name="Sync_Failed" xml:space="preserve">
+    <value>A szinkronizálás nem sikerült</value>
+    <comment>Sync failed</comment>
+  </data>
+  <data name="Sync_Started" xml:space="preserve">
+    <value>A szinkronizálás elindult</value>
+    <comment>Sync started</comment>
+  </data>
+  <data name="sync_tip.Subtitle" xml:space="preserve">
+    <value>A felhőszinkronizálás a Google Drive segítségével engedélyezi a könyvek, könyvfájlok, metaadatok, olvasási pozíció és megjegyzések eszközök közötti szinkronizálását (Android és Windows).
+
+Az alkalmazás indításakor a könyvek legújabb állapota letöltődik a felhőből. Egy könyv nyitásakor és bezárásakor a könyv állapota ismét szinkronizálódik (felfelé és lefelé egyaránt).
+
+Lehetőségek állnak rendelkezésre a szinkronizálási viselkedés szabályozására. Az „Összes könyv” opcióval alapértelmezés szerint az összes könyv szinkronizálva van, hacsak a felhasználó nem zárt ki néhány könyvet a szinkronizálásból. A „Kiválasztott könyvek” azt jelenti, hogy csak a felhasználó által kiválasztott könyvek szinkronizálódnak. A könyveket a könyv helyi menüjének használatával lehet bevenni/kizárni.</value>
+    <comment>Cloud sync uses Google Drive to enable cross device sync (Android and Windows) of books, book files, metadata, reading position and annotations.
+
+At the app start, latest state of books are downloaded from cloud. On opening and closing a book, state of the book is synced again (both upwards and downwards).
+
+Options are provided to control the sync behaviour. With 'All books' option by default all the books are synced, unless user has excluded some books from sync. 'Selected books' means only user selected books are synced. Books can be included/excluded by using the book context menu.</comment>
+  </data>
+  <data name="sync_tip.Title" xml:space="preserve">
+    <value>Felhő szinkronizálás</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="S_Free_Msg10.Text" xml:space="preserve">
+    <value>Maximum 3 könyv szinkronizálható felhővel.</value>
+    <comment>Max 3 books can be synced to cloud.</comment>
+  </data>
+  <data name="S_PremiumCloudSync" xml:space="preserve">
+    <value>Az ingyenes verzió csak a „Kiválasztott könyvek” opciót támogatja.
+Kérjük, frissítsen az Aquile Reader Premiumra, hogy élvezhesse az összes funkciót.</value>
+    <comment>Free version supports only 'Selected Books' option.
+Please upgrade to Aquile Reader Premium to enjoy all features.</comment>
+  </data>
+  <data name="S_PremiumCloudSyncLimit" xml:space="preserve">
+    <value>Az alkalmazás ingyenes verziója csak {0} könyv szinkronizálását támogatja a felhővel.
+További hozzáadáshoz frissítsen az Aquile Reader Premiumra.</value>
+    <comment>Free version of the app supports only {0} books to be synced to cloud.
+To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremPage_Msg10.Text" xml:space="preserve">
+    <value>A felhőalapú szinkronizálási lehetőségek nincsenek korlátozva.</value>
+    <comment>No limitation on cloud sync options.</comment>
+  </data>
 </root>

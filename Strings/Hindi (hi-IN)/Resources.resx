@@ -2277,4 +2277,170 @@ Note: This will override current configurations, e.g. new notes, highlights etc 
     <value>स्टार्ट स्क्रीन पर पिन की गई संख्या पुस्तकों की कोई सीमा नहीं</value>
     <comment>No limit on number books pinned to Start screen</comment>
   </data>
+  <data name="Sync_CloudSync.Content" xml:space="preserve">
+    <value>क्लाउड सिंक</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="Sync_AllBooks" xml:space="preserve">
+    <value>सभी पुस्तकें</value>
+    <comment>All Books</comment>
+  </data>
+  <data name="Sync_AllBooksListMsg" xml:space="preserve">
+    <value>निम्नलिखित को छोड़कर सभी पुस्तकें सिंक की जा रही हैं -</value>
+    <comment>All books except following are being synced -</comment>
+  </data>
+  <data name="Sync_CloudSync_Heading.Text" xml:space="preserve">
+    <value>क्लाउड सिंक</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSync.Description" xml:space="preserve">
+    <value>लिंक किए गए Google ड्राइव खाते का उपयोग करके पुस्तकों और मेटाडेटा के क्रॉस-डिवाइस सिंक को टॉगल करें।</value>
+    <comment>Toggle cross-device sync of books and metadata using the linked Google drive account.</comment>
+  </data>
+  <data name="Sync_EnableSync.Title" xml:space="preserve">
+    <value>क्लाउड सिंक प्रारंभ करें</value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_LinkAccount" xml:space="preserve">
+    <value>Google खाता लिंक करें</value>
+    <comment>Link Google account</comment>
+  </data>
+  <data name="Sync_LinkBeforeSync" xml:space="preserve">
+    <value>सिंक प्रारंभ करने से पहले Google खाता लिंक करें.</value>
+    <comment>Link Google account before enabling sync.</comment>
+  </data>
+  <data name="Sync_LinkedGDrive" xml:space="preserve">
+    <value>Google Drive से जुड़ा हुआ है -</value>
+    <comment>Linked to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SelectedBooks" xml:space="preserve">
+    <value>चयनित पुस्तकें</value>
+    <comment>Selected books</comment>
+  </data>
+  <data name="Sync_SelectedBooksListMsg" xml:space="preserve">
+    <value>निम्नलिखित पुस्तकें सिंक की जा रही हैं -</value>
+    <comment>Following books are being synced -</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Description" xml:space="preserve">
+    <value>'सभी पुस्तकें' का अर्थ है कि डिफ़ॉल्ट रूप से बहिष्कृत पुस्तकों को छोड़कर सभी पुस्तकें सिंक की जाएंगी।
+'चयनित पुस्तकें' का अर्थ है कि डिफ़ॉल्ट रूप से सम्मिलित पुस्तकों को छोड़कर कोई भी पुस्तक समन्वयित नहीं की जाएगी।</value>
+    <comment>'All Books' means by default all books will be synced, except for excluded ones.
+'Selected Books' means by default no book will be synced, except for included ones.</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Title" xml:space="preserve">
+    <value>सिंक की जाने वाली पुस्तकें</value>
+    <comment>Books to sync</comment>
+  </data>
+  <data name="Sync_SyncGDrive" xml:space="preserve">
+    <value>Google Drive से सिंक किया जा रहा है -</value>
+    <comment>Syncing to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SyncInfo.Text" xml:space="preserve">
+    <value>क्लाउड सिंक कई डिवाइसों (Android और Windows) पर Aquile Reader के उपयोग को सक्षम बनाता है और सहज पढ़ने के अनुभव के लिए उनके बीच डेटा को सिंक करता है। क्लाउड सिंक बैकअप डेटा के रूप में भी काम कर सकता है जिसका उपयोग ताजा इंस्टॉल के बाद पुनर्स्थापित करने के लिए किया जा सकता है।</value>
+    <comment>Cloud sync enables use of Aquile Reader on multiple devices (Android and Windows) and syncs data acorss them for seamless reading experience. Cloud sync can also serve as backup data that can be used for restore after fresh install.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Description" xml:space="preserve">
+    <value>जब सिंक चल रहा हो तो संदेश पॉप-अप प्रदर्शित करें।</value>
+    <comment>Display message pop-ups when sync is running.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Title" xml:space="preserve">
+    <value>सिंक कार्यशील संदेश दिखाएँ</value>
+    <comment>Show sync working messages</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Description" xml:space="preserve">
+    <value>क्लाउड पर स्रोत ईबुक फ़ाइलें अपलोड करें।</value>
+    <comment>Upload source eBook files to cloud.</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Title" xml:space="preserve">
+    <value>ईबुक फ़ाइलें सिंक करें</value>
+    <comment>Sync eBook files</comment>
+  </data>
+  <data name="Sync_UnlinkAccount" xml:space="preserve">
+    <value>Google खाता अनलिंक करें</value>
+    <comment>Unlink Google account</comment>
+  </data>
+  <data name="S_EmptyList.Text" xml:space="preserve">
+    <value>सूची खाली है</value>
+    <comment>List is empty</comment>
+  </data>
+  <data name="Sync_DisableSync" xml:space="preserve">
+    <value>क्लाउड सिंक बंद करें</value>
+    <comment>Disable cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSyncStr" xml:space="preserve">
+    <value>क्लाउड सिंक प्रारंभ करें</value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_SyncNow.Text" xml:space="preserve">
+    <value>पुस्तक अभी सिंक करें</value>
+    <comment>Sync book now</comment>
+  </data>
+  <data name="Sync_UploadBookFile.Text" xml:space="preserve">
+    <value>पुस्तक फ़ाइल अपलोड करें</value>
+    <comment>Upload book file</comment>
+  </data>
+  <data name="S_AddFav" xml:space="preserve">
+    <value>पसंदीदा बनाएं</value>
+    <comment>Add Favourite</comment>
+  </data>
+  <data name="S_RemoveFav" xml:space="preserve">
+    <value>पसंदीदा हटाएं</value>
+    <comment>Remove Favourite</comment>
+  </data>
+  <data name="Sync_Cancelled" xml:space="preserve">
+    <value>सिंक रद्द किया गया</value>
+    <comment>Sync cancelled</comment>
+  </data>
+  <data name="Sync_Complete" xml:space="preserve">
+    <value>सिंक पूर्ण हुआ</value>
+    <comment>Sync complete</comment>
+  </data>
+  <data name="Sync_ComplteRefreshNeeded" xml:space="preserve">
+    <value>सिंक पूर्ण, चैप्टर रिफ्रेश की जरूरत</value>
+    <comment>Sync complete, chapter refresh needed</comment>
+  </data>
+  <data name="Sync_Failed" xml:space="preserve">
+    <value>सिंक विफल रहा</value>
+    <comment>Sync failed</comment>
+  </data>
+  <data name="Sync_Started" xml:space="preserve">
+    <value>सिंक प्रारंभ हुआ</value>
+    <comment>Sync started</comment>
+  </data>
+  <data name="sync_tip.Subtitle" xml:space="preserve">
+    <value>क्लाउड सिंक पुस्तकों, पुस्तक फ़ाइलों, मेटाडेटा, पढ़ने की स्थिति और एनोटेशन के क्रॉस डिवाइस सिंक (एंड्रॉइड और विंडोज) को सक्षम करने के लिए Google ड्राइव का उपयोग करता है।
+    
+ऐप प्रारंभ होने पर, पुस्तकों की नवीनतम स्थिति क्लाउड से डाउनलोड की जाती है। किसी पुस्तक को खोलने और बंद करने पर, पुस्तक की स्थिति फिर से सिंक हो जाती है (ऊपर और नीचे दोनों तरफ)।
+
+सिंक व्यवहार को नियंत्रित करने के लिए विकल्प प्रदान किए गए हैं। डिफ़ॉल्ट रूप से 'सभी पुस्तकें' विकल्प के साथ सभी पुस्तकें सिंक हो जाती हैं, जब तक कि उपयोगकर्ता ने कुछ पुस्तकों को सिंक से बाहर न कर दिया हो। 'चयनित पुस्तकें' का अर्थ है कि केवल उपयोगकर्ता द्वारा चयनित पुस्तकें ही सिंक की जाती हैं। पुस्तक संदर्भ मेनू का उपयोग करके पुस्तकों को शामिल/बहिष्कृत किया जा सकता है।</value>
+    <comment>Cloud sync uses Google Drive to enable cross device sync (Android and Windows) of books, book files, metadata, reading position and annotations.
+
+At the app start, latest state of books are downloaded from cloud. On opening and closing a book, state of the book is synced again (both upwards and downwards).
+
+Options are provided to control the sync behaviour. With 'All books' option by default all the books are synced, unless user has excluded some books from sync. 'Selected books' means only user selected books are synced. Books can be included/excluded by using the book context menu.</comment>
+  </data>
+  <data name="sync_tip.Title" xml:space="preserve">
+    <value>क्लाउड सिंक</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="S_Free_Msg10.Text" xml:space="preserve">
+    <value>अधिकतम 3 पुस्तकों को क्लाउड से सिंक किया जा सकता है।</value>
+    <comment>Max 3 books can be synced to cloud.</comment>
+  </data>
+  <data name="S_PremiumCloudSync" xml:space="preserve">
+    <value>निःशुल्क संस्करण केवल 'चयनित पुस्तकों' विकल्प का समर्थन करता है।
+सभी सुविधाओं का आनंद लेने के लिए कृपया Aquile Reader प्रीमियम में अपग्रेड करें।</value>
+    <comment>Free version supports only 'Selected Books' option.
+Please upgrade to Aquile Reader Premium to enjoy all features.</comment>
+  </data>
+  <data name="S_PremiumCloudSyncLimit" xml:space="preserve">
+    <value>ऐप का निःशुल्क संस्करण केवल {0} पुस्तकों को क्लाउड से सिंक करने का समर्थन करता है।
+अधिक जोड़ने के लिए, कृपया Aquile Reader प्रीमियम में अपग्रेड करें।</value>
+    <comment>Free version of the app supports only {0} books to be synced to cloud.
+To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremPage_Msg10.Text" xml:space="preserve">
+    <value>क्लाउड सिंक विकल्पों पर कोई सीमा नहीं।</value>
+    <comment>No limitation on cloud sync options.</comment>
+  </data>
 </root>
