@@ -1,0 +1,2380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="B_Add.Content" xml:space="preserve">
+    <value>إضافة</value>
+    <comment>Add</comment>
+  </data>
+  <data name="B_AddBook.ToolTipService.ToolTip" xml:space="preserve">
+    <value>إضافة كتاب جديد</value>
+    <comment>Add new book</comment>
+  </data>
+  <data name="B_AddBookmark.ToolTipService.ToolTip" xml:space="preserve">
+    <value>إضافة علامة مرجعية</value>
+    <comment>Add Bookmark</comment>
+  </data>
+  <data name="B_AddFolder.Content" xml:space="preserve">
+    <value>إضافة مجلد</value>
+    <comment>Add folder</comment>
+  </data>
+  <data name="B_AddNote.ToolTipService.ToolTip" xml:space="preserve">
+    <value>إضافة ملاحظة</value>
+    <comment>Add Note</comment>
+  </data>
+  <data name="B_AddSite.ToolTipService.ToolTip" xml:space="preserve">
+    <value>إضافة موقع جديد</value>
+    <comment>Add new site</comment>
+  </data>
+  <data name="B_AudioSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>إعدادات الصوت</value>
+    <comment>Audio settings</comment>
+  </data>
+  <data name="B_Back.Content" xml:space="preserve">
+    <value>رجوع</value>
+    <comment>Back</comment>
+  </data>
+  <data name="B_Back1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>رجوع</value>
+    <comment>Back</comment>
+  </data>
+  <data name="B_Backup_Bkp.Content" xml:space="preserve">
+    <value>نسخ احتياطي</value>
+    <comment>Backup</comment>
+  </data>
+  <data name="B_Backup_Restore.Content" xml:space="preserve">
+    <value>استعادة</value>
+    <comment>Restore</comment>
+  </data>
+  <data name="B_Blog.ToolTipService.ToolTip" xml:space="preserve">
+    <value>اقرأ مدونتنا</value>
+    <comment>Read our blog</comment>
+  </data>
+  <data name="B_Bookmarks.ToolTipService.ToolTip" xml:space="preserve">
+    <value>العلامات المرجعية</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="B_Cancel.Content" xml:space="preserve">
+    <value>إلغاء</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="B_ChngLog.ToolTipService.ToolTip" xml:space="preserve">
+    <value>سجل التغييرات</value>
+    <comment>Change log</comment>
+  </data>
+  <data name="B_ClearHighlight.ToolTipService.ToolTip" xml:space="preserve">
+    <value>مسح التحديد</value>
+    <comment>Clear highlight</comment>
+  </data>
+  <data name="B_Close.Content" xml:space="preserve">
+    <value>إغلاق</value>
+    <comment>Close</comment>
+  </data>
+  <data name="B_Close1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>إغلاق</value>
+    <comment>Close</comment>
+  </data>
+  <data name="B_Collapse.ToolTipService.ToolTip" xml:space="preserve">
+    <value>طي</value>
+    <comment>Collapse</comment>
+  </data>
+  <data name="B_ColorMenu.ToolTipService.ToolTip" xml:space="preserve">
+    <value>قائمة الألوان</value>
+    <comment>Color Menu</comment>
+  </data>
+  <data name="B_ContactSupport.ToolTipService.ToolTip" xml:space="preserve">
+    <value>الاتصال بالدعم الفني</value>
+    <comment>Contact support</comment>
+  </data>
+  <data name="B_Copy.ToolTipService.ToolTip" xml:space="preserve">
+    <value>نسخ</value>
+    <comment>Copy</comment>
+  </data>
+  <data name="B_Credits.ToolTipService.ToolTip" xml:space="preserve">
+    <value>الاعتمادات</value>
+    <comment>Credits</comment>
+  </data>
+  <data name="B_Delete.Text" xml:space="preserve">
+    <value>حذف</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="B_DeleteNote.ToolTipService.ToolTip" xml:space="preserve">
+    <value>حذف الملاحظة</value>
+    <comment>Delete note</comment>
+  </data>
+  <data name="B_Done.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تم</value>
+    <comment>Done</comment>
+  </data>
+  <data name="B_Downloads.ToolTipService.ToolTip" xml:space="preserve">
+    <value>التنزيلات</value>
+    <comment>Downloads</comment>
+  </data>
+  <data name="B_ExitReadingMode.ToolTipService.ToolTip" xml:space="preserve">
+    <value>الخروج من وضع القراءة</value>
+    <comment>Exit Reading Mode (Ctrl + E)</comment>
+  </data>
+  <data name="B_Expand.ToolTipService.ToolTip" xml:space="preserve">
+    <value>توسيع</value>
+    <comment>Expand</comment>
+  </data>
+  <data name="B_ExportCollection.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تصدير المجموعات</value>
+    <comment>Export collections</comment>
+  </data>
+  <data name="B_Fb.ToolTipService.ToolTip" xml:space="preserve">
+    <value>أعجبنا على فيسبوك</value>
+    <comment>Like us on Facebook</comment>
+  </data>
+  <data name="B_Female.Content" xml:space="preserve">
+    <value>أنثى</value>
+    <comment>Female</comment>
+  </data>
+  <data name="B_FilterFav.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تصفية حسب المفضلة</value>
+    <comment>Filter by favorites</comment>
+  </data>
+  <data name="B_Forward.ToolTipService.ToolTip" xml:space="preserve">
+    <value>إلى الأمام</value>
+    <comment>Forward</comment>
+  </data>
+  <data name="B_General.Content" xml:space="preserve">
+    <value>إعادة تعيين</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="B_GitHub.ToolTipService.ToolTip" xml:space="preserve">
+    <value>غيت هاب</value>
+    <comment>GitHub</comment>
+  </data>
+  <data name="B_Group.ToolTipService.ToolTip" xml:space="preserve">
+    <value>مجموعة</value>
+    <comment>Group</comment>
+  </data>
+  <data name="B_Highlight.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تمييز</value>
+    <comment>Highlight</comment>
+  </data>
+  <data name="B_Home.ToolTipService.ToolTip" xml:space="preserve">
+    <value>الصفحة الرئيسية</value>
+    <comment>Home</comment>
+  </data>
+  <data name="B_Information.ToolTipService.ToolTip" xml:space="preserve">
+    <value>معلومات</value>
+    <comment>Information</comment>
+  </data>
+  <data name="B_JSInspect.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تفحص جافا سكريبت</value>
+    <comment>JS Inspect</comment>
+  </data>
+  <data name="B_LinkBack.ToolTipService.ToolTip" xml:space="preserve">
+    <value>العودة إلى مصدر الرابط</value>
+    <comment>Go back to link source</comment>
+  </data>
+  <data name="B_Mail.ToolTipService.ToolTip" xml:space="preserve">
+    <value>بريد</value>
+    <comment>Mail</comment>
+  </data>
+  <data name="B_Male.Content" xml:space="preserve">
+    <value>ذكر</value>
+    <comment>Male</comment>
+  </data>
+  <data name="B_MatchCase.ToolTipService.ToolTip" xml:space="preserve">
+    <value>مطابقة حالة الأحرف</value>
+    <comment>Match case</comment>
+  </data>
+  <data name="B_MatchWWord.ToolTipService.ToolTip" xml:space="preserve">
+    <value>مطابقة الكلمة الكاملة</value>
+    <comment>Match whole word</comment>
+  </data>
+  <data name="B_Next.Content" xml:space="preserve">
+    <value>التالي</value>
+    <comment>Next</comment>
+  </data>
+  <data name="B_NextLine.ToolTipService.ToolTip" xml:space="preserve">
+    <value>السطر التالي (Ctrl + →)</value>
+    <comment>Next Line (Ctrl + →)</comment>
+  </data>
+  <data name="B_NH.ToolTipService.ToolTip" xml:space="preserve">
+    <value>الملاحظات والتسليطات</value>
+    <comment>Notes &amp; Highlights</comment>
+  </data>
+  <data name="B_OpenBook.Content" xml:space="preserve">
+    <value>فتح الكتاب</value>
+    <comment>Open Book</comment>
+  </data>
+  <data name="B_Pag1Cols.ToolTipService.ToolTip" xml:space="preserve">
+    <value>صفحة واحدة بعمود واحد</value>
+    <comment>Paginated 1 column</comment>
+  </data>
+  <data name="B_Pag2Cols.ToolTipService.ToolTip" xml:space="preserve">
+    <value>صفحتين بعمودين</value>
+    <comment>Paginated 2 columns</comment>
+  </data>
+  <data name="B_PagVertical.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تمرير عمودي</value>
+    <comment>Vertical scroll</comment>
+  </data>
+  <data name="B_PreviousLine.ToolTipService.ToolTip" xml:space="preserve">
+    <value>السطر السابق (Ctrl + ←)</value>
+    <comment>Previous Line (Ctrl + ←)</comment>
+  </data>
+  <data name="B_PrivacyPolicy.ToolTipService.ToolTip" xml:space="preserve">
+    <value>سياسة الخصوصية</value>
+    <comment>Privacy policy</comment>
+  </data>
+  <data name="B_RateStore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تقييم في المتجر</value>
+    <comment>Rate on store</comment>
+  </data>
+  <data name="B_ReadAloud.ToolTipService.ToolTip" xml:space="preserve">
+    <value>قراءة صوتية (Ctrl + R)</value>
+    <comment>Read Aloud (Ctrl + R)</comment>
+  </data>
+  <data name="B_ReadAloud1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>قراءة صوتية</value>
+    <comment>ReadAloud</comment>
+  </data>
+  <data name="B_ReadAloudSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>إعدادات القراءة الصوتية</value>
+    <comment>ReadAloud settings</comment>
+  </data>
+  <data name="B_Refresh.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تحديث</value>
+    <comment>Refresh</comment>
+  </data>
+  <data name="B_Remove.ToolTipService.ToolTip" xml:space="preserve">
+    <value>إزالة</value>
+    <comment>Remove</comment>
+  </data>
+  <data name="B_Reset.ToolTipService.ToolTip" xml:space="preserve">
+    <value>إعادة تعيين</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="B_RmSyncFolderBtn1.Content" xml:space="preserve">
+    <value>نعم، ولكن احتفظ بالكتب</value>
+    <comment>Yes, but keep books</comment>
+  </data>
+  <data name="B_RmSyncFolderBtn2.Content" xml:space="preserve">
+    <value>نعم، وأزل الكتب</value>
+    <comment>Yes, and remove books</comment>
+  </data>
+  <data name="B_Save.Content" xml:space="preserve">
+    <value>حفظ</value>
+    <comment>Save</comment>
+  </data>
+  <data name="B_Search.ToolTipService.ToolTip" xml:space="preserve">
+    <value>بحث</value>
+    <comment>Search</comment>
+  </data>
+  <data name="B_Search1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>بحث (Ctrl + F)</value>
+    <comment>Search (Ctrl + F)</comment>
+  </data>
+  <data name="B_SearchWeb.ToolTipService.ToolTip" xml:space="preserve">
+    <value>البحث على الويب</value>
+    <comment>Search web</comment>
+  </data>
+  <data name="B_SelectFolder.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تحديد المجلد</value>
+    <comment>Select folder</comment>
+  </data>
+  <data name="B_SelectIcon.Content" xml:space="preserve">
+    <value>تحديد الرمز</value>
+    <comment>Select icon</comment>
+  </data>
+  <data name="B_ShowCB.ToolTipService.ToolTip" xml:space="preserve">
+    <value>عرض شريط الأوامر</value>
+    <comment>Show command bar</comment>
+  </data>
+  <data name="B_Sort.ToolTipService.ToolTip" xml:space="preserve">
+    <value>ترتيب</value>
+    <comment>Sort</comment>
+  </data>
+  <data name="B_Sync_Edit.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تحرير</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="B_TextFormat.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تنسيق النص</value>
+    <comment>Text Format</comment>
+  </data>
+  <data name="B_TextStyle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>نمط النص</value>
+    <comment>Text Style</comment>
+  </data>
+  <data name="B_Theme1.Content" xml:space="preserve">
+    <value>أبيض</value>
+    <comment>White</comment>
+  </data>
+  <data name="B_Theme1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>أبيض (Ctrl + T + 1)</value>
+    <comment>White (Ctrl + T + 1)</comment>
+  </data>
+  <data name="B_Theme2.Content" xml:space="preserve">
+    <value>فضي</value>
+    <comment>Silver</comment>
+  </data>
+  <data name="B_Theme2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>فضي (Ctrl + T + 2)</value>
+    <comment>Silver (Ctrl + T + 2)</comment>
+  </data>
+  <data name="B_Theme3.Content" xml:space="preserve">
+    <value>سيبيا</value>
+    <comment>Sepia</comment>
+  </data>
+  <data name="B_Theme3.ToolTipService.ToolTip" xml:space="preserve">
+    <value>سيبيا (Ctrl + T + 3)</value>
+    <comment>Sepia (Ctrl + T + 3)</comment>
+  </data>
+  <data name="B_Theme4.Content" xml:space="preserve">
+    <value>ليلي</value>
+    <comment>Night</comment>
+  </data>
+  <data name="B_Theme4.ToolTipService.ToolTip" xml:space="preserve">
+    <value>ليلي (Ctrl + T + 4)</value>
+    <comment>Night (Ctrl + T + 4)</comment>
+  </data>
+  <data name="B_Theme5.Content" xml:space="preserve">
+    <value>شمسي</value>
+    <comment>Solarized</comment>
+  </data>
+  <data name="B_Theme5.ToolTipService.ToolTip" xml:space="preserve">
+    <value>شمسي (Ctrl + T + 5)</value>
+    <comment>Solarized (Ctrl + T + 5)</comment>
+  </data>
+  <data name="B_Theme6.Content" xml:space="preserve">
+    <value>مخصص</value>
+    <comment>Custom</comment>
+  </data>
+  <data name="B_TOC.ToolTipService.ToolTip" xml:space="preserve">
+    <value>جدول المحتويات</value>
+    <comment>Table Of Contents</comment>
+  </data>
+  <data name="B_ToggleFav.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تبديل المفضلة</value>
+    <comment>Toggle Favorite</comment>
+  </data>
+  <data name="B_ToggleFullscreen.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تبديل الشاشة الكاملة (F11)</value>
+    <comment>Toggle Fullscreen (F11)</comment>
+  </data>
+  <data name="B_Translate.ToolTipService.ToolTip" xml:space="preserve">
+    <value>ترجمة</value>
+    <comment>Translate</comment>
+  </data>
+  <data name="B_Tw.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تابعنا على تويتر</value>
+    <comment>Follow us on Twitter</comment>
+  </data>
+  <data name="B_ZoomIn.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تكبير</value>
+    <comment>Zoom In</comment>
+  </data>
+  <data name="B_ZoomOut.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تصغير</value>
+    <comment>Zoom Out</comment>
+  </data>
+  <data name="C_AddFolder_AddRecent.Content" xml:space="preserve">
+    <value>إضافة الكتب إلى قائمة الأحداث الأخيرة</value>
+    <comment>Add books to recent list</comment>
+  </data>
+  <data name="C_AddFolder_AutoRemove.Content" xml:space="preserve">
+    <value>إزالة الكتب تلقائيًا من المكتبة (بما في ذلك الملاحظات والتسليطات وما إلى ذلك) عند حذف الملفات من المجلد</value>
+    <comment>Automatically remove books from the library (including notes, highlights, etc) when files are deleted from the folder</comment>
+  </data>
+  <data name="C_AddFolder_RecSearch.Content" xml:space="preserve">
+    <value>البحث التكراري في المجلدات الفرعية</value>
+    <comment>Recursively search sub-folders</comment>
+  </data>
+  <data name="C_AddFolder_SyncFolder.Content" xml:space="preserve">
+    <value>مزامنة هذا المجلد وإضافة كتب جديدة تلقائيًا</value>
+    <comment>Sync this folder and automatically add new books</comment>
+  </data>
+  <data name="C_Backup_AStats.Content" xml:space="preserve">
+    <value>إحصائيات التطبيق</value>
+    <comment>App statistics</comment>
+  </data>
+  <data name="C_Backup_BFav.Content" xml:space="preserve">
+    <value>قائمة الكتب المفضلة</value>
+    <comment>Book favorite list</comment>
+  </data>
+  <data name="C_Backup_BFiles.Content" xml:space="preserve">
+    <value>ملفات الكتب</value>
+    <comment>Book files</comment>
+  </data>
+  <data name="C_Backup_BMeta.Content" xml:space="preserve">
+    <value>بيانات الكتب</value>
+    <comment>Book metadata</comment>
+  </data>
+  <data name="C_Backup_Bookmarks.Content" xml:space="preserve">
+    <value>العلامات المرجعية</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="C_Backup_Config.Description" xml:space="preserve">
+    <value>حدد التكوين لعملية النسخ الاحتياطي أو استعادته</value>
+    <comment>Select the configuration for backup or restore operation</comment>
+  </data>
+  <data name="C_Backup_Config.Title" xml:space="preserve">
+    <value>اختيار التكوين</value>
+    <comment>Choose configuration</comment>
+  </data>
+  <data name="C_Backup_NandH.Content" xml:space="preserve">
+    <value>الملاحظات والتسليطات</value>
+    <comment>Notes &amp; highlights</comment>
+  </data>
+  <data name="C_Backup_Operation.Description" xml:space="preserve">
+    <value>حدد العملية التي ترغب في تنفيذها</value>
+    <comment>Select the operation you want to perform</comment>
+  </data>
+  <data name="C_Backup_Operation.Title" xml:space="preserve">
+    <value>اختيار العملية</value>
+    <comment>Choose operation</comment>
+  </data>
+  <data name="C_Backup_Storage.Description" xml:space="preserve">
+    <value>حدد التخزين المصدري أو الهدفي للعملية</value>
+    <comment>Select the source or target storage for the operation</comment>
+  </data>
+  <data name="C_Backup_Storage.Title" xml:space="preserve">
+    <value>اختيار التخزين</value>
+    <comment>Choose storage</comment>
+  </data>
+  <data name="C_Books.ToolTipService.ToolTip" xml:space="preserve">
+    <value>الكتب</value>
+    <comment>Books</comment>
+  </data>
+  <data name="C_ChapterList.ToolTipService.ToolTip" xml:space="preserve">
+    <value>قائمة الفصول</value>
+    <comment>Chapter list</comment>
+  </data>
+  <data name="C_CollectionType.ToolTipService.ToolTip" xml:space="preserve">
+    <value>نوع المجموعة</value>
+    <comment>Collection Type</comment>
+  </data>
+  <data name="C_General_Advt.Description" xml:space="preserve">
+    <value>تفضيل نوع الإعلانات</value>
+    <comment>Preference for type of advertisements</comment>
+  </data>
+  <data name="C_General_Advt.Title" xml:space="preserve">
+    <value>تفضيل الإعلانات</value>
+    <comment>Advt. preference</comment>
+  </data>
+  <data name="C_General_BookTitle.Description" xml:space="preserve">
+    <value>عرض عنوان لكل الكتب في عرض المكتبة</value>
+    <comment>Display title for all books in the library view</comment>
+  </data>
+  <data name="C_General_BookTitle.Title" xml:space="preserve">
+    <value>عرض عناوين الكتب</value>
+    <comment>Show book titles</comment>
+  </data>
+  <data name="C_General_Lang.Description" xml:space="preserve">
+    <value>سيظهر الأزرار والقوائم وغيرها من العناصر التحكمية بهذه اللغة.سيتم تطبيق هذا الإعداد في بدء تشغيل التطبيق التالي.</value>
+    <comment>Buttons, menus and other controls will show in this language.This setting will be applied on the next start of the app.</comment>
+  </data>
+  <data name="C_General_Lang.Title" xml:space="preserve">
+    <value>عرض اللغة</value>
+    <comment>Display language</comment>
+  </data>
+  <data name="C_General_Tutorial.Description" xml:space="preserve">
+    <value>إظهار كل البرامج التعليمية مرة أخرى</value>
+    <comment>Show all the tutorials again</comment>
+  </data>
+  <data name="C_General_Tutorial.Title" xml:space="preserve">
+    <value>إعادة تعيين البرامج التعليمية</value>
+    <comment>Reset tutorials</comment>
+  </data>
+  <data name="C_Personal_ColorThemes.Title" xml:space="preserve">
+    <value>سمات الألوان</value>
+    <comment>Color themes</comment>
+  </data>
+  <data name="C_Personal_TransBanckground.Title" xml:space="preserve">
+    <value>خلفية شفافة</value>
+    <comment>Transparent background</comment>
+  </data>
+  <data name="C_Personal_TransBanckSlider.Title" xml:space="preserve">
+    <value>شفافية الخلفية</value>
+    <comment>Background transparency</comment>
+  </data>
+  <data name="C_Prem1.BillDetails" xml:space="preserve">
+    <value>فوترة كل ثلاثة أشهر</value>
+    <comment>Billed quarterly</comment>
+  </data>
+  <data name="C_Prem1.DurationString" xml:space="preserve">
+    <value> شهور</value>
+    <comment> months</comment>
+  </data>
+  <data name="C_Prem2.BillDetails" xml:space="preserve">
+    <value>فوترة سنوية</value>
+    <comment>Billed annually</comment>
+  </data>
+  <data name="C_Prem2.DurationString" xml:space="preserve">
+    <value> شهور</value>
+    <comment> months</comment>
+  </data>
+  <data name="C_Prem3.BillDetails" xml:space="preserve">
+    <value>عملية شراء لمرة واحدة</value>
+    <comment>One time purchase</comment>
+  </data>
+  <data name="C_Prem3.DurationString" xml:space="preserve">
+    <value>مدى الحياة</value>
+    <comment>Lifetime</comment>
+  </data>
+  <data name="C_Reader_AutoLayout.Description" xml:space="preserve">
+    <value>في تخطيط العمودين عندما يتمتع الجهاز بالتدوير إلى وضع الشاشة العمودي، سيقوم القارئ بالتبديل تلقائيًا إلى تخطيط العمود الواحد، والعكس بالعكس</value>
+    <comment>In 2-column layout when device rotates to portrait mode, reader will auto switch to 1-column layout, and vice versa</comment>
+  </data>
+  <data name="C_Reader_AutoLayout.Title" xml:space="preserve">
+    <value>التبديل التلقائي إلى تخطيط العمود الواحد</value>
+    <comment>Auto switch to 1 column layout</comment>
+  </data>
+  <data name="C_Reader_AutoScroll.Description" xml:space="preserve">
+    <value>يقوم بالتمرير التلقائي للصفحة لمتابعة الجملة التي تُقرأ في وضع القراءة الصوتية</value>
+    <comment>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</comment>
+  </data>
+  <data name="C_Reader_AutoScroll.Title" xml:space="preserve">
+    <value>التمرير التلقائي للقراءة الصوتية</value>
+    <comment>ReadAloud auto-scroll</comment>
+  </data>
+  <data name="C_Reader_BookFont.Description" xml:space="preserve">
+    <value>يستخدم القارئ الخطوط الأصلية الموجودة في الكتاب</value>
+    <comment>Reader uses the original fonts packaged with the book</comment>
+  </data>
+  <data name="C_Reader_BookFont.Title" xml:space="preserve">
+    <value>استخدام خطوط الكتاب</value>
+    <comment>Use book's fonts</comment>
+  </data>
+  <data name="C_Reader_DictLang.Description" xml:space="preserve">
+    <value>لغة القاموس المتوفر في القارئ</value>
+    <comment>Language of the in-reader dictionary</comment>
+  </data>
+  <data name="C_Reader_DictLang.Title" xml:space="preserve">
+    <value>لغة القاموس</value>
+    <comment>Dictionary language</comment>
+  </data>
+  <data name="C_Reader_EnhRender.Description" xml:space="preserve">
+    <value>يحسن التنسيق / التخطيط الذي يتم به عرض الكتب للقراءة</value>
+    <comment>Improves the format/layout in which books are rendered for reading</comment>
+  </data>
+  <data name="C_Reader_EnhRender.Title" xml:space="preserve">
+    <value>تحسين التقديم</value>
+    <comment>Enhanced rendering</comment>
+  </data>
+  <data name="C_Reader_SearchEngine.Description" xml:space="preserve">
+    <value>محرك البحث المستخدم للبحث على الويب</value>
+    <comment>Search engine to use for web search</comment>
+  </data>
+  <data name="C_Reader_SearchEngine.Title" xml:space="preserve">
+    <value>محرك البحث</value>
+    <comment>Search engine</comment>
+  </data>
+  <data name="C_Reader_StdMrgn.Description" xml:space="preserve">
+    <value>يتجاوز أي هامش محدد في الكتاب لتوفير تخطيط متسق في القارئ</value>
+    <comment>Overrides any margin specified in the book to provide consistent layout in the reader</comment>
+  </data>
+  <data name="C_Reader_StdMrgn.Title" xml:space="preserve">
+    <value>توحيد الهوامش</value>
+    <comment>Standardize margins</comment>
+  </data>
+  <data name="C_Reader_TextAlign.Description" xml:space="preserve">
+    <value>يتجاوز أي تفضيل لمحاذاة النص المحدد في الكتاب لتوفير تخطيط متسق في القارئ</value>
+    <comment>Overrides any text alignment preference set in the book to provide consistent layout in the reader</comment>
+  </data>
+  <data name="C_Reader_TextAlign.Title" xml:space="preserve">
+    <value>تجاوز محاذاة النص</value>
+    <comment>Override text alignment</comment>
+  </data>
+  <data name="C_ShowFavs.Content" xml:space="preserve">
+    <value>إظهار العناصر المفضلة فقط</value>
+    <comment>Show only favorites</comment>
+  </data>
+  <data name="CB_Category.ToolTipService.ToolTip" xml:space="preserve">
+    <value>الفئات</value>
+    <comment>Categories</comment>
+  </data>
+  <data name="EBI_Author.Text" xml:space="preserve">
+    <value>المؤلف(ون) : </value>
+    <comment>Author(s) : </comment>
+  </data>
+  <data name="EBI_Cover1.Content" xml:space="preserve">
+    <value>اختيار غلاف</value>
+    <comment>Select cover</comment>
+  </data>
+  <data name="EBI_Cover2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>استعادة الغلاف الأصلي</value>
+    <comment>Restore original cover</comment>
+  </data>
+  <data name="EBI_Description.Text" xml:space="preserve">
+    <value>الوصف : </value>
+    <comment>Description : </comment>
+  </data>
+  <data name="EBI_ErrMsg1" xml:space="preserve">
+    <value>لا يمكن ترك رقم السلسلة فارغًا</value>
+    <comment>Series number cannot be empty</comment>
+  </data>
+  <data name="EBI_ErrMsg2" xml:space="preserve">
+    <value>رقم السلسلة غير صالح</value>
+    <comment>Series number not valid</comment>
+  </data>
+  <data name="EBI_Genre.Text" xml:space="preserve">
+    <value>النوع(أنواع) : </value>
+    <comment>Genre(s) : </comment>
+  </data>
+  <data name="EBI_Language.Text" xml:space="preserve">
+    <value>اللغة(اللغات) : </value>
+    <comment>Language(s) : </comment>
+  </data>
+  <data name="EBI_Msg1.Text" xml:space="preserve">
+    <value> • (s) - استخدم الفاصلة المنقوطة ( ; ) لفصل الإدخالات المتعددة.</value>
+    <comment> • (s) - Use semi-colon ( ; ) to separate multiple entries.</comment>
+  </data>
+  <data name="EBI_Publisher.Text" xml:space="preserve">
+    <value>الناشر(ون) : </value>
+    <comment>Publisher(s) : </comment>
+  </data>
+  <data name="EBI_Series.Text" xml:space="preserve">
+    <value>السلسلة : </value>
+    <comment>Series : </comment>
+  </data>
+  <data name="EBI_SeriesNumber.Text" xml:space="preserve">
+    <value>رقم السلسلة : </value>
+    <comment>Series Number : </comment>
+  </data>
+  <data name="EBI_Title.Text" xml:space="preserve">
+    <value>تحرير معلومات الكتاب</value>
+    <comment>Edit book information</comment>
+  </data>
+  <data name="IAP_Discount.Text" xml:space="preserve">
+    <value>20% خصم</value>
+    <comment>20% off</comment>
+  </data>
+  <data name="IAP_Popular.Text" xml:space="preserve">
+    <value>الأكثر شعبية</value>
+    <comment>Most Popular</comment>
+  </data>
+  <data name="M_About.Content" xml:space="preserve">
+    <value>حول</value>
+    <comment>About us</comment>
+  </data>
+  <data name="M_AddBook.Text" xml:space="preserve">
+    <value>إضافة ملف(ات) كتاب</value>
+    <comment>Add book file(s)</comment>
+  </data>
+  <data name="M_AddFavourite.Text" xml:space="preserve">
+    <value>إضافة للمفضلة</value>
+    <comment>Add Favourite</comment>
+  </data>
+  <data name="M_AddFolder.Text" xml:space="preserve">
+    <value>إضافة مجلد</value>
+    <comment>Add folder</comment>
+  </data>
+  <data name="M_Backup.Content" xml:space="preserve">
+    <value>نسخ احتياطي &amp; استعادة</value>
+    <comment>Backup &amp; Restore</comment>
+  </data>
+  <data name="Sync_CloudSync.Content" xml:space="preserve">
+    <value>مزامنة السحابة</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="M_BookInfo.Text" xml:space="preserve">
+    <value>معلومات الكتاب</value>
+    <comment>Book Info</comment>
+  </data>
+  <data name="M_ChngLog.Content" xml:space="preserve">
+    <value>سجل التغييرات</value>
+    <comment>Change log</comment>
+  </data>
+  <data name="M_CreationTime.Text" xml:space="preserve">
+    <value>وقت الإنشاء</value>
+    <comment>Creation time</comment>
+  </data>
+  <data name="M_Edit.Text" xml:space="preserve">
+    <value>تحرير</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="M_EditBookInfo.Text" xml:space="preserve">
+    <value>تحرير معلومات الكتاب</value>
+    <comment>Edit Book Info</comment>
+  </data>
+  <data name="M_General.Content" xml:space="preserve">
+    <value>عام</value>
+    <comment>General</comment>
+  </data>
+  <data name="M_OpenBook.Text" xml:space="preserve">
+    <value>فتح الكتاب</value>
+    <comment>Open Book</comment>
+  </data>
+  <data name="M_Personal.Content" xml:space="preserve">
+    <value>تخصيص</value>
+    <comment>Personalization</comment>
+  </data>
+  <data name="M_PinUnpin.Text" xml:space="preserve">
+    <value>تثبيت/إلغاء تثبيت إلى البداية</value>
+    <comment>Pin/Unpin to Start</comment>
+  </data>
+  <data name="M_PosInBook.Text" xml:space="preserve">
+    <value>الموضع في الكتاب</value>
+    <comment>Position in book</comment>
+  </data>
+  <data name="M_Reader.Content" xml:space="preserve">
+    <value>قارئ</value>
+    <comment>Reader</comment>
+  </data>
+  <data name="M_Remove.Text" xml:space="preserve">
+    <value>إزالة</value>
+    <comment>Remove</comment>
+  </data>
+  <data name="M_RemoveFavourite.Text" xml:space="preserve">
+    <value>إزالة من المفضلة</value>
+    <comment>Remove Favourite</comment>
+  </data>
+  <data name="M_SaveToFile.Text" xml:space="preserve">
+    <value>حفظ إلى ملف</value>
+    <comment>Save to file</comment>
+  </data>
+  <data name="M_Share.Text" xml:space="preserve">
+    <value>مشاركة</value>
+    <comment>Share</comment>
+  </data>
+  <data name="M_SyncFolder.Content" xml:space="preserve">
+    <value>مزامنة المجلدات</value>
+    <comment>Sync folders</comment>
+  </data>
+  <data name="N_Collections.Content" xml:space="preserve">
+    <value>المجموعات</value>
+    <comment>Collections</comment>
+  </data>
+  <data name="N_Feedback.Content" xml:space="preserve">
+    <value>ردود الفعل</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="N_Home.Content" xml:space="preserve">
+    <value>الرئيسية</value>
+    <comment>Home</comment>
+  </data>
+  <data name="N_Library.Content" xml:space="preserve">
+    <value>المكتبة</value>
+    <comment>Library</comment>
+  </data>
+  <data name="N_OnlineBooks.Content" xml:space="preserve">
+    <value>الكتب الإلكترونية عبر الإنترنت</value>
+    <comment>Online Books</comment>
+  </data>
+  <data name="N_Premium.Content" xml:space="preserve">
+    <value>مميز</value>
+    <comment>Premium</comment>
+  </data>
+  <data name="N_ReportBug.Content" xml:space="preserve">
+    <value>الإبلاغ عن خطأ</value>
+    <comment>Report bug</comment>
+  </data>
+  <data name="N_Settings.Content" xml:space="preserve">
+    <value>الإعدادات</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="N_Statistics.Content" xml:space="preserve">
+    <value>الإحصائيات</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="RI_No" xml:space="preserve">
+    <value>لا</value>
+    <comment>No</comment>
+  </data>
+  <data name="RI_Title.Text" xml:space="preserve">
+    <value>هل يعجبك Aquile Reader؟</value>
+    <comment>Are you enjoying Aquile Reader?</comment>
+  </data>
+  <data name="RI_Title2" xml:space="preserve">
+    <value>هل تستطيع قضاء لحظة لتقييمنا في المتجر؟</value>
+    <comment>Would you spare a moment to rate us on the store?</comment>
+  </data>
+  <data name="RI_Title3" xml:space="preserve">
+    <value>هل ترغب في مشاركة بعض الملاحظات معنا؟</value>
+    <comment>Would you like to share some feedback with us?</comment>
+  </data>
+  <data name="RI_Yes.Content" xml:space="preserve">
+    <value>نعم</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="S_ActSub" xml:space="preserve">
+    <value>اشتراك نشط</value>
+    <comment>Active subscription</comment>
+  </data>
+  <data name="S_ActSub_Msg1" xml:space="preserve">
+    <value>يبدو أن لديك اشتراك نشط بالفعل، تأكد من إلغاءه لتجنب فواتير إضافية.</value>
+    <comment>Looks like you already have an active subscription, make sure to cancel it to avoid additional billing.</comment>
+  </data>
+  <data name="S_AddMore" xml:space="preserve">
+    <value>إضافة المزيد ...</value>
+    <comment>Add more ...</comment>
+  </data>
+  <data name="S_AddSite_Err1" xml:space="preserve">
+    <value>لا يمكن ترك العنوان فارغًا</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="S_AddSite_Err2" xml:space="preserve">
+    <value>يمكن أن يصل طول العنوان إلى 100 حرف</value>
+    <comment>Title length can be up-to 100 chars</comment>
+  </data>
+  <data name="S_AdMsg1" xml:space="preserve">
+    <value>الترقية إلى الإصدار المميز</value>
+    <comment>Upgrade to PREMIUM version</comment>
+  </data>
+  <data name="S_AdMsg2" xml:space="preserve">
+    <value>لإزالة الإعلانات والحصول على ميزات إضافية، انقر هنا.</value>
+    <comment>To remove Ads and get additional features, click here.</comment>
+  </data>
+  <data name="S_All" xml:space="preserve">
+    <value>الكل</value>
+    <comment>All</comment>
+  </data>
+  <data name="S_AppWidthBookInfo" xml:space="preserve">
+    <value>عرض نافذة التطبيق صغير جدًا لفتح لوحة معلومات الكتاب.</value>
+    <comment>App window width too small to open Book info pane.</comment>
+  </data>
+  <data name="S_AppWidthLess" xml:space="preserve">
+    <value>عرض نافذة التطبيق أقل من اللازم.</value>
+    <comment>App window width too less.</comment>
+  </data>
+  <data name="S_AS_AvgPagePerHr" xml:space="preserve">
+    <value>متوسط عدد الصفحات المقلوبة في الساعة</value>
+    <comment>Avg. number of pages flipped per hour</comment>
+  </data>
+  <data name="S_AS_AvgReadHours" xml:space="preserve">
+    <value>متوسط ساعات القراءة في اليوم</value>
+    <comment>Avg. reading hours per day</comment>
+  </data>
+  <data name="S_AS_AvgTimePerPage" xml:space="preserve">
+    <value>متوسط الوقت (بالثواني) لكل صفحة</value>
+    <comment>Avg. reading time (sec) per page</comment>
+  </data>
+  <data name="S_AS_Msg1" xml:space="preserve">
+    <value>هل أنت متأكد من رغبتك في مسح جميع الإحصائيات؟</value>
+    <comment>Are you sure you want to clear all statistics?</comment>
+  </data>
+  <data name="S_AS_NumBooksLib" xml:space="preserve">
+    <value>عدد الكتب في المكتبة</value>
+    <comment>Number of books in library</comment>
+  </data>
+  <data name="S_AS_NumBooksRead" xml:space="preserve">
+    <value>عدد الكتب التي تم قراءتها</value>
+    <comment>Number of books read</comment>
+  </data>
+  <data name="S_AS_NumPagesTurned" xml:space="preserve">
+    <value>عدد الصفحات المقلوبة</value>
+    <comment>Number of pages flipped</comment>
+  </data>
+  <data name="S_AS_SpeedWPM" xml:space="preserve">
+    <value>سرعة القراءة (كلمة في الدقيقة)</value>
+    <comment>Reading speed (words per minute)</comment>
+  </data>
+  <data name="S_AS_TotalReadHours" xml:space="preserve">
+    <value>إجمالي ساعات القراءة</value>
+    <comment>Total reading hours</comment>
+  </data>
+  <data name="S_B_Close" xml:space="preserve">
+    <value>إغلاق</value>
+    <comment>Close</comment>
+  </data>
+  <data name="S_B_OnlineBookContent1" xml:space="preserve">
+    <value>اختر الموقع الإلكتروني من حيث ترغب في تنزيل الكتاب الإلكتروني منه.[1/4]</value>
+    <comment>Select the website from where you want to download the eBook.[1/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookContent2" xml:space="preserve">
+    <value>تصفح الفهرس وانقر على أي رابط لتنزيل الكتاب الإلكتروني. ستقوم التطبيق بتنزيل الكتاب وإضافته إلى المكتبة.[2/4]</value>
+    <comment>Browse the catalog and click on any eBook download link. App will download the book and add it to the library.[2/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookContent3" xml:space="preserve">
+    <value>ستظهر تنزيلاتك هنا.</value>
+    <comment>Your downloads would appear here.[3/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookContent4" xml:space="preserve">
+    <value>أضف موقع الويب الخاص بك من حيث ترغب في تنزيل الكتب الإلكترونية.[4/4]</value>
+    <comment>Add your own website from where you want to download eBooks.[4/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle1" xml:space="preserve">
+    <value>اختر موقع الكتاب الإلكتروني</value>
+    <comment>Select eBook website</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle2" xml:space="preserve">
+    <value>تنزيل الكتاب الإلكتروني</value>
+    <comment>Download eBook</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle3" xml:space="preserve">
+    <value>تتبع التنزيلات</value>
+    <comment>Track downloads</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle4" xml:space="preserve">
+    <value>إضافة موقع الكتاب الإلكتروني</value>
+    <comment>Add eBook website</comment>
+  </data>
+  <data name="S_B_PauseReading" xml:space="preserve">
+    <value>إيقاف القراءة (المسافة)</value>
+    <comment>Pause Reading (Space)</comment>
+  </data>
+  <data name="S_B_StartReading" xml:space="preserve">
+    <value>بدء القراءة (المسافة)</value>
+    <comment>Start Reading (Space)</comment>
+  </data>
+  <data name="S_B_TutDone" xml:space="preserve">
+    <value>تم</value>
+    <comment>Done</comment>
+  </data>
+  <data name="S_B_TutNext" xml:space="preserve">
+    <value>التالي</value>
+    <comment>Next</comment>
+  </data>
+  <data name="S_B_TutReaderContent1" xml:space="preserve">
+    <value>اضغط على حواف الشاشة، اسحب الصفحة، استخدم مفاتيح ← / → على لوحة المفاتيح أو استخدم عجلة التمرير للفأرة للانتقال إلى الصفحة التالية أو السابقة.[1/8]</value>
+    <comment>Tap on the edges of the screen, swipe the page, use ← / → keyboard keys or use mouse scroll wheel, to go to next or previous page.[1/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent2" xml:space="preserve">
+    <value>حدد النص أو انقر بزر الفأرة الأيمن على أي كلمة لفتح قائمة القارئ. يمكنك إضافة ملاحظة أو تحديد أو إضافة علامة مرجعية من هنا.[2/8]</value>
+    <comment>Select text or right click on any word to open the Reader context menu.You can add note, highlight or bookmark from here.[2/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent3" xml:space="preserve">
+    <value>اطلع على جدول محتويات الكتاب من هنا.[3/8]</value>
+    <comment>Access the table of contents of the book from here.[3/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent4" xml:space="preserve">
+    <value>ستظهر ملاحظاتك وتحديداتك هنا.[4/8]</value>
+    <comment>Your notes and highlights would be listed here.[4/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent5" xml:space="preserve">
+    <value>ستظهر علامات مرجعية هنا.[5/8]</value>
+    <comment>Set bookmarks would appear here.[5/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent6" xml:space="preserve">
+    <value>ابحث في الفصل الحالي أو الكتاب بأكمله.[6/8]</value>
+    <comment>Search in the current chapter or the entire book.[6/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent7" xml:space="preserve">
+    <value>يمكنك استخدام هذا لقراءة محتويات الكتاب بصوت مرتفع (نص إلى صوت).[7/8]</value>
+    <comment>You can use this to read aloud the book contents (text-to-speech).[7/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent8" xml:space="preserve">
+    <value>يمكنك تكوين تخطيط الصفحة والنمط ومخطط الألوان، إلخ. من هنا.[8/8]</value>
+    <comment>You can configure the page layout, style, color scheme, etc. from here.[8/8]</comment>
+  </data>
+  <data name="S_B_TutReaderTitle1" xml:space="preserve">
+    <value>تغيير الصفحة</value>
+    <comment>Page change</comment>
+  </data>
+  <data name="S_B_TutReaderTitle2" xml:space="preserve">
+    <value>قائمة القارئ</value>
+    <comment>Reader context menu</comment>
+  </data>
+  <data name="S_B_TutReaderTitle3" xml:space="preserve">
+    <value>جدول المحتويات</value>
+    <comment>Table of contents</comment>
+  </data>
+  <data name="S_B_TutReaderTitle4" xml:space="preserve">
+    <value>الملاحظات والتحديدات</value>
+    <comment>Notes and highlights</comment>
+  </data>
+  <data name="S_B_TutReaderTitle5" xml:space="preserve">
+    <value>علامات مرجعية</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="S_B_TutReaderTitle6" xml:space="preserve">
+    <value>البحث</value>
+    <comment>Search</comment>
+  </data>
+  <data name="S_B_TutReaderTitle7" xml:space="preserve">
+    <value>القراءة الصوتية</value>
+    <comment>ReadAloud</comment>
+  </data>
+  <data name="S_B_TutReaderTitle8" xml:space="preserve">
+    <value>نمط النص</value>
+    <comment>Text style</comment>
+  </data>
+  <data name="S_Backup" xml:space="preserve">
+    <value>نسخ احتياطي</value>
+    <comment>Backup</comment>
+  </data>
+  <data name="S_Backup_ErrMsg1" xml:space="preserve">
+    <value>حدد على الأقل 1 تكوين</value>
+    <comment>Select at-least 1 configuration</comment>
+  </data>
+  <data name="S_Backup_ErrMsg2" xml:space="preserve">
+    <value>فشلت العملية. يرجى الاتصال بالدعم.</value>
+    <comment>Operation failed. Plz contact support.</comment>
+  </data>
+  <data name="S_BannerAds" xml:space="preserve">
+    <value>إعلانات الشعار</value>
+    <comment>Banner Ads</comment>
+  </data>
+  <data name="S_BookAddedMsg" xml:space="preserve">
+    <value>{0}: تمت إضافة الكتاب بنجاح.</value>
+    <comment>{0}: Book added successfully.</comment>
+  </data>
+  <data name="S_BookAddStartScreen" xml:space="preserve">
+    <value>تمت إضافة الكتاب إلى شاشة البداية.</value>
+    <comment>Book added to start screen.</comment>
+  </data>
+  <data name="S_BookExistsMsg" xml:space="preserve">
+    <value>{0}: الكتاب موجود بالفعل.</value>
+    <comment>{0}: Book already exists.</comment>
+  </data>
+  <data name="S_BookFont" xml:space="preserve">
+    <value>خط الكتاب</value>
+    <comment>Book's font</comment>
+  </data>
+  <data name="S_BookmarkAdded" xml:space="preserve">
+    <value>تمت إضافة العلامة المرجعية.</value>
+    <comment>Bookmark added.</comment>
+  </data>
+  <data name="S_BookmarkExists" xml:space="preserve">
+    <value>العلامة المرجعية موجودة بالفعل.</value>
+    <comment>Bookmark already exists.</comment>
+  </data>
+  <data name="S_BookRmStartScreen" xml:space="preserve">
+    <value>تمت إزالة الكتاب من شاشة البداية.</value>
+    <comment>Book removed from start screen.</comment>
+  </data>
+  <data name="S_BooksAdded" xml:space="preserve">
+    <value>تمت إضافة {0} كتابًا.</value>
+    <comment>{0} book(s) added.</comment>
+  </data>
+  <data name="S_BooksAlreadyExists" xml:space="preserve">
+    <value>الكتاب موجود بالفعل.</value>
+    <comment>Book already exists.</comment>
+  </data>
+  <data name="S_BookSystemLimitError_Msg" xml:space="preserve">
+    <value>لا يمكن إضافة المزيد من الكتب حيث تم الوصول إلى الحد الأقصى للنظام. يُرجى النظر في إزالة ملفات الكتب التي تمت إضافتها بشكل فردي واستخدام خيار "إضافة مجلد" لإضافة الكتب بشكل جماعي.</value>
+    <comment>Cannot add more books as the system limit has been reached. Consider removing individually added book files and use 'Add Folder' option to add books in bulk.</comment>
+  </data>
+  <data name="S_BookSystemLimitError_Title" xml:space="preserve">
+    <value>تعذر إضافة الكتاب(ات)</value>
+    <comment>Unable to add book(s)</comment>
+  </data>
+  <data name="S_Cancelled" xml:space="preserve">
+    <value>تم الإلغاء</value>
+    <comment>Cancelled</comment>
+  </data>
+  <data name="S_Collapse" xml:space="preserve">
+    <value>طي</value>
+    <comment>Collapse</comment>
+  </data>
+  <data name="S_CollectionConstAll" xml:space="preserve">
+    <value>الكل</value>
+    <comment>All</comment>
+  </data>
+  <data name="S_CollectionConstBookmarks" xml:space="preserve">
+    <value>العلامات المرجعية</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="S_CollectionConstHighlights" xml:space="preserve">
+    <value>التسليطات</value>
+    <comment>Highlights</comment>
+  </data>
+  <data name="S_CollectionConstNotes" xml:space="preserve">
+    <value>الملاحظات</value>
+    <comment>Notes</comment>
+  </data>
+  <data name="S_Completed" xml:space="preserve">
+    <value>منجز</value>
+    <comment>Completed</comment>
+  </data>
+  <data name="S_Confirmation" xml:space="preserve">
+    <value>تأكيد</value>
+    <comment>Confirmation</comment>
+  </data>
+  <data name="S_CTheme1" xml:space="preserve">
+    <value>كروم العنب</value>
+    <comment>Vine Yard</comment>
+  </data>
+  <data name="S_CTheme2" xml:space="preserve">
+    <value>الجانب الداكن</value>
+    <comment>Dark Side</comment>
+  </data>
+  <data name="S_CTheme3" xml:space="preserve">
+    <value>توت العليق</value>
+    <comment>Fresh Berry</comment>
+  </data>
+  <data name="S_CTheme4" xml:space="preserve">
+    <value>برتقالي العصير</value>
+    <comment>Pulpy Orange</comment>
+  </data>
+  <data name="S_CTheme5" xml:space="preserve">
+    <value>سماء صافية</value>
+    <comment>Clear sky</comment>
+  </data>
+  <data name="S_CTheme6" xml:space="preserve">
+    <value>وميض</value>
+    <comment>Flash</comment>
+  </data>
+  <data name="S_CTheme7" xml:space="preserve">
+    <value>تركواز</value>
+    <comment>Turquoise</comment>
+  </data>
+  <data name="S_CTheme8" xml:space="preserve">
+    <value>تفاح أخضر</value>
+    <comment>Green Apple</comment>
+  </data>
+  <data name="S_CThemeMsg1" xml:space="preserve">
+    <value>تم نسخ السمة إلى الحافظة.</value>
+    <comment>Theme copied to clipboard.</comment>
+  </data>
+  <data name="S_CThemeMsg2" xml:space="preserve">
+    <value>لم يتم تحديد السمة.</value>
+    <comment>Theme not selected.</comment>
+  </data>
+  <data name="S_CurrentChapter" xml:space="preserve">
+    <value>الفصل الحالي</value>
+    <comment>Current chapter</comment>
+  </data>
+  <data name="S_DateAdded.Text" xml:space="preserve">
+    <value>تاريخ الإضافة : </value>
+    <comment>Date added : </comment>
+  </data>
+  <data name="S_Description.Text" xml:space="preserve">
+    <value>الوصف : </value>
+    <comment>Description : </comment>
+  </data>
+  <data name="S_DockLeft" xml:space="preserve">
+    <value>انحياز لليسار</value>
+    <comment>Dock left</comment>
+  </data>
+  <data name="S_DockRight" xml:space="preserve">
+    <value>انحياز لليمين</value>
+    <comment>Dock right</comment>
+  </data>
+  <data name="S_DownloadBook" xml:space="preserve">
+    <value>تنزيل الكتاب</value>
+    <comment>Download book</comment>
+  </data>
+  <data name="S_DownloadBook_Msg" xml:space="preserve">
+    <value>هل ترغب في تنزيل هذا الكتاب وإضافته إلى المكتبة؟</value>
+    <comment>Do you want to download this book and add to library?</comment>
+  </data>
+  <data name="S_Downloading" xml:space="preserve">
+    <value>جار التنزيل</value>
+    <comment>Downloading</comment>
+  </data>
+  <data name="S_EntireBook" xml:space="preserve">
+    <value>الكتاب بأكمله</value>
+    <comment>Entire book</comment>
+  </data>
+  <data name="S_ErrMsg1" xml:space="preserve">
+    <value>لا يحظى Aquile Reader بأذونات للوصول إلى ملف الكتاب - {0}.انقر فوق "منح الإذن" وحدد نفس ملف الكتاب في نافذة اختيار الملف.</value>
+    <comment>Aquile Reader does not have permission to access the book file - {0}.Click 'Grant Permission' and select the same book file in the file picker window.</comment>
+  </data>
+  <data name="S_ErrMsg1_btn" xml:space="preserve">
+    <value>منح الإذن</value>
+    <comment>Grant Permission</comment>
+  </data>
+  <data name="S_ErrMsg2" xml:space="preserve">
+    <value>الملف الذي تحاول فتحه لم يعد موجودًا.يرجى التحقق والمحاولة مرة أخرى.</value>
+    <comment>The file you are trying to open, no longer exists.Please check and try again.</comment>
+  </data>
+  <data name="S_ErrMsg3" xml:space="preserve">
+    <value>قد يكون الملف قيد الاستخدام أو مؤمن أو أن لديك أذونات غير كافية.</value>
+    <comment>The file may be in use, locked, or you don't have sufficient permissions.</comment>
+  </data>
+  <data name="S_ErrMsg4" xml:space="preserve">
+    <value>الملف المحدد يختلف عن ملف الكتاب الأصلي - {0}.</value>
+    <comment>Selected File is different from the original book file - {0}.</comment>
+  </data>
+  <data name="S_ErrMsg6" xml:space="preserve">
+    <value>إذا استمرت المشكلة، يُرجى الاتصال بالدعم.</value>
+    <comment>If the problem persists please contact support.</comment>
+  </data>
+  <data name="S_ErrTitle1" xml:space="preserve">
+    <value>تعذر الوصول إلى الكتاب!</value>
+    <comment>Unable to access the book!</comment>
+  </data>
+  <data name="S_ErrTitle2" xml:space="preserve">
+    <value>الملف غير موجود!</value>
+    <comment>File does not exist!</comment>
+  </data>
+  <data name="S_ErrTitle3" xml:space="preserve">
+    <value>لا يمكن فتح الملف!</value>
+    <comment>Can't open file!</comment>
+  </data>
+  <data name="S_ErrTitle4" xml:space="preserve">
+    <value>ليس نفس الملف!</value>
+    <comment>Not the same file!</comment>
+  </data>
+  <data name="S_ErrTitle5" xml:space="preserve">
+    <value>حدث خطأ غير متوقع!</value>
+    <comment>Unexpected error occurred!</comment>
+  </data>
+  <data name="S_ErrTitle6" xml:space="preserve">
+    <value>تعذر فتح الملف</value>
+    <comment>Couldn't open file</comment>
+  </data>
+  <data name="S_Expand" xml:space="preserve">
+    <value>توسيع</value>
+    <comment>Expand</comment>
+  </data>
+  <data name="S_Failed" xml:space="preserve">
+    <value>فشل</value>
+    <comment>Failed</comment>
+  </data>
+  <data name="S_FileCountLimitBtn1" xml:space="preserve">
+    <value>إلغاء واستخدام 'إضافة مجلد'</value>
+    <comment>Abort and use 'Add Folder'</comment>
+  </data>
+  <data name="S_FileCountLimitBtn2" xml:space="preserve">
+    <value>متابعة إضافة الكتب</value>
+    <comment>Continue to add books</comment>
+  </data>
+  <data name="S_FileCountLimitMsg" xml:space="preserve">
+    <value>إضافة عدد كبير من ملفات الكتب الفردية يمكن أن يصل إلى الحد الأقصى للنظام، مما يمنع إضافة كتاب جديد.استخدم خيار 'إضافة مجلد' لإضافة ملفات الكتب بالجملة.</value>
+    <comment>Adding large number of individual book files can hit system limit, thus preventing new book from being added.Use 'Add Folder' option to add book files in bulk.</comment>
+  </data>
+  <data name="S_FileCountLimitTitle" xml:space="preserve">
+    <value>تحذير!</value>
+    <comment>Warning!</comment>
+  </data>
+  <data name="S_FileNotSaved" xml:space="preserve">
+    <value>تعذر حفظ {0}.</value>
+    <comment>{0} could not be saved.</comment>
+  </data>
+  <data name="S_FilePath.Text" xml:space="preserve">
+    <value>مسار الملف : </value>
+    <comment>File path : </comment>
+  </data>
+  <data name="S_FileSaved" xml:space="preserve">
+    <value>تم حفظ {0}.</value>
+    <comment>{0} was saved.</comment>
+  </data>
+  <data name="S_Genre.Text" xml:space="preserve">
+    <value>النوع : </value>
+    <comment>Genre : </comment>
+  </data>
+  <data name="S_GoPrem" xml:space="preserve">
+    <value>الانتقال إلى العضوية المميزة</value>
+    <comment>Go Premium</comment>
+  </data>
+  <data name="S_HighNotes_Msg1" xml:space="preserve">
+    <value>يجب ألا يشمل المحتوى المحدد الفراغات البيضاء من الرأس أو التذييل. يرجى إعادة التحديد.</value>
+    <comment>Selected content should not include the white spaces from header or footer. Please re-select.</comment>
+  </data>
+  <data name="S_HighNotesMsg1" xml:space="preserve">
+    <value>لا يمكن إضافة تسليطات بينما نافذة البحث مفتوحة.</value>
+    <comment>Highlight cannot be added while search pane is open.</comment>
+  </data>
+  <data name="S_HighNotesMsg2" xml:space="preserve">
+    <value>لا يمكن تداخل النص المحدد للتسليطات والملاحظة.</value>
+    <comment>Selected text for Highlight and Note cannot overlap.</comment>
+  </data>
+  <data name="S_HighNotesMsg3" xml:space="preserve">
+    <value>يجب تحديد حرف واحد على الأقل للتسليط.</value>
+    <comment>Minimum 1 character must be selected for highlight.</comment>
+  </data>
+  <data name="S_HighNotesMsg4" xml:space="preserve">
+    <value>يمكن تحديد ما يصل إلى 4000 حرف للتسليط.</value>
+    <comment>Maximum 4000 characters can be selected for highlight.</comment>
+  </data>
+  <data name="S_HighNotesMsg5" xml:space="preserve">
+    <value>لا يمكن إضافة ملاحظة بينما نافذة البحث مفتوحة.</value>
+    <comment>Note cannot be added while search pane is open.</comment>
+  </data>
+  <data name="S_HighNotesMsg6" xml:space="preserve">
+    <value>لا يمكن تداخل النص المحدد للملاحظة والتسليط.</value>
+    <comment>Selected text for Note and Highlight cannot overlap.</comment>
+  </data>
+  <data name="S_HighNotesMsg7" xml:space="preserve">
+    <value>يجب تحديد حرف واحد على الأقل لإضافة ملاحظة.</value>
+    <comment>Minimum 1 character must be selected for adding note.</comment>
+  </data>
+  <data name="S_HighNotesMsg8" xml:space="preserve">
+    <value>يمكن تحديد ما يصل إلى 4000 حرف لإضافة ملاحظة.</value>
+    <comment>Maximum 4000 characters can be selected for adding note.</comment>
+  </data>
+  <data name="S_HighNotesMsg9" xml:space="preserve">
+    <value>نص الملاحظة لا يمكن أن يكون فارغًا.</value>
+    <comment>Note text cannot be empty.</comment>
+  </data>
+  <data name="S_InterstitialAds" xml:space="preserve">
+    <value>إعلانات متقطعة</value>
+    <comment>Interstitial Ads</comment>
+  </data>
+  <data name="S_InvalidUrl" xml:space="preserve">
+    <value>رابط غير صالح</value>
+    <comment>Invalid URL</comment>
+  </data>
+  <data name="S_Language.Text" xml:space="preserve">
+    <value>اللغة : </value>
+    <comment>Language : </comment>
+  </data>
+  <data name="S_LastRead.Text" xml:space="preserve">
+    <value>آخر قراءة : </value>
+    <comment>Last read : </comment>
+  </data>
+  <data name="S_LibConstAllBooks" xml:space="preserve">
+    <value>جميع الكتب</value>
+    <comment>All Books</comment>
+  </data>
+  <data name="S_LibConstCompleted" xml:space="preserve">
+    <value>تمت</value>
+    <comment>Completed</comment>
+  </data>
+  <data name="S_LibConstDownloads" xml:space="preserve">
+    <value>التنزيلات</value>
+    <comment>Downloads</comment>
+  </data>
+  <data name="S_LibConstFav" xml:space="preserve">
+    <value>المفضلة</value>
+    <comment>Favourites</comment>
+  </data>
+  <data name="S_LibConstNotStarted" xml:space="preserve">
+    <value>لم تبدأ</value>
+    <comment>Not Started</comment>
+  </data>
+  <data name="S_LibConstReading" xml:space="preserve">
+    <value>قيد القراءة</value>
+    <comment>Reading</comment>
+  </data>
+  <data name="S_LineCount.Text" xml:space="preserve">
+    <value>عدد الأسطر : </value>
+    <comment>Line count : </comment>
+  </data>
+  <data name="S_matchesFound" xml:space="preserve">
+    <value>تم العثور على {0} تطابقات</value>
+    <comment>{0} matches found</comment>
+  </data>
+  <data name="S_MoreFonts" xml:space="preserve">
+    <value>احصل على المزيد من الخطوط!!</value>
+    <comment>Get more fonts!!</comment>
+  </data>
+  <data name="S_No" xml:space="preserve">
+    <value>لا</value>
+    <comment>No</comment>
+  </data>
+  <data name="S_None" xml:space="preserve">
+    <value>(لا شيء)</value>
+    <comment>(None)</comment>
+  </data>
+  <data name="S_NotSupported" xml:space="preserve">
+    <value>غير مدعوم</value>
+    <comment>Not supported</comment>
+  </data>
+  <data name="S_NotSupported_Msg" xml:space="preserve">
+    <value>لا يتم دعم تنزيل الملفات غير النصية .epub</value>
+    <comment>Download of files other than .epub is not supported</comment>
+  </data>
+  <data name="S_OnlineBook_CompleteAdded" xml:space="preserve">
+    <value>تمت | تمت الإضافة إلى المكتبة</value>
+    <comment>Completed | Added to library</comment>
+  </data>
+  <data name="S_OnlineBook_CompleteExists" xml:space="preserve">
+    <value>تمت | موجود بالفعل</value>
+    <comment>Completed | Already exists</comment>
+  </data>
+  <data name="S_OnlineBook_CompleteFailAdd" xml:space="preserve">
+    <value>تمت | فشلت الإضافة إلى المكتبة</value>
+    <comment>Completed | Failed to add to library</comment>
+  </data>
+  <data name="S_PercentageRead.Text" xml:space="preserve">
+    <value>نسبة القراءة : </value>
+    <comment>Percentage read : </comment>
+  </data>
+  <data name="S_Pin" xml:space="preserve">
+    <value>تثبيت</value>
+    <comment>Pin</comment>
+  </data>
+  <data name="S_Prem_Msg1" xml:space="preserve">
+    <value>عذرًا! يبدو أنك تمتلك هذا بالفعل، لقد قمنا بتحديث سجلاتنا لعرض هذا بشكل صحيح.</value>
+    <comment>Apologies! Looks like you already own this, we have updated our records to reflect this correctly.</comment>
+  </data>
+  <data name="S_Prem_Msg2" xml:space="preserve">
+    <value>تهانينا! تمت عملية الشراء بنجاح.</value>
+    <comment>Congrats! The purchase was successful.</comment>
+  </data>
+  <data name="S_Prem_Msg3" xml:space="preserve">
+    <value>عذرًا! يبدو أن العملية تم إلغاؤها، يرجى المحاولة مرة أخرى.</value>
+    <comment>Sorry! Looks like the transaction was canceled, plz try again.</comment>
+  </data>
+  <data name="S_Prem_Msg4" xml:space="preserve">
+    <value>عذرًا! يبدو أن الشراء فشل بسبب مشكلات في الشبكة، يرجى المحاولة مرة أخرى.</value>
+    <comment>Sorry! Looks like the purchase failed due to network issues, plz try again.</comment>
+  </data>
+  <data name="S_Prem_Msg5" xml:space="preserve">
+    <value>عذرًا! يبدو أن الشراء فشل بسبب خطأ في الخادم، يرجى المحاولة مرة أخرى.</value>
+    <comment>Sorry! Looks like the purchase failed due to some server error, plz try again.</comment>
+  </data>
+  <data name="S_Prem_Msg6" xml:space="preserve">
+    <value>عذرًا! حدث خطأ ما أثناء عملية الشراء، يرجى المحاولة مرة أخرى.</value>
+    <comment>Sorry! Something went wrong during the purchase, please try again.</comment>
+  </data>
+  <data name="S_PremAnnual" xml:space="preserve">
+    <value>الإصدار المميز [سنوي]</value>
+    <comment>Premium [Annual]</comment>
+  </data>
+  <data name="S_PremFree" xml:space="preserve">
+    <value>مجاني</value>
+    <comment>Free</comment>
+  </data>
+  <data name="S_PremiumBooksCount" xml:space="preserve">
+    <value>الإصدار المجاني من التطبيق يدعم فقط {0} كتب في المكتبة في وقت واحد.لإضافة المزيد، يرجى الترقية إلى Aquile Reader الإصدار المميز.</value>
+    <comment>Free version of the app supports only {0} books in the library at a time. To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumCollection" xml:space="preserve">
+    <value>الإصدار المجاني من التطبيق يدعم مجموعة إجمالية تبلغ {0} عنصر في الأقسام.لإنشاء المزيد، يرجى الترقية إلى Aquile Reader الإصدار المميز.</value>
+    <comment>Free version of the app supports total of {0} collections items. To create more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumColorThemes" xml:space="preserve">
+    <value>الإصدار المجاني من التطبيق يدعم فقط {0} سمات مخصصة.لإنشاء المزيد، يرجى الترقية إلى Aquile Reader الإصدار المميز.</value>
+    <comment>Free version of the app supports only {0} custom themes. To create more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumFonts" xml:space="preserve">
+    <value>قم بالترقية إلى الإصدار المميز للحصول على إمكانية اوصول إلى جميع الخطوط المثبتة في النظام.</value>
+    <comment>Upgrade to Premium and get access to all fonts installed on the system.</comment>
+  </data>
+  <data name="S_PremiumPin" xml:space="preserve">
+    <value>الإصدار المجاني من التطبيق يدعم فقط {0} كتب مثبتة على الشاشة الرئيسية في وقت واحد.لإضافة المزيد، يرجى الترقية إلى Aquile Reader الإصدار المميز.</value>
+    <comment>Free version of the app supports only {0} books pinned to start screen at a time. To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumRAHighlight" xml:space="preserve">
+    <value>ألوان التمييز المخصصة للقراءة الصوتية متوفرة فقط في Aquile Reader الإصدار المميز. قم بالترقية إلى الإصدار المميز واستمتع بجميع الميزات.</value>
+    <comment>Custom ReadAloud highlight colors are only available in Aquile Reader Premium.Upgrade to Premium and enjoy all the features.</comment>
+  </data>
+  <data name="S_PremiumSyncFolders" xml:space="preserve">
+    <value>الإصدار المجاني من التطبيق يدعم فقط {0} مجلدًا للمزامنة.لإضافة المزيد، يرجى الترقية إلى Aquile Reader الإصدار المميز.</value>
+    <comment>Free version of the app supports only {0} sync folder(s). To create more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumThemes" xml:space="preserve">
+    <value>السمات المخصصة للصفحة متوفرة فقط في Aquile Reader الإصدار المميز. قم بالترقية إلى الإصدار المميز واستمتع بجميع الميزات.</value>
+    <comment>Custom Page Themes are only available in Aquile Reader Premium.Upgrade to Premium and enjoy all the features.</comment>
+  </data>
+  <data name="S_PremLife" xml:space="preserve">
+    <value>الإصدار المميز [مدى الحياة]</value>
+    <comment>Premium [Lifetime]</comment>
+  </data>
+  <data name="S_PremOff1" xml:space="preserve">
+    <value>25% خصم</value>
+    <comment>25% off</comment>
+  </data>
+  <data name="S_PremOff2" xml:space="preserve">
+    <value>30% خصم</value>
+    <comment>30% off</comment>
+  </data>
+  <data name="S_PremQuarterly" xml:space="preserve">
+    <value>الإصدار المميز [ربع سنوي]</value>
+    <comment>Premium [Quarterly]</comment>
+  </data>
+  <data name="S_PremTrial" xml:space="preserve">
+    <value>الإصدار المميز [تجريبي]</value>
+    <comment>Premium [Trial]</comment>
+  </data>
+  <data name="S_PremUpg" xml:space="preserve">
+    <value>ترقية إلى الإصدار المميز</value>
+    <comment>Premium upgrade</comment>
+  </data>
+  <data name="S_Publisher.Text" xml:space="preserve">
+    <value>الناشر : </value>
+    <comment>Publisher : </comment>
+  </data>
+  <data name="S_ReadAloud_Err1" xml:space="preserve">
+    <value>خطأ في تكوين النص إلى صوت</value>
+    <comment>Text-to-Speech configuration error</comment>
+  </data>
+  <data name="S_ReadAloud_ErrMsg1" xml:space="preserve">
+    <value>لم يتم تكوين نظام النص إلى صوت بشكل صحيح على هذا الجهاز، يرجى اتباع الرابط 'كيفية الإصلاح' لتكوينه بشكل صحيح. إذا استمرت المشكلة، يرجى الاتصال بالدعم.</value>
+    <comment>Text-to-Speech is not configured correctly on this device, please follow the 'How to fix' link to configure it correctly. If the issue persists, contact support.</comment>
+  </data>
+  <data name="S_ReadAloud_ErrMsg1_btn" xml:space="preserve">
+    <value>كيفية الإصلاح</value>
+    <comment>How to fix</comment>
+  </data>
+  <data name="S_ReadAloudMsg1" xml:space="preserve">
+    <value>غير مسموح بتغيير الفصل في وضع القراءة الصوتية.</value>
+    <comment>Chapter change is not allowed in ReadAloud mode.</comment>
+  </data>
+  <data name="S_ReadAloudMsg2" xml:space="preserve">
+    <value>تم الكشف عن أحرف غير قابلة للقراءة. تخطي.</value>
+    <comment>Unreadable characters detected. Skipping.</comment>
+  </data>
+  <data name="S_ReadAloudMsg3" xml:space="preserve">
+    <value>الفصل التالي.</value>
+    <comment>Next chapter.</comment>
+  </data>
+  <data name="S_ReadAloudMsg4" xml:space="preserve">
+    <value>حدث خطأ غير متوقع أثناء القراءة.</value>
+    <comment>Unexpected error occurred while reading.</comment>
+  </data>
+  <data name="S_Restore" xml:space="preserve">
+    <value>استعادة</value>
+    <comment>Restore</comment>
+  </data>
+  <data name="S_RmSyncFolderMsg1" xml:space="preserve">
+    <value>{0} كتاب(ات) تمت إزالتها.</value>
+    <comment>{0} book(s) removed.</comment>
+  </data>
+  <data name="S_Save" xml:space="preserve">
+    <value>حفظ</value>
+    <comment>Save</comment>
+  </data>
+  <data name="S_SelectBackupFile" xml:space="preserve">
+    <value>تحديد ملف النسخ الاحتياطي</value>
+    <comment>Select backup file</comment>
+  </data>
+  <data name="S_SelectFolder" xml:space="preserve">
+    <value>تحديد مجلد</value>
+    <comment>Select folder</comment>
+  </data>
+  <data name="S_Series.Text" xml:space="preserve">
+    <value>السلسلة : </value>
+    <comment>Series : </comment>
+  </data>
+  <data name="S_ShareCollection" xml:space="preserve">
+    <value>مشاركة المجموعات</value>
+    <comment>Share collections</comment>
+  </data>
+  <data name="S_SomethingWentWrong" xml:space="preserve">
+    <value>حدث خطأ!</value>
+    <comment>Something went wrong!</comment>
+  </data>
+  <data name="S_Sync_Now" xml:space="preserve">
+    <value>مزامنة الآن</value>
+    <comment>Sync now</comment>
+  </data>
+  <data name="S_Sync_syncing" xml:space="preserve">
+    <value>جارٍ المزامنة...</value>
+    <comment>Syncing ...</comment>
+  </data>
+  <data name="S_SyncFolder" xml:space="preserve">
+    <value>مجلد المزامنة</value>
+    <comment>Sync Folder</comment>
+  </data>
+  <data name="S_TextCopied" xml:space="preserve">
+    <value>تم نسخ النص المحدد إلى الحافظة.</value>
+    <comment>Selected text copied to clipboard.</comment>
+  </data>
+  <data name="S_TOCMsg1" xml:space="preserve">
+    <value>جاري تحميل جدول المحتويات...</value>
+    <comment>Table of Contents is still loading...</comment>
+  </data>
+  <data name="S_Understand" xml:space="preserve">
+    <value>فهمت</value>
+    <comment>I understand</comment>
+  </data>
+  <data name="S_UnPin" xml:space="preserve">
+    <value>إلغاء التثبيت</value>
+    <comment>Un-Pin</comment>
+  </data>
+  <data name="S_Update" xml:space="preserve">
+    <value>تحديث</value>
+    <comment>Update</comment>
+  </data>
+  <data name="S_UpdateFolder" xml:space="preserve">
+    <value>تحديث المجلد</value>
+    <comment>Update folder</comment>
+  </data>
+  <data name="S_UrlNotExist" xml:space="preserve">
+    <value>الرابط غير موجود!</value>
+    <comment>Url does not exist!</comment>
+  </data>
+  <data name="S_WordCount.Text" xml:space="preserve">
+    <value>عدد الكلمات: </value>
+    <comment>Word count: </comment>
+  </data>
+  <data name="S_WrongMsg1" xml:space="preserve">
+    <value>عذرًا، يبدو أن هناك خطأ ما.حاول فتح الملف مرة أخرى. إذا استمرت المشكلة، يرجى الاتصال بالدعم.</value>
+    <comment>Sorry, but looks like something just went wrong.Try opening the file again. If the problem persists please contact support.</comment>
+  </data>
+  <data name="S_Yes" xml:space="preserve">
+    <value>نعم</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="T_About_copyright.Text" xml:space="preserve">
+    <value>© Optimilia Studios. All Rights Reserved.</value>
+    <comment>© Optimilia Studios. All Rights Reserved.</comment>
+  </data>
+  <data name="T_AddBook.Text" xml:space="preserve">
+    <value>إضافة كتاب للبدء</value>
+    <comment>Add a book to get started</comment>
+  </data>
+  <data name="T_AddFolderMsg1.Text" xml:space="preserve">
+    <value>مسح وإضافة الكتب</value>
+    <comment>Scanning and adding books</comment>
+  </data>
+  <data name="T_AddFolderRes1.Text" xml:space="preserve">
+    <value>الكتب الجديدة المضافة: </value>
+    <comment>New books added: </comment>
+  </data>
+  <data name="T_AddFolderRes2.Text" xml:space="preserve">
+    <value>الكتب الموجودة بالفعل: </value>
+    <comment>Already existing books: </comment>
+  </data>
+  <data name="T_AddFolderRes3.Text" xml:space="preserve">
+    <value>فشلت عملية إضافة الكتب: </value>
+    <comment>Failed to add books: </comment>
+  </data>
+  <data name="T_AddSite.Text" xml:space="preserve">
+    <value>إضافة موقع</value>
+    <comment>Add site</comment>
+  </data>
+  <data name="T_AddTheme.Text" xml:space="preserve">
+    <value>إضافة سمة</value>
+    <comment>Add theme</comment>
+  </data>
+  <data name="T_AquilePremium.Text" xml:space="preserve">
+    <value>Aquile Reader الإصدار المميز</value>
+    <comment>Aquile Reader Premium</comment>
+  </data>
+  <data name="T_Backup_Beta.Text" xml:space="preserve">
+    <value>بيتا</value>
+    <comment>Beta</comment>
+  </data>
+  <data name="T_Backup_Bkp.Text" xml:space="preserve">
+    <value>إنشاء نسخة احتياطية باستخدام التكوينات المحددة.</value>
+    <comment>Create a backup copy with the selected configurations.</comment>
+  </data>
+  <data name="T_Backup_Heading.Text" xml:space="preserve">
+    <value>النسخ الاحتياطي والاستعادة</value>
+    <comment>Backup &amp; Restore</comment>
+  </data>
+  <data name="T_Backup_Restore.Text" xml:space="preserve">
+    <value>استعادة التكوينات المحددة من ملف النسخ الاحتياطي.ملاحظة: سيتم استبدال التكوينات الحالية، على سبيل المثال، قد تفقد الملاحظات الجديدة، التظليلات إلخ إذا لم تكن متضمنة في نسخة النسخ الاحتياطي.</value>
+    <comment>Restore the selected configurations from the backup file.Note: This will override current configurations, e.g. new notes, highlights etc can be lost if they are not contained in the backup copy.</comment>
+  </data>
+  <data name="T_BookmarksEmpty.Text" xml:space="preserve">
+    <value>ابحث عن علاماتك هنا.</value>
+    <comment>Find your bookmarks here.</comment>
+  </data>
+  <data name="T_ChangeLog.Text" xml:space="preserve">
+    <value>سجل التغييرات</value>
+    <comment>Change log</comment>
+  </data>
+  <data name="T_Credits1.Text" xml:space="preserve">
+    <value>الاعتمادات</value>
+    <comment>Credits</comment>
+  </data>
+  <data name="T_CurrentPlan.Text" xml:space="preserve">
+    <value>الخطة الحالية:</value>
+    <comment>Current Plan:</comment>
+  </data>
+  <data name="T_Custom1" xml:space="preserve">
+    <value>1. حدد لون الخلفية</value>
+    <comment>1. Select background color</comment>
+  </data>
+  <data name="T_Custom2" xml:space="preserve">
+    <value>2. حدد لون النص الأمامي</value>
+    <comment>2. Select text foreground color</comment>
+  </data>
+  <data name="T_Custom3" xml:space="preserve">
+    <value>3. حدد وضع اللون</value>
+    <comment>3. Select color mode</comment>
+  </data>
+  <data name="T_DictWebSrch1.Text" xml:space="preserve">
+    <value>ابحث عن هذا</value>
+    <comment>Look this up</comment>
+  </data>
+  <data name="T_DictWebSrch2.Text" xml:space="preserve">
+    <value>على الإنترنت</value>
+    <comment>on the web</comment>
+  </data>
+  <data name="T_Downloads1.Text" xml:space="preserve">
+    <value>ابحث عن تنزيلاتك هنا.</value>
+    <comment>Find your downloads here.</comment>
+  </data>
+  <data name="T_Exp.Text" xml:space="preserve">
+    <value>تجريبي</value>
+    <comment>Experimental</comment>
+  </data>
+  <data name="T_ExpDetails.Text" xml:space="preserve">
+    <value>هذه الميزات لا تزال قيد التطوير وقد تكون غير مستقرة قليلاً أو بها بعض الأخطاء. يمكنك تجربتها ومشاركة ملاحظاتك معنا.</value>
+    <comment>These features are still in development and might be little unstable or buggy. You can try them out and share feedback with us.</comment>
+  </data>
+  <data name="T_ExpDetailsLink.Text" xml:space="preserve">
+    <value>المزيد من التفاصيل والمشاكل المعروفة</value>
+    <comment>More details and known issues</comment>
+  </data>
+  <data name="T_FavBooks.Text" xml:space="preserve">
+    <value>الكتب المفضلة</value>
+    <comment>Favourite Books</comment>
+  </data>
+  <data name="T_FavEmptyMsg.Text" xml:space="preserve">
+    <value>ستظهر كتبك المفضلة هنا</value>
+    <comment>Your favourite books would appear here</comment>
+  </data>
+  <data name="T_FontStyle.Text" xml:space="preserve">
+    <value>نمط الخط</value>
+    <comment>Font style</comment>
+  </data>
+  <data name="t_For.Text" xml:space="preserve">
+    <value>لـ</value>
+    <comment>for</comment>
+  </data>
+  <data name="T_GeneralSettings.Text" xml:space="preserve">
+    <value>الإعدادات العامة</value>
+    <comment>General Settings</comment>
+  </data>
+  <data name="T_HighEdit1.Text" xml:space="preserve">
+    <value>حدد لون تمييز النص</value>
+    <comment>Select text highlight color</comment>
+  </data>
+  <data name="T_HighlightColor.Text" xml:space="preserve">
+    <value>لون التمييز</value>
+    <comment>Highlight color</comment>
+  </data>
+  <data name="T_HighNotesEmpty.Text" xml:space="preserve">
+    <value>ابحث عن ملاحظاتك وتمييزاتك هنا.</value>
+    <comment>Find your notes and highlights here.</comment>
+  </data>
+  <data name="T_Initializing.Text" xml:space="preserve">
+    <value>جاري التهيئة</value>
+    <comment>Initializing</comment>
+  </data>
+  <data name="T_Language.Text" xml:space="preserve">
+    <value>اللغة</value>
+    <comment>Language</comment>
+  </data>
+  <data name="T_LineSpace.Text" xml:space="preserve">
+    <value>تباعد الأسطر</value>
+    <comment>Line space</comment>
+  </data>
+  <data name="T_NoCollections.Text" xml:space="preserve">
+    <value>لا تتوفر مجموعات</value>
+    <comment>No Collections available</comment>
+  </data>
+  <data name="T_NoDefFound.Text" xml:space="preserve">
+    <value>لم يتم العثور على تعريف</value>
+    <comment>No definition found</comment>
+  </data>
+  <data name="T_NoMatchesFound.Text" xml:space="preserve">
+    <value>لم يتم العثور على تطابقات</value>
+    <comment>No matches found</comment>
+  </data>
+  <data name="T_NoteText.PlaceholderText" xml:space="preserve">
+    <value>أدخل نص الملاحظة</value>
+    <comment>Enter note text</comment>
+  </data>
+  <data name="T_OBPlaceHolder.Text" xml:space="preserve">
+    <value>حدد الموقع لبدء تنزيل الكتب الإلكترونية</value>
+    <comment>Select the site to start downloading eBooks</comment>
+  </data>
+  <data name="T_OnlineBooksWarn1" xml:space="preserve">
+    <value>معلومات مهمة</value>
+    <comment>Important Information</comment>
+  </data>
+  <data name="T_OnlineBooksWarn2" xml:space="preserve">
+    <value>نحن نحفظ ملفات تعريف الارتباط المستخدمة من قبل مواقع الويب للحفاظ على استمرارية تسجيل الدخول الخاص بك وتوفير تجربة أفضل.</value>
+    <comment>We save the cookies used by websites to maintain continuity of your logins and provide better experience.</comment>
+  </data>
+  <data name="T_OnlineBooksWarn3" xml:space="preserve">
+    <value>لا نوصي بإجراء عمليات شراء / دفع من هنا، يرجى استخدام متصفحك العادي لنفس الغرض.</value>
+    <comment>We don't recommend making purchases/payments from here, please use your regular browser for the same.</comment>
+  </data>
+  <data name="T_OpeningBook.Text" xml:space="preserve">
+    <value>فتح الكتاب</value>
+    <comment>Opening Book</comment>
+  </data>
+  <data name="T_OpenLibrary.Text" xml:space="preserve">
+    <value>فتح المكتبة</value>
+    <comment>Open Library</comment>
+  </data>
+  <data name="T_PageLayout.Text" xml:space="preserve">
+    <value>تخطيط الصفحة</value>
+    <comment>Page layout</comment>
+  </data>
+  <data name="T_PageTheme.Text" xml:space="preserve">
+    <value>نماذج الصفحة</value>
+    <comment>Page themes</comment>
+  </data>
+  <data name="T_ParagraphSpace.Text" xml:space="preserve">
+    <value>تباعد الفقرات</value>
+    <comment>Paragraph space</comment>
+  </data>
+  <data name="T_Personalization.Text" xml:space="preserve">
+    <value>التخصيص</value>
+    <comment>Personalization</comment>
+  </data>
+  <data name="T_Processing.Text" xml:space="preserve">
+    <value>جار المعالجة</value>
+    <comment>Processing</comment>
+  </data>
+  <data name="T_RaPremMsg.Text" xml:space="preserve">
+    <value>تحكمات الصوت TTS (نص إلى كلام) التي تشمل سرعة القراءة ونبرة الصوت ومستوى الصوت متاحة فقط في الإصدار المتميز من التطبيق.</value>
+    <comment>TTS (Text-to-Speech) audio controls which include reading speed, audio pitch and volume are only available in premium version of the app.</comment>
+  </data>
+  <data name="T_ReaderSettings.Text" xml:space="preserve">
+    <value>إعدادات القارئ</value>
+    <comment>Reader Settings</comment>
+  </data>
+  <data name="T_RecentReads.Text" xml:space="preserve">
+    <value>القراءات الأخيرة</value>
+    <comment>Recent Reads</comment>
+  </data>
+  <data name="T_RmSyncFolder.Text" xml:space="preserve">
+    <value>إزالة المجلد المتزامن</value>
+    <comment>Remove Sync Folder</comment>
+  </data>
+  <data name="T_RmSyncFolderConf.Text" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد إزالة هذا المجلد المتزامن؟</value>
+    <comment>Are you sure you want to remove this synced folder?</comment>
+  </data>
+  <data name="T_RmSyncFolderMsg1.Text" xml:space="preserve">
+    <value>جاري إزالة الكتب</value>
+    <comment>Removing books</comment>
+  </data>
+  <data name="T_SBInput.PlaceholderText" xml:space="preserve">
+    <value>البحث عن ...</value>
+    <comment>Find ...</comment>
+  </data>
+  <data name="T_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>البحث حسب عنوان الكتاب أو اسم المؤلف ...</value>
+    <comment>Search by title or author name ...</comment>
+  </data>
+  <data name="T_Searching.Text" xml:space="preserve">
+    <value>البحث</value>
+    <comment>Searching</comment>
+  </data>
+  <data name="T_SeeMore.Text" xml:space="preserve">
+    <value>رؤية المزيد</value>
+    <comment>See more</comment>
+  </data>
+  <data name="T_SelectFolder.Text" xml:space="preserve">
+    <value>تحديد المجلد</value>
+    <comment>Select folder</comment>
+  </data>
+  <data name="T_Settings.Text" xml:space="preserve">
+    <value>الإعدادات</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="T_SiteUrl.Text" xml:space="preserve">
+    <value>عنوان الموقع : </value>
+    <comment>Site url : </comment>
+  </data>
+  <data name="T_SomeWentWrong.Text" xml:space="preserve">
+    <value>حدث خطأ ما، يرجى المحاولة مرة أخرى.</value>
+    <comment>Something went wrong, please try again.</comment>
+  </data>
+  <data name="T_SpeechSpeed.Text" xml:space="preserve">
+    <value>سرعة الكلام</value>
+    <comment>Speech speed</comment>
+  </data>
+  <data name="T_Statistics.Text" xml:space="preserve">
+    <value>الإحصائيات</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="T_Sync_AddFolder.Text" xml:space="preserve">
+    <value>إضافة مجلد مزامنة</value>
+    <comment>Add sync folder</comment>
+  </data>
+  <data name="T_Sync_BookCount.Text" xml:space="preserve">
+    <value>عدد الكتب : </value>
+    <comment>Book count : </comment>
+  </data>
+  <data name="T_Sync_msg1.Text" xml:space="preserve">
+    <value>توفر هذه الخاصية وسيلة سهلة للحفاظ على مكتبة Aquile Reader ومجموعة الكتب المحلية الخاصة بك متزامنة.</value>
+    <comment>This provides an easy way to keep the Aquile Reader library and your local book collection in sync.</comment>
+  </data>
+  <data name="T_Sync_msg2.Text" xml:space="preserve">
+    <value>يزامن Aquile Reader عند بدء التشغيل الكتب من 'مجلدات المزامنة' ويضيف / يزيل الكتب تلقائيًا من مكتبة التطبيق.</value>
+    <comment>Aquile Reader on app start-up syncs books from 'Sync Folders' and automatically add/remove books from the app library.</comment>
+  </data>
+  <data name="T_Sync_SyncFolders.Text" xml:space="preserve">
+    <value>مجلدات المزامنة</value>
+    <comment>Sync Folders</comment>
+  </data>
+  <data name="T_TextAlignment.Text" xml:space="preserve">
+    <value>محاذاة النص</value>
+    <comment>Text alignment</comment>
+  </data>
+  <data name="T_TextSize.Text" xml:space="preserve">
+    <value>حجم النص</value>
+    <comment>Text size</comment>
+  </data>
+  <data name="T_TextSizeDecrease.Text" xml:space="preserve">
+    <value>أقل</value>
+    <comment>A-</comment>
+  </data>
+  <data name="T_TextSizeDecrease.ToolTipService.ToolTip" xml:space="preserve">
+    <value>تقليل (Ctrl + -)</value>
+    <comment>Decrease (Ctrl + -)</comment>
+  </data>
+  <data name="T_TextSizeIncrease.Text" xml:space="preserve">
+    <value>أكبر</value>
+    <comment>A+</comment>
+  </data>
+  <data name="T_TextSizeIncrease.ToolTipService.ToolTip" xml:space="preserve">
+    <value>زيادة (Ctrl + +)</value>
+    <comment>Increase (Ctrl + +)</comment>
+  </data>
+  <data name="T_Title.Text" xml:space="preserve">
+    <value>العنوان : </value>
+    <comment>Title : </comment>
+  </data>
+  <data name="T_TocEmpty.Text" xml:space="preserve">
+    <value>لا تتوفر جداول المحتويات لهذا الكتاب.</value>
+    <comment>Table of contents is not available for this book.</comment>
+  </data>
+  <data name="T_Voice.Text" xml:space="preserve">
+    <value>الصوت</value>
+    <comment>Voice</comment>
+  </data>
+  <data name="T_VoiceGender.Text" xml:space="preserve">
+    <value>جنس الصوت</value>
+    <comment>Voice gender</comment>
+  </data>
+  <data name="T_VoicePitch.Text" xml:space="preserve">
+    <value>نبرة الصوت</value>
+    <comment>Voice pitch</comment>
+  </data>
+  <data name="T_Volume.Text" xml:space="preserve">
+    <value>مستوى الصوت</value>
+    <comment>Volume</comment>
+  </data>
+  <data name="T_WordSpace.Text" xml:space="preserve">
+    <value>تباعد الكلمات</value>
+    <comment>Word space</comment>
+  </data>
+  <data name="TC_B_DarkMode.Content" xml:space="preserve">
+    <value>الوضع الداكن</value>
+    <comment>Dark mode</comment>
+  </data>
+  <data name="TC_B_LightMode.Content" xml:space="preserve">
+    <value>الوضع الفاتح</value>
+    <comment>Light mode</comment>
+  </data>
+  <data name="TC_S_ErrMsg1" xml:space="preserve">
+    <value>يجب أن يتراوح اسم السمة بين 1-15 حرفًا.</value>
+    <comment>Theme name should be between 1-15 chars.</comment>
+  </data>
+  <data name="TC_S_SelectAccentColor" xml:space="preserve">
+    <value>2. حدد لون الواجهة</value>
+    <comment>2. Select accent color</comment>
+  </data>
+  <data name="TC_S_SelectBackColor" xml:space="preserve">
+    <value>1. حدد لون الخلفية</value>
+    <comment>1. Select background color</comment>
+  </data>
+  <data name="TC_S_SelectColorMode" xml:space="preserve">
+    <value>3. حدد وضع اللون</value>
+    <comment>3. Select color mode</comment>
+  </data>
+  <data name="TC_T_ThemeName.Text" xml:space="preserve">
+    <value>4. اسم السمة</value>
+    <comment>4. Name of theme</comment>
+  </data>
+  <data name="TM_Author.Text" xml:space="preserve">
+    <value>المؤلف</value>
+    <comment>Author</comment>
+  </data>
+  <data name="TM_FilePath.Text" xml:space="preserve">
+    <value>مسار الملف</value>
+    <comment>File Path</comment>
+  </data>
+  <data name="TM_Genre.Text" xml:space="preserve">
+    <value>النوع</value>
+    <comment>Genre</comment>
+  </data>
+  <data name="TM_ImportTime.Text" xml:space="preserve">
+    <value>وقت الاستيراد</value>
+    <comment>Import time</comment>
+  </data>
+  <data name="TM_Language.Text" xml:space="preserve">
+    <value>اللغة</value>
+    <comment>Language</comment>
+  </data>
+  <data name="TM_LastReadTime.Text" xml:space="preserve">
+    <value>وقت القراءة الأخير</value>
+    <comment>Last read time</comment>
+  </data>
+  <data name="TM_None.Text" xml:space="preserve">
+    <value>(لا شيء)</value>
+    <comment>(None)</comment>
+  </data>
+  <data name="TM_Publisher.Text" xml:space="preserve">
+    <value>الناشر</value>
+    <comment>Publisher</comment>
+  </data>
+  <data name="TM_ReadingProg.Text" xml:space="preserve">
+    <value>تقدم القراءة</value>
+    <comment>Reading progress</comment>
+  </data>
+  <data name="TM_Series.Text" xml:space="preserve">
+    <value>السلسلة</value>
+    <comment>Series</comment>
+  </data>
+  <data name="TM_SeriesNum.Text" xml:space="preserve">
+    <value>رقم السلسلة</value>
+    <comment>Series Number</comment>
+  </data>
+  <data name="TM_Title.Text" xml:space="preserve">
+    <value>العنوان</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ToggleSwitch.OffContent" xml:space="preserve">
+    <value>معطل</value>
+    <comment>Disabled</comment>
+  </data>
+  <data name="ToggleSwitch.OnContent" xml:space="preserve">
+    <value>مفعل</value>
+    <comment>Enabled</comment>
+  </data>
+  <data name="S_Previous" xml:space="preserve">
+    <value>السابق</value>
+    <comment>Previous</comment>
+  </data>
+  <data name="S_B_AppRestart" xml:space="preserve">
+    <value>تحتاج التطبيق إلى إعادة التشغيل</value>
+    <comment>App restart needed</comment>
+  </data>
+  <data name="S_B_AppRestartFailed" xml:space="preserve">
+    <value>تعذر إعادة تشغيل التطبيق، يرجى إعادة التشغيل يدويًا لتطبيق التغييرات.</value>
+    <comment>Unable to restart the app, please restart manually for changes to take effect.</comment>
+  </data>
+  <data name="S_B_LangRestartMsg" xml:space="preserve">
+    <value>يلزم إعادة تشغيل التطبيق لتغيير لغة العرض. هل ترغب في المتابعة؟</value>
+    <comment>App restart is required for display language change to take effect. Do you want to proceed?</comment>
+  </data>
+  <data name="S_B_Upgrade" xml:space="preserve">
+    <value>ترقية</value>
+    <comment>Upgrade</comment>
+  </data>
+  <data name="S_B_UpgradePremMsg" xml:space="preserve">
+    <value>قم بالترقية إلى Aquile Reader الإصدار المميز!</value>
+    <comment>Upgrade to Aquile Reader Premium!</comment>
+  </data>
+  <data name="T_HelpTranslateLink.Text" xml:space="preserve">
+    <value>ساعد في ترجمة المزيد من اللغات</value>
+    <comment>Help translate to more languages</comment>
+  </data>
+  <data name="S_Free.Text" xml:space="preserve">
+    <value>الإصدار المجاني</value>
+    <comment>Free Version</comment>
+  </data>
+  <data name="S_Free_Msg1.Text" xml:space="preserve">
+    <value>إعلانات في التطبيق</value>
+    <comment>Advertisements in the app</comment>
+  </data>
+  <data name="S_Free_Msg2.Text" xml:space="preserve">
+    <value>دعم لأقصى 40 عنصر في المجموعة</value>
+    <comment>Max 40 collection items supported</comment>
+  </data>
+  <data name="S_Free_Msg3.Text" xml:space="preserve">
+    <value>أقصى 20 كتاب في المكتبة</value>
+    <comment>Max 20 books in the library</comment>
+  </data>
+  <data name="S_Free_Msg4.Text" xml:space="preserve">
+    <value>لا يتم دعم مخططات الألوان المخصصة في القارئ</value>
+    <comment>Custom color schemes not supported in the Reader</comment>
+  </data>
+  <data name="S_Free_Msg5.Text" xml:space="preserve">
+    <value>يُسمح فقط بنمط لون تطبيق مخصص واحد</value>
+    <comment>Only 1 custom app color theme allowed</comment>
+  </data>
+  <data name="S_Free_Msg6.Text" xml:space="preserve">
+    <value>عدد محدود من الخطوط المدعومة في القارئ</value>
+    <comment>Limited number of fonts supported in the reader</comment>
+  </data>
+  <data name="S_Free_Msg7.Text" xml:space="preserve">
+    <value>دعم محدود لـ TTS (النص إلى صوت)</value>
+    <comment>Limited TTS (Text-to-Speech) support</comment>
+  </data>
+  <data name="S_Free_Msg8.Text" xml:space="preserve">
+    <value>يُسمح فقط بمجلد مزامنة واحد</value>
+    <comment>Only 1 sync folder allowed</comment>
+  </data>
+  <data name="S_Free_Msg9.Text" xml:space="preserve">
+    <value>يُسمح بتثبيت أقصى 5 كتب على شاشة البدء في وقت واحد</value>
+    <comment>Max 5 books can be pinned to Start screen at a time</comment>
+  </data>
+  <data name="S_PremPage.Text" xml:space="preserve">
+    <value>الإصدار المتميز</value>
+    <comment>Premium Version</comment>
+  </data>
+  <data name="S_PremPage_Msg1.Text" xml:space="preserve">
+    <value>تجربة قراءة خالية من الإعلانات</value>
+    <comment>Ad free reading experience</comment>
+  </data>
+  <data name="S_PremPage_Msg2.Text" xml:space="preserve">
+    <value>لا يوجد حد لمجموعات (تسليط الضوء، الملاحظات والإشارات المرجعية)</value>
+    <comment>No limit on collections (highlights, notes &amp; bookmarks)</comment>
+  </data>
+  <data name="S_PremPage_Msg3.Text" xml:space="preserve">
+    <value>لا يوجد حد لعدد الكتب في المكتبة</value>
+    <comment>No limit on number of books in the library</comment>
+  </data>
+  <data name="S_PremPage_Msg4.Text" xml:space="preserve">
+    <value>مخططات ألوان مخصصة متاحة في القارئ</value>
+    <comment>Custom color schemes available in the Reader</comment>
+  </data>
+  <data name="S_PremPage_Msg5.Text" xml:space="preserve">
+    <value>دعم لأي عدد من نماذج ألوان التطبيق المخصصة</value>
+    <comment>Support for any number of custom app color themes</comment>
+  </data>
+  <data name="S_PremPage_Msg6.Text" xml:space="preserve">
+    <value>الوصول إلى جميع الخطوط المثبتة في النظام</value>
+    <comment>Access to all fonts installed in the system</comment>
+  </data>
+  <data name="S_PremPage_Msg7.Text" xml:space="preserve">
+    <value>تجربة كاملة لـ TTS (النص إلى صوت)</value>
+    <comment>Full TTS (Text-to-Speech) experience</comment>
+  </data>
+  <data name="S_PremPage_Msg8.Text" xml:space="preserve">
+    <value>لا يوجد حد لعدد مجلدات المزامنة</value>
+    <comment>No limit on number of sync folders</comment>
+  </data>
+  <data name="S_PremPage_Msg9.Text" xml:space="preserve">
+    <value>لا يوجد حد لعدد الكتب المثبتة على شاشة البدء</value>
+    <comment>No limit on number books pinned to Start screen</comment>
+  </data>
+  <data name="Sync_AllBooks" xml:space="preserve">
+    <value>جميع الكتب</value>
+    <comment>All Books</comment>
+  </data>
+  <data name="Sync_AllBooksListMsg" xml:space="preserve">
+    <value>تتم مزامنة جميع الكتب باستثناء التالية -</value>
+    <comment>All books except following are being synced -</comment>
+  </data>
+  <data name="Sync_CloudSync_Heading.Text" xml:space="preserve">
+    <value>مزامنة السحابة</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSync.Description" xml:space="preserve">
+    <value>تبديل مزامنة الكتب والبيانات عبر الأجهزة باستخدام حساب Google Drive المرتبط.</value>
+    <comment>Toggle cross-device sync of books and metadata using the linked Google drive account.</comment>
+  </data>
+  <data name="Sync_EnableSync.Title" xml:space="preserve">
+    <value>تمكين مزامنة السحابة</value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_LinkAccount" xml:space="preserve">
+    <value>ربط حساب Google</value>
+    <comment>Link Google account</comment>
+  </data>
+  <data name="Sync_LinkBeforeSync" xml:space="preserve">
+    <value>ربط حساب Google قبل تمكين المزامنة.</value>
+    <comment>Link Google account before enabling sync.</comment>
+  </data>
+  <data name="Sync_LinkedGDrive" xml:space="preserve">
+    <value>مرتبط بـ Google Drive المتصل بـ -</value>
+    <comment>Linked to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SelectedBooks" xml:space="preserve">
+    <value>الكتب المحددة</value>
+    <comment>Selected books</comment>
+  </data>
+  <data name="Sync_SelectedBooksListMsg" xml:space="preserve">
+    <value>تتم مزامنة الكتب التالية -</value>
+    <comment>Following books are being synced -</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Description" xml:space="preserve">
+    <value>'جميع الكتب' تعني أن جميع الكتب ستتم مزامنتها بشكل افتراضي، ما عدا تلك المستثناة.  الكتب المحددة تعني أنه لن يتم مزامنة أي كتاب بشكل افتراضي، ما عدا تلك المدرجة.</value>
+    <comment>'All Books' means by default all books will be synced, except for excluded ones.'Selected Books' means by default no book will be synced, except for included ones.</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Title" xml:space="preserve">
+    <value>الكتب المراد مزامنتها</value>
+    <comment>Books to sync</comment>
+  </data>
+  <data name="Sync_SyncGDrive" xml:space="preserve">
+    <value>جاري المزامنة إلى Google Drive المتصل بـ -</value>
+    <comment>Syncing to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SyncInfo.Text" xml:space="preserve">
+    <value>تمكن مزامنة السحابة استخدام Aquile Reader على أجهزة متعددة (Android و Windows) ومزامنة البيانات عبرها لتجربة قراءة سلسة. يمكن أيضًا أن تعمل مزامنة السحابة كنسخة احتياطية من البيانات يمكن استخدامها للاستعادة بعد التثبيت الجديد.</value>
+    <comment>Cloud sync enables use of Aquile Reader on multiple devices (Android and Windows) and syncs data acorss them for seamless reading experience. Cloud sync can also serve as backup data that can be used for restore after fresh install.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Description" xml:space="preserve">
+    <value>عرض رسائل منبثقة عندما يتم تشغيل المزامنة.</value>
+    <comment>Display message pop-ups when sync is running.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Title" xml:space="preserve">
+    <value>عرض رسائل المزامنة</value>
+    <comment>Show sync working messages</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Description" xml:space="preserve">
+    <value>تحميل ملفات الكتب المصدر إلى السحابة.</value>
+    <comment>Upload source eBook files to cloud.</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Title" xml:space="preserve">
+    <value>مزامنة ملفات الكتب</value>
+    <comment>Sync eBook files</comment>
+  </data>
+  <data name="Sync_UnlinkAccount" xml:space="preserve">
+    <value>إلغاء ربط حساب Google</value>
+    <comment>Unlink Google account</comment>
+  </data>
+  <data name="S_EmptyList.Text" xml:space="preserve">
+    <value>القائمة فارغة</value>
+    <comment>List is empty</comment>
+  </data>
+  <data name="Sync_DisableSync" xml:space="preserve">
+    <value>تعطيل مزامنة السحابة</value>
+    <comment>Disable cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSyncStr" xml:space="preserve">
+    <value>تمكين مزامنة السحابة</value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_SyncNow.Text" xml:space="preserve">
+    <value>مزامنة الكتاب الآن</value>
+    <comment>Sync book now</comment>
+  </data>
+  <data name="Sync_UploadBookFile.Text" xml:space="preserve">
+    <value>تحميل ملف الكتاب</value>
+    <comment>Upload book file</comment>
+  </data>
+  <data name="S_AddFav" xml:space="preserve">
+    <value>إضافة كمفضلة</value>
+    <comment>Add Favourite</comment>
+  </data>
+  <data name="S_RemoveFav" xml:space="preserve">
+    <value>إزالة كمفضلة</value>
+    <comment>Remove Favourite</comment>
+  </data>
+  <data name="Sync_Cancelled" xml:space="preserve">
+    <value>تم إلغاء المزامنة</value>
+    <comment>Sync cancelled</comment>
+  </data>
+  <data name="Sync_Complete" xml:space="preserve">
+    <value>اكتملت المزامنة</value>
+    <comment>Sync complete</comment>
+  </data>
+  <data name="Sync_ComplteRefreshNeeded" xml:space="preserve">
+    <value>اكتملت المزامنة، تحتاج إلى تحديث الفصول</value>
+    <comment>Sync complete, chapter refresh needed</comment>
+  </data>
+  <data name="Sync_Failed" xml:space="preserve">
+    <value>فشلت المزامنة</value>
+    <comment>Sync failed</comment>
+  </data>
+  <data name="Sync_Started" xml:space="preserve">
+    <value>بدأت المزامنة</value>
+    <comment>Sync started</comment>
+  </data>
+  <data name="sync_tip.Subtitle" xml:space="preserve">
+    <value>تستخدم مزامنة السحابة Google Drive لتمكين مزامنة الأجهزة المتعددة (Android و Windows) للكتب وملفات الكتب والبيانات وموضع القراءة والتعليقات.عند بدء تشغيل التطبيق، يتم تنزيل أحدث حالة للكتب من السحابة. عند فتح وإغلاق كتاب، يتم مزامنة حالة الكتاب مرة أخرى (سواءً لأعلى أو لأسفل).توفر الخيارات للتحكم في سلوك المزامنة. باستخدام خيار 'جميع الكتب'، يتم مزامنة جميع الكتب افتراضيًا، ما لم يقوم المستخدم بتضمين بعض الكتب من المزامنة. 'الكتب المحددة' تعني أنه سيتم مزامنة الكتب التي اختارها المستخدم فقط. يمكن تضمين واستبعاد الكتب باستخدام قائمة الكتب المنسدلة.</value>
+    <comment>Cloud sync uses Google Drive to enable cross device sync (Android and Windows) of books, book files, metadata, reading position and annotations.At the app start, latest state of books are downloaded from cloud. On opening and closing a book, state of the book is synced again (both upwards and downwards).Options are provided to control the sync behaviour. With 'All books' option by default all the books are synced, unless user has excluded some books from sync. 'Selected books' means only user selected books are synced. Books can be included/excluded by using the book context menu.</comment>
+  </data>
+  <data name="sync_tip.Title" xml:space="preserve">
+    <value>مزامنة السحابة</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="S_Free_Msg10.Text" xml:space="preserve">
+    <value>يمكن مزامنة ما يصل إلى 3 كتب بالسحابة.</value>
+    <comment>Max 3 books can be synced to cloud.</comment>
+  </data>
+  <data name="S_PremiumCloudSync" xml:space="preserve">
+    <value>تدعم النسخة المجانية فقط خيار 'الكتب المحددة'. يرجى الترقية إلى Aquile Reader الإصدار المميز للاستمتاع بجميع الميزات.</value>
+    <comment>Free version supports only 'Selected Books' option.Please upgrade to Aquile Reader Premium to enjoy all features.</comment>
+  </data>
+  <data name="S_PremiumCloudSyncLimit" xml:space="preserve">
+    <value>تدعم النسخة المجانية من التطبيق فقط {0} كتب للمزامنة مع السحابة. للإضافة المزيد، يرجى الترقية إلى Aquile Reader الإصدار المميز.</value>
+    <comment>Free version of the app supports only {0} books to be synced to cloud.To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremPage_Msg10.Text" xml:space="preserve">
+    <value>لا توجد قيود على خيارات مزامنة السحابة.</value>
+    <comment>No limitation on cloud sync options.</comment>
+  </data>
+</root>
