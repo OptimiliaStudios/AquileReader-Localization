@@ -1,0 +1,2380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="B_Add.Content" xml:space="preserve">
+    <value>Aggiungi</value>
+    <comment>Add</comment>
+  </data>
+  <data name="B_AddBook.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Aggiungi nuovo libro</value>
+    <comment>Add new book</comment>
+  </data>
+  <data name="B_AddBookmark.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Aggiungi segnalibro</value>
+    <comment>Add Bookmark</comment>
+  </data>
+  <data name="B_AddFolder.Content" xml:space="preserve">
+    <value>Aggiungi cartella</value>
+    <comment>Add folder</comment>
+  </data>
+  <data name="B_AddNote.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Aggiungi nota</value>
+    <comment>Add Note</comment>
+  </data>
+  <data name="B_AddSite.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Aggiungi nuovo sito</value>
+    <comment>Add new site</comment>
+  </data>
+  <data name="B_AudioSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Impostazioni audio</value>
+    <comment>Audio settings</comment>
+  </data>
+  <data name="B_Back.Content" xml:space="preserve">
+    <value>Indietro</value>
+    <comment>Back</comment>
+  </data>
+  <data name="B_Back1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Indietro</value>
+    <comment>Back</comment>
+  </data>
+  <data name="B_Backup_Bkp.Content" xml:space="preserve">
+    <value>Backup</value>
+    <comment>Backup</comment>
+  </data>
+  <data name="B_Backup_Restore.Content" xml:space="preserve">
+    <value>Ripristina</value>
+    <comment>Restore</comment>
+  </data>
+  <data name="B_Blog.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Leggi il nostro blog</value>
+    <comment>Read our blog</comment>
+  </data>
+  <data name="B_Bookmarks.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Segnalibri</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="B_Cancel.Content" xml:space="preserve">
+    <value>Annulla</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="B_ChngLog.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Registro modifiche</value>
+    <comment>Change log</comment>
+  </data>
+  <data name="B_ClearHighlight.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Cancella evidenziazione</value>
+    <comment>Clear highlight</comment>
+  </data>
+  <data name="B_Close.Content" xml:space="preserve">
+    <value>Chiudi</value>
+    <comment>Close</comment>
+  </data>
+  <data name="B_Close1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Chiudi</value>
+    <comment>Close</comment>
+  </data>
+  <data name="B_Collapse.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Comprimi</value>
+    <comment>Collapse</comment>
+  </data>
+  <data name="B_ColorMenu.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Menu colore</value>
+    <comment>Color Menu</comment>
+  </data>
+  <data name="B_ContactSupport.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Contatta il supporto</value>
+    <comment>Contact support</comment>
+  </data>
+  <data name="B_Copy.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Copia</value>
+    <comment>Copy</comment>
+  </data>
+  <data name="B_Credits.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Crediti</value>
+    <comment>Credits</comment>
+  </data>
+  <data name="B_Delete.Text" xml:space="preserve">
+    <value>Elimina</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="B_DeleteNote.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Elimina nota</value>
+    <comment>Delete note</comment>
+  </data>
+  <data name="B_Done.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Fatto</value>
+    <comment>Done</comment>
+  </data>
+  <data name="B_Downloads.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Download</value>
+    <comment>Downloads</comment>
+  </data>
+  <data name="B_ExitReadingMode.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Esci dalla modalità lettura (Ctrl + E)</value>
+    <comment>Exit Reading Mode (Ctrl + E)</comment>
+  </data>
+  <data name="B_Expand.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Espandi</value>
+    <comment>Expand</comment>
+  </data>
+  <data name="B_ExportCollection.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Esporta raccolte</value>
+    <comment>Export collections</comment>
+  </data>
+  <data name="B_Fb.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Seguici su Facebook</value>
+    <comment>Like us on Facebook</comment>
+  </data>
+  <data name="B_Female.Content" xml:space="preserve">
+    <value>Femmina</value>
+    <comment>Female</comment>
+  </data>
+  <data name="B_FilterFav.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Filtra per preferiti</value>
+    <comment>Filter by favorites</comment>
+  </data>
+  <data name="B_Forward.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Avanti</value>
+    <comment>Forward</comment>
+  </data>
+  <data name="B_General.Content" xml:space="preserve">
+    <value>Ripristina</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="B_GitHub.ToolTipService.ToolTip" xml:space="preserve">
+    <value>GitHub</value>
+    <comment>GitHub</comment>
+  </data>
+  <data name="B_Group.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Gruppo</value>
+    <comment>Group</comment>
+  </data>
+  <data name="B_Highlight.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Evidenzia</value>
+    <comment>Highlight</comment>
+  </data>
+  <data name="B_Home.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Home</value>
+    <comment>Home</comment>
+  </data>
+  <data name="B_Information.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Informazioni</value>
+    <comment>Information</comment>
+  </data>
+  <data name="B_JSInspect.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ispeziona JS</value>
+    <comment>JS Inspect</comment>
+  </data>
+  <data name="B_LinkBack.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Torna alla sorgente del link</value>
+    <comment>Go back to link source</comment>
+  </data>
+  <data name="B_Mail.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Mail</value>
+    <comment>Mail</comment>
+  </data>
+  <data name="B_Male.Content" xml:space="preserve">
+    <value>Maschio</value>
+    <comment>Male</comment>
+  </data>
+  <data name="B_MatchCase.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Rispetta maiuscole/minuscole</value>
+    <comment>Match case</comment>
+  </data>
+  <data name="B_MatchWWord.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Corrispondenza parola intera</value>
+    <comment>Match whole word</comment>
+  </data>
+  <data name="B_Next.Content" xml:space="preserve">
+    <value>Successivo</value>
+    <comment>Next</comment>
+  </data>
+  <data name="B_NextLine.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Linea successiva (Ctrl + →)</value>
+    <comment>Next Line (Ctrl + →)</comment>
+  </data>
+  <data name="B_NH.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Note &amp; Evidenziazioni</value>
+    <comment>Notes &amp; Highlights</comment>
+  </data>
+  <data name="B_OpenBook.Content" xml:space="preserve">
+    <value>Apri libro</value>
+    <comment>Open Book</comment>
+  </data>
+  <data name="B_Pag1Cols.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Paginato 1 colonna</value>
+    <comment>Paginated 1 column</comment>
+  </data>
+  <data name="B_Pag2Cols.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Paginato 2 colonne</value>
+    <comment>Paginated 2 columns</comment>
+  </data>
+  <data name="B_PagVertical.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Scorrimento verticale</value>
+    <comment>Vertical scroll</comment>
+  </data>
+  <data name="B_PreviousLine.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Riga precedente (Ctrl + ←)</value>
+    <comment>Previous Line (Ctrl + ←)</comment>
+  </data>
+  <data name="B_PrivacyPolicy.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Informativa sulla privacy</value>
+    <comment>Privacy policy</comment>
+  </data>
+  <data name="B_RateStore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Valuta nello store</value>
+    <comment>Rate on store</comment>
+  </data>
+  <data name="B_ReadAloud.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sintesi vocale (Ctrl + R)</value>
+    <comment>Read Aloud (Ctrl + R)</comment>
+  </data>
+  <data name="B_ReadAloud1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sintesi vocale</value>
+    <comment>ReadAloud</comment>
+  </data>
+  <data name="B_ReadAloudSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Impostazioni di sintesi vocale</value>
+    <comment>ReadAloud settings</comment>
+  </data>
+  <data name="B_Refresh.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Aggiorna</value>
+    <comment>Refresh</comment>
+  </data>
+  <data name="B_Remove.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Rimuovi</value>
+    <comment>Remove</comment>
+  </data>
+  <data name="B_Reset.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ripristina</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="B_RmSyncFolderBtn1.Content" xml:space="preserve">
+    <value>Sì, ma conserva i libri</value>
+    <comment>Yes, but keep books</comment>
+  </data>
+  <data name="B_RmSyncFolderBtn2.Content" xml:space="preserve">
+    <value>Sì, e rimuovi i libri</value>
+    <comment>Yes, and remove books</comment>
+  </data>
+  <data name="B_Save.Content" xml:space="preserve">
+    <value>Salva</value>
+    <comment>Save</comment>
+  </data>
+  <data name="B_Search.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Cerca</value>
+    <comment>Search</comment>
+  </data>
+  <data name="B_Search1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Cerca (Ctrl + F)</value>
+    <comment>Search (Ctrl + F)</comment>
+  </data>
+  <data name="B_SearchWeb.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Cerca sul web</value>
+    <comment>Search web</comment>
+  </data>
+  <data name="B_SelectFolder.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Seleziona cartella</value>
+    <comment>Select folder</comment>
+  </data>
+  <data name="B_SelectIcon.Content" xml:space="preserve">
+    <value>Seleziona icona</value>
+    <comment>Select icon</comment>
+  </data>
+  <data name="B_ShowCB.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Mostra barra dei comandi</value>
+    <comment>Show command bar</comment>
+  </data>
+  <data name="B_Sort.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ordina</value>
+    <comment>Sort</comment>
+  </data>
+  <data name="B_Sync_Edit.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Modifica</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="B_TextFormat.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Formato testo</value>
+    <comment>Text Format</comment>
+  </data>
+  <data name="B_TextStyle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Stile testo</value>
+    <comment>Text Style</comment>
+  </data>
+  <data name="B_Theme1.Content" xml:space="preserve">
+    <value>Bianco</value>
+    <comment>White</comment>
+  </data>
+  <data name="B_Theme1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Bianco (Ctrl + T + 1)</value>
+    <comment>White (Ctrl + T + 1)</comment>
+  </data>
+  <data name="B_Theme2.Content" xml:space="preserve">
+    <value>Argento</value>
+    <comment>Silver</comment>
+  </data>
+  <data name="B_Theme2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Argento (Ctrl + T + 2)</value>
+    <comment>Silver (Ctrl + T + 2)</comment>
+  </data>
+  <data name="B_Theme3.Content" xml:space="preserve">
+    <value>Seppia</value>
+    <comment>Sepia</comment>
+  </data>
+  <data name="B_Theme3.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Seppia (Ctrl + T + 3)</value>
+    <comment>Sepia (Ctrl + T + 3)</comment>
+  </data>
+  <data name="B_Theme4.Content" xml:space="preserve">
+    <value>Notte</value>
+    <comment>Night</comment>
+  </data>
+  <data name="B_Theme4.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Notte (Ctrl + T + 4)</value>
+    <comment>Night (Ctrl + T + 4)</comment>
+  </data>
+  <data name="B_Theme5.Content" xml:space="preserve">
+    <value>Solarizzato</value>
+    <comment>Solarized</comment>
+  </data>
+  <data name="B_Theme5.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Solarizzato (Ctrl + T + 5)</value>
+    <comment>Solarized (Ctrl + T + 5)</comment>
+  </data>
+  <data name="B_Theme6.Content" xml:space="preserve">
+    <value>Personalizzato</value>
+    <comment>Custom</comment>
+  </data>
+  <data name="B_TOC.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Indice</value>
+    <comment>Table Of Contents</comment>
+  </data>
+  <data name="B_ToggleFav.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Attiva/Disattiva preferito</value>
+    <comment>Toggle Favorite</comment>
+  </data>
+  <data name="B_ToggleFullscreen.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Attiva/Disattiva schermo intero (F11)</value>
+    <comment>Toggle Fullscreen (F11)</comment>
+  </data>
+  <data name="B_Translate.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Traduci</value>
+    <comment>Translate</comment>
+  </data>
+  <data name="B_Tw.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Seguici su Twitter</value>
+    <comment>Follow us on Twitter</comment>
+  </data>
+  <data name="B_ZoomIn.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zoom avanti</value>
+    <comment>Zoom In</comment>
+  </data>
+  <data name="B_ZoomOut.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zoom indietro</value>
+    <comment>Zoom Out</comment>
+  </data>
+  <data name="C_AddFolder_AddRecent.Content" xml:space="preserve">
+    <value>Aggiungi libri alla lista recente</value>
+    <comment>Add books to recent list</comment>
+  </data>
+  <data name="C_AddFolder_AutoRemove.Content" xml:space="preserve">
+    <value>Rimuovi automaticamente i libri dalla libreria (incluse note, evidenziazioni, ecc.) quando i file vengono cancellati dalla cartella</value>
+    <comment>Automatically remove books from the library (including notes, highlights, etc) when files are deleted from the folder</comment>
+  </data>
+  <data name="C_AddFolder_RecSearch.Content" xml:space="preserve">
+    <value>Cerca ricorsivamente nelle sottocartelle</value>
+    <comment>Recursively search sub-folders</comment>
+  </data>
+  <data name="C_AddFolder_SyncFolder.Content" xml:space="preserve">
+    <value>Sincronizza questa cartella e aggiungi automaticamente nuovi libri</value>
+    <comment>Sync this folder and automatically add new books</comment>
+  </data>
+  <data name="C_Backup_AStats.Content" xml:space="preserve">
+    <value>Statistiche dell'app</value>
+    <comment>App statistics</comment>
+  </data>
+  <data name="C_Backup_BFav.Content" xml:space="preserve">
+    <value>Elenco libri preferiti</value>
+    <comment>Book favorite list</comment>
+  </data>
+  <data name="C_Backup_BFiles.Content" xml:space="preserve">
+    <value>File dei libri</value>
+    <comment>Book files</comment>
+  </data>
+  <data name="C_Backup_BMeta.Content" xml:space="preserve">
+    <value>Metadati del libro</value>
+    <comment>Book metadata</comment>
+  </data>
+  <data name="C_Backup_Bookmarks.Content" xml:space="preserve">
+    <value>Segnalibri</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="C_Backup_Config.Description" xml:space="preserve">
+    <value>Seleziona la configurazione per l'operazione di backup o ripristino</value>
+    <comment>Select the configuration for backup or restore operation</comment>
+  </data>
+  <data name="C_Backup_Config.Title" xml:space="preserve">
+    <value>Scegli configurazione</value>
+    <comment>Choose configuration</comment>
+  </data>
+  <data name="C_Backup_NandH.Content" xml:space="preserve">
+    <value>Note &amp; evidenziazioni</value>
+    <comment>Notes &amp; highlights</comment>
+  </data>
+  <data name="C_Backup_Operation.Description" xml:space="preserve">
+    <value>Seleziona l'operazione che desideri eseguire</value>
+    <comment>Select the operation you want to perform</comment>
+  </data>
+  <data name="C_Backup_Operation.Title" xml:space="preserve">
+    <value>Scegli operazione</value>
+    <comment>Choose operation</comment>
+  </data>
+  <data name="C_Backup_Storage.Description" xml:space="preserve">
+    <value>Seleziona l'archiviazione di origine o destinazione per l'operazione</value>
+    <comment>Select the source or target storage for the operation</comment>
+  </data>
+  <data name="C_Backup_Storage.Title" xml:space="preserve">
+    <value>Scegli archiviazione</value>
+    <comment>Choose storage</comment>
+  </data>
+  <data name="C_Books.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Libri</value>
+    <comment>Books</comment>
+  </data>
+  <data name="C_ChapterList.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Elenco capitoli</value>
+    <comment>Chapter list</comment>
+  </data>
+  <data name="C_CollectionType.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tipo di raccolta</value>
+    <comment>Collection Type</comment>
+  </data>
+  <data name="C_General_Advt.Description" xml:space="preserve">
+    <value>Preferenza per il tipo di pubblicità</value>
+    <comment>Preference for type of advertisements</comment>
+  </data>
+  <data name="C_General_Advt.Title" xml:space="preserve">
+    <value>Preferenza pubbl.</value>
+    <comment>Advt. preference</comment>
+  </data>
+  <data name="C_General_BookTitle.Description" xml:space="preserve">
+    <value>Mostra titolo per tutti i libri nella vista della libreria</value>
+    <comment>Display title for all books in the library view</comment>
+  </data>
+  <data name="C_General_BookTitle.Title" xml:space="preserve">
+    <value>Mostra titoli dei libri</value>
+    <comment>Show book titles</comment>
+  </data>
+  <data name="C_General_Lang.Description" xml:space="preserve">
+    <value>Pulsanti, menu e altri controlli saranno mostrati in questa lingua.Questa impostazione verrà applicata al prossimo avvio dell'app.</value>
+    <comment>Buttons, menus and other controls will show in this language.This setting will be applied on the next start of the app.</comment>
+  </data>
+  <data name="C_General_Lang.Title" xml:space="preserve">
+    <value>Lingua di visualizzazione</value>
+    <comment>Display language</comment>
+  </data>
+  <data name="C_General_Tutorial.Description" xml:space="preserve">
+    <value>Mostra nuovamente tutti i tutorial</value>
+    <comment>Show all the tutorials again</comment>
+  </data>
+  <data name="C_General_Tutorial.Title" xml:space="preserve">
+    <value>Reimposta tutorial</value>
+    <comment>Reset tutorials</comment>
+  </data>
+  <data name="C_Personal_ColorThemes.Title" xml:space="preserve">
+    <value>Temi colore</value>
+    <comment>Color themes</comment>
+  </data>
+  <data name="C_Personal_TransBanckground.Title" xml:space="preserve">
+    <value>Sfondo trasparente</value>
+    <comment>Transparent background</comment>
+  </data>
+  <data name="C_Personal_TransBanckSlider.Title" xml:space="preserve">
+    <value>Trasparenza dello sfondo</value>
+    <comment>Background transparency</comment>
+  </data>
+  <data name="C_Prem1.BillDetails" xml:space="preserve">
+    <value>Fatturato trimestralmente</value>
+    <comment>Billed quarterly</comment>
+  </data>
+  <data name="C_Prem1.DurationString" xml:space="preserve">
+    <value> mesi</value>
+    <comment> months</comment>
+  </data>
+  <data name="C_Prem2.BillDetails" xml:space="preserve">
+    <value>Fatturato annualmente</value>
+    <comment>Billed annually</comment>
+  </data>
+  <data name="C_Prem2.DurationString" xml:space="preserve">
+    <value> mesi</value>
+    <comment> months</comment>
+  </data>
+  <data name="C_Prem3.BillDetails" xml:space="preserve">
+    <value>Acquisto una tantum</value>
+    <comment>One time purchase</comment>
+  </data>
+  <data name="C_Prem3.DurationString" xml:space="preserve">
+    <value>A vita</value>
+    <comment>Lifetime</comment>
+  </data>
+  <data name="C_Reader_AutoLayout.Description" xml:space="preserve">
+    <value>Nel layout a 2 colonne quando il dispositivo ruota in modalità verticale, il lettore passerà automaticamente al layout a 1 colonna, e viceversa</value>
+    <comment>In 2-column layout when device rotates to portrait mode, reader will auto switch to 1-column layout, and vice versa</comment>
+  </data>
+  <data name="C_Reader_AutoLayout.Title" xml:space="preserve">
+    <value>Passa automaticamente al layout a 1 colonna</value>
+    <comment>Auto switch to 1 column layout</comment>
+  </data>
+  <data name="C_Reader_AutoScroll.Description" xml:space="preserve">
+    <value>Scorre automaticamente la pagina per seguire la frase letta nella modalità di sintesi vocale</value>
+    <comment>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</comment>
+  </data>
+  <data name="C_Reader_AutoScroll.Title" xml:space="preserve">
+    <value>Scorrimento automatico durante la sintesi vocale</value>
+    <comment>ReadAloud auto-scroll</comment>
+  </data>
+  <data name="C_Reader_BookFont.Description" xml:space="preserve">
+    <value>Il lettore utilizza i font originali inclusi nel libro</value>
+    <comment>Reader uses the original fonts packaged with the book</comment>
+  </data>
+  <data name="C_Reader_BookFont.Title" xml:space="preserve">
+    <value>Usa i font del libro</value>
+    <comment>Use book's fonts</comment>
+  </data>
+  <data name="C_Reader_DictLang.Description" xml:space="preserve">
+    <value>Lingua del dizionario integrato</value>
+    <comment>Language of the in-reader dictionary</comment>
+  </data>
+  <data name="C_Reader_DictLang.Title" xml:space="preserve">
+    <value>Lingua del dizionario</value>
+    <comment>Dictionary language</comment>
+  </data>
+  <data name="C_Reader_EnhRender.Description" xml:space="preserve">
+    <value>Migliora il formato/layout con cui i libri sono renderizzati per la lettura</value>
+    <comment>Improves the format/layout in which books are rendered for reading</comment>
+  </data>
+  <data name="C_Reader_EnhRender.Title" xml:space="preserve">
+    <value>Rendering migliorato</value>
+    <comment>Enhanced rendering</comment>
+  </data>
+  <data name="C_Reader_SearchEngine.Description" xml:space="preserve">
+    <value>Motore di ricerca da utilizzare per le ricerche web</value>
+    <comment>Search engine to use for web search</comment>
+  </data>
+  <data name="C_Reader_SearchEngine.Title" xml:space="preserve">
+    <value>Motore di ricerca</value>
+    <comment>Search engine</comment>
+  </data>
+  <data name="C_Reader_StdMrgn.Description" xml:space="preserve">
+    <value>Ignora qualsiasi margine specificato nel libro per fornire un layout coerente nel lettore</value>
+    <comment>Overrides any margin specified in the book to provide consistent layout in the reader</comment>
+  </data>
+  <data name="C_Reader_StdMrgn.Title" xml:space="preserve">
+    <value>Standardizza i margini</value>
+    <comment>Standardize margins</comment>
+  </data>
+  <data name="C_Reader_TextAlign.Description" xml:space="preserve">
+    <value>Ignora qualsiasi preferenza di allineamento del testo impostata nel libro per fornire un layout coerente nel lettore</value>
+    <comment>Overrides any text alignment preference set in the book to provide consistent layout in the reader</comment>
+  </data>
+  <data name="C_Reader_TextAlign.Title" xml:space="preserve">
+    <value>Sovrascrivi allineamento del testo</value>
+    <comment>Override text alignment</comment>
+  </data>
+  <data name="C_ShowFavs.Content" xml:space="preserve">
+    <value>Mostra solo i preferiti</value>
+    <comment>Show only favorites</comment>
+  </data>
+  <data name="CB_Category.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Categorie</value>
+    <comment>Categories</comment>
+  </data>
+  <data name="EBI_Author.Text" xml:space="preserve">
+    <value>Autore/i : </value>
+    <comment>Author(s) : </comment>
+  </data>
+  <data name="EBI_Cover1.Content" xml:space="preserve">
+    <value>Seleziona copertina</value>
+    <comment>Select cover</comment>
+  </data>
+  <data name="EBI_Cover2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ripristina copertina originale</value>
+    <comment>Restore original cover</comment>
+  </data>
+  <data name="EBI_Description.Text" xml:space="preserve">
+    <value>Descrizione : </value>
+    <comment>Description : </comment>
+  </data>
+  <data name="EBI_ErrMsg1" xml:space="preserve">
+    <value>Il numero di serie non può essere vuoto</value>
+    <comment>Series number cannot be empty</comment>
+  </data>
+  <data name="EBI_ErrMsg2" xml:space="preserve">
+    <value>Numero di serie non valido</value>
+    <comment>Series number not valid</comment>
+  </data>
+  <data name="EBI_Genre.Text" xml:space="preserve">
+    <value>Genere(i) : </value>
+    <comment>Genre(s) : </comment>
+  </data>
+  <data name="EBI_Language.Text" xml:space="preserve">
+    <value>Lingua/e : </value>
+    <comment>Language(s) : </comment>
+  </data>
+  <data name="EBI_Msg1.Text" xml:space="preserve">
+    <value> • (s) - Usa il punto e virgola ( ; ) per separare più voci.</value>
+    <comment> • (s) - Use semi-colon ( ; ) to separate multiple entries.</comment>
+  </data>
+  <data name="EBI_Publisher.Text" xml:space="preserve">
+    <value>Editore(i) : </value>
+    <comment>Publisher(s) : </comment>
+  </data>
+  <data name="EBI_Series.Text" xml:space="preserve">
+    <value>Serie : </value>
+    <comment>Series : </comment>
+  </data>
+  <data name="EBI_SeriesNumber.Text" xml:space="preserve">
+    <value>Numero della serie : </value>
+    <comment>Series Number : </comment>
+  </data>
+  <data name="EBI_Title.Text" xml:space="preserve">
+    <value>Modifica le informazioni del libro</value>
+    <comment>Edit book information</comment>
+  </data>
+  <data name="IAP_Discount.Text" xml:space="preserve">
+    <value>20% di sconto</value>
+    <comment>20% off</comment>
+  </data>
+  <data name="IAP_Popular.Text" xml:space="preserve">
+    <value>Il più popolare</value>
+    <comment>Most Popular</comment>
+  </data>
+  <data name="M_About.Content" xml:space="preserve">
+    <value>Chi siamo</value>
+    <comment>About us</comment>
+  </data>
+  <data name="M_AddBook.Text" xml:space="preserve">
+    <value>Aggiungi file del libro</value>
+    <comment>Add book file(s)</comment>
+  </data>
+  <data name="M_AddFavourite.Text" xml:space="preserve">
+    <value>Aggiungi Preferito</value>
+    <comment>Add Favourite</comment>
+  </data>
+  <data name="M_AddFolder.Text" xml:space="preserve">
+    <value>Aggiungi cartella</value>
+    <comment>Add folder</comment>
+  </data>
+  <data name="M_Backup.Content" xml:space="preserve">
+    <value>Backup e Ripristino</value>
+    <comment>Backup &amp; Restore</comment>
+  </data>
+  <data name="Sync_CloudSync.Content" xml:space="preserve">
+    <value>Sincronizzazione cloud</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="M_BookInfo.Text" xml:space="preserve">
+    <value>Info libro</value>
+    <comment>Book Info</comment>
+  </data>
+  <data name="M_ChngLog.Content" xml:space="preserve">
+    <value>Registro modifiche</value>
+    <comment>Change log</comment>
+  </data>
+  <data name="M_CreationTime.Text" xml:space="preserve">
+    <value>Data di creazione</value>
+    <comment>Creation time</comment>
+  </data>
+  <data name="M_Edit.Text" xml:space="preserve">
+    <value>Modifica</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="M_EditBookInfo.Text" xml:space="preserve">
+    <value>Modifica info libro</value>
+    <comment>Edit Book Info</comment>
+  </data>
+  <data name="M_General.Content" xml:space="preserve">
+    <value>Generale</value>
+    <comment>General</comment>
+  </data>
+  <data name="M_OpenBook.Text" xml:space="preserve">
+    <value>Apri libro</value>
+    <comment>Open Book</comment>
+  </data>
+  <data name="M_Personal.Content" xml:space="preserve">
+    <value>Personalizzazione</value>
+    <comment>Personalization</comment>
+  </data>
+  <data name="M_PinUnpin.Text" xml:space="preserve">
+    <value>Fissa/Svincola nella Home</value>
+    <comment>Pin/Unpin to Start</comment>
+  </data>
+  <data name="M_PosInBook.Text" xml:space="preserve">
+    <value>Posizione nel libro</value>
+    <comment>Position in book</comment>
+  </data>
+  <data name="M_Reader.Content" xml:space="preserve">
+    <value>Lettore</value>
+    <comment>Reader</comment>
+  </data>
+  <data name="M_Remove.Text" xml:space="preserve">
+    <value>Rimuovi</value>
+    <comment>Remove</comment>
+  </data>
+  <data name="M_RemoveFavourite.Text" xml:space="preserve">
+    <value>Rimuovi Preferito</value>
+    <comment>Remove Favourite</comment>
+  </data>
+  <data name="M_SaveToFile.Text" xml:space="preserve">
+    <value>Salva su file</value>
+    <comment>Save to file</comment>
+  </data>
+  <data name="M_Share.Text" xml:space="preserve">
+    <value>Condividi</value>
+    <comment>Share</comment>
+  </data>
+  <data name="M_SyncFolder.Content" xml:space="preserve">
+    <value>Sincronizza cartelle</value>
+    <comment>Sync folders</comment>
+  </data>
+  <data name="N_Collections.Content" xml:space="preserve">
+    <value>Raccolte</value>
+    <comment>Collections</comment>
+  </data>
+  <data name="N_Feedback.Content" xml:space="preserve">
+    <value>Feedback</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="N_Home.Content" xml:space="preserve">
+    <value>Home</value>
+    <comment>Home</comment>
+  </data>
+  <data name="N_Library.Content" xml:space="preserve">
+    <value>Libreria</value>
+    <comment>Library</comment>
+  </data>
+  <data name="N_OnlineBooks.Content" xml:space="preserve">
+    <value>Libri online</value>
+    <comment>Online Books</comment>
+  </data>
+  <data name="N_Premium.Content" xml:space="preserve">
+    <value>Premium</value>
+    <comment>Premium</comment>
+  </data>
+  <data name="N_ReportBug.Content" xml:space="preserve">
+    <value>Segnala bug</value>
+    <comment>Report bug</comment>
+  </data>
+  <data name="N_Settings.Content" xml:space="preserve">
+    <value>Impostazioni</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="N_Statistics.Content" xml:space="preserve">
+    <value>Statistiche</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="RI_No" xml:space="preserve">
+    <value>No</value>
+    <comment>No</comment>
+  </data>
+  <data name="RI_Title.Text" xml:space="preserve">
+    <value>Ti sta piacendo Aquile Reader?</value>
+    <comment>Are you enjoying Aquile Reader?</comment>
+  </data>
+  <data name="RI_Title2" xml:space="preserve">
+    <value>Ti riserveresti un momento per valutarci nello store?</value>
+    <comment>Would you spare a moment to rate us on the store?</comment>
+  </data>
+  <data name="RI_Title3" xml:space="preserve">
+    <value>Ti piacerebbe condividere un feedback con noi?</value>
+    <comment>Would you like to share some feedback with us?</comment>
+  </data>
+  <data name="RI_Yes.Content" xml:space="preserve">
+    <value>Sì</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="S_ActSub" xml:space="preserve">
+    <value>Abbonamento attivo</value>
+    <comment>Active subscription</comment>
+  </data>
+  <data name="S_ActSub_Msg1" xml:space="preserve">
+    <value>Sembra che tu abbia già un abbonamento attivo, assicurati di annullarlo per evitare addebiti aggiuntivi.</value>
+    <comment>Looks like you already have an active subscription, make sure to cancel it to avoid additional billing.</comment>
+  </data>
+  <data name="S_AddMore" xml:space="preserve">
+    <value>Aggiungi altro ...</value>
+    <comment>Add more ...</comment>
+  </data>
+  <data name="S_AddSite_Err1" xml:space="preserve">
+    <value>Il titolo non può essere vuoto</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="S_AddSite_Err2" xml:space="preserve">
+    <value>La lunghezza del titolo può essere fino a 100 caratteri</value>
+    <comment>Title length can be up-to 100 chars</comment>
+  </data>
+  <data name="S_AdMsg1" xml:space="preserve">
+    <value>Aggiorna alla versione PREMIUM</value>
+    <comment>Upgrade to PREMIUM version</comment>
+  </data>
+  <data name="S_AdMsg2" xml:space="preserve">
+    <value>Per rimuovere le pubblicità e ottenere funzionalità aggiuntive, clicca qui.</value>
+    <comment>To remove Ads and get additional features, click here.</comment>
+  </data>
+  <data name="S_All" xml:space="preserve">
+    <value>Tutto</value>
+    <comment>All</comment>
+  </data>
+  <data name="S_AppWidthBookInfo" xml:space="preserve">
+    <value>La larghezza della finestra dell'app è troppo piccola per aprire il pannello informazioni del libro.</value>
+    <comment>App window width too small to open Book info pane.</comment>
+  </data>
+  <data name="S_AppWidthLess" xml:space="preserve">
+    <value>La larghezza della finestra dell'app è troppo piccola.</value>
+    <comment>App window width too less.</comment>
+  </data>
+  <data name="S_AS_AvgPagePerHr" xml:space="preserve">
+    <value>Media di pagine sfogliate all'ora</value>
+    <comment>Avg. number of pages flipped per hour</comment>
+  </data>
+  <data name="S_AS_AvgReadHours" xml:space="preserve">
+    <value>Media ore di lettura al giorno</value>
+    <comment>Avg. reading hours per day</comment>
+  </data>
+  <data name="S_AS_AvgTimePerPage" xml:space="preserve">
+    <value>Tempo medio di lettura (sec) per pagina</value>
+    <comment>Avg. reading time (sec) per page</comment>
+  </data>
+  <data name="S_AS_Msg1" xml:space="preserve">
+    <value>Sei sicuro di voler cancellare tutte le statistiche?</value>
+    <comment>Are you sure you want to clear all statistics?</comment>
+  </data>
+  <data name="S_AS_NumBooksLib" xml:space="preserve">
+    <value>Numero di libri nella libreria</value>
+    <comment>Number of books in library</comment>
+  </data>
+  <data name="S_AS_NumBooksRead" xml:space="preserve">
+    <value>Numero di libri letti</value>
+    <comment>Number of books read</comment>
+  </data>
+  <data name="S_AS_NumPagesTurned" xml:space="preserve">
+    <value>Numero di pagine sfogliate</value>
+    <comment>Number of pages flipped</comment>
+  </data>
+  <data name="S_AS_SpeedWPM" xml:space="preserve">
+    <value>Velocità di lettura (parole al minuto)</value>
+    <comment>Reading speed (words per minute)</comment>
+  </data>
+  <data name="S_AS_TotalReadHours" xml:space="preserve">
+    <value>Ore totali di lettura</value>
+    <comment>Total reading hours</comment>
+  </data>
+  <data name="S_B_Close" xml:space="preserve">
+    <value>Chiudi</value>
+    <comment>Close</comment>
+  </data>
+  <data name="S_B_OnlineBookContent1" xml:space="preserve">
+    <value>Seleziona il sito web da cui vuoi scaricare l'eBook.[1/4]</value>
+    <comment>Select the website from where you want to download the eBook.[1/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookContent2" xml:space="preserve">
+    <value>Sfoglia il catalogo e fai clic su qualsiasi link di download dell'eBook. L'app scaricherà il libro e lo aggiungerà alla libreria.[2/4]</value>
+    <comment>Browse the catalog and click on any eBook download link. App will download the book and add it to the library.[2/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookContent3" xml:space="preserve">
+    <value>I tuoi download appariranno qui.[3/4]</value>
+    <comment>Your downloads would appear here.[3/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookContent4" xml:space="preserve">
+    <value>Aggiungi il tuo sito web da cui vuoi scaricare eBook.[4/4]</value>
+    <comment>Add your own website from where you want to download eBooks.[4/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle1" xml:space="preserve">
+    <value>Seleziona sito eBook</value>
+    <comment>Select eBook website</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle2" xml:space="preserve">
+    <value>Scarica eBook</value>
+    <comment>Download eBook</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle3" xml:space="preserve">
+    <value>Traccia i download</value>
+    <comment>Track downloads</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle4" xml:space="preserve">
+    <value>Aggiungi sito eBook</value>
+    <comment>Add eBook website</comment>
+  </data>
+  <data name="S_B_PauseReading" xml:space="preserve">
+    <value>Metti in pausa la lettura (Spazio)</value>
+    <comment>Pause Reading (Space)</comment>
+  </data>
+  <data name="S_B_StartReading" xml:space="preserve">
+    <value>Inizia la lettura (Spazio)</value>
+    <comment>Start Reading (Space)</comment>
+  </data>
+  <data name="S_B_TutDone" xml:space="preserve">
+    <value>Fatto</value>
+    <comment>Done</comment>
+  </data>
+  <data name="S_B_TutNext" xml:space="preserve">
+    <value>Avanti</value>
+    <comment>Next</comment>
+  </data>
+  <data name="S_B_TutReaderContent1" xml:space="preserve">
+    <value>Tocca i bordi dello schermo, scorri la pagina, usa i tasti ← / → o la rotella del mouse per andare alla pagina successiva o precedente.[1/8]</value>
+    <comment>Tap on the edges of the screen, swipe the page, use ← / → keyboard keys or use mouse scroll wheel, to go to next or previous page.[1/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent2" xml:space="preserve">
+    <value>Seleziona il testo o fai clic destro su una parola per aprire il menu contestuale del Lettore.Puoi aggiungere una nota, evidenziare o aggiungere un segnalibro da qui.[2/8]</value>
+    <comment>Select text or right click on any word to open the Reader context menu.You can add note, highlight or bookmark from here.[2/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent3" xml:space="preserve">
+    <value>Accedi all'indice del libro da qui.[3/8]</value>
+    <comment>Access the table of contents of the book from here.[3/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent4" xml:space="preserve">
+    <value>Le tue note e evidenziazioni saranno elencate qui.[4/8]</value>
+    <comment>Your notes and highlights would be listed here.[4/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent5" xml:space="preserve">
+    <value>I segnalibri impostati appariranno qui.[5/8]</value>
+    <comment>Set bookmarks would appear here.[5/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent6" xml:space="preserve">
+    <value>Cerca nel capitolo corrente o nell'intero libro.[6/8]</value>
+    <comment>Search in the current chapter or the entire book.[6/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent7" xml:space="preserve">
+    <value>Puoi usare questo per leggere ad alta voce il contenuto del libro (sintesi vocale).[7/8]</value>
+    <comment>You can use this to read aloud the book contents (text-to-speech).[7/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent8" xml:space="preserve">
+    <value>Puoi configurare il layout della pagina, lo stile, lo schema dei colori, ecc. da qui.[8/8]</value>
+    <comment>You can configure the page layout, style, color scheme, etc. from here.[8/8]</comment>
+  </data>
+  <data name="S_B_TutReaderTitle1" xml:space="preserve">
+    <value>Cambio pagina</value>
+    <comment>Page change</comment>
+  </data>
+  <data name="S_B_TutReaderTitle2" xml:space="preserve">
+    <value>Menu contestuale del lettore</value>
+    <comment>Reader context menu</comment>
+  </data>
+  <data name="S_B_TutReaderTitle3" xml:space="preserve">
+    <value>Indice</value>
+    <comment>Table of contents</comment>
+  </data>
+  <data name="S_B_TutReaderTitle4" xml:space="preserve">
+    <value>Note e evidenziazioni</value>
+    <comment>Notes and highlights</comment>
+  </data>
+  <data name="S_B_TutReaderTitle5" xml:space="preserve">
+    <value>Segnalibri</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="S_B_TutReaderTitle6" xml:space="preserve">
+    <value>Ricerca</value>
+    <comment>Search</comment>
+  </data>
+  <data name="S_B_TutReaderTitle7" xml:space="preserve">
+    <value>Sintesi vocale</value>
+    <comment>ReadAloud</comment>
+  </data>
+  <data name="S_B_TutReaderTitle8" xml:space="preserve">
+    <value>Stile del testo</value>
+    <comment>Text style</comment>
+  </data>
+  <data name="S_Backup" xml:space="preserve">
+    <value>Backup</value>
+    <comment>Backup</comment>
+  </data>
+  <data name="S_Backup_ErrMsg1" xml:space="preserve">
+    <value>Seleziona almeno 1 configurazione</value>
+    <comment>Select at-least 1 configuration</comment>
+  </data>
+  <data name="S_Backup_ErrMsg2" xml:space="preserve">
+    <value>Operazione fallita. Per favore contatta il supporto.</value>
+    <comment>Operation failed. Plz contact support.</comment>
+  </data>
+  <data name="S_BannerAds" xml:space="preserve">
+    <value>Banner pubblicitari</value>
+    <comment>Banner Ads</comment>
+  </data>
+  <data name="S_BookAddedMsg" xml:space="preserve">
+    <value>{0}: Libro aggiunto con successo.</value>
+    <comment>{0}: Book added successfully.</comment>
+  </data>
+  <data name="S_BookAddStartScreen" xml:space="preserve">
+    <value>Libro aggiunto alla Home.</value>
+    <comment>Book added to start screen.</comment>
+  </data>
+  <data name="S_BookExistsMsg" xml:space="preserve">
+    <value>{0}: Il libro esiste già.</value>
+    <comment>{0}: Book already exists.</comment>
+  </data>
+  <data name="S_BookFont" xml:space="preserve">
+    <value>Font del libro</value>
+    <comment>Book's font</comment>
+  </data>
+  <data name="S_BookmarkAdded" xml:space="preserve">
+    <value>Segnalibro aggiunto.</value>
+    <comment>Bookmark added.</comment>
+  </data>
+  <data name="S_BookmarkExists" xml:space="preserve">
+    <value>Il segnalibro esiste già.</value>
+    <comment>Bookmark already exists.</comment>
+  </data>
+  <data name="S_BookRmStartScreen" xml:space="preserve">
+    <value>Libro rimosso dalla Home.</value>
+    <comment>Book removed from start screen.</comment>
+  </data>
+  <data name="S_BooksAdded" xml:space="preserve">
+    <value>{0} libro(i) aggiunto(i).</value>
+    <comment>{0} book(s) added.</comment>
+  </data>
+  <data name="S_BooksAlreadyExists" xml:space="preserve">
+    <value>Il libro esiste già.</value>
+    <comment>Book already exists.</comment>
+  </data>
+  <data name="S_BookSystemLimitError_Msg" xml:space="preserve">
+    <value>Impossibile aggiungere altri libri poiché è stato raggiunto il limite di sistema. Considera di rimuovere i file dei libri aggiunti singolarmente e usa l'opzione 'Aggiungi cartella' per aggiungere libri in blocco.</value>
+    <comment>Cannot add more books as the system limit has been reached. Consider removing individually added book files and use 'Add Folder' option to add books in bulk.</comment>
+  </data>
+  <data name="S_BookSystemLimitError_Title" xml:space="preserve">
+    <value>Impossibile aggiungere libro(i)</value>
+    <comment>Unable to add book(s)</comment>
+  </data>
+  <data name="S_Cancelled" xml:space="preserve">
+    <value>Annullato</value>
+    <comment>Cancelled</comment>
+  </data>
+  <data name="S_Collapse" xml:space="preserve">
+    <value>Comprimi</value>
+    <comment>Collapse</comment>
+  </data>
+  <data name="S_CollectionConstAll" xml:space="preserve">
+    <value>Tutto</value>
+    <comment>All</comment>
+  </data>
+  <data name="S_CollectionConstBookmarks" xml:space="preserve">
+    <value>Segnalibri</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="S_CollectionConstHighlights" xml:space="preserve">
+    <value>Evidenziazioni</value>
+    <comment>Highlights</comment>
+  </data>
+  <data name="S_CollectionConstNotes" xml:space="preserve">
+    <value>Note</value>
+    <comment>Notes</comment>
+  </data>
+  <data name="S_Completed" xml:space="preserve">
+    <value>Completato</value>
+    <comment>Completed</comment>
+  </data>
+  <data name="S_Confirmation" xml:space="preserve">
+    <value>Conferma</value>
+    <comment>Confirmation</comment>
+  </data>
+  <data name="S_CTheme1" xml:space="preserve">
+    <value>Cortile di Vite</value>
+    <comment>Vine Yard</comment>
+  </data>
+  <data name="S_CTheme2" xml:space="preserve">
+    <value>Lato Oscuro</value>
+    <comment>Dark Side</comment>
+  </data>
+  <data name="S_CTheme3" xml:space="preserve">
+    <value>Bacche Fresche</value>
+    <comment>Fresh Berry</comment>
+  </data>
+  <data name="S_CTheme4" xml:space="preserve">
+    <value>Arancia Polposa</value>
+    <comment>Pulpy Orange</comment>
+  </data>
+  <data name="S_CTheme5" xml:space="preserve">
+    <value>Cielo Limpido</value>
+    <comment>Clear sky</comment>
+  </data>
+  <data name="S_CTheme6" xml:space="preserve">
+    <value>Flash</value>
+    <comment>Flash</comment>
+  </data>
+  <data name="S_CTheme7" xml:space="preserve">
+    <value>Turchese</value>
+    <comment>Turquoise</comment>
+  </data>
+  <data name="S_CTheme8" xml:space="preserve">
+    <value>Mela Verde</value>
+    <comment>Green Apple</comment>
+  </data>
+  <data name="S_CThemeMsg1" xml:space="preserve">
+    <value>Tema copiato negli appunti.</value>
+    <comment>Theme copied to clipboard.</comment>
+  </data>
+  <data name="S_CThemeMsg2" xml:space="preserve">
+    <value>Tema non selezionato.</value>
+    <comment>Theme not selected.</comment>
+  </data>
+  <data name="S_CurrentChapter" xml:space="preserve">
+    <value>Capitolo corrente</value>
+    <comment>Current chapter</comment>
+  </data>
+  <data name="S_DateAdded.Text" xml:space="preserve">
+    <value>Data aggiunta : </value>
+    <comment>Date added : </comment>
+  </data>
+  <data name="S_Description.Text" xml:space="preserve">
+    <value>Descrizione : </value>
+    <comment>Description : </comment>
+  </data>
+  <data name="S_DockLeft" xml:space="preserve">
+    <value>Aggancia a sinistra</value>
+    <comment>Dock left</comment>
+  </data>
+  <data name="S_DockRight" xml:space="preserve">
+    <value>Aggancia a destra</value>
+    <comment>Dock right</comment>
+  </data>
+  <data name="S_DownloadBook" xml:space="preserve">
+    <value>Scarica libro</value>
+    <comment>Download book</comment>
+  </data>
+  <data name="S_DownloadBook_Msg" xml:space="preserve">
+    <value>Vuoi scaricare questo libro e aggiungerlo alla libreria?</value>
+    <comment>Do you want to download this book and add to library?</comment>
+  </data>
+  <data name="S_Downloading" xml:space="preserve">
+    <value>Download in corso</value>
+    <comment>Downloading</comment>
+  </data>
+  <data name="S_EntireBook" xml:space="preserve">
+    <value>Libro intero</value>
+    <comment>Entire book</comment>
+  </data>
+  <data name="S_ErrMsg1" xml:space="preserve">
+    <value>Aquile Reader non ha il permesso di accedere al file del libro - {0}.Fai clic su 'Concedi permesso' e seleziona lo stesso file del libro nella finestra di selezione file.</value>
+    <comment>Aquile Reader does not have permission to access the book file - {0}.Click 'Grant Permission' and select the same book file in the file picker window.</comment>
+  </data>
+  <data name="S_ErrMsg1_btn" xml:space="preserve">
+    <value>Concedi permesso</value>
+    <comment>Grant Permission</comment>
+  </data>
+  <data name="S_ErrMsg2" xml:space="preserve">
+    <value>Il file che stai tentando di aprire non esiste più.Controlla e riprova.</value>
+    <comment>The file you are trying to open, no longer exists.Please check and try again.</comment>
+  </data>
+  <data name="S_ErrMsg3" xml:space="preserve">
+    <value>Il file potrebbe essere in uso, bloccato, o non disponi di permessi sufficienti.</value>
+    <comment>The file may be in use, locked, or you don't have sufficient permissions.</comment>
+  </data>
+  <data name="S_ErrMsg4" xml:space="preserve">
+    <value>Il file selezionato è diverso dal file originale del libro - {0}.</value>
+    <comment>Selected File is different from the original book file - {0}.</comment>
+  </data>
+  <data name="S_ErrMsg6" xml:space="preserve">
+    <value>Se il problema persiste, contatta il supporto.</value>
+    <comment>If the problem persists please contact support.</comment>
+  </data>
+  <data name="S_ErrTitle1" xml:space="preserve">
+    <value>Impossibile accedere al libro!</value>
+    <comment>Unable to access the book!</comment>
+  </data>
+  <data name="S_ErrTitle2" xml:space="preserve">
+    <value>Il file non esiste!</value>
+    <comment>File does not exist!</comment>
+  </data>
+  <data name="S_ErrTitle3" xml:space="preserve">
+    <value>Impossibile aprire il file!</value>
+    <comment>Can't open file!</comment>
+  </data>
+  <data name="S_ErrTitle4" xml:space="preserve">
+    <value>File diverso!</value>
+    <comment>Not the same file!</comment>
+  </data>
+  <data name="S_ErrTitle5" xml:space="preserve">
+    <value>Si è verificato un errore imprevisto!</value>
+    <comment>Unexpected error occurred!</comment>
+  </data>
+  <data name="S_ErrTitle6" xml:space="preserve">
+    <value>Impossibile aprire il file</value>
+    <comment>Couldn't open file</comment>
+  </data>
+  <data name="S_Expand" xml:space="preserve">
+    <value>Espandi</value>
+    <comment>Expand</comment>
+  </data>
+  <data name="S_Failed" xml:space="preserve">
+    <value>Fallito</value>
+    <comment>Failed</comment>
+  </data>
+  <data name="S_FileCountLimitBtn1" xml:space="preserve">
+    <value>Interrompi e usa 'Aggiungi cartella'</value>
+    <comment>Abort and use 'Add Folder'</comment>
+  </data>
+  <data name="S_FileCountLimitBtn2" xml:space="preserve">
+    <value>Continua ad aggiungere libri</value>
+    <comment>Continue to add books</comment>
+  </data>
+  <data name="S_FileCountLimitMsg" xml:space="preserve">
+    <value>L'aggiunta di un gran numero di file di libro individuali può raggiungere il limite del sistema, impedendo l'aggiunta di nuovi libri.Usa l'opzione 'Aggiungi cartella' per aggiungere i file dei libri in blocco.</value>
+    <comment>Adding large number of individual book files can hit system limit, thus preventing new book from being added.Use 'Add Folder' option to add book files in bulk.</comment>
+  </data>
+  <data name="S_FileCountLimitTitle" xml:space="preserve">
+    <value>Attenzione!</value>
+    <comment>Warning!</comment>
+  </data>
+  <data name="S_FileNotSaved" xml:space="preserve">
+    <value>{0} non può essere salvato.</value>
+    <comment>{0} could not be saved.</comment>
+  </data>
+  <data name="S_FilePath.Text" xml:space="preserve">
+    <value>Percorso file : </value>
+    <comment>File path : </comment>
+  </data>
+  <data name="S_FileSaved" xml:space="preserve">
+    <value>{0} è stato salvato.</value>
+    <comment>{0} was saved.</comment>
+  </data>
+  <data name="S_Genre.Text" xml:space="preserve">
+    <value>Genere : </value>
+    <comment>Genre : </comment>
+  </data>
+  <data name="S_GoPrem" xml:space="preserve">
+    <value>Passa a Premium</value>
+    <comment>Go Premium</comment>
+  </data>
+  <data name="S_HighNotes_Msg1" xml:space="preserve">
+    <value>Il contenuto selezionato non dovrebbe includere gli spazi bianchi dall'intestazione o dal piè di pagina. Per favore seleziona di nuovo.</value>
+    <comment>Selected content should not include the white spaces from header or footer. Please re-select.</comment>
+  </data>
+  <data name="S_HighNotesMsg1" xml:space="preserve">
+    <value>L'evidenziazione non può essere aggiunta mentre il riquadro di ricerca è aperto.</value>
+    <comment>Highlight cannot be added while search pane is open.</comment>
+  </data>
+  <data name="S_HighNotesMsg2" xml:space="preserve">
+    <value>Il testo selezionato per Evidenziazione e Nota non può sovrapporsi.</value>
+    <comment>Selected text for Highlight and Note cannot overlap.</comment>
+  </data>
+  <data name="S_HighNotesMsg3" xml:space="preserve">
+    <value>Deve essere selezionato almeno 1 carattere per l'evidenziazione.</value>
+    <comment>Minimum 1 character must be selected for highlight.</comment>
+  </data>
+  <data name="S_HighNotesMsg4" xml:space="preserve">
+    <value>Possono essere selezionati al massimo 4000 caratteri per l'evidenziazione.</value>
+    <comment>Maximum 4000 characters can be selected for highlight.</comment>
+  </data>
+  <data name="S_HighNotesMsg5" xml:space="preserve">
+    <value>La nota non può essere aggiunta mentre il riquadro di ricerca è aperto.</value>
+    <comment>Note cannot be added while search pane is open.</comment>
+  </data>
+  <data name="S_HighNotesMsg6" xml:space="preserve">
+    <value>Il testo selezionato per Nota e Evidenziazione non può sovrapporsi.</value>
+    <comment>Selected text for Note and Highlight cannot overlap.</comment>
+  </data>
+  <data name="S_HighNotesMsg7" xml:space="preserve">
+    <value>Deve essere selezionato almeno 1 carattere per aggiungere una nota.</value>
+    <comment>Minimum 1 character must be selected for adding note.</comment>
+  </data>
+  <data name="S_HighNotesMsg8" xml:space="preserve">
+    <value>Possono essere selezionati al massimo 4000 caratteri per aggiungere una nota.</value>
+    <comment>Maximum 4000 characters can be selected for adding note.</comment>
+  </data>
+  <data name="S_HighNotesMsg9" xml:space="preserve">
+    <value>Il testo della nota non può essere vuoto.</value>
+    <comment>Note text cannot be empty.</comment>
+  </data>
+  <data name="S_InterstitialAds" xml:space="preserve">
+    <value>Annunci interstiziali</value>
+    <comment>Interstitial Ads</comment>
+  </data>
+  <data name="S_InvalidUrl" xml:space="preserve">
+    <value>URL non valido</value>
+    <comment>Invalid URL</comment>
+  </data>
+  <data name="S_Language.Text" xml:space="preserve">
+    <value>Lingua : </value>
+    <comment>Language : </comment>
+  </data>
+  <data name="S_LastRead.Text" xml:space="preserve">
+    <value>Ultima lettura : </value>
+    <comment>Last read : </comment>
+  </data>
+  <data name="S_LibConstAllBooks" xml:space="preserve">
+    <value>Tutti i libri</value>
+    <comment>All Books</comment>
+  </data>
+  <data name="S_LibConstCompleted" xml:space="preserve">
+    <value>Completato</value>
+    <comment>Completed</comment>
+  </data>
+  <data name="S_LibConstDownloads" xml:space="preserve">
+    <value>Download</value>
+    <comment>Downloads</comment>
+  </data>
+  <data name="S_LibConstFav" xml:space="preserve">
+    <value>Preferiti</value>
+    <comment>Favourites</comment>
+  </data>
+  <data name="S_LibConstNotStarted" xml:space="preserve">
+    <value>Non iniziato</value>
+    <comment>Not Started</comment>
+  </data>
+  <data name="S_LibConstReading" xml:space="preserve">
+    <value>In corso</value>
+    <comment>Reading</comment>
+  </data>
+  <data name="S_LineCount.Text" xml:space="preserve">
+    <value>Conteggio righe : </value>
+    <comment>Line count : </comment>
+  </data>
+  <data name="S_matchesFound" xml:space="preserve">
+    <value>Trovati {0} risultati</value>
+    <comment>{0} matches found</comment>
+  </data>
+  <data name="S_MoreFonts" xml:space="preserve">
+    <value>Ottieni più font!!</value>
+    <comment>Get more fonts!!</comment>
+  </data>
+  <data name="S_No" xml:space="preserve">
+    <value>No</value>
+    <comment>No</comment>
+  </data>
+  <data name="S_None" xml:space="preserve">
+    <value>(Nessuno)</value>
+    <comment>(None)</comment>
+  </data>
+  <data name="S_NotSupported" xml:space="preserve">
+    <value>Non supportato</value>
+    <comment>Not supported</comment>
+  </data>
+  <data name="S_NotSupported_Msg" xml:space="preserve">
+    <value>Il download di file diversi da .epub non è supportato</value>
+    <comment>Download of files other than .epub is not supported</comment>
+  </data>
+  <data name="S_OnlineBook_CompleteAdded" xml:space="preserve">
+    <value>Completato | Aggiunto alla libreria</value>
+    <comment>Completed | Added to library</comment>
+  </data>
+  <data name="S_OnlineBook_CompleteExists" xml:space="preserve">
+    <value>Completato | Esiste già</value>
+    <comment>Completed | Already exists</comment>
+  </data>
+  <data name="S_OnlineBook_CompleteFailAdd" xml:space="preserve">
+    <value>Completato | Impossibile aggiungere alla libreria</value>
+    <comment>Completed | Failed to add to library</comment>
+  </data>
+  <data name="S_PercentageRead.Text" xml:space="preserve">
+    <value>Percentuale letta : </value>
+    <comment>Percentage read : </comment>
+  </data>
+  <data name="S_Pin" xml:space="preserve">
+    <value>Fissa</value>
+    <comment>Pin</comment>
+  </data>
+  <data name="S_Prem_Msg1" xml:space="preserve">
+    <value>Ops! Sembra che tu possieda già questo, abbiamo aggiornato i nostri registri per riflettere correttamente la situazione.</value>
+    <comment>Apologies! Looks like you already own this, we have updated our records to reflect this correctly.</comment>
+  </data>
+  <data name="S_Prem_Msg2" xml:space="preserve">
+    <value>Congratulazioni! L'acquisto è stato completato con successo.</value>
+    <comment>Congrats! The purchase was successful.</comment>
+  </data>
+  <data name="S_Prem_Msg3" xml:space="preserve">
+    <value>Spiacente! Sembra che la transazione sia stata annullata, per favore riprova.</value>
+    <comment>Sorry! Looks like the transaction was canceled, plz try again.</comment>
+  </data>
+  <data name="S_Prem_Msg4" xml:space="preserve">
+    <value>Spiacente! Sembra che l'acquisto sia fallito a causa di problemi di rete, per favore riprova.</value>
+    <comment>Sorry! Looks like the purchase failed due to network issues, plz try again.</comment>
+  </data>
+  <data name="S_Prem_Msg5" xml:space="preserve">
+    <value>Spiacente! Sembra che l'acquisto sia fallito a causa di un errore del server, per favore riprova.</value>
+    <comment>Sorry! Looks like the purchase failed due to some server error, plz try again.</comment>
+  </data>
+  <data name="S_Prem_Msg6" xml:space="preserve">
+    <value>Spiacente! Qualcosa è andato storto durante l'acquisto, per favore riprova.</value>
+    <comment>Sorry! Something went wrong during the purchase, plz try again.</comment>
+  </data>
+  <data name="S_PremAnnual" xml:space="preserve">
+    <value>Premium [Annuale]</value>
+    <comment>Premium [Annual]</comment>
+  </data>
+  <data name="S_PremFree" xml:space="preserve">
+    <value>Gratis</value>
+    <comment>Free</comment>
+  </data>
+  <data name="S_PremiumBooksCount" xml:space="preserve">
+    <value>La versione gratuita dell'app supporta solo {0} libri nella libreria alla volta.Per aggiungerne altri, per favore effettua l'upgrade a Aquile Reader Premium.</value>
+    <comment>Free version of the app supports only {0} books in the library at a time.To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumCollection" xml:space="preserve">
+    <value>La versione gratuita dell'app supporta un totale di {0} elementi di raccolta.Per crearne di più, per favore effettua l'upgrade a Aquile Reader Premium.</value>
+    <comment>Free version of the app supports total of {0} collections items.To create more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumColorThemes" xml:space="preserve">
+    <value>La versione gratuita dell'app supporta solo {0} temi personalizzati.Per crearne di più, per favore effettua l'upgrade a Aquile Reader Premium.</value>
+    <comment>Free version of the app supports only {0} custom themes.To create more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumFonts" xml:space="preserve">
+    <value>Effettua l'upgrade a Premium e accedi a tutti i font installati sul sistema.</value>
+    <comment>Upgrade to Premium and get access to all fonts installed on the system.</comment>
+  </data>
+  <data name="S_PremiumPin" xml:space="preserve">
+    <value>La versione gratuita dell'app supporta solo {0} libri fissati nella Home alla volta.Per aggiungerne altri, per favore effettua l'upgrade a Aquile Reader Premium.</value>
+    <comment>Free version of the app supports only {0} books pinned to start screen at a time.To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumRAHighlight" xml:space="preserve">
+    <value>I colori di evidenziazione personalizzati per la sintesi vocale sono disponibili solo in Aquile Reader Premium.Effettua l'upgrade a Premium e goditi tutte le funzionalità.</value>
+    <comment>Custom ReadAloud highlight colors are only available in Aquile Reader Premium.Upgrade to Premium and enjoy all the features.</comment>
+  </data>
+  <data name="S_PremiumSyncFolders" xml:space="preserve">
+    <value>La versione gratuita dell'app supporta solo {0} cartella/e di sincronizzazione.Per crearne di più, per favore effettua l'upgrade a Aquile Reader Premium.</value>
+    <comment>Free version of the app supports only {0} sync folder(s).To create more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumThemes" xml:space="preserve">
+    <value>I temi di pagina personalizzati sono disponibili solo in Aquile Reader Premium.Effettua l'upgrade a Premium e goditi tutte le funzionalità.</value>
+    <comment>Custom Page Themes are only available in Aquile Reader Premium.Upgrade to Premium and enjoy all the features.</comment>
+  </data>
+  <data name="S_PremLife" xml:space="preserve">
+    <value>Premium [A vita]</value>
+    <comment>Premium [Lifetime]</comment>
+  </data>
+  <data name="S_PremOff1" xml:space="preserve">
+    <value>Sconto del 25%</value>
+    <comment>25% off</comment>
+  </data>
+  <data name="S_PremOff2" xml:space="preserve">
+    <value>Sconto del 30%</value>
+    <comment>30% off</comment>
+  </data>
+  <data name="S_PremQuarterly" xml:space="preserve">
+    <value>Premium [Trimestrale]</value>
+    <comment>Premium [Quarterly]</comment>
+  </data>
+  <data name="S_PremTrial" xml:space="preserve">
+    <value>Premium [Prova]</value>
+    <comment>Premium [Trial]</comment>
+  </data>
+  <data name="S_PremUpg" xml:space="preserve">
+    <value>Aggiorna a Premium</value>
+    <comment>Premium upgrade</comment>
+  </data>
+  <data name="S_Publisher.Text" xml:space="preserve">
+    <value>Editore : </value>
+    <comment>Publisher : </comment>
+  </data>
+  <data name="S_ReadAloud_Err1" xml:space="preserve">
+    <value>Errore di configurazione della sintesi vocale</value>
+    <comment>Text-to-Speech configuration error</comment>
+  </data>
+  <data name="S_ReadAloud_ErrMsg1" xml:space="preserve">
+    <value>La sintesi vocale non è configurata correttamente su questo dispositivo, segui il link 'Come risolvere' per configurarla correttamente. Se il problema persiste, contatta il supporto.</value>
+    <comment>Text-to-Speech is not configured correctly on this device, please follow the 'How to fix' link to configure it correctly. If the issue persists, contact support.</comment>
+  </data>
+  <data name="S_ReadAloud_ErrMsg1_btn" xml:space="preserve">
+    <value>Come risolvere</value>
+    <comment>How to fix</comment>
+  </data>
+  <data name="S_ReadAloudMsg1" xml:space="preserve">
+    <value>Il cambiamento di capitolo non è consentito durante la sintesi vocale.</value>
+    <comment>Chapter change is not allowed in ReadAloud mode.</comment>
+  </data>
+  <data name="S_ReadAloudMsg2" xml:space="preserve">
+    <value>Caratteri illeggibili rilevati. Ignoro.</value>
+    <comment>Unreadable characters detected. Skipping.</comment>
+  </data>
+  <data name="S_ReadAloudMsg3" xml:space="preserve">
+    <value>Capitolo successivo.</value>
+    <comment>Next chapter.</comment>
+  </data>
+  <data name="S_ReadAloudMsg4" xml:space="preserve">
+    <value>Si è verificato un errore inatteso durante la lettura.</value>
+    <comment>Unexpected error occurred while reading.</comment>
+  </data>
+  <data name="S_Restore" xml:space="preserve">
+    <value>Ripristina</value>
+    <comment>Restore</comment>
+  </data>
+  <data name="S_RmSyncFolderMsg1" xml:space="preserve">
+    <value>{0} libro(i) rimosso(i).</value>
+    <comment>{0} book(s) removed.</comment>
+  </data>
+  <data name="S_Save" xml:space="preserve">
+    <value>Salva</value>
+    <comment>Save</comment>
+  </data>
+  <data name="S_SelectBackupFile" xml:space="preserve">
+    <value>Seleziona file di backup</value>
+    <comment>Select backup file</comment>
+  </data>
+  <data name="S_SelectFolder" xml:space="preserve">
+    <value>Seleziona cartella</value>
+    <comment>Select folder</comment>
+  </data>
+  <data name="S_Series.Text" xml:space="preserve">
+    <value>Serie : </value>
+    <comment>Series : </comment>
+  </data>
+  <data name="S_ShareCollection" xml:space="preserve">
+    <value>Condividi raccolte</value>
+    <comment>Share collections</comment>
+  </data>
+  <data name="S_SomethingWentWrong" xml:space="preserve">
+    <value>Qualcosa è andato storto!</value>
+    <comment>Something went wrong!</comment>
+  </data>
+  <data name="S_Sync_Now" xml:space="preserve">
+    <value>Sincronizza ora</value>
+    <comment>Sync now</comment>
+  </data>
+  <data name="S_Sync_syncing" xml:space="preserve">
+    <value>Sincronizzazione ...</value>
+    <comment>Syncing ...</comment>
+  </data>
+  <data name="S_SyncFolder" xml:space="preserve">
+    <value>Cartella di sincronizzazione</value>
+    <comment>Sync Folder</comment>
+  </data>
+  <data name="S_TextCopied" xml:space="preserve">
+    <value>Testo selezionato copiato negli appunti.</value>
+    <comment>Selected text copied to clipboard.</comment>
+  </data>
+  <data name="S_TOCMsg1" xml:space="preserve">
+    <value>L'indice è ancora in caricamento...</value>
+    <comment>Table of Contents is still loading...</comment>
+  </data>
+  <data name="S_Understand" xml:space="preserve">
+    <value>Ho capito</value>
+    <comment>I understand</comment>
+  </data>
+  <data name="S_UnPin" xml:space="preserve">
+    <value>Svincola</value>
+    <comment>Un-Pin</comment>
+  </data>
+  <data name="S_Update" xml:space="preserve">
+    <value>Aggiorna</value>
+    <comment>Update</comment>
+  </data>
+  <data name="S_UpdateFolder" xml:space="preserve">
+    <value>Aggiorna cartella</value>
+    <comment>Update folder</comment>
+  </data>
+  <data name="S_UrlNotExist" xml:space="preserve">
+    <value>L'URL non esiste!</value>
+    <comment>Url does not exist!</comment>
+  </data>
+  <data name="S_WordCount.Text" xml:space="preserve">
+    <value>Conteggio parole : </value>
+    <comment>Word count : </comment>
+  </data>
+  <data name="S_WrongMsg1" xml:space="preserve">
+    <value>Spiacente, sembra che qualcosa sia andato storto.Prova ad aprire di nuovo il file. Se il problema persiste, contatta il supporto.</value>
+    <comment>Sorry, but looks like something just went wrong.Try opening the file again. If the problem persists please contact support.</comment>
+  </data>
+  <data name="S_Yes" xml:space="preserve">
+    <value>Sì</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="T_About_copyright.Text" xml:space="preserve">
+    <value>© Optimilia Studios. Tutti i diritti riservati.</value>
+    <comment>© Optimilia Studios. All Rights Reserved.</comment>
+  </data>
+  <data name="T_AddBook.Text" xml:space="preserve">
+    <value>Aggiungi un libro per iniziare</value>
+    <comment>Add a book to get started</comment>
+  </data>
+  <data name="T_AddFolderMsg1.Text" xml:space="preserve">
+    <value>Scansione e aggiunta dei libri</value>
+    <comment>Scanning and adding books</comment>
+  </data>
+  <data name="T_AddFolderRes1.Text" xml:space="preserve">
+    <value>Nuovi libri aggiunti : </value>
+    <comment>New books added : </comment>
+  </data>
+  <data name="T_AddFolderRes2.Text" xml:space="preserve">
+    <value>Libri già esistenti : </value>
+    <comment>Already existing books : </comment>
+  </data>
+  <data name="T_AddFolderRes3.Text" xml:space="preserve">
+    <value>Aggiunta libri fallita : </value>
+    <comment>Failed to add books : </comment>
+  </data>
+  <data name="T_AddSite.Text" xml:space="preserve">
+    <value>Aggiungi sito</value>
+    <comment>Add site</comment>
+  </data>
+  <data name="T_AddTheme.Text" xml:space="preserve">
+    <value>Aggiungi tema</value>
+    <comment>Add theme</comment>
+  </data>
+  <data name="T_AquilePremium.Text" xml:space="preserve">
+    <value>Aquile Reader Premium</value>
+    <comment>Aquile Reader Premium</comment>
+  </data>
+  <data name="T_Backup_Beta.Text" xml:space="preserve">
+    <value>Beta</value>
+    <comment>Beta</comment>
+  </data>
+  <data name="T_Backup_Bkp.Text" xml:space="preserve">
+    <value>Crea una copia di backup con le configurazioni selezionate.</value>
+    <comment>Create a backup copy with the selected configurations.</comment>
+  </data>
+  <data name="T_Backup_Heading.Text" xml:space="preserve">
+    <value>Backup &amp; Ripristino</value>
+    <comment>Backup &amp; Restore</comment>
+  </data>
+  <data name="T_Backup_Restore.Text" xml:space="preserve">
+    <value>Ripristina le configurazioni selezionate dal file di backup.Nota: Questo sovrascriverà le configurazioni attuali, ad esempio nuove note, evidenziazioni ecc. possono andare perse se non sono contenute nella copia di backup.</value>
+    <comment>Restore the selected configurations from the backup file.Note: This will override current configurations, e.g. new notes, highlights etc can be lost if they are not contained in the backup copy.</comment>
+  </data>
+  <data name="T_BookmarksEmpty.Text" xml:space="preserve">
+    <value>Trova i tuoi segnalibri qui.</value>
+    <comment>Find your bookmarks here.</comment>
+  </data>
+  <data name="T_ChangeLog.Text" xml:space="preserve">
+    <value>Registro modifiche</value>
+    <comment>Change log</comment>
+  </data>
+  <data name="T_Credits1.Text" xml:space="preserve">
+    <value>Crediti</value>
+    <comment>Credits</comment>
+  </data>
+  <data name="T_CurrentPlan.Text" xml:space="preserve">
+    <value>Piano attuale :</value>
+    <comment>Current Plan :</comment>
+  </data>
+  <data name="T_Custom1" xml:space="preserve">
+    <value>1. Seleziona il colore di sfondo</value>
+    <comment>1. Select background color</comment>
+  </data>
+  <data name="T_Custom2" xml:space="preserve">
+    <value>2. Seleziona il colore del testo</value>
+    <comment>2. Select text foreground color</comment>
+  </data>
+  <data name="T_Custom3" xml:space="preserve">
+    <value>3. Seleziona la modalità colore</value>
+    <comment>3. Select color mode</comment>
+  </data>
+  <data name="T_DictWebSrch1.Text" xml:space="preserve">
+    <value>Cerca questo</value>
+    <comment>Look this up</comment>
+  </data>
+  <data name="T_DictWebSrch2.Text" xml:space="preserve">
+    <value>su internet</value>
+    <comment>on the web</comment>
+  </data>
+  <data name="T_Downloads1.Text" xml:space="preserve">
+    <value>Trova i tuoi download qui.</value>
+    <comment>Find your downloads here.</comment>
+  </data>
+  <data name="T_Exp.Text" xml:space="preserve">
+    <value>Sperimentale</value>
+    <comment>Experimental</comment>
+  </data>
+  <data name="T_ExpDetails.Text" xml:space="preserve">
+    <value>Queste funzionalità sono ancora in sviluppo e potrebbero essere un po' instabili o presentare bug. Puoi provarle e condividere il tuo feedback con noi.</value>
+    <comment>These features are still in development and might be little unstable or buggy. You can try them out and share feedback with us.</comment>
+  </data>
+  <data name="T_ExpDetailsLink.Text" xml:space="preserve">
+    <value>Maggiori dettagli e problemi noti</value>
+    <comment>More details and known issues</comment>
+  </data>
+  <data name="T_FavBooks.Text" xml:space="preserve">
+    <value>Libri preferiti</value>
+    <comment>Favourite Books</comment>
+  </data>
+  <data name="T_FavEmptyMsg.Text" xml:space="preserve">
+    <value>I tuoi libri preferiti appariranno qui</value>
+    <comment>Your favourite books would appear here</comment>
+  </data>
+  <data name="T_FontStyle.Text" xml:space="preserve">
+    <value>Stile font</value>
+    <comment>Font style</comment>
+  </data>
+  <data name="t_For.Text" xml:space="preserve">
+    <value>per</value>
+    <comment>for</comment>
+  </data>
+  <data name="T_GeneralSettings.Text" xml:space="preserve">
+    <value>Impostazioni generali</value>
+    <comment>General Settings</comment>
+  </data>
+  <data name="T_HighEdit1.Text" xml:space="preserve">
+    <value>Seleziona il colore di evidenziazione del testo</value>
+    <comment>Select text highlight color</comment>
+  </data>
+  <data name="T_HighlightColor.Text" xml:space="preserve">
+    <value>Colore evidenziazione</value>
+    <comment>Highlight color</comment>
+  </data>
+  <data name="T_HighNotesEmpty.Text" xml:space="preserve">
+    <value>Trova le tue note e le evidenziazioni qui.</value>
+    <comment>Find your notes and highlights here.</comment>
+  </data>
+  <data name="T_Initializing.Text" xml:space="preserve">
+    <value>Inizializzazione</value>
+    <comment>Initializing</comment>
+  </data>
+  <data name="T_Language.Text" xml:space="preserve">
+    <value>Lingua</value>
+    <comment>Language</comment>
+  </data>
+  <data name="T_LineSpace.Text" xml:space="preserve">
+    <value>Spaziatura righe</value>
+    <comment>Line space</comment>
+  </data>
+  <data name="T_NoCollections.Text" xml:space="preserve">
+    <value>Nessuna raccolta disponibile</value>
+    <comment>No Collections available</comment>
+  </data>
+  <data name="T_NoDefFound.Text" xml:space="preserve">
+    <value>Nessuna definizione trovata</value>
+    <comment>No definition found</comment>
+  </data>
+  <data name="T_NoMatchesFound.Text" xml:space="preserve">
+    <value>Nessuna corrispondenza trovata</value>
+    <comment>No matches found</comment>
+  </data>
+  <data name="T_NoteText.PlaceholderText" xml:space="preserve">
+    <value>Inserisci il testo della nota</value>
+    <comment>Enter note text</comment>
+  </data>
+  <data name="T_OBPlaceHolder.Text" xml:space="preserve">
+    <value>Seleziona il sito per iniziare a scaricare eBook</value>
+    <comment>Select the site to start downloading eBooks</comment>
+  </data>
+  <data name="T_OnlineBooksWarn1" xml:space="preserve">
+    <value>Informazioni importanti</value>
+    <comment>Important Information</comment>
+  </data>
+  <data name="T_OnlineBooksWarn2" xml:space="preserve">
+    <value>Salviamo i cookie usati dai siti web per mantenere la continuità dei tuoi accessi e fornire un'esperienza migliore.</value>
+    <comment>We save the cookies used by websites to maintain continuity of your logins and provide better experience.</comment>
+  </data>
+  <data name="T_OnlineBooksWarn3" xml:space="preserve">
+    <value>Non consigliamo di effettuare acquisti/pagamenti da qui, per favore usa il tuo browser abituale.</value>
+    <comment>We don't recommend making purchases/payments from here, please use your regular browser for the same.</comment>
+  </data>
+  <data name="T_OpeningBook.Text" xml:space="preserve">
+    <value>Apertura libro</value>
+    <comment>Opening Book</comment>
+  </data>
+  <data name="T_OpenLibrary.Text" xml:space="preserve">
+    <value>Apri libreria</value>
+    <comment>Open Library</comment>
+  </data>
+  <data name="T_PageLayout.Text" xml:space="preserve">
+    <value>Layout pagina</value>
+    <comment>Page layout</comment>
+  </data>
+  <data name="T_PageTheme.Text" xml:space="preserve">
+    <value>Temi della pagina</value>
+    <comment>Page themes</comment>
+  </data>
+  <data name="T_ParagraphSpace.Text" xml:space="preserve">
+    <value>Spaziatura paragrafi</value>
+    <comment>Paragraph space</comment>
+  </data>
+  <data name="T_Personalization.Text" xml:space="preserve">
+    <value>Personalizzazione</value>
+    <comment>Personalization</comment>
+  </data>
+  <data name="T_Processing.Text" xml:space="preserve">
+    <value>Elaborazione</value>
+    <comment>Processing</comment>
+  </data>
+  <data name="T_RaPremMsg.Text" xml:space="preserve">
+    <value>I controlli audio della sintesi vocale che includono velocità di lettura, tonalità e volume sono disponibili solo nella versione premium dell'app.</value>
+    <comment>TTS (Text-to-Speech) audio controls which include reading speed, audio pitch and volume are only available in premium version of the app.</comment>
+  </data>
+  <data name="T_ReaderSettings.Text" xml:space="preserve">
+    <value>Impostazioni lettore</value>
+    <comment>Reader Settings</comment>
+  </data>
+  <data name="T_RecentReads.Text" xml:space="preserve">
+    <value>Letture recenti</value>
+    <comment>Recent Reads</comment>
+  </data>
+  <data name="T_RmSyncFolder.Text" xml:space="preserve">
+    <value>Rimuovi cartella di sincronizzazione</value>
+    <comment>Remove Sync Folder</comment>
+  </data>
+  <data name="T_RmSyncFolderConf.Text" xml:space="preserve">
+    <value>Sei sicuro di voler rimuovere questa cartella sincronizzata?</value>
+    <comment>Are you sure you want to remove this synced folder?</comment>
+  </data>
+  <data name="T_RmSyncFolderMsg1.Text" xml:space="preserve">
+    <value>Rimozione dei libri</value>
+    <comment>Removing books</comment>
+  </data>
+  <data name="T_SBInput.PlaceholderText" xml:space="preserve">
+    <value>Cerca ...</value>
+    <comment>Find ...</comment>
+  </data>
+  <data name="T_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Cerca per titolo o nome dell'autore ...</value>
+    <comment>Search by title or author name ...</comment>
+  </data>
+  <data name="T_Searching.Text" xml:space="preserve">
+    <value>Ricerca in corso</value>
+    <comment>Searching</comment>
+  </data>
+  <data name="T_SeeMore.Text" xml:space="preserve">
+    <value>Vedi di più</value>
+    <comment>See more</comment>
+  </data>
+  <data name="T_SelectFolder.Text" xml:space="preserve">
+    <value>Seleziona cartella</value>
+    <comment>Select folder</comment>
+  </data>
+  <data name="T_Settings.Text" xml:space="preserve">
+    <value>Impostazioni</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="T_SiteUrl.Text" xml:space="preserve">
+    <value>URL del sito : </value>
+    <comment>Site url : </comment>
+  </data>
+  <data name="T_SomeWentWrong.Text" xml:space="preserve">
+    <value>Qualcosa è andato storto, per favore riprova.</value>
+    <comment>Something went wrong, please try again.</comment>
+  </data>
+  <data name="T_SpeechSpeed.Text" xml:space="preserve">
+    <value>Velocità del parlato</value>
+    <comment>Speech speed</comment>
+  </data>
+  <data name="T_Statistics.Text" xml:space="preserve">
+    <value>Statistiche</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="T_Sync_AddFolder.Text" xml:space="preserve">
+    <value>Aggiungi cartella di sincronizzazione</value>
+    <comment>Add sync folder</comment>
+  </data>
+  <data name="T_Sync_BookCount.Text" xml:space="preserve">
+    <value>Numero di libri : </value>
+    <comment>Book count : </comment>
+  </data>
+  <data name="T_Sync_msg1.Text" xml:space="preserve">
+    <value>Questo offre un modo semplice per mantenere sincronizzate la libreria di Aquile Reader e la tua raccolta locale di libri.</value>
+    <comment>This provides an easy way to keep the Aquile Reader library and your local book collection in sync.</comment>
+  </data>
+  <data name="T_Sync_msg2.Text" xml:space="preserve">
+    <value>Aquile Reader, all'avvio dell'app, sincronizza i libri dalle 'Cartelle sincronizzate' e aggiunge/rimuove automaticamente i libri dalla libreria dell'app.</value>
+    <comment>Aquile Reader on app start-up syncs books from 'Sync Folders' and automatically add/remove books from the app library.</comment>
+  </data>
+  <data name="T_Sync_SyncFolders.Text" xml:space="preserve">
+    <value>Cartelle sincronizzate</value>
+    <comment>Sync Folders</comment>
+  </data>
+  <data name="T_TextAlignment.Text" xml:space="preserve">
+    <value>Allineamento del testo</value>
+    <comment>Text alignment</comment>
+  </data>
+  <data name="T_TextSize.Text" xml:space="preserve">
+    <value>Dimensione del testo</value>
+    <comment>Text size</comment>
+  </data>
+  <data name="T_TextSizeDecrease.Text" xml:space="preserve">
+    <value>A-</value>
+    <comment>A-</comment>
+  </data>
+  <data name="T_TextSizeDecrease.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Diminuisci (Ctrl + -)</value>
+    <comment>Decrease (Ctrl + -)</comment>
+  </data>
+  <data name="T_TextSizeIncrease.Text" xml:space="preserve">
+    <value>A+</value>
+    <comment>A+</comment>
+  </data>
+  <data name="T_TextSizeIncrease.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Aumenta (Ctrl + +)</value>
+    <comment>Increase (Ctrl + +)</comment>
+  </data>
+  <data name="T_Title.Text" xml:space="preserve">
+    <value>Titolo : </value>
+    <comment>Title : </comment>
+  </data>
+  <data name="T_TocEmpty.Text" xml:space="preserve">
+    <value>L'indice non è disponibile per questo libro.</value>
+    <comment>Table of contents is not available for this book.</comment>
+  </data>
+  <data name="T_Voice.Text" xml:space="preserve">
+    <value>Voce</value>
+    <comment>Voice</comment>
+  </data>
+  <data name="T_VoiceGender.Text" xml:space="preserve">
+    <value>Genere della voce</value>
+    <comment>Voice gender</comment>
+  </data>
+  <data name="T_VoicePitch.Text" xml:space="preserve">
+    <value>Intonazione della voce</value>
+    <comment>Voice pitch</comment>
+  </data>
+  <data name="T_Volume.Text" xml:space="preserve">
+    <value>Volume</value>
+    <comment>Volume</comment>
+  </data>
+  <data name="T_WordSpace.Text" xml:space="preserve">
+    <value>Spaziatura parole</value>
+    <comment>Word space</comment>
+  </data>
+  <data name="TC_B_DarkMode.Content" xml:space="preserve">
+    <value>Modalità scura</value>
+    <comment>Dark mode</comment>
+  </data>
+  <data name="TC_B_LightMode.Content" xml:space="preserve">
+    <value>Modalità chiara</value>
+    <comment>Light mode</comment>
+  </data>
+  <data name="TC_S_ErrMsg1" xml:space="preserve">
+    <value>Il nome del tema deve contenere tra 1 e 15 caratteri.</value>
+    <comment>Theme name should be between 1-15 chars.</comment>
+  </data>
+  <data name="TC_S_SelectAccentColor" xml:space="preserve">
+    <value>2. Seleziona colore d'accento</value>
+    <comment>2. Select accent color</comment>
+  </data>
+  <data name="TC_S_SelectBackColor" xml:space="preserve">
+    <value>1. Seleziona colore di sfondo</value>
+    <comment>1. Select background color</comment>
+  </data>
+  <data name="TC_S_SelectColorMode" xml:space="preserve">
+    <value>3. Seleziona modalità colore</value>
+    <comment>3. Select color mode</comment>
+  </data>
+  <data name="TC_T_ThemeName.Text" xml:space="preserve">
+    <value>4. Nome del tema</value>
+    <comment>4. Name of theme</comment>
+  </data>
+  <data name="TM_Author.Text" xml:space="preserve">
+    <value>Autore</value>
+    <comment>Author</comment>
+  </data>
+  <data name="TM_FilePath.Text" xml:space="preserve">
+    <value>Percorso file</value>
+    <comment>File Path</comment>
+  </data>
+  <data name="TM_Genre.Text" xml:space="preserve">
+    <value>Genere</value>
+    <comment>Genre</comment>
+  </data>
+  <data name="TM_ImportTime.Text" xml:space="preserve">
+    <value>Data di importazione</value>
+    <comment>Import time</comment>
+  </data>
+  <data name="TM_Language.Text" xml:space="preserve">
+    <value>Lingua</value>
+    <comment>Language</comment>
+  </data>
+  <data name="TM_LastReadTime.Text" xml:space="preserve">
+    <value>Ultima lettura</value>
+    <comment>Last read time</comment>
+  </data>
+  <data name="TM_None.Text" xml:space="preserve">
+    <value>(Nessuno)</value>
+    <comment>(None)</comment>
+  </data>
+  <data name="TM_Publisher.Text" xml:space="preserve">
+    <value>Editore</value>
+    <comment>Publisher</comment>
+  </data>
+  <data name="TM_ReadingProg.Text" xml:space="preserve">
+    <value>Progresso di lettura</value>
+    <comment>Reading progress</comment>
+  </data>
+  <data name="TM_Series.Text" xml:space="preserve">
+    <value>Serie</value>
+    <comment>Series</comment>
+  </data>
+  <data name="TM_SeriesNum.Text" xml:space="preserve">
+    <value>Numero della serie</value>
+    <comment>Series Number</comment>
+  </data>
+  <data name="TM_Title.Text" xml:space="preserve">
+    <value>Titolo</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ToggleSwitch.OffContent" xml:space="preserve">
+    <value>Disabilitato</value>
+    <comment>Disabled</comment>
+  </data>
+  <data name="ToggleSwitch.OnContent" xml:space="preserve">
+    <value>Abilitato</value>
+    <comment>Enabled</comment>
+  </data>
+  <data name="S_Previous" xml:space="preserve">
+    <value>Precedente</value>
+    <comment>Previous</comment>
+  </data>
+  <data name="S_B_AppRestart" xml:space="preserve">
+    <value>Riavvio dell'app necessario</value>
+    <comment>App restart needed</comment>
+  </data>
+  <data name="S_B_AppRestartFailed" xml:space="preserve">
+    <value>Impossibile riavviare l'app, per favore riavviala manualmente affinché le modifiche abbiano effetto.</value>
+    <comment>Unable to restart the app, please restart manually for changes to take effect.</comment>
+  </data>
+  <data name="S_B_LangRestartMsg" xml:space="preserve">
+    <value>È necessario riavviare l'app affinché la modifica della lingua di visualizzazione abbia effetto. Vuoi procedere?</value>
+    <comment>App restart is required for display language change to take effect. Do you want to proceed?</comment>
+  </data>
+  <data name="S_B_Upgrade" xml:space="preserve">
+    <value>Aggiorna</value>
+    <comment>Upgrade</comment>
+  </data>
+  <data name="S_B_UpgradePremMsg" xml:space="preserve">
+    <value>Aggiorna ad Aquile Reader Premium!</value>
+    <comment>Upgrade to Aquile Reader Premium!</comment>
+  </data>
+  <data name="T_HelpTranslateLink.Text" xml:space="preserve">
+    <value>Aiuta a tradurre in più lingue</value>
+    <comment>Help translate to more languages</comment>
+  </data>
+  <data name="S_Free.Text" xml:space="preserve">
+    <value>Versione gratuita</value>
+    <comment>Free Version</comment>
+  </data>
+  <data name="S_Free_Msg1.Text" xml:space="preserve">
+    <value>Annunci nell'app</value>
+    <comment>Advertisements in the app</comment>
+  </data>
+  <data name="S_Free_Msg2.Text" xml:space="preserve">
+    <value>Supportati al massimo 40 elementi della raccolta</value>
+    <comment>Max 40 collection items supported</comment>
+  </data>
+  <data name="S_Free_Msg3.Text" xml:space="preserve">
+    <value>Al massimo 20 libri nella libreria</value>
+    <comment>Max 20 books in the library</comment>
+  </data>
+  <data name="S_Free_Msg4.Text" xml:space="preserve">
+    <value>Schemi di colore personalizzati non supportati nel Lettore</value>
+    <comment>Custom color schemes not supported in the Reader</comment>
+  </data>
+  <data name="S_Free_Msg5.Text" xml:space="preserve">
+    <value>Consentito solo 1 tema colore personalizzato per l'app</value>
+    <comment>Only 1 custom app color theme allowed</comment>
+  </data>
+  <data name="S_Free_Msg6.Text" xml:space="preserve">
+    <value>Numero limitato di font supportati nel lettore</value>
+    <comment>Limited number of fonts supported in the reader</comment>
+  </data>
+  <data name="S_Free_Msg7.Text" xml:space="preserve">
+    <value>Supporto sintesi vocale limitato</value>
+    <comment>Limited TTS (Text-to-Speech) support</comment>
+  </data>
+  <data name="S_Free_Msg8.Text" xml:space="preserve">
+    <value>Consentita solo 1 cartella di sincronizzazione</value>
+    <comment>Only 1 sync folder allowed</comment>
+  </data>
+  <data name="S_Free_Msg9.Text" xml:space="preserve">
+    <value>Al massimo 5 libri possono essere fissati alla Home contemporaneamente</value>
+    <comment>Max 5 books can be pinned to Start screen at a time</comment>
+  </data>
+  <data name="S_PremPage.Text" xml:space="preserve">
+    <value>Versione Premium</value>
+    <comment>Premium Version</comment>
+  </data>
+  <data name="S_PremPage_Msg1.Text" xml:space="preserve">
+    <value>Esperienza di lettura senza pubblicità</value>
+    <comment>Ad free reading experience</comment>
+  </data>
+  <data name="S_PremPage_Msg2.Text" xml:space="preserve">
+    <value>Nessun limite alle raccolte (evidenziazioni, note e segnalibri)</value>
+    <comment>No limit on collections (highlights, notes &amp; bookmarks)</comment>
+  </data>
+  <data name="S_PremPage_Msg3.Text" xml:space="preserve">
+    <value>Nessun limite al numero di libri nella libreria</value>
+    <comment>No limit on number of books in the library</comment>
+  </data>
+  <data name="S_PremPage_Msg4.Text" xml:space="preserve">
+    <value>Schemi di colore personalizzati disponibili nel Lettore</value>
+    <comment>Custom color schemes available in the Reader</comment>
+  </data>
+  <data name="S_PremPage_Msg5.Text" xml:space="preserve">
+    <value>Supporto a un numero illimitato di temi colore personalizzati per l'app</value>
+    <comment>Support for any number of custom app color themes</comment>
+  </data>
+  <data name="S_PremPage_Msg6.Text" xml:space="preserve">
+    <value>Accesso a tutti i caratteri installati nel sistema</value>
+    <comment>Access to all fonts installed in the system</comment>
+  </data>
+  <data name="S_PremPage_Msg7.Text" xml:space="preserve">
+    <value>Esperienza completa di sintesi vocale</value>
+    <comment>Full TTS (Text-to-Speech) experience</comment>
+  </data>
+  <data name="S_PremPage_Msg8.Text" xml:space="preserve">
+    <value>Nessun limite al numero di cartelle di sincronizzazione</value>
+    <comment>No limit on number of sync folders</comment>
+  </data>
+  <data name="S_PremPage_Msg9.Text" xml:space="preserve">
+    <value>Nessun limite al numero di libri fissati alla Home</value>
+    <comment>No limit on number books pinned to Start screen</comment>
+  </data>
+  <data name="Sync_AllBooks" xml:space="preserve">
+    <value>Tutti i libri</value>
+    <comment>All Books</comment>
+  </data>
+  <data name="Sync_AllBooksListMsg" xml:space="preserve">
+    <value>Tutti i libri eccetto i seguenti vengono sincronizzati -</value>
+    <comment>All books except following are being synced -</comment>
+  </data>
+  <data name="Sync_CloudSync_Heading.Text" xml:space="preserve">
+    <value>Sincronizzazione cloud</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSync.Description" xml:space="preserve">
+    <value>Attiva/disattiva la sincronizzazione dei libri e dei metadati tra dispositivi usando l'account Google Drive collegato.</value>
+    <comment>Toggle cross-device sync of books and metadata using the linked Google drive account.</comment>
+  </data>
+  <data name="Sync_EnableSync.Title" xml:space="preserve">
+    <value>Attiva sincronizzazione cloud</value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_LinkAccount" xml:space="preserve">
+    <value>Collega account Google</value>
+    <comment>Link Google account</comment>
+  </data>
+  <data name="Sync_LinkBeforeSync" xml:space="preserve">
+    <value>Collega l'account Google prima di attivare la sincronizzazione.</value>
+    <comment>Link Google account before enabling sync.</comment>
+  </data>
+  <data name="Sync_LinkedGDrive" xml:space="preserve">
+    <value>Collegato a Google Drive connesso a -</value>
+    <comment>Linked to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SelectedBooks" xml:space="preserve">
+    <value>Libri selezionati</value>
+    <comment>Selected books</comment>
+  </data>
+  <data name="Sync_SelectedBooksListMsg" xml:space="preserve">
+    <value>I seguenti libri vengono sincronizzati -</value>
+    <comment>Following books are being synced -</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Description" xml:space="preserve">
+    <value>'Tutti i libri' significa che, per impostazione predefinita, tutti i libri verranno sincronizzati, eccetto quelli esclusi.'Libri selezionati' significa che, per impostazione predefinita, nessun libro verrà sincronizzato, eccetto quelli inclusi.</value>
+    <comment>'All Books' means by default all books will be synced, except for excluded ones.'Selected Books' means by default no book will be synced, except for included ones.</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Title" xml:space="preserve">
+    <value>Libri da sincronizzare</value>
+    <comment>Books to sync</comment>
+  </data>
+  <data name="Sync_SyncGDrive" xml:space="preserve">
+    <value>Sincronizzazione su Google Drive collegato a -</value>
+    <comment>Syncing to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SyncInfo.Text" xml:space="preserve">
+    <value>La sincronizzazione cloud consente l'uso di Aquile Reader su più dispositivi (Android e Windows) e sincronizza i dati tra di essi per un'esperienza di lettura senza interruzioni. La sincronizzazione cloud può anche fungere da backup da utilizzare per il ripristino dopo una nuova installazione.</value>
+    <comment>Cloud sync enables use of Aquile Reader on multiple devices (Android and Windows) and syncs data acorss them for seamless reading experience. Cloud sync can also serve as backup data that can be used for restore after fresh install.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Description" xml:space="preserve">
+    <value>Mostra pop-up di messaggi quando la sincronizzazione è in corso.</value>
+    <comment>Display message pop-ups when sync is running.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Title" xml:space="preserve">
+    <value>Mostra messaggi di funzionamento della sincronizzazione</value>
+    <comment>Show sync working messages</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Description" xml:space="preserve">
+    <value>Carica i file eBook originali sul cloud.</value>
+    <comment>Upload source eBook files to cloud.</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Title" xml:space="preserve">
+    <value>Sincronizza file eBook</value>
+    <comment>Sync eBook files</comment>
+  </data>
+  <data name="Sync_UnlinkAccount" xml:space="preserve">
+    <value>Scollega account Google</value>
+    <comment>Unlink Google account</comment>
+  </data>
+  <data name="S_EmptyList.Text" xml:space="preserve">
+    <value>La lista è vuota</value>
+    <comment>List is empty</comment>
+  </data>
+  <data name="Sync_DisableSync" xml:space="preserve">
+    <value>Disattiva sincronizzazione cloud</value>
+    <comment>Disable cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSyncStr" xml:space="preserve">
+    <value>Attiva sincronizzazione cloud</value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_SyncNow.Text" xml:space="preserve">
+    <value>Sincronizza libro ora</value>
+    <comment>Sync book now</comment>
+  </data>
+  <data name="Sync_UploadBookFile.Text" xml:space="preserve">
+    <value>Carica file del libro</value>
+    <comment>Upload book file</comment>
+  </data>
+  <data name="S_AddFav" xml:space="preserve">
+    <value>Aggiungi ai Preferiti</value>
+    <comment>Add Favourite</comment>
+  </data>
+  <data name="S_RemoveFav" xml:space="preserve">
+    <value>Rimuovi dai Preferiti</value>
+    <comment>Remove Favourite</comment>
+  </data>
+  <data name="Sync_Cancelled" xml:space="preserve">
+    <value>Sincronizzazione annullata</value>
+    <comment>Sync cancelled</comment>
+  </data>
+  <data name="Sync_Complete" xml:space="preserve">
+    <value>Sincronizzazione completata</value>
+    <comment>Sync complete</comment>
+  </data>
+  <data name="Sync_ComplteRefreshNeeded" xml:space="preserve">
+    <value>Sincronizzazione completata, è necessario aggiornare i capitoli</value>
+    <comment>Sync complete, chapter refresh needed</comment>
+  </data>
+  <data name="Sync_Failed" xml:space="preserve">
+    <value>Sincronizzazione fallita</value>
+    <comment>Sync failed</comment>
+  </data>
+  <data name="Sync_Started" xml:space="preserve">
+    <value>Sincronizzazione avviata</value>
+    <comment>Sync started</comment>
+  </data>
+  <data name="sync_tip.Subtitle" xml:space="preserve">
+    <value>La sincronizzazione cloud utilizza Google Drive per abilitare la sincronizzazione tra dispositivi (Android e Windows) di libri, file dei libri, metadati, posizione di lettura e annotazioni.All'avvio dell'app, lo stato più recente dei libri viene scaricato dal cloud. All'apertura e chiusura di un libro, lo stato del libro viene nuovamente sincronizzato (sia verso l'alto che verso il basso).Sono disponibili opzioni per controllare il comportamento della sincronizzazione. Con l'opzione 'Tutti i libri' per impostazione predefinita tutti i libri sono sincronizzati, a meno che l'utente non abbia escluso alcuni libri dalla sincronizzazione. 'Libri selezionati' significa che solo i libri selezionati dall'utente sono sincronizzati. I libri possono essere inclusi/esclusi usando il menu contestuale del libro.</value>
+    <comment>Cloud sync uses Google Drive to enable cross device sync (Android and Windows) of books, book files, metadata, reading position and annotations.At the app start, latest state of books are downloaded from cloud. On opening and closing a book, state of the book is synced again (both upwards and downwards).Options are provided to control the sync behaviour. With 'All books' option by default all the books are synced, unless user has excluded some books from sync. 'Selected books' means only user selected books are synced. Books can be included/excluded by using the book context menu.</comment>
+  </data>
+  <data name="sync_tip.Title" xml:space="preserve">
+    <value>Sincronizzazione cloud</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="S_Free_Msg10.Text" xml:space="preserve">
+    <value>È possibile sincronizzare al massimo 3 libri sul cloud.</value>
+    <comment>Max 3 books can be synced to cloud.</comment>
+  </data>
+  <data name="S_PremiumCloudSync" xml:space="preserve">
+    <value>La versione gratuita supporta solo l'opzione 'Libri selezionati'.Aggiorna a Aquile Reader Premium per usufruire di tutte le funzionalità.</value>
+    <comment>Free version supports only 'Selected Books' option.Please upgrade to Aquile Reader Premium to enjoy all features.</comment>
+  </data>
+  <data name="S_PremiumCloudSyncLimit" xml:space="preserve">
+    <value>La versione gratuita dell'app supporta solo {0} libri da sincronizzare sul cloud.Per aggiungerne altri, aggiorna a Aquile Reader Premium.</value>
+    <comment>Free version of the app supports only {0} books to be synced to cloud.To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremPage_Msg10.Text" xml:space="preserve">
+    <value>Nessuna limitazione sulle opzioni di sincronizzazione cloud.</value>
+    <comment>No limitation on cloud sync options.</comment>
+  </data>
+</root>
